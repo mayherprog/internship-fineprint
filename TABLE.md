@@ -48,60 +48,6 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Multiple banks (junior-cycle programs) | Bank junior SA 2027 programs (JPMC Markets, Citi Services, BNP, BlackR | Undergraduate | Target class of 2028 the sophomore programs are the bank channel for S27. | not checked yet | 2026-07-22 | _no URL yet_ |
 | Wells Fargo | Sophomore Discovery | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://www.wellsfargojobs.com/en/early-careers/undergraduate-programs/other-undergraduate-programs/) |
 
-## Big law
-
-| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
-|---|---|---|---|---|---|---|
-| Cravath, Swaine & Moore | 1L diversity fellowship (searched for; no such named program published | Law student (JD) | publishes nothing | publishes nothing | 2026-07-29 | [link](https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html) |
-| Cravath, Swaine & Moore | Paralegal Program | Paralegal | publishes nothing | publishes nothing | 2026-07-29 | [link](https://www.cravath.com/careers/administrative-staff/paralegals/index.html) |
-| Cravath, Swaine & Moore | Summer Associate Program (2L Summer Program) | Law student (JD) | "Each recruiting season, we aim to hire a summer class comprised of exceptional second-year law students from schools across the United States and C…" | publishes nothing | 2026-07-29 | [link](https://www.cravath.com/careers/legal-hiring/recruiting/index.html) |
-| Latham & Watkins | 1L Fellowship / 1L Diversity Scholars Program | Law student (JD) | not checked yet | not checked yet | 2026-07-29 | [link](https://www.lw.com/1LFellowship) |
-| Latham & Watkins | BSTP — London Placement variant | Undergraduate | "A one-year program designed for current university students completing a year-in-industry between their second and final years." | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program) |
-| Latham & Watkins | Business Services Training Program (BSTP) | Undergraduate | "The Business Services Training Program (BSTP) is a highly selective rotational program for recent university graduates seeking hands-on experience …" | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program) |
-| Latham & Watkins | Paralegal I (Transactional) | Paralegal | "Bachelor’s degree required" | publishes nothing | 2026-07-29 | [link](https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf) |
-| Latham & Watkins | Summer Associate Program (US) | Law student (JD) | "The application process is open to all Class of 2029 law students enrolled in an ABA-accredited law school, regardless of race, color, religion, ci…" | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program) |
-| Latham & Watkins | Summer Associate Program — law-student-only restriction (undergraduate | Law student (JD) | "We offer opportunities for law students at ABA-accredited schools to learn from some of the best in the profession, refine their skills, and develo…" | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program) |
-| Skadden, Arps, Slate, Meagher & Flom | 1L Scholars Program | Law student (JD) | not checked yet | not checked yet | 2026-07-29 | [link](https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars) |
-| Skadden, Arps, Slate, Meagher & Flom | Legal Practice Assistant (LPA) Program - Paralegal Services Department | Undergraduate | "Skadden offers a distinctive Legal Practice Assistant (LPA) program tailored for recent college graduates who aspire to pursue legal careers and se…" | publishes nothing | 2026-07-29 | [link](https://www.skadden.com/careers/staff/paralegals) |
-| Skadden, Arps, Slate, Meagher & Flom | Summer Associate Program (United States) | Law student (JD) | "Our Summer Associate Program is geared towards students in three-year J.D. programs in the United States who will be admitted to practice law in th…" | publishes nothing | 2026-07-29 | [link](https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom) |
-
-## Big tech
-
-| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
-|---|---|---|---|---|---|---|
-| Amazon | 2027 Amazon Finance Rotation Program - Accounting Intern (Job ID 10435 | Undergraduate | "Currently enrolled in a bachelor's degree program in Accounting (or a dual degree/sub-matriculation master's degree program completed concurrently …" | publishes nothing | 2026-07-29 | [link](https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern) |
-| Amazon | 2027 Software Dev Engineer Intern (Job ID 10418355) | Undergraduate | "Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, or related fields at time of application" | publishes nothing | 2026-07-29 | [link](https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern) |
-| Amazon | Amazon Future Engineer | Undergraduate | High-school-gated. | not checked yet | 2026-07-21 | _no URL yet_ |
-| Amazon | Amazon Future Engineer Scholarship (with paid Amazon internship offer) | High school | "Be a high school senior in the U.S. who is currently enrolled in or who has completed a high school or college dual degree course where computer sc…" | publishes nothing | 2026-07-29 | [link](https://www.amazonfutureengineer.com/scholarships) |
-| Amazon | Amazon hiring FAQ - reapplication and assessment retake policy (firm-w | All | not checked yet | not checked yet | 2026-07-29 | [link](https://amazon.jobs/content/en/faq/assessment) |
-| Amazon | Internships for students (Amazon University Talent Acquisition program | All | "Our internships are for rising seniors and recent graduates with an undergraduate, master's, or doctorate degree." | publishes nothing | 2026-07-29 | [link](https://www.amazon.jobs/content/en/career-programs/university/internships-for-students) |
-| Amazon | Propel | Undergraduate | Freshmen/sophomores; first-gen/underrepresented focus | not checked yet | 2026-07-27 | [link](https://www.amazon.jobs/teams/internships-for-students) |
-| Appian | Software Engineering Intern, Summer 2027 (McLean, VA) | Undergraduate | "Currently pursuing a Bachelor's or Master's in CS/CE" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/appian/jobs/8041237) |
-| Apple | Apple ML/AI Undergrad Internship | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships) |
-| Apple | Apple Software Undergrad Internship | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships) |
-| Deepgram | Deepgram SWE Internship — Fall 2026/Summer 2027 (Remote-US) | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
-| Dropbox | Emerging Talent SWE Intern | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.dropbox.com/teams/emerging-talent) |
-| Duolingo | Thrive | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://careers.duolingo.com/?type=Thrive+Program) |
-| Epic Systems | Epic Software Developer Intern (Verona, WI) | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://careers.epic.com/jobs/intern/) |
-| Google | All Google roles — general application policy (applies to internships  | All | publishes nothing | 3 months stated | 2026-07-29 | [link](https://support.google.com/googlecareers/answer/6095391?hl=en) |
-| Google | Google SWE Intern MS Summer 2027 | Undergraduate | not checked yet | not checked yet | 2026-07-23 | _no URL yet_ |
-| Google | STEP (Student Training in Engineering Program) — First Year Student tr | Undergraduate | "Our STEP- First Year Student application is intended for candidates in their first year of a Bachelor's degree program in Computer Science located …" | publishes nothing | 2026-07-29 | [link](https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub) |
-| Google | STEP (Student Training in Engineering Program) — Second Year Student t | Sophomore/2nd year | "Our STEP- Second Year Student application is intended for candidates in their second year of a Bachelor's degree program in Computer Science locate…" | publishes nothing | 2026-07-29 | [link](https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub) |
-| Google | SWE Intern, BS, Summer 2027 | Undergraduate | "intended for students in all academic years" | not checked yet | 2026-07-27 | [link](https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027) |
-| LinkedIn | First Play | Undergraduate | Freshmen/sophomores | not checked yet | 2026-07-27 | [link](https://careers.linkedin.com/pathways-programs/internships/Technical/first-play) |
-| Meta | Meta University | Undergraduate | Discontinued. | not checked yet | 2026-07-21 | _no URL yet_ |
-| Microsoft | Explore Microsoft Program (Explore Internship) | Sophomore/2nd year | "Candidate must be a 1st or 2nd year full time enrolled bachelor student (Freshmen/Sophomore) during the academic term immediately before their inte…" | rule stated, no duration given | 2026-07-29 | [link](https://careers.microsoft.com/v2/global/en/exploremicrosoft) |
-| Microsoft | Microsoft University Internship | Undergraduate | "Candidate must be enrolled in a full time bachelor's, masters, MBA, or PhD program in area relevant for the role during the academic term immediate…" | rule stated, no duration given | 2026-07-29 | [link](https://careers.microsoft.com/v2/global/en/internship_eligibility) |
-| Neuralink | SWE Intern, BCI Applications (Fremont, CA) | Undergraduate | "Currently pursuing a Bachelor's degree in Computer Science or a related field" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/neuralink/jobs/6594422003) |
-| NVIDIA | Ignite | Undergraduate | Freshmen/sophomores, underrepresented-communities focus | not checked yet | 2026-07-27 | [link](https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/) |
-| Palantir | Palantir (incl. Accelerate) | Undergraduate | Clearance eligibility. | not checked yet | 2026-07-21 | _no URL yet_ |
-| Podium | Software Engineering Intern (Lehi, UT) | Undergraduate | No class-year language (verified 7/23); sponsorship screening question only (form live 7/27) | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/podium81/jobs/7939921) |
-| Salesforce | Futureforce Tech Launchpad | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://info.codepath.org/futureforce-tech-launchpad) |
-| The Trade Desk | SWE Intern, North America, Summer 2027 (Denver + multiple US) | Undergraduate | No class-year or graduation-date language in posting (verified 7/23); standard sponsorship screening only (form live 7/27) | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007) |
-| Uber | Uber 2027 SWE Internship / Career Prep | Undergraduate | "3rd/4th year" UberSTAR is the channel. | not checked yet | 2026-07-22 | _no URL yet_ |
-| Uber | UberSTAR | Undergraduate | Freshmen/sophomores | not checked yet | 2026-07-27 | [link](https://www.uber.com/us/en/careers/uberstar/) |
-| Western Digital | Summer 2027 SWE Internship (San Jose; multiple tracks) | Undergraduate | "Currently pursuing a Bachelor's or Master's degree" | not checked yet | 2026-07-27 | [link](https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship) |
-
 ## Consulting
 
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
@@ -130,13 +76,30 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 |---|---|---|---|---|---|---|
 | Federal Reserve Bank of New York | NY Fed Sophomore Program | Undergraduate | Citizenship requirement. | not checked yet | 2026-07-21 | _no URL yet_ |
 
+## Law
+
+| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
+|---|---|---|---|---|---|---|
+| Cravath, Swaine & Moore | 1L diversity fellowship (searched for; no such named program published | Law student (JD) | publishes nothing | publishes nothing | 2026-07-29 | [link](https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html) |
+| Cravath, Swaine & Moore | Paralegal Program | Paralegal | publishes nothing | publishes nothing | 2026-07-29 | [link](https://www.cravath.com/careers/administrative-staff/paralegals/index.html) |
+| Cravath, Swaine & Moore | Summer Associate Program (2L Summer Program) | Law student (JD) | "Each recruiting season, we aim to hire a summer class comprised of exceptional second-year law students from schools across the United States and C…" | publishes nothing | 2026-07-29 | [link](https://www.cravath.com/careers/legal-hiring/recruiting/index.html) |
+| Latham & Watkins | 1L Fellowship / 1L Diversity Scholars Program | Law student (JD) | not checked yet | not checked yet | 2026-07-29 | [link](https://www.lw.com/1LFellowship) |
+| Latham & Watkins | BSTP — London Placement variant | Undergraduate | "A one-year program designed for current university students completing a year-in-industry between their second and final years." | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program) |
+| Latham & Watkins | Business Services Training Program (BSTP) | Undergraduate | "The Business Services Training Program (BSTP) is a highly selective rotational program for recent university graduates seeking hands-on experience …" | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program) |
+| Latham & Watkins | Paralegal I (Transactional) | Paralegal | "Bachelor’s degree required" | publishes nothing | 2026-07-29 | [link](https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf) |
+| Latham & Watkins | Summer Associate Program (US) | Law student (JD) | "The application process is open to all Class of 2029 law students enrolled in an ABA-accredited law school, regardless of race, color, religion, ci…" | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program) |
+| Latham & Watkins | Summer Associate Program — law-student-only restriction (undergraduate | Law student (JD) | "We offer opportunities for law students at ABA-accredited schools to learn from some of the best in the profession, refine their skills, and develo…" | publishes nothing | 2026-07-29 | [link](https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program) |
+| Skadden, Arps, Slate, Meagher & Flom | 1L Scholars Program | Law student (JD) | not checked yet | not checked yet | 2026-07-29 | [link](https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars) |
+| Skadden, Arps, Slate, Meagher & Flom | Legal Practice Assistant (LPA) Program - Paralegal Services Department | Undergraduate | "Skadden offers a distinctive Legal Practice Assistant (LPA) program tailored for recent college graduates who aspire to pursue legal careers and se…" | publishes nothing | 2026-07-29 | [link](https://www.skadden.com/careers/staff/paralegals) |
+| Skadden, Arps, Slate, Meagher & Flom | Summer Associate Program (United States) | Law student (JD) | "Our Summer Associate Program is geared towards students in three-year J.D. programs in the United States who will be admitted to practice law in th…" | publishes nothing | 2026-07-29 | [link](https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom) |
+
 ## Other
 
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
 |---|---|---|---|---|---|---|
 | SEO (Sponsors for Educational Opportunity) | SEO placement tier | Undergraduate | Permanent work authorization required. | not checked yet | 2026-07-21 | _no URL yet_ |
 
-## Quant & trading
+## Quantitative trading
 
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
 |---|---|---|---|---|---|---|
@@ -179,4 +142,41 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Voloridge Investment Management | Quantitative Developer Intern, Summer 2027 (Jupiter, FL) | Undergraduate | "Pursuing a Bachelor's, Master's, or PhD in CS or related" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/voloridgeinvestmentmanagement/jobs/4224862009) |
 | Voloridge Investment Management | Voloridge Quantitative Research Intern | Undergraduate | "Completion of at least three years" | not checked yet | 2026-07-23 | _no URL yet_ |
 | Walleye Capital | Walleye Capital Quant Developer Intern 2027 | Undergraduate | "Expected graduation date between December 2027 and June 2028" | not checked yet | 2026-07-23 | _no URL yet_ |
+
+## Technology
+
+| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
+|---|---|---|---|---|---|---|
+| Amazon | 2027 Amazon Finance Rotation Program - Accounting Intern (Job ID 10435 | Undergraduate | "Currently enrolled in a bachelor's degree program in Accounting (or a dual degree/sub-matriculation master's degree program completed concurrently …" | publishes nothing | 2026-07-29 | [link](https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern) |
+| Amazon | 2027 Software Dev Engineer Intern (Job ID 10418355) | Undergraduate | "Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, or related fields at time of application" | publishes nothing | 2026-07-29 | [link](https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern) |
+| Amazon | Amazon Future Engineer | Undergraduate | High-school-gated. | not checked yet | 2026-07-21 | _no URL yet_ |
+| Amazon | Amazon Future Engineer Scholarship (with paid Amazon internship offer) | High school | "Be a high school senior in the U.S. who is currently enrolled in or who has completed a high school or college dual degree course where computer sc…" | publishes nothing | 2026-07-29 | [link](https://www.amazonfutureengineer.com/scholarships) |
+| Amazon | Amazon hiring FAQ - reapplication and assessment retake policy (firm-w | All | not checked yet | not checked yet | 2026-07-29 | [link](https://amazon.jobs/content/en/faq/assessment) |
+| Amazon | Internships for students (Amazon University Talent Acquisition program | All | "Our internships are for rising seniors and recent graduates with an undergraduate, master's, or doctorate degree." | publishes nothing | 2026-07-29 | [link](https://www.amazon.jobs/content/en/career-programs/university/internships-for-students) |
+| Amazon | Propel | Undergraduate | Freshmen/sophomores; first-gen/underrepresented focus | not checked yet | 2026-07-27 | [link](https://www.amazon.jobs/teams/internships-for-students) |
+| Appian | Software Engineering Intern, Summer 2027 (McLean, VA) | Undergraduate | "Currently pursuing a Bachelor's or Master's in CS/CE" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/appian/jobs/8041237) |
+| Apple | Apple ML/AI Undergrad Internship | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships) |
+| Apple | Apple Software Undergrad Internship | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships) |
+| Deepgram | Deepgram SWE Internship — Fall 2026/Summer 2027 (Remote-US) | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
+| Dropbox | Emerging Talent SWE Intern | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.dropbox.com/teams/emerging-talent) |
+| Duolingo | Thrive | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://careers.duolingo.com/?type=Thrive+Program) |
+| Epic Systems | Epic Software Developer Intern (Verona, WI) | Not stated | not checked yet | not checked yet | 2026-07-27 | [link](https://careers.epic.com/jobs/intern/) |
+| Google | All Google roles — general application policy (applies to internships  | All | publishes nothing | 3 months stated | 2026-07-29 | [link](https://support.google.com/googlecareers/answer/6095391?hl=en) |
+| Google | Google SWE Intern MS Summer 2027 | Undergraduate | not checked yet | not checked yet | 2026-07-23 | _no URL yet_ |
+| Google | STEP (Student Training in Engineering Program) — First Year Student tr | Undergraduate | "Our STEP- First Year Student application is intended for candidates in their first year of a Bachelor's degree program in Computer Science located …" | publishes nothing | 2026-07-29 | [link](https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub) |
+| Google | STEP (Student Training in Engineering Program) — Second Year Student t | Sophomore/2nd year | "Our STEP- Second Year Student application is intended for candidates in their second year of a Bachelor's degree program in Computer Science locate…" | publishes nothing | 2026-07-29 | [link](https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub) |
+| Google | SWE Intern, BS, Summer 2027 | Undergraduate | "intended for students in all academic years" | not checked yet | 2026-07-27 | [link](https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027) |
+| LinkedIn | First Play | Undergraduate | Freshmen/sophomores | not checked yet | 2026-07-27 | [link](https://careers.linkedin.com/pathways-programs/internships/Technical/first-play) |
+| Meta | Meta University | Undergraduate | Discontinued. | not checked yet | 2026-07-21 | _no URL yet_ |
+| Microsoft | Explore Microsoft Program (Explore Internship) | Sophomore/2nd year | "Candidate must be a 1st or 2nd year full time enrolled bachelor student (Freshmen/Sophomore) during the academic term immediately before their inte…" | rule stated, no duration given | 2026-07-29 | [link](https://careers.microsoft.com/v2/global/en/exploremicrosoft) |
+| Microsoft | Microsoft University Internship | Undergraduate | "Candidate must be enrolled in a full time bachelor's, masters, MBA, or PhD program in area relevant for the role during the academic term immediate…" | rule stated, no duration given | 2026-07-29 | [link](https://careers.microsoft.com/v2/global/en/internship_eligibility) |
+| Neuralink | SWE Intern, BCI Applications (Fremont, CA) | Undergraduate | "Currently pursuing a Bachelor's degree in Computer Science or a related field" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/neuralink/jobs/6594422003) |
+| NVIDIA | Ignite | Undergraduate | Freshmen/sophomores, underrepresented-communities focus | not checked yet | 2026-07-27 | [link](https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/) |
+| Palantir | Palantir (incl. Accelerate) | Undergraduate | Clearance eligibility. | not checked yet | 2026-07-21 | _no URL yet_ |
+| Podium | Software Engineering Intern (Lehi, UT) | Undergraduate | No class-year language (verified 7/23); sponsorship screening question only (form live 7/27) | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/podium81/jobs/7939921) |
+| Salesforce | Futureforce Tech Launchpad | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://info.codepath.org/futureforce-tech-launchpad) |
+| The Trade Desk | SWE Intern, North America, Summer 2027 (Denver + multiple US) | Undergraduate | No class-year or graduation-date language in posting (verified 7/23); standard sponsorship screening only (form live 7/27) | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007) |
+| Uber | Uber 2027 SWE Internship / Career Prep | Undergraduate | "3rd/4th year" UberSTAR is the channel. | not checked yet | 2026-07-22 | _no URL yet_ |
+| Uber | UberSTAR | Undergraduate | Freshmen/sophomores | not checked yet | 2026-07-27 | [link](https://www.uber.com/us/en/careers/uberstar/) |
+| Western Digital | Summer 2027 SWE Internship (San Jose; multiple tracks) | Undergraduate | "Currently pursuing a Bachelor's or Master's degree" | not checked yet | 2026-07-27 | [link](https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship) |
 

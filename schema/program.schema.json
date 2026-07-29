@@ -27,11 +27,11 @@
     "sector": {
       "type": "string",
       "enum": [
-        "big_tech",
+        "technology",
         "banking_finance",
         "quant_trading",
         "consulting",
-        "big_law",
+        "law",
         "asset_management",
         "government",
         "other"

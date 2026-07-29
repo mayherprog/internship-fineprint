@@ -97,9 +97,9 @@ in its own founding fact. The full quote and all three formulations are in
 
 ## Coverage, stated honestly
 
-132 programs across 68 firms, spanning big tech, banking, quant trading, consulting and
-big law. Of those, **11 state a cooling-off rule, 30 publish nothing on it, and 91 have not
-been checked yet.** The unchecked majority is the honest state of this dataset today, not
+132 programs across 68 firms, spanning technology, banking and finance, quantitative
+trading, consulting and law. Of those, **11 state a cooling-off rule, 30 publish nothing
+on it, and 91 have not been checked yet.** The unchecked majority is the honest state of this dataset today, not
 a rounding error, and it is visible in the interface rather than hidden.
 
 Known gaps, all recorded in the data rather than papered over:

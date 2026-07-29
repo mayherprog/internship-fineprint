@@ -21,9 +21,9 @@ import sys
 from collections import Counter
 
 SECTOR_LABEL = {
-    "big_tech": "Big tech", "banking_finance": "Banking & finance",
-    "quant_trading": "Quant & trading", "consulting": "Consulting",
-    "big_law": "Big law", "asset_management": "Asset management",
+    "technology": "Technology", "banking_finance": "Banking & finance",
+    "quant_trading": "Quantitative trading", "consulting": "Consulting",
+    "law": "Law", "asset_management": "Asset management",
     "government": "Government", "other": "Other",
 }
 AUDIENCE_LABEL = {
@@ -48,6 +48,7 @@ def load(data_dir):
                 "id": prog["id"], "name": prog["name"],
                 "audience": prog.get("audience", "unknown"),
                 "cycle": prog.get("cycle", ""), "location": prog.get("location", ""),
+                "opens": prog.get("opens", ""), "closes": prog.get("closes", ""),
                 "source": prog["source"], "fields": prog["fields"],
                 "cooling_off": prog["cooling_off"],
                 "unfiled": prog.get("unfiled_quotes", []),
