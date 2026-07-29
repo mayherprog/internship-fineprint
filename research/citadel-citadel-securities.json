@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "software-engineer-intern-us",
       "name": "Software Engineer - Intern (US)",
+      "cycle": "Summer 2027 (posting live per search index July 2026; cycle year unverified on-page)",
+      "location": "US (specific offices unverified)",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
@@ -16,27 +17,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         }
       },
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/",
         "checked": "2026-07-29",
         "parsed": {
@@ -46,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "Firm's own interview-process page returned HTTP 403; no firm FAQ text was readable, so no verbatim rule captured. Third-party guides (Simplify, Extern — tier 3, not citable under project rules) assert a 12-month reapplication window; treat as unconfirmed rumor, not policy."
-      },
-      "cycle": "Summer 2027 (posting live per search index July 2026; cycle year unverified on-page)",
-      "location": "US (specific offices unverified)"
+      }
     },
     {
-      "id": "citadel-launch-intern-us-sophomore-internship",
       "name": "Citadel Launch Intern (US) (sophomore internship)",
+      "cycle": "current posting (cycle year unverified)",
+      "location": "US",
       "audience": "sophomore",
       "source": {
         "url": "https://www.citadel.com/careers/details/launch-intern-us/",
@@ -64,27 +69,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/details/launch-intern-us/"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/details/launch-intern-us/"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/details/launch-intern-us/"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/details/launch-intern-us/"
         }
       },
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.citadel.com/careers/details/launch-intern-us/",
         "checked": "2026-07-29",
         "parsed": {
@@ -94,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "Page unreadable (403); no reapplication language could be checked."
-      },
-      "cycle": "current posting (cycle year unverified)",
-      "location": "US"
+      }
     },
     {
-      "id": "discover-citadel-two-day-undergraduate-event",
       "name": "Discover Citadel (two-day undergraduate event)",
+      "cycle": "current (cycle year unverified)",
+      "location": "New York / London / Hong Kong / Singapore / Sydney per search index (unverified on-page)",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
@@ -112,27 +121,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
         }
       },
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
         "checked": "2026-07-29",
         "parsed": {
@@ -142,54 +156,30 @@
           "resets_allowed": null
         },
         "notes": "Page unreadable (403)."
-      },
-      "cycle": "current (cycle year unverified)",
-      "location": "New York / London / Hong Kong / Singapore / Sydney per search index (unverified on-page)"
-    },
-    {
-      "id": "software-engineer-intern-us-miami-ny-houston-chicago-summer-2027",
-      "name": "Software Engineer Intern — US (Miami/NY/Houston/Chicago)",
-      "audience": "undergraduate",
-      "source": {
-        "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
-      },
-      "fields": {
-        "class_year": {
-          "state": "stated",
-          "tier": 1,
-          "quote": "Bachelor's, master's or PhD in computer science, computer engineering or related fields",
-          "checked": "2026-07-27",
-          "source_url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
-          "source_status": "ok"
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "$4,500–$5,800/week + sign-on + housing stipend/accommodations"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "cycle": "Summer 2027",
-      "status": "open",
-      "opens": "Open now (surfaced ~Jul 16)",
-      "closes": "Rolling"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
+      "reason": "HTTP 403 Forbidden — bot protection on citadelsecurities.com blocks non-browser fetches"
+    },
+    {
+      "url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/",
+      "reason": "HTTP 403 Forbidden — bot protection on citadel.com"
+    },
+    {
+      "url": "https://www.citadel.com/careers/details/launch-intern-us/",
+      "reason": "HTTP 403 Forbidden — bot protection on citadel.com"
+    },
+    {
+      "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
+      "reason": "HTTP 403 Forbidden — bot protection on citadel.com"
+    },
+    {
+      "url": "https://careerservices.fas.harvard.edu/jobs/citadel-citadel-securities-citadel-software-engineer-intern-us/",
+      "reason": "HTTP 410 Gone — tier-2 university mirror removed"
+    }
+  ],
+  "notes_for_human": "Every citadel.com and citadelsecurities.com page returned HTTP 403 to the non-browser fetcher, and the one tier-2 university mirror found (Harvard FAS) is dead (410), so zero verbatim quotes could be captured and all fields are recorded unverified rather than silent — silent requires actually reading the page. Correct URLs for a manual or interactive-browser recheck are confirmed and listed above, including the additional relevant posting https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/ and the programs index https://www.citadel.com/careers/programs-and-events/. On cooling-off: only tier-3 aggregators (Simplify, Extern) claim a 12-month reapplication window; no firm-published rule was verified and none should be treated as established. Recommended next step: load the five blocked URLs in the interactive browser pane (a real browser session will likely pass the bot check) — that requires the user's go-ahead under their own tooling rules, so it was not attempted here."
 }

@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "summer-intern-2027-quantitative-trader",
       "name": "Summer Intern 2027 - Quantitative Trader",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
@@ -28,6 +29,7 @@
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008"
         },
         "compensation": {
@@ -40,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://fiverings.com/careers",
         "checked": "2026-07-29",
         "parsed": {
@@ -49,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "No reapplication/retake/waiting rule found. URLs read: https://fiverings.com/careers (job portal, no FAQ or interview-process pages linked), https://job-boards.greenhouse.io/fiveringsllc, https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008, https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008. Domain-restricted web search of fiverings.com for reapply/reapplication/waiting terms returned zero indexed results."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     },
     {
-      "id": "summer-intern-2027-software-developer",
       "name": "Summer Intern 2027 - Software Developer",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "all",
       "source": {
         "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
@@ -67,6 +69,7 @@
         "class_year": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008"
         },
         "sponsorship": {
@@ -91,6 +94,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://fiverings.com/careers",
         "checked": "2026-07-29",
         "parsed": {
@@ -100,14 +104,9 @@
           "resets_allowed": null
         },
         "notes": "Same firm-wide check as the Quantitative Trader entry: no reapplication/retake/waiting rule found anywhere read on fiverings.com or the Greenhouse postings."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [],
+  "notes_for_human": "VERIFICATION RESULT: the prior unsourced sentence 'Graduating winter 2027 or spring/summer 2028' is CLOSE BUT NOT VERBATIM. The live Summer Intern 2027 - Quantitative Trader posting reads 'Graduating in winter of 2027 or spring/summer of 2028' (adds 'in' and 'of' twice), at https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008. SWE re-verify: the Software Developer 2027 posting still carries NO class-year language as of 2026-07-29 — silence confirmed, not changed. Compensation: the posted figure is 'Annual Base Salary: $300,000' plus sign-on bonus and corporate housing on both postings, so the '$300k annualized' report matches the posted annual base. Caveats: (1) quotes were extracted via an automated fetch of the Greenhouse pages, not a rendered-browser read — the QT class-year and both compensation quotes are as returned by that extraction; (2) the sponsorship quotes on both postings appear to be application-form question text ('Will you now or in the future require sponsorship...') rather than a stated firm policy on whether sponsorship is offered — no explicit sponsorship policy sentence was found; the QT extraction also surfaced 'students outside of the U.S are eligible to apply'. (3) A separate 'Winter Intern 2027 - Quantitative Trader' program exists per search results (4-week January program, graduating December 2028 or Spring 2029, $300,000 annual base) but was not on the summer board fetch and was not independently verified against a firm-domain URL, so it is excluded from programs. Cooling-off: fiverings.com is silent everywhere read; no FAQ page exists on the careers portal."
 }

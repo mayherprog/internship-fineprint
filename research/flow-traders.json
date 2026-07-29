@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "quantitative-trading-intern-summer-2027",
       "name": "Quantitative Trading Intern Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.flowtraders.com/careers/job-description/8047166",
@@ -23,10 +24,7 @@
           "state": "stated",
           "tier": 1,
           "quote": "We do not provide visa sponsorship for our interns.",
-          "source_url": "https://www.flowtraders.com/careers/job-description/8047166",
-          "parsed": {
-            "sponsors": false
-          }
+          "source_url": "https://www.flowtraders.com/careers/job-description/8047166"
         },
         "process": {
           "state": "stated",
@@ -44,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.flowtraders.com/careers/graduates/",
         "checked": "2026-07-29",
         "parsed": {
@@ -53,14 +52,14 @@
           "resets_allowed": null
         },
         "notes": "Graduates-page FAQ read in full (13 questions listed, covering eligibility, deadlines, preparation, visa, relocation, data retention). No question or answer addresses reapplication, waiting periods, or assessment/math-test retakes. Nearest adjacent statement, verbatim: 'In line with GDPR regulations, we are permitted to store your data for up to 3 years after the date of your application.' That is a data-retention rule, not a cooling-off rule. Silence finding, not absence of check."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://www.flowtraders.com/careers/faq",
+      "reason": "dead - HTTP 404 Not Found; FAQ lives on /careers/graduates/ instead"
+    }
+  ],
+  "notes_for_human": "1) Both prior sentences confirmed on the live posting 2026-07-29: class-year 'Class of 2028, preferred' (still hedged with 'preferred') and 'We do not provide visa sponsorship for our interns.' - the sponsorship sentence also appears independently in the graduates-page FAQ, so it is firm-wide-for-interns, not posting-specific. 2) Compensation confirmed verbatim: prorated $150,000 base under NYC Salary Transparency Law. 3) Process: the posting describes a four-stage flow with the final round in superday format; the numerical/mental-math test wording surfaced only via domain-restricted search paraphrase and is deliberately NOT quoted. 4) cooling_off: SILENT at tier 1. 5) The Greenhouse board lists exactly one 2027 US internship (this role); no Technology/SWE intern 2027 US posting exists as of 2026-07-29. 6) Quotes extracted via fetch pipeline; the two prior-known sentences matched prior data exactly."
 }

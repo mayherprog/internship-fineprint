@@ -45,6 +45,16 @@ AUDIENCE_OVERRIDES = {
     "amazon-future-engineer-scholarship": "high_school",
     "consulting-kickstart": "freshman",
 }
+
+# Tracker rows whose recorded sentence was checked against the live page and
+# NOT FOUND there. Refuted quotes must not keep circulating as pending claims;
+# each entry names the evidence. Verified on 2026-07-29.
+REFUTED_ROWS = {
+    ("Hudson River Trading", "hrt-swe-intern-2027-summer-2027"):
+        "Recorded sentence 'Eligible for full-time roles in 2028.' does not appear "
+        "in the live posting (Greenhouse job 8052083 read in full: no occurrence of "
+        "'2028' or 'eligib'). Superseded by the current posting's stated criterion.",
+}
 FIELD_KEYS = ("class_year", "sponsorship", "process", "compensation")
 FIELD_ALLOWED = {"state", "tier", "quote", "source_url", "source_status",
                  "checked", "summary_note", "parsed"}
@@ -53,11 +63,28 @@ PARSED_ALLOWED = {"trigger", "duration_months", "scope", "resets_allowed",
                   "restrictive", "application_cap"}
 
 # A cooling-off row must be about applying again, sitting an assessment again,
-# or waiting. If none of this vocabulary appears, it is not a cooling-off rule.
+# waiting, or a cap on applications. If none of this vocabulary appears, it is
+# not a cooling-off rule. (Season-exclusivity clauses like Akuna's "you will
+# not be considered for other ... roles ... this recruiting season" are caps.)
 REAPPLY_RE = re.compile(
     r"re-?appl|reappl|new application|apply again|retake|re-?take|"
     r"waiting period|wait\b|refrain|back to back|back-to-back|each year|"
-    r"future program year|attempt|cooling",
+    r"future program year|attempt|cooling|recruiting season|"
+    r"one application|multiple applications|per role|not be considered for other",
+    re.I,
+)
+
+# A recommendation is not a lockout. Jane Street "usually recommend[s] waiting
+# ... at least a year"; rendering that as a hard 12-month clock in the lockout
+# view would assert more than the firm said. Hedged rules keep their quote and
+# their parsed duration, but restrictive stays null: the reader reads the quote.
+HEDGED_RULE_RE = re.compile(r"\brecommend|usually|encourage|suggest\b", re.I)
+
+# A stated one-application rule IS a cap of one, derivable from the quote alone.
+ONE_APP_RE = re.compile(
+    r"one application per role|not be considered for other .{0,40}roles?"
+    r".{0,40}(this )?recruiting season|do not allow multiple applications|"
+    r"only apply to one",
     re.I,
 )
 
@@ -150,16 +177,25 @@ def clean_cooling(cooling, unfiled):
             "does not concern reapplying, waiting, or retaking an assessment. " + prior
         ).strip()
 
-    parsed = out.get("parsed") or {}
+    parsed = {k: v for k, v in (out.get("parsed") or {}).items() if v != ""}
     if out.get("state") == "stated":
-        # Derived only from a number the firm itself stated. Never guessed.
-        if parsed.get("duration_months") is not None:
+        quote2 = out.get("quote") or ""
+        if ONE_APP_RE.search(quote2) and not parsed.get("application_cap"):
+            parsed["application_cap"] = 1
+        # Derived only from what the firm itself stated. Never guessed, and a
+        # hedged recommendation is never promoted to a hard constraint.
+        if HEDGED_RULE_RE.search(quote2):
+            parsed["restrictive"] = None
+        elif parsed.get("duration_months") is not None:
             parsed["restrictive"] = True
         elif parsed.get("resets_allowed") is False or parsed.get("application_cap"):
             parsed["restrictive"] = True
         else:
             parsed["restrictive"] = None
+    if parsed:
         out["parsed"] = parsed
+    else:
+        out.pop("parsed", None)
     return out
 
 
@@ -274,8 +310,43 @@ def main():
 
             research_by_url = {norm(p["source"].get("url")): p for p in rec["programs"]
                                if p["source"].get("url")}
+
+            # A tracker row with a quote but no URL was a verification debt.
+            # When research has now read the live posting, the debt is settled
+            # either way: a matching quote means the row is superseded by the
+            # sourced version; a refuted quote (recorded sentence absent from
+            # the live page) must not keep circulating as a pending claim.
+            def words(text):
+                return set(re.findall(r"[a-z0-9]+", (text or "").lower()))
+
+            def cy_quote(p):
+                return (p.get("fields", {}).get("class_year", {}) or {}).get("quote", "")
+
+            research_cy = [cy_quote(p) for p in rec["programs"] if cy_quote(p)]
+
+            def superseded(q):
+                if q["source"].get("url"):
+                    return False
+                pending = cy_quote(q)
+                if not pending:
+                    return False
+                pw = words(pending)
+                for rq in research_cy:
+                    rw = words(rq)
+                    low_p, low_r = pending.lower().strip(". "), rq.lower()
+                    if low_p in low_r or (pw and len(pw & rw) / len(pw | rw) >= 0.6):
+                        return True
+                return False
+
             deduped_keep = []
             for q in keep:
+                reason = REFUTED_ROWS.get((rec["firm"], q["id"]))
+                if reason:
+                    deduped.append(f"{rec['firm']}: row {q['id']} DROPPED, quote refuted against the live page — {reason[:80]}...")
+                    continue
+                if superseded(q):
+                    deduped.append(f"{rec['firm']}: pending-quote row {q['id']} superseded by a sourced research row")
+                    continue
                 rival = research_by_url.get(norm(q["source"].get("url")))
                 if rival is None:
                     deduped_keep.append(q)

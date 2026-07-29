@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "software-engineering-internship-c-or-python",
       "name": "Software Engineering Internship (C++ or Python)",
+      "cycle": "Summer 2027",
+      "location": "Austin, TX; Chicago, IL; New York, NY; Singapore",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
@@ -22,6 +23,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083"
         },
         "process": {
@@ -40,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.hudsonrivertrading.com/student-opportunities/",
         "checked": "2026-07-29",
         "parsed": {
@@ -49,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "HRT's student FAQs (on /student-opportunities/, full FAQ section read) contain no reapplication, assessment-retake, or waiting-period rule. Closest FAQ item, verbatim: 'Can I apply for more than one job at the same time? Please only apply to one job posting. You will have the opportunity to indicate if you are interested in other offices or roles in the application questions.' That is a concurrent-application rule, not a cooling-off rule. Assessment note in job postings, verbatim: 'Use of AI tools during interviews or assessments is strictly prohibited, unless otherwise instructed or agreed upon.'"
-      },
-      "cycle": "Summer 2027",
-      "location": "Austin, TX; Chicago, IL; New York, NY; Singapore"
+      }
     },
     {
-      "id": "algorithm-development-quant-research-trading-internship",
       "name": "Algorithm Development (Quant Research & Trading) Internship",
+      "cycle": "Summer 2027",
+      "location": "New York, NY; Singapore",
       "audience": "all",
       "source": {
         "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
@@ -73,6 +75,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062"
         },
         "process": {
@@ -91,6 +94,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.hudsonrivertrading.com/student-opportunities/",
         "checked": "2026-07-29",
         "parsed": {
@@ -100,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "Same FAQ read as SWE entry; no reapplication/retake/waiting rules published."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York, NY; Singapore"
+      }
     },
     {
-      "id": "women-in-trading-technology-internship-witti",
       "name": "Women in Trading & Technology Internship (WiTTI)",
+      "cycle": "January 2027 (January 2026 cycle closed; next cycle not yet open)",
+      "location": "New York City",
       "audience": "sophomore",
       "source": {
         "url": "https://www.hudsonrivertrading.com/student-opportunities/",
@@ -124,6 +127,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.hudsonrivertrading.com/student-opportunities/"
         },
         "process": {
@@ -135,12 +139,14 @@
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.hudsonrivertrading.com/student-opportunities/"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.hudsonrivertrading.com/student-opportunities/",
         "checked": "2026-07-29",
         "parsed": {
@@ -150,14 +156,22 @@
           "resets_allowed": null
         },
         "notes": "No WiTTI-specific reapplication rules published on firm domain."
-      },
-      "cycle": "January 2027 (January 2026 cycle closed; next cycle not yet open)",
-      "location": "New York City"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://job-boards.greenhouse.io/wehrtyou",
+      "reason": "302 redirect to hudsonrivertrading.com/careers/ (HRT disables the public Greenhouse board UI); underlying boards-api.greenhouse.io JSON remains readable and was used as tier-1 source"
+    },
+    {
+      "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=6305711&req_id=R-000322",
+      "reason": "dead: Greenhouse job 6305711 (WiTTI Winter 2026) returns 404 'Job not found'; posting closed"
+    },
+    {
+      "url": "https://www.hudsonrivertrading.com/faqs/",
+      "reason": "dead: 404; careers FAQs live at /student-opportunities/ instead"
+    }
+  ],
+  "notes_for_human": "VERIFICATION OUTCOME: the previously recorded sentence 'Eligible for full-time roles in 2028.' is NOT in the current SWE Intern Summer 2027 posting. Raw Greenhouse content for job 8052083 (the source of the hudsonrivertrading.com posting) contains no occurrence of '2028', 'eligib', 'graduation', 'sponsor', 'visa', or 'authoriz'. The current class-year criterion is only 'You are a full-time undergraduate student studying computer science or a related field'. The 'eligible for full-time roles in 2028' phrasing circulates on tier-3 aggregators (jobright.ai, getsmartresume.com) and may reflect an earlier draft of the posting or aggregator paraphrase; it should be replaced with the verbatim quote above, or flagged as unsourced. Second finding: HRT is silent on visa sponsorship in both intern postings and its student FAQ. Third: no cooling-off/reapplication/retake rule is published anywhere read; the only application-limit rule is the one-application-at-a-time rule quoted in cooling_off.notes. Fourth: WiTTI eligibility details seen in search snippets (graduating fall 2027-summer 2028, women+ and non-binary focus, 'people of all identities are welcome to apply', $5,800/week) come from the now-dead Winter 2026 posting via tier-3 mirrors (builtin.com, weekday.works) and were NOT verbatim-verifiable on the firm domain today, so they are excluded from quotes; recheck when the January 2027 WiTTI posting opens."
 }

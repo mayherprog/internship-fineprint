@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "quantitative-trader-internship-summer-2027",
       "name": "Quantitative Trader Internship: Summer 2027",
+      "cycle": "Summer 2027 (June 2027 start; JSON-LD validThrough 2027-05-14)",
+      "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania",
       "audience": "undergraduate",
       "source": {
         "url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us",
@@ -17,23 +18,18 @@
           "state": "stated",
           "tier": 1,
           "quote": "Intention to graduate with a minimum of a bachelors degree and begin full time employment by August 2028",
-          "source_url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us",
-          "parsed": {
-            "graduates_by": "2028-08"
-          }
+          "source_url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Visa sponsorship is available for this position",
-          "source_url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us",
-          "parsed": {
-            "sponsors": true
-          }
+          "source_url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us"
         },
         "compensation": {
@@ -46,21 +42,22 @@
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://careers.sig.com/faqs",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
+          "scope": "",
           "resets_allowed": null
         },
         "notes": "careers.sig.com/faqs loaded but served only navigation/footer in static HTML (FAQ body is client-side rendered), so no firm-domain reapplication or assessment-retake rule could be read. A '12 months' reapplication figure surfaced only in third-party prep/aggregator summaries, which are excluded by rule; it is NOT verified on any SIG property."
-      },
-      "cycle": "Summer 2027 (June 2027 start; JSON-LD validThrough 2027-05-14)",
-      "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania"
+      }
     },
     {
-      "id": "quantitative-strategy-developer-internship-summer-2027",
       "name": "Quantitative Strategy Developer Internship: Summer 2027",
+      "cycle": "Summer 2027 (10-week program, June 2027 start)",
+      "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania",
       "audience": "undergraduate",
       "source": {
         "url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
@@ -73,23 +70,18 @@
           "state": "stated",
           "tier": 1,
           "quote": "Enrolled in a bachelor's or master's program in computer science, computer engineering, mathematics, or closely related STEM discipline ... Intention to graduate with a minimum of a bachelor’s degree and begin full time employment by August 2028",
-          "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
-          "parsed": {
-            "graduates_by": "2028-08"
-          }
+          "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Visa sponsorship is available for this position",
-          "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
-          "parsed": {
-            "sponsors": true
-          }
+          "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us"
         },
         "compensation": {
@@ -102,21 +94,22 @@
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://careers.sig.com/faqs",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
+          "scope": "",
           "resets_allowed": null
         },
         "notes": "Same as above: no readable firm-domain FAQ text on reapplication or assessment retakes."
-      },
-      "cycle": "Summer 2027 (10-week program, June 2027 start)",
-      "location": "Bala Cynwyd (Philadelphia Area), Pennsylvania"
+      }
     },
     {
-      "id": "susquehanna-discovery-days-early-talent-pre-internship",
       "name": "Susquehanna Discovery Days (early talent / pre-internship)",
+      "cycle": "ongoing early-ID programming; details behind careers.sig.com/discovery-programs/jobs (not read)",
+      "location": "unstated on page read",
       "audience": "sophomore",
       "source": {
         "url": "https://sig.com/careers/early-talent/",
@@ -134,101 +127,47 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://sig.com/careers/early-talent/"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://sig.com/careers/early-talent/"
         },
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://sig.com/careers/early-talent/"
         }
       },
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://careers.sig.com/faqs",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
+          "scope": "",
           "resets_allowed": null
         },
         "notes": "No firm statement found on retaking the Discovery-Day math assessment or re-entering the pipeline."
-      },
-      "cycle": "ongoing early-ID programming; details behind careers.sig.com/discovery-programs/jobs (not read)",
-      "location": "unstated on page read"
-    },
-    {
-      "id": "susquehanna-quant-systematic-trading-intern-2027-summer-2027",
-      "name": "Susquehanna Quant Systematic Trading Intern 2027",
-      "audience": "undergraduate",
-      "source": {
-        "url": null,
-        "checked": "2026-07-23",
-        "check_method": "manual",
-        "status": "url_pending",
-        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-23",
-          "summary_note": "PhD and Master's variants degree-level bar."
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "cycle": "Summer 2027",
-      "status": "unknown"
-    },
-    {
-      "id": "susquehanna-quant-strategy-developer-intern-bala-cynwyd",
-      "name": "Susquehanna Quant Strategy Developer Intern (Bala Cynwyd)",
-      "audience": "unknown",
-      "source": {
-        "url": "https://careers.sig.com/jobs/10838",
-        "checked": "2026-07-27",
-        "check_method": "manual",
-        "status": "blocked",
-        "note": "careers.sig.com blocked unattended."
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified"
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "status": "unknown"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://careers.sig.com/faqs",
+      "reason": "Page returns HTTP 200 but the body is client-side rendered; static HTML contains only navigation, footer, and application-widget boilerplate. No FAQ content (reapplication, waiting period, assessment retake) was readable unattended."
+    },
+    {
+      "url": "https://careers.sig.com/discovery-programs/jobs",
+      "reason": "Not attempted (tool budget); linked from sig.com/careers/early-talent/ as the authoritative Discovery Programs listing. Same Jibe platform, so individual postings likely readable via raw-HTML JSON-LD."
+    }
+  ],
+  "notes_for_human": "Workaround that beat the historical block: careers.sig.com (Jibe/iCIMS platform) serves the FULL job description as schema.org JobPosting JSON-LD inside the static HTML even though the visible page is JS-rendered — curl + JSON-LD extraction works; plain rendered fetch does not. Both 2027 postings share the identical eligibility line (graduate with at least a bachelor's and start full-time by August 2028, i.e. class of 2028 or graduating seniors of 2027-28) and identical 'Visa sponsorship is available' language — notable since many quant firms do not sponsor interns. No salary figure is published on either posting (JSON-LD baseSalary is 0/UNAVAILABLE); housing is the only stated compensation item. Neither posting describes the interview/assessment process; SIG's poker/probability evaluation reputation could not be tied to any firm-domain text. Cooling-off: a '12-month reapply' figure appeared only in prep-site/aggregator search snippets (Finbound, Quantt), which the rules exclude — treat as unverified. The Strategy Developer posting cross-links a 2027 Trading System Engineering Internship at https://careers.sig.com/intern-co-op/jobs/10837 (not read). Related 2027 Bala Cynwyd postings seen in search: Quantitative Research Internship - Master's (jobs/10819), Operations (jobs/10916), Credit Analyst (jobs/10794), Electricity + Natural Gas Analyst (jobs/10945)."
 }

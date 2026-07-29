@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "software-engineer-intern-c-summer-2027-akunacademy",
       "name": "Software Engineer Intern - C++, Summer 2027 (Akunacademy)",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "all",
       "source": {
         "url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027/?gh_jid=8018847",
@@ -17,10 +18,7 @@
           "state": "stated",
           "tier": 1,
           "quote": "Graduating by August 2028",
-          "source_url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027/?gh_jid=8018847",
-          "parsed": {
-            "graduates_by": "2028-08"
-          }
+          "source_url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027/?gh_jid=8018847"
         },
         "sponsorship": {
           "state": "stated",
@@ -51,18 +49,15 @@
           "trigger": "application",
           "duration_months": null,
           "scope": "all_roles",
-          "resets_allowed": null,
-          "application_cap": 1,
-          "restrictive": true
+          "resets_allowed": null
         },
         "notes": "This is a one-application-per-season exclusivity rule (duration = 'this recruiting season', not expressed in months), NOT an assessment-retake or post-rejection waiting rule. No retake/waiting-period rule found anywhere on akunacapital.com pages read this pass: /careers/, /work-with-us/internships/, /work-with-us/early-careers/, and 3 job postings — all silent on retakes. That silence is the finding; no forum or prep-vendor content used."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "quantitative-development-strategy-intern-summer-2027-akunacademy",
       "name": "Quantitative Development & Strategy Intern, Summer 2027 (Akunacademy)",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "all",
       "source": {
         "url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027/?gh_jid=8021481",
@@ -75,19 +70,13 @@
           "state": "stated",
           "tier": 1,
           "quote": "Must graduate by August 2028",
-          "source_url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027/?gh_jid=8021481",
-          "parsed": {
-            "graduates_by": "2028-08"
-          }
+          "source_url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027/?gh_jid=8021481"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Legal authorization to work in the U.S. is required on the first day of employment including F-1 students using CPT, OPT or STEM",
-          "source_url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027/?gh_jid=8021481",
-          "parsed": {
-            "cpt_ok": true
-          }
+          "source_url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027/?gh_jid=8021481"
         },
         "process": {
           "state": "stated",
@@ -112,18 +101,15 @@
           "trigger": "application",
           "duration_months": null,
           "scope": "all_roles",
-          "resets_allowed": null,
-          "application_cap": 1,
-          "restrictive": true
+          "resets_allowed": null
         },
         "notes": "Same season-exclusivity rule as SWE, phrased 'By submitting an application' rather than 'By applying'. No assessment-retake or waiting-period rule stated on this posting."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "quantitative-research-intern-summer-2027-akunacademy",
       "name": "Quantitative Research Intern, Summer 2027 (Akunacademy)",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "all",
       "source": {
         "url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614",
@@ -136,19 +122,13 @@
           "state": "stated",
           "tier": 1,
           "quote": "Must graduate by August 2028",
-          "source_url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614",
-          "parsed": {
-            "graduates_by": "2028-08"
-          }
+          "source_url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Legal authorization to work in the U.S. is required on the first day of employment including F-1 students using CPT, OPT or STEM",
-          "source_url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614",
-          "parsed": {
-            "cpt_ok": true
-          }
+          "source_url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614"
         },
         "process": {
           "state": "stated",
@@ -173,18 +153,15 @@
           "trigger": "application",
           "duration_months": null,
           "scope": "all_roles",
-          "resets_allowed": null,
-          "application_cap": 1,
-          "restrictive": true
+          "resets_allowed": null
         },
         "notes": "No assessment-retake or waiting-period rule stated on this posting."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "sneak-peek-week",
       "name": "Sneak Peek Week",
+      "cycle": "unstated (recurring one-week programs)",
+      "location": "Chicago headquarters",
       "audience": "sophomore",
       "source": {
         "url": "https://akunacapital.com/work-with-us/internships/",
@@ -196,27 +173,32 @@
         "class_year": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://akunacapital.com/work-with-us/internships/"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://akunacapital.com/work-with-us/internships/"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://akunacapital.com/work-with-us/internships/"
         },
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://akunacapital.com/work-with-us/internships/"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://akunacapital.com/work-with-us/internships/",
         "checked": "2026-07-29",
         "parsed": {
@@ -226,14 +208,9 @@
           "resets_allowed": null
         },
         "notes": "Internships page and early-careers page (https://akunacapital.com/work-with-us/early-careers/) both read; neither mentions assessments, retakes, reapplication, or waiting periods."
-      },
-      "cycle": "unstated (recurring one-week programs)",
-      "location": "Chicago headquarters"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [],
+  "notes_for_human": "1) VERIFICATION RESULT: the prior-pass sentence for Akuna SWE Intern 2027 is CONFIRMED verbatim as the standalone requirements bullet 'Graduating by August 2028' at https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027/?gh_jid=8018847 (confirmed by a full verbatim dump of the requirements section, not just keyword match). Quant postings use different wording: 'Must graduate by August 2028'. 2) COOLING-OFF: akunacapital.com states NO rule about retaking assessments or waiting periods on any page read (/careers/, /work-with-us/internships/, /work-with-us/early-careers/, plus the 3 postings). The closest stated rule is the one-application-per-season clause quoted above (trigger=application, duration='this recruiting season', scope=other Quant and/or Tech roles). No forum/prep-vendor content used at any tier. 3) The C++ posting also states (paraphrase, not verbatim-verified, so not quoted in fields): resumes must be PDF, and AI tool use during interviews or assessments results in disqualification — worth a targeted re-verify if needed. 4) Two more SWE intern postings exist but were NOT read this pass (unverified): C# .NET Desktop https://akunacapital.com/careers/job/8018886/?gh_jid=8018886 and Python https://akunacapital.com/careers/job/8018853/talent-community/. No standalone 'Trading Intern, Summer 2027' posting surfaced in domain-restricted search as of 2026-07-29; the internships page describes Trading Interns going through an accelerated Junior Trader training program but no live 2027 trading posting was found. 5) Intern compensation is quoted by Akuna as an ANNUALIZED base of $145,000 under the Illinois Equal Pay Act (i.e., an annualized rate for a 10-week Akunacademy program, not a $145k internship payout); the C++ posting's version omits the word 'annualized' but is otherwise the same disclosure. 6) All quotes were extracted via automated page reads; the C++ requirements section and compensation paragraph have the highest verbatim confidence (full-section dump). Quote wording for the two quant postings came from targeted extraction and matched across independent reads."
 }
