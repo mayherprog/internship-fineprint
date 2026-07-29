@@ -95,10 +95,11 @@ max 80ch.
 - **About disclosure** (`<details class="about">`) — the full caveats (dated
   snapshot, firm's page is the authority, what silence means, source rules) live
   collapsed at the bottom of the page, above the footer, on every view. The
-  summary line itself states the core caveat, so a reader who never opens it
-  still sees "a dated snapshot of what firms state, not advice". The home page
-  opens with search, not with a warning. The screener keeps its own short
-  inline disclaimer next to the results it qualifies.
+  summary is the single word "About" with a collapse arrow (owner call: a
+  summary that restates the caveat is itself noise). The home page opens with
+  search, not with a warning. The screener keeps its own short inline
+  disclaimer next to the results it qualifies — that one carries the caveat at
+  the point of use, which is why the About line can afford to be one word.
 - **Sector tile** — bold name over muted "N firms · N programs". Navigates.
 - **Quick chip** — pill-shaped view shortcut. Plain descriptions, no slang.
 - **Controls bar** — sticky; back button, selects, search. First option of each
