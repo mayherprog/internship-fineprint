@@ -313,11 +313,44 @@
       },
       "cycle": "n/a",
       "location": "n/a"
+    },
+    {
+      "id": "jpmc-fellowship-summer-2027",
+      "name": "JPMC Fellowship",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-21",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-21",
+          "summary_note": "Posting explicitly refuses CPT."
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "unknown"
     }
   ],
   "provenance": {
     "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

@@ -109,42 +109,6 @@
       },
       "cycle": "Summer 2027 / 2026-2027 cycle — no cycle-specific opening date published as of 2026-07-29",
       "location": "United States / Canada / Latin America (eligibility page region block cited)"
-    },
-    {
-      "id": "explore-2027-summer-2027",
-      "name": "Explore 2027",
-      "audience": "undergraduate",
-      "source": {
-        "url": "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "1st/2nd-years; explicitly F-1 CPT OK; intro CS + 1 sem calculus"
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "cycle": "Summer 2027",
-      "status": "future",
-      "opens": "~mid-Aug–Sep 2026 (rolling)",
-      "closes": "~Oct 2026"
     }
   ],
   "provenance": {

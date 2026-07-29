@@ -173,6 +173,12 @@ def main():
             continue
 
         check(f"{path.name}: has a firm name", bool((rec.get('firm') or '').strip()))
+        # A firm name is a firm, not a posting title. "Five Rings QT Intern
+        # 2027" as a firm means transcription leaked a program title upward.
+        check(f"{path.name}: firm name is not a posting title",
+              not re.search(r"\b(Intern(ship)?s?|Summer|20\d\d|Analyst|Placement)\b",
+                            rec.get("firm") or "", re.I),
+              f"firm reads as a posting: {rec.get('firm')!r}")
         check(f"{path.name}: sector is legal", rec.get("sector") in SECTORS,
               f"got {rec.get('sector')!r}")
         check(f"{path.name}: has at least one program", bool(rec.get("programs")))

@@ -58,6 +58,88 @@ SECTOR_MAP = {
     "law": "big_law",
 }
 
+# The tracker's "Firm / Program" column mixes firm names with posting titles
+# ("Five Rings QT Intern 2027" is a posting, not a firm). Splitting heuristics
+# alone produced duplicate firm files and titles-as-firms. This table maps a
+# recognised prefix to the canonical firm name and its sector. Longest prefix
+# wins, so "two sigma freshman" is checked before "two sigma".
+CANON = {
+    "sig / five rings": ("SIG / Five Rings / Optiver (trader development)", "quant_trading"),
+    "two sigma freshman": ("Two Sigma / Jane Street / Goldman Sachs (freshman programs)", "quant_trading"),
+    "hrt witti": ("HRT / Virtu (women's programs)", "quant_trading"),
+    "amazon future": ("Amazon", "big_tech"),
+    "bank junior": ("Multiple banks (junior-cycle programs)", "banking_finance"),
+    "barclays": ("Barclays / Deutsche Bank / UBS / Jefferies / HSBC", "banking_finance"),
+    "d. e. shaw": ("D. E. Shaw", "quant_trading"),
+    "chicago trading": ("Chicago Trading Company", "quant_trading"),
+    "cubist": ("Cubist Systematic Strategies (Point72)", "quant_trading"),
+    "voloridge": ("Voloridge Investment Management", "quant_trading"),
+    "susquehanna": ("Susquehanna (SIG)", "quant_trading"),
+    "arrowstreet": ("Arrowstreet Capital", "asset_management"),
+    "bank of america": ("Bank of America", "banking_finance"),
+    "bofa": ("Bank of America", "banking_finance"),
+    "citi": ("Citi", "banking_finance"),
+    "citadel": ("Citadel / Citadel Securities", "quant_trading"),
+    "goldman": ("Goldman Sachs", "banking_finance"),
+    "morgan stanley": ("Morgan Stanley", "banking_finance"),
+    "jpmc": ("JPMorgan Chase", "banking_finance"),
+    "wells fargo": ("Wells Fargo", "banking_finance"),
+    "capital one": ("Capital One", "banking_finance"),
+    "ny fed": ("Federal Reserve Bank of New York", "government"),
+    "bridgewater": ("Bridgewater Associates", "asset_management"),
+    "girls who invest": ("Girls Who Invest", "asset_management"),
+    "seo": ("SEO (Sponsors for Educational Opportunity)", "other"),
+    "drw": ("DRW", "quant_trading"),
+    "virtu": ("Virtu Financial", "quant_trading"),
+    "old mission": ("Old Mission", "quant_trading"),
+    "walleye": ("Walleye Capital", "quant_trading"),
+    "imc": ("IMC Trading", "quant_trading"),
+    "optiver": ("Optiver", "quant_trading"),
+    "five rings": ("Five Rings", "quant_trading"),
+    "hrt": ("Hudson River Trading", "quant_trading"),
+    "two sigma": ("Two Sigma", "quant_trading"),
+    "akuna": ("Akuna Capital", "quant_trading"),
+    "point72": ("Point72", "quant_trading"),
+    "aquatic": ("Aquatic Capital", "quant_trading"),
+    "jane street": ("Jane Street", "quant_trading"),
+    "jump": ("Jump Trading", "quant_trading"),
+    "tower": ("Tower Research Capital", "quant_trading"),
+    "schonfeld": ("Schonfeld", "quant_trading"),
+    "anthelion": ("Anthelion Capital", "quant_trading"),
+    "stevens capital": ("Stevens Capital Management", "quant_trading"),
+    "flow traders": ("Flow Traders", "quant_trading"),
+    "pdt": ("PDT Partners", "quant_trading"),
+    "google": ("Google", "big_tech"),
+    "microsoft": ("Microsoft", "big_tech"),
+    "amazon": ("Amazon", "big_tech"),
+    "apple": ("Apple", "big_tech"),
+    "meta": ("Meta", "big_tech"),
+    "nvidia": ("NVIDIA", "big_tech"),
+    "palantir": ("Palantir", "big_tech"),
+    "uber": ("Uber", "big_tech"),
+    "linkedin": ("LinkedIn", "big_tech"),
+    "dropbox": ("Dropbox", "big_tech"),
+    "salesforce": ("Salesforce", "big_tech"),
+    "duolingo": ("Duolingo", "big_tech"),
+    "deepgram": ("Deepgram", "big_tech"),
+    "epic": ("Epic Systems", "big_tech"),
+    "neuralink": ("Neuralink", "big_tech"),
+    "western digital": ("Western Digital", "big_tech"),
+    "the trade desk": ("The Trade Desk", "big_tech"),
+    "podium": ("Podium", "big_tech"),
+    "appian": ("Appian", "big_tech"),
+}
+_CANON_KEYS = sorted(CANON, key=len, reverse=True)
+
+
+def canon(raw, default_sector="other"):
+    """Canonical (firm, sector) for a raw firm-ish string from the tracker."""
+    low = (raw or "").strip().lower()
+    for key in _CANON_KEYS:
+        if low.startswith(key):
+            return CANON[key]
+    return raw.strip(), default_sector
+
 
 def slug(text):
     text = unicodedata.normalize("NFKD", text)
@@ -231,7 +313,12 @@ def transcribe(xlsx_path, out_dir):
     firms = {}
 
     def firm_record(name, sector):
-        return firms.setdefault(name, {"firm": name, "sector": sector, "programs": []})
+        rec = firms.setdefault(name, {"firm": name, "sector": sector, "programs": []})
+        # A firm first seen via a sheet with no sector column stays "other"
+        # unless a later, better-informed row upgrades it.
+        if rec["sector"] == "other" and sector != "other":
+            rec["sector"] = sector
+        return rec
 
     # ---- Active Log: 35 postings, each with a real source URL ----------------
     rows, links = wb.sheet(2)
@@ -243,7 +330,8 @@ def transcribe(xlsx_path, out_dir):
         if not firm:
             continue
         url = links.get(f"I{i}")
-        rec = firm_record(firm, SECTOR_MAP.get(sector.strip().lower(), "other"))
+        firm, fsector = canon(firm, SECTOR_MAP.get(sector.strip().lower(), "other"))
+        rec = firm_record(firm, fsector)
         status = "open" if "open" in opens.lower() else "future"
         prog = build_program(
             program or firm, "Summer 2027", "", "undergraduate", url,
@@ -271,8 +359,8 @@ def transcribe(xlsx_path, out_dir):
         if not firm_program:
             continue
         firm = re.split(r"\s+[—–-]\s+|\s+\(|\s+SWE|\s+Quant|\s+Software", firm_program)[0].strip()
-        firm = firm or firm_program
-        rec = firm_record(firm, "other")
+        firm, fsector = canon(firm or firm_program)
+        rec = firm_record(firm, fsector)
         prog = build_program(
             firm_program, "Summer 2027", "", "undergraduate", None,
             checked or "2026-07-27", [reason], "unknown",
@@ -286,11 +374,14 @@ def transcribe(xlsx_path, out_dir):
     for i, row in enumerate(rows[1:], start=2):
         row = row + [""] * (4 - len(row))
         kind, item, detail = row[0], row[1], row[2]
-        if not item or "backlog (low" in kind.lower():
+        # Low-priority rows are leads the tracker itself declined to log as
+        # postings; a public record has no business promoting them to rows.
+        if not item or "low priority" in kind.lower():
             continue
         url = links.get(f"D{i}")
         firm = re.split(r"\s+[—–-]\s+|\s+\(|\s+SWE|\s+Quant|\s+Software|\s+Campus", item)[0].strip()
-        rec = firm_record(firm or item, "other")
+        firm, fsector = canon(firm or item)
+        rec = firm_record(firm, fsector)
         prog = build_program(item, "", "", "unknown", url, "2026-07-27", [detail], "unknown")
         prog["source"]["status"] = "blocked" if "render" in detail.lower() or "block" in detail.lower() else prog["source"]["status"]
         prog["source"]["check_method"] = "manual"

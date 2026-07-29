@@ -1,23 +1,23 @@
 {
-  "firm": "SIG / Five Rings / Optiver",
+  "firm": "Two Sigma / Jane Street / Goldman Sachs (freshman programs)",
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "discovery-link-futurefocus-quant-funnels-summer-2027",
-      "name": "Discovery / LINK / FutureFocus (quant funnels)",
+      "id": "two-sigma-freshman-swe-jane-street-fttp-focus-gs-possibilities-summer-2027",
+      "name": "Two Sigma Freshman SWE · Jane Street FTTP/FOCUS · GS Possibilities",
       "audience": "undergraduate",
       "source": {
-        "url": "https://github.com/Julian048/CS-Everything-but-Internships",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
+        "url": null,
+        "checked": "2026-07-21",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
       "fields": {
         "class_year": {
           "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "Pre-internship years"
+          "checked": "2026-07-21",
+          "summary_note": "Freshman-only aged out."
         },
         "sponsorship": {
           "state": "unverified"
@@ -26,17 +26,14 @@
           "state": "unverified"
         },
         "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27"
+          "state": "unverified"
         }
       },
       "cooling_off": {
         "state": "unverified"
       },
       "cycle": "Summer 2027",
-      "status": "future",
-      "opens": "Fall 2026",
-      "closes": "—"
+      "status": "unknown"
     }
   ],
   "provenance": {

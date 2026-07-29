@@ -57,51 +57,6 @@
       "location": "Chicago, USA"
     },
     {
-      "id": "quantitative-intern-summer-2027-institutional-s-t-chicago-summer-2027",
-      "name": "Quantitative Intern, Summer 2027 (Institutional S&T, Chicago)",
-      "audience": "undergraduate",
-      "source": {
-        "url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
-      },
-      "fields": {
-        "class_year": {
-          "state": "stated",
-          "tier": 1,
-          "quote": "Expected graduation between December 2027 and June 2029, with sophomore standing or higher",
-          "checked": "2026-07-27",
-          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
-          "source_status": "ok"
-        },
-        "sponsorship": {
-          "state": "stated",
-          "tier": 1,
-          "quote": "supportive of US immigration sponsorship",
-          "checked": "2026-07-27",
-          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
-          "source_status": "ok"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "$70k–$88k base + flights, housing, commuting stipend"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "cycle": "Summer 2027",
-      "status": "open",
-      "opens": "Open now",
-      "closes": "Rolling"
-    },
-    {
       "id": "optiver-swe-intern-2027-summer-2027",
       "name": "Optiver SWE Intern 2027",
       "audience": "undergraduate",

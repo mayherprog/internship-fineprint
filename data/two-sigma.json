@@ -1,10 +1,10 @@
 {
-  "firm": "Five Rings QT Intern 2027",
-  "sector": "other",
+  "firm": "Two Sigma",
+  "sector": "quant_trading",
   "programs": [
     {
-      "id": "five-rings-qt-intern-2027-summer-2027",
-      "name": "Five Rings QT Intern 2027",
+      "id": "two-sigma-qr-intern-2027-summer-2027",
+      "name": "Two Sigma QR Intern 2027",
       "audience": "undergraduate",
       "source": {
         "url": null,
@@ -17,7 +17,7 @@
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Graduating winter 2027 or spring/summer 2028",
+          "quote": "Approximately one year remaining.",
           "checked": "2026-07-22",
           "source_url": null,
           "source_status": "url_pending"

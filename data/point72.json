@@ -1,21 +1,23 @@
 {
-  "firm": "Dexcom 2027 US Summer Internship early-interest pipeline",
-  "sector": "other",
+  "firm": "Point72",
+  "sector": "quant_trading",
   "programs": [
     {
-      "id": "dexcom-2027-us-summer-internship-early-interest-pipeline",
-      "name": "Dexcom 2027 US Summer Internship early-interest pipeline",
-      "audience": "unknown",
+      "id": "point72-2027-qr-internship-summer-2027",
+      "name": "Point72 2027 QR Internship",
+      "audience": "undergraduate",
       "source": {
         "url": null,
-        "checked": "2026-07-27",
+        "checked": "2026-07-22",
         "check_method": "manual",
         "status": "url_pending",
-        "note": "Mid-tier med-device; log only if a real posting with clean eligibility appears."
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
       "fields": {
         "class_year": {
-          "state": "unverified"
+          "state": "unverified",
+          "checked": "2026-07-22",
+          "summary_note": "PhD-only. (Cubist QD is separate and IS logged.)"
         },
         "sponsorship": {
           "state": "unverified"
@@ -30,6 +32,7 @@
       "cooling_off": {
         "state": "unverified"
       },
+      "cycle": "Summer 2027",
       "status": "unknown"
     }
   ],

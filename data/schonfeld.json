@@ -1,23 +1,21 @@
 {
-  "firm": "HRT WiTTI · Virtu Winternship",
-  "sector": "other",
+  "firm": "Schonfeld",
+  "sector": "quant_trading",
   "programs": [
     {
-      "id": "hrt-witti-virtu-winternship-summer-2027",
-      "name": "HRT WiTTI · Virtu Winternship",
-      "audience": "undergraduate",
+      "id": "schonfeld-2027-summer-roles",
+      "name": "Schonfeld 2027 summer roles",
+      "audience": "unknown",
       "source": {
-        "url": null,
-        "checked": "2026-07-21",
+        "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430",
+        "checked": "2026-07-27",
         "check_method": "manual",
-        "status": "url_pending",
-        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+        "status": "ok",
+        "note": "Open August 2026 (this week) — express-interest pipeline live now; posted comp range $45k–$150k prorated. Class-year language TBD when roles post — checking daily."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-21",
-          "summary_note": "Women/non-binary only."
+          "state": "unverified"
         },
         "sponsorship": {
           "state": "unverified"
@@ -32,7 +30,6 @@
       "cooling_off": {
         "state": "unverified"
       },
-      "cycle": "Summer 2027",
       "status": "unknown"
     }
   ],

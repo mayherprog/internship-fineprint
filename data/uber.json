@@ -37,6 +37,46 @@
       "status": "future",
       "opens": "~Sep 2026",
       "closes": "~Dec 2026"
+    },
+    {
+      "id": "uber-2027-swe-internship-career-prep-summer-2027",
+      "name": "Uber 2027 SWE Internship / Career Prep",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-22",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-22",
+          "summary_note": "\"3rd/4th year\" UberSTAR is the channel."
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "3rd/4th year",
+          "source_url": null,
+          "source_status": "url_pending"
+        }
+      ],
+      "cycle": "Summer 2027",
+      "status": "unknown"
     }
   ],
   "provenance": {

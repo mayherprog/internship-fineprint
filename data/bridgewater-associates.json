@@ -1,21 +1,22 @@
 {
-  "firm": "Tower Research",
-  "sector": "other",
+  "firm": "Bridgewater Associates",
+  "sector": "asset_management",
   "programs": [
     {
-      "id": "tower-research-quant-trader-intern-logged-quant-developer-intern-unverified",
-      "name": "Tower Research Quant Trader Intern (logged) + Quant Developer Intern (unverified)",
-      "audience": "unknown",
+      "id": "rising-fellows-summer-2027",
+      "name": "Rising Fellows",
+      "audience": "undergraduate",
       "source": {
-        "url": "https://tower-research.com/open-positions/?gh_jid=8044334",
+        "url": "https://www.bridgewater.com/working-at-bridgewater/students",
         "checked": "2026-07-27",
-        "check_method": "manual",
-        "status": "blocked",
-        "note": "Both now behind a JS-rendered page. QT verified via mirrors only; QD not verified at all — do not assume."
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
       },
       "fields": {
         "class_year": {
-          "state": "unverified"
+          "state": "unverified",
+          "checked": "2026-07-27"
         },
         "sponsorship": {
           "state": "unverified"
@@ -24,13 +25,17 @@
           "state": "unverified"
         },
         "compensation": {
-          "state": "unverified"
+          "state": "unverified",
+          "checked": "2026-07-27"
         }
       },
       "cooling_off": {
         "state": "unverified"
       },
-      "status": "unknown"
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "~Dec 2026",
+      "closes": "~Jan 2027"
     }
   ],
   "provenance": {

@@ -9,7 +9,7 @@ Every row is a sentence a firm published, quoted exactly, with a link and the da
 read. Firms that publish nothing are recorded as publishing nothing.
 
 ```bash
-python3 tools/validate.py     # 4,115 assertions over 136 programs, 0 failures
+python3 tools/validate.py     # 4,016 assertions over 132 programs, 0 failures
 ```
 
 **[Browse the data →](TABLE.md)** &nbsp;·&nbsp; **[Interactive view →](index.html)**
@@ -97,8 +97,8 @@ in its own founding fact. The full quote and all three formulations are in
 
 ## Coverage, stated honestly
 
-136 programs across 79 firms, spanning big tech, banking, quant trading, consulting and
-big law. Of those, **11 state a cooling-off rule, 30 publish nothing on it, and 95 have not
+132 programs across 68 firms, spanning big tech, banking, quant trading, consulting and
+big law. Of those, **11 state a cooling-off rule, 30 publish nothing on it, and 91 have not
 been checked yet.** The unchecked majority is the honest state of this dataset today, not
 a rounding error, and it is visible in the interface rather than hidden.
 
@@ -107,7 +107,7 @@ Known gaps, all recorded in the data rather than papered over:
 - **32 rows carry a verbatim quote but no source URL.** They were transcribed from a
   private posting tracker whose links were not captured. They are flagged `url_pending`
   and render as *source link missing*. They are not independently citable until re-sourced.
-- **12 rows are `blocked`** — the page is JavaScript-rendered or refuses automated reads.
+- **16 rows are `blocked`** — the page is JavaScript-rendered or refuses automated reads.
   Google's careers site, Amazon's FAQ accordions, Skadden's app shell and all of
   mckinsey.com fall here. These need a browser, not a fetch.
 - **Sponsorship is silent on most rows.** Do not read that as either sponsoring or not.
