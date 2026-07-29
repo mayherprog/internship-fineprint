@@ -44,32 +44,47 @@
       "name": "Meta Undergraduate/Summer Internship (general)",
       "audience": "undergraduate",
       "source": {
-        "url": "https://www.metacareers.com/students-and-grads/",
+        "url": "https://www.metacareers.com/careerprograms/students/",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Direct fetch returns 404. Wayback snapshot (2026-05-14) returns HTTP 200 but raw HTML is an unrendered JavaScript SPA shell containing only a generic Organization JSON-LD block (no program/job JSON-LD); no page text extractable without JS execution, which is unavailable in this environment."
+        "status": "ok",
+        "note": "Browser-rendered 2026-07-29 (the old /students-and-grads/ path serves a blank SPA route even in a real browser). Live students page read in full: no class-year, sponsorship, or visa language present, and NO mention of Meta University anywhere — the page centers research/PhD roles and the general intern program."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "source_url": null
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.metacareers.com/careerprograms/students/"
         },
         "sponsorship": {
-          "state": "unverified",
-          "source_url": null
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.metacareers.com/careerprograms/students/"
         },
         "process": {
-          "state": "unverified",
-          "source_url": null
+          "state": "stated",
+          "tier": 1,
+          "quote": "Whether you’re graduating and hoping to come aboard full-time or want to return for another internship, we’ll help enhance your skills at Meta.",
+          "source_url": "https://www.metacareers.com/careerprograms/students/"
         },
         "compensation": {
-          "state": "unverified",
-          "source_url": null
+          "state": "stated",
+          "tier": 1,
+          "quote": "You’ll receive generous benefits, including housing assistance for the duration of your internship.",
+          "source_url": "https://www.metacareers.com/careerprograms/students/"
         }
       },
       "cooling_off": {
-        "state": "unverified",
-        "source_url": null
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.metacareers.com/careerprograms/students/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Live students page read in full; no reapplication language. Return internships explicitly welcomed (see process quote)."
       },
       "cycle": "2027",
       "location": "unverified",

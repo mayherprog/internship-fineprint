@@ -12,20 +12,22 @@
         "url": "https://career.seo-usa.org/apply-faq/",
         "checked": "2026-07-29",
         "status": "ok",
-        "note": "Page fetched successfully but no explicit 2027-cycle deadline dates were present in the retrieved content; also fetched career.seo-usa.org/our-program/ and career.seo-usa.org/ (home) for cross-check."
+        "note": "Browser-rendered 2026-07-29, resolving the two conflicting fetch reads: the live page's eligibility checklist contains NO race/ethnicity self-identification item, and 'All are welcome to apply.' appears verbatim."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "First Year, Sophomore, or Junior",
-          "source_url": "https://career.seo-usa.org/apply-faq/"
+          "quote": "All who meet the following criteria are welcome to apply. 3.2 GPA required * First Year, Sophomore, or Junior All Majors Accredited 4-Year University Work Authorized in the U.S. **",
+          "source_url": "https://career.seo-usa.org/apply-faq/",
+          "notes": "Checklist as rendered; footnotes verbatim: '* 3.0 may be considered' and '** F-1 Students may be eligible for Phase 2: Success'."
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Work Authorized in the U.S.",
-          "source_url": "https://career.seo-usa.org/apply-faq/"
+          "source_url": "https://career.seo-usa.org/apply-faq/",
+          "notes": "Checklist item. Footnote verbatim: '** F-1 Students may be eligible for Phase 2: Success' — HEDGED ('may be eligible'), scoped to the Success phase; never parse as a hard rule either way."
         },
         "process": {
           "state": "stated",
@@ -57,5 +59,5 @@
     }
   ],
   "blocked_urls": [],
-  "notes_for_human": "Two unresolved conflicts to flag before use. (1) Underrepresented-group / race-ethnicity eligibility language: one WebFetch pass of career.seo-usa.org/apply-faq/ returned the sentence \"All are welcome to apply\" with no race/ethnicity self-identification item in the eligibility checklist; a separate WebFetch pass of the same URL and independent WebSearch results state the eligibility list includes \"Self-Identify as Black, Latinx, or Native-American\" and that SEO Career is described elsewhere (e.g. career.seo-usa.org press pages, third-party partner pages) as being for \"high-achieving Black, Hispanic and Native American college students.\" These two readings of the same page are inconsistent — likely reflects either page content changing between fetches, an AI-summarization inconsistency in the WebFetch tool, or a genuine ambiguity on the live page. This needs a direct human/browser check of https://career.seo-usa.org/apply-faq/ to resolve before treating either version as fact. (2) No 2027-specific deadline dates were found anywhere on career.seo-usa.org in this pass — only general rolling-basis / 'Success Class typically closes in mid-April' language and unrelated references to a 2025-26 cycle (Jan 31, 2026 deadline) surfaced by search. GPA and major details found but not requested by the schema: '3.2 GPA required (3.0 may be considered)', 'All Majors', 'Accredited 4-Year University' — all from career.seo-usa.org/apply-faq/, checked 2026-07-29."
+  "notes_for_human": "Conflict from the fetch passes RESOLVED by browser render 2026-07-29: no race/ethnicity criterion on the live apply-faq page; 'All are welcome to apply.' present. F-1 footnote is directly relevant to international students and is recorded hedged. Rolling review: 'Applications are reviewed on a rolling basis year-round.' 'Our Success Class typically closes in mid-April' (hedged 'typically')."
 }

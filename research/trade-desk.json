@@ -11,7 +11,7 @@
         "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
         "checked": "2026-07-29",
         "status": "ok",
-        "note": "Fetched via Greenhouse job board"
+        "note": "Fetched via Greenhouse job board Browser render 2026-07-29 confirms the URL serves the application form only — no description body, class-year, pay, or reapplication language on the page."
       },
       "fields": {
         "class_year": {
@@ -21,11 +21,11 @@
           "source_url": ""
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "silent",
           "tier": 1,
           "quote": "",
           "source_url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
-          "notes": "Quote concatenated two application-form questions that load via JavaScript and are absent from the static page; a form question is also not a firm policy statement. Needs a browser read of the posting for any actual sponsorship language. Removed text: Are you legally authorized to work in the United States? Will you now or in the future require company sponsorship for an immigration-related employment benefit (i.e., a work visa, work permit, etc.)?"
+          "notes": "Browser-rendered 2026-07-29: the page is the bare application form; read in full. No sponsorship POLICY sentence exists on it. The form asks 'Are you legally authorized to work in the United States?' and 'Will you now or in the future require company sponsorship for an immigration-related employment benefit (i.e., a work visa, work permit, etc.)?' — screening questions, recorded as observation, not policy."
         },
         "process": {
           "state": "silent",

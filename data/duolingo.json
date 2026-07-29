@@ -9,8 +9,8 @@
       "source": {
         "url": "https://careers.duolingo.com/?type=Thrive+Program",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "JS-rendered SPA; WebFetch returned only the page shell ('Duolingo Careers' heading), no job/program content. boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true was also checked (tier 1, status ok) and currently lists no Thrive/internship postings — consistent with the program being off-cycle, but this does not confirm future dates."
+        "status": "ok",
+        "note": "Browser-rendered 2026-07-29: careers.duolingo.com loads fully; ZERO Thrive postings listed (matches the empty Greenhouse board) — program is off-cycle, expected to repost late September per the firm's blog. Earlier 'blocked' status superseded by this render."
       },
       "fields": {
         "class_year": {

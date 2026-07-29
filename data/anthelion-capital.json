@@ -9,35 +9,45 @@
       "source": {
         "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Ashby posting is JS-rendered; fetches returned only the page title, no body text. Reconstructed by hand from the researching agent's report after its serialization was malformed; no field values were altered — everything stays unverified because the page was never read."
+        "status": "ok",
+        "note": "Ashby posting browser-rendered 2026-07-29 (plain fetch got only the title). Full text read. Three cohorts: Fall 2026 (September–November), Winter 2026 (December–February), Summer 2027 (June–August)."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "Open to students graduating December 2026 through Summer 2028; PhD candidates with later graduation dates are also considered.",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+          "parsed": {
+            "graduates_between": [
+              "2026-12",
+              "2028-08"
+            ]
+          }
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "Must have US work authorization or ability to use OPT during the time of your internship.",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "Logistics: 12-week onsite internship — Fall 2026 (September–November); Winter 2026 (December–February); or Summer 2027 (June–August).",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
         },
         "compensation": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "Compensation: $1800 - $2000 per week depending on level of coursework. Strong interns are our primary source of full-time offers.",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
         }
       },
       "cooling_off": {
-        "state": "unverified",
+        "state": "silent",
         "tier": 1,
-        "source_url": null,
+        "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
@@ -45,9 +55,10 @@
           "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "Posting body never rendered, so nothing here is a silence finding."
+        "notes": "Full rendered posting read; no reapplication or retake language."
       },
-      "cycle": "2026/2027"
+      "cycle": "2026/2027",
+      "location": "New York City (Midtown, on-site)"
     }
   ],
   "provenance": {

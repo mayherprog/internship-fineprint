@@ -48,7 +48,7 @@
           "resets_allowed": false,
           "restrictive": true
         },
-        "notes": "Parsed scope this_role: the FAQ rule is per job opening (\"You cannot reapply for a position if you have been declined for it\"; \"You must apply separately to each job opening\"). FAQ additionally states: \"When you withdraw your submitted application from a job opening, the tool prevents you from reapplying to the job.\" No numeric cooling-off duration or global application cap was found on this page — the rule as stated is a permanent per-req bar, not a time-limited cooling-off period."
+        "notes": "Parsed scope this_role: the FAQ rule is per job opening (\"You cannot reapply for a position if you have been declined for it\"; \"You must apply separately to each job opening\"). FAQ additionally states: \"When you withdraw your submitted application from a job opening, the tool prevents you from reapplying to the job.\" No numeric cooling-off duration or global application cap was found on this page — the rule as stated is a permanent per-req bar, not a time-limited cooling-off period. Second stated FAQ rule, browser-verified 2026-07-29, verbatim: 'You cannot re-apply to the same job opening. You can apply to different job requisitions even with the same job code and title. However, an assessment outcome is generally valid for six months. Any job requisition that has the same assessment will use the existing outcome for that period of time.' The six-month assessment validity is hedged ('generally') and so stays out of the parsed fields."
       },
       "cycle": "Summer 2027 (non-CIB) / Summer 2028 (CIB) / Full-Time",
       "location": "unspecified on pages read",
@@ -56,30 +56,31 @@
       "closes": "General internships: \"remain open through fall; applications close on a rolling basis\""
     },
     {
-      "id": "sophomore-discovery-fellowship-program",
-      "name": "Sophomore Discovery Fellowship Program",
+      "id": "sophomore-experience-formerly-sophomore-discovery-fellowship-program",
+      "name": "Sophomore Experience (formerly Sophomore Discovery Fellowship Program)",
       "audience": "sophomore",
       "source": {
         "url": "https://talent.wellsfargojobs.com/flows/sdfp2026",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden on WebFetch; page is a Beamery-hosted registration flow, likely requires JS/session and blocks automated fetch. Raw HTML/JSON-LD was not retrievable."
+        "status": "ok",
+        "note": "Browser-rendered 2026-07-29 (page 403s to plain fetch). The page is a talent-community interest form, not a job application — verbatim on page: 'Submitting this interest form is not a job application and does not guarantee participation in the 2026 Sophomore Experience.'"
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "tier": 3,
-          "source_url": null
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://talent.wellsfargojobs.com/flows/sdfp2026"
         },
         "sponsorship": {
-          "state": "unverified",
-          "tier": 3,
-          "source_url": null
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://talent.wellsfargojobs.com/flows/sdfp2026"
         },
         "process": {
-          "state": "unverified",
-          "tier": 3,
-          "source_url": null
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Sophomore Experience previously known as the Sophomore Discovery Fellowship Program is a competitive opportunity focused on delivering a series of virtual experiences, layered with business exposure and structured talent assessments, creating a scalable pathway to internships across Wells Fargo Early Careers lines of business.",
+          "source_url": "https://talent.wellsfargojobs.com/flows/sdfp2026"
         },
         "compensation": {
           "state": "unverified",

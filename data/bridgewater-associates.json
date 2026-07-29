@@ -51,6 +51,55 @@
       "location": "unverified"
     },
     {
+      "id": "investment-associate-intern-2027",
+      "name": "Investment Associate Intern - 2027",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Live posting located via browser on the Bridgewater campus Greenhouse board (the earlier id 8459860002 now redirects to the board index; current id 8457683002). Content read via the boards-api static JSON, tier 1."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Total compensation for this position is $71,000 for the 8-week internship (less applicable deductions and withholdings), including a sign on bonus. In addition, our compensation package includes housing.",
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Full posting read; no reapplication language."
+      },
+      "cycle": "2027",
+      "location": "New York City"
+    },
+    {
       "id": "investment-associate-intern",
       "name": "Investment Associate Intern",
       "audience": "undergraduate",
