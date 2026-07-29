@@ -1,0 +1,47 @@
+{
+  "firm": "Podium",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "id": "software-engineering-intern-lehi-ut-summer-2027",
+      "name": "Software Engineering Intern (Lehi, UT)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/podium81/jobs/7939921",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "No class-year language (verified 7/23); sponsorship screening question only (form live 7/27)"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

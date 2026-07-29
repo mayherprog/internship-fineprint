@@ -1,0 +1,160 @@
+{
+  "firm": "Skadden, Arps, Slate, Meagher & Flom",
+  "sector": "big_law",
+  "programs": [
+    {
+      "id": "summer-associate-program-united-states",
+      "name": "Summer Associate Program (United States)",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Skadden's site is an AngularJS client-rendered app; raw HTTP GET returns only a JS shell (17,726 bytes, no body copy). The verbatim eligibility sentence below was retrieved from the rendered UK Law Students and Graduates page. The US page at /law-students-and-graduates/united-states rendered but only a summarized (non-verbatim) extraction was obtainable, so no US-page text is quoted here. The URL /law-students-and-graduates/united-states/summer-associates returned Skadden's 404 page on the check date."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our Summer Associate Program is geared towards students in three-year J.D. programs in the United States who will be admitted to practice law in the United States.",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states",
+          "summary_note": "The US page does describe an application process (resume, undergraduate transcript, fall grades, and an online assessment administered by a third-party vendor), but only a paraphrased extraction was obtainable from the JavaScript-rendered page. No verbatim sentence captured, so nothing is quoted."
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states",
+          "summary_note": "A salary figure appears in a paraphrased extraction of the US page but could not be captured verbatim. Not recorded as stated."
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication restriction, waiting period, or assessment-retake limit found on any Skadden page reviewed."
+      },
+      "cycle": "Summer; 1L and 2L recruiting cycles (2026 1L / 2027 2L cycles referenced on site as of check date)",
+      "location": "United States - multiple offices (US page lists 1L offices Chicago, Houston, Palo Alto, Toronto and 2L offices Boston, Hong Kong, London, Los Angeles, New York, Tokyo, Washington, Wilmington; office list NOT captured verbatim)"
+    },
+    {
+      "id": "legal-practice-assistant-lpa-program-paralegal-services-department",
+      "name": "Legal Practice Assistant (LPA) Program - Paralegal Services Department",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.skadden.com/careers/staff/paralegals",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page rendered and full body text was retrievable. This is the only Skadden program found that is explicitly aimed at people whose highest completed credential is an undergraduate degree. Note it is a full-time entry-level job, not a summer internship."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Skadden offers a distinctive Legal Practice Assistant (LPA) program tailored for recent college graduates who aspire to pursue legal careers and seek to gain invaluable, first-hand experience in a prestigious law firm before attending law school.",
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applicants should be prepared to submit a cover letter along with an up-to-date resume. First-round interviews will be conducted via Webex, Skadden's virtual meeting platform. Second-round interviews will be conducted in person at a Skadden office.",
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.skadden.com/careers/staff/paralegals",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication restriction stated. The page does state a forward-looking service expectation, not a cooling-off rule: \"We expect our LPAs to commit to a two-year tenure at the firm, during which they will develop critical skills and gain substantial legal experience.\""
+      },
+      "cycle": "Annual class; June start (June 2027 class posting opens first week of November 2026, planned close Friday, December 4, 2026)",
+      "location": "United States - Skadden offices (specific offices not enumerated on the paralegals page)"
+    },
+    {
+      "id": "1l-scholars-program",
+      "name": "1L Scholars Program",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars",
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "URL indexed by search engines but returned Skadden's 404 page on the check date: \"The page you are looking for is no longer available. Please use the navigation or search to find another page.\" The alternate indexed URL /careers/attorneys/apply-and-connect/opportunities/london/1l-scholar returned the same 404. No eligibility criteria could be read from any live Skadden page."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Page dead; nothing verifiable."
+      },
+      "cycle": "unknown",
+      "location": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "per-firm web research, one agent per firm",
+    "transcribed": "2026-07-29",
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed."
+  }
+}

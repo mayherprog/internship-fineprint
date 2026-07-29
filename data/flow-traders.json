@@ -1,0 +1,56 @@
+{
+  "firm": "Flow Traders",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "quantitative-trading-intern-summer-2027-ny-summer-2027",
+      "name": "Quantitative Trading Intern, Summer 2027 (NY)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.flowtraders.com/careers/job-description/8047166",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Class of 2028, preferred",
+          "checked": "2026-07-27",
+          "source_url": "https://www.flowtraders.com/careers/job-description/8047166",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We do not provide visa sponsorship for our interns",
+          "checked": "2026-07-27",
+          "source_url": "https://www.flowtraders.com/careers/job-description/8047166",
+          "source_status": "ok"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$150k prorated base"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling — closes once positions filled; process 5–10 wks"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

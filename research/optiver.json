@@ -1,0 +1,70 @@
+{
+  "firm": "Optiver",
+  "sector": "quant_trading",
+  "verification_verdict": "(b) with a caveat. The sentence 'We only allow candidates to attempt an assessment at Optiver every 8 months, across all offices and roles.' IS genuine Optiver copy and appears verbatim, character for character, in the raw HTML of the Sydney campus FAQ — but at https://optiver.com/working-at-optiver/career-hub/sydney-campus-faq/, not at the attributed https://www.optiver.com/join-us/stories/optiver-sydney-campus-recruiting-faqs/ (that legacy URL resolves to the same FAQ but the sentence was not confirmed in its source). Caveat that matters for the database: the prior pass captured only the FIRST sentence of a two-sentence answer, and the answer sits under a narrow troubleshooting question ('The assessment platform shows I already completed assessments time stamped for the same date I was invited, even though I didn't take them. Is this an error?'), not under a general policy heading. The second sentence materially narrows the operative scope to 'this or a similar role that has the same assessment components'. Optiver's Europe FAQ and the Chicago job posting both state the 8-month rule in DIFFERENT and narrower scope language ('a similar role at any of our offices'; 'a quantitative graduate or internship role at any Optiver location'). Note also that both Sydney and US campus FAQ pages are JavaScript-rendered accordions: WebFetch returns question headings only, and the answers are recoverable solely from the raw HTML JSON payload.",
+  "programs": [
+    {
+      "name": "Quantitative Intern",
+      "cycle": "Summer 2027",
+      "location": "Chicago, USA",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Live posting, HTTP 200, 142139 bytes. Body copy sits inside a hydrated React JSON payload; quotes below extracted from raw HTML source, not from a summarizer."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Expected graduation between December 2027 and June 2029, with sophomore standing or higher.",
+          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Optiver is supportive of US immigration sponsorship for this role.",
+          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We only allow candidates to attempt an assessment at Optiver every 8 months, across all offices and roles. If you have applied to this or a similar role that has the same assessment components within that time frame, the scores from those assessments will carry over until after 8 months from the date of your attempt on that assessment.",
+          "source_url": "https://optiver.com/working-at-optiver/career-hub/sydney-campus-faq/"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Base Salary Range $70,000 — $88,000 USD",
+          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Optiver has a global application re-apply policy for our intern and graduate roles. If you have completed an online assessment or interviewed for a quantitative graduate or internship role at any Optiver location in the past 8 months, please note that you are not yet eligible to reapply. We welcome you to re-apply to after the 8-month cool off period.",
+        "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "assessment_attempt",
+          "duration_months": 8,
+          "scope": "this_program",
+          "resets_allowed": false
+        },
+        "notes": "Scope enum is an imperfect fit and the exact wording should be shown to students rather than the enum. On the Chicago posting the trigger is completing an online assessment OR interviewing (not rejection), and the scope is all Optiver LOCATIONS but only quantitative graduate/internship ROLES. Note the source's own grammatical error, reproduced verbatim: 'We welcome you to re-apply to after the 8-month cool off period.' Three distinct Optiver scope formulations exist and they do not agree: (1) Sydney FAQ, broadest — 'across all offices and roles', immediately qualified by 'this or a similar role that has the same assessment components'; (2) Europe FAQ — 'this role, or a similar role at any of our offices'; (3) Chicago posting — 'a quantitative graduate or internship role at any Optiver location'. Europe FAQ additionally supplies a separate rejection-triggered clock and an anti-gaming rule, verbatim: 'At Optiver, we have an 8-month waiting period for candidates following an unsuccessful application for a similar role.' / 'If you have applied for this role, or a similar role at any of our offices, in the last 8 months and have been unsuccessful, you can reapply once your cooling period has concluded.' / 'Please note: if you reapply before the end of your 8-month cooling period, this will be considered your most recent unsuccessful application.' Retakes, verbatim: 'We understand that technical issues or unforeseen circumstances can be frustrating. However, to ensure a fair and consistent recruitment process for all candidates, we're unable to offer assessment resets or retakes within 8 months once an attempt has been started.' followed by 'This policy applies to all applicants. Making exceptions would be unfair to others progressing through the same process.' And on carry-over of scores, verbatim: 'Please note that assessments can only be completed once every 8 months. If you have already completed the tests for a similar role within this period, your previous results will automatically be used and you will not receive a new assessment invitation.' All from https://www.optiver.com/join-us/stories/optiver-europe-recruitment-faq/ (HTTP 200, verified in raw HTML)."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://optiver.com/working-at-optiver/career-hub/us-campus-recruiting-faqs-2/",
+      "reason": "JavaScript-rendered accordion. WebFetch returns only section headings and question titles ('General', 'Applying to Optiver', 'Interview prep', 'Post Interview'); no answer text rendered. Not re-fetched at raw-HTML level, so the US campus FAQ's own wording of the 8-month rule is UNVERIFIED. This is the most relevant regional FAQ for a Chicago applicant and is the top remaining gap."
+    },
+    {
+      "url": "https://www.optiver.com/join-us/stories/optiver-sydney-campus-recruiting-faqs/",
+      "reason": "Resolves and returns the Sydney FAQ index via WebFetch, but answers are collapsed and the target sentence was not confirmed in this URL's own source. The sentence WAS confirmed in raw HTML at the career-hub URL. Treat this legacy /join-us/stories/ path as an unconfirmed citation and re-point the database row to the career-hub URL."
+    }
+  ],
+  "notes_for_human": "Bottom line: the prior pass was substantively right that Optiver publishes an 8-month assessment-attempt rule, and the quoted sentence is real Optiver text — but the citation URL was wrong and the quote was truncated in a way that overstates scope. Verified live on 2026-07-29 by fetching raw HTML with curl (HTTP 200) rather than relying on the markdown converter, because every Optiver FAQ page hides its answers behind JS accordions; a summarizer-only pass reports these pages as empty and would have produced a false 'silent' finding. Three corrections to carry into the database. First, re-point the assessment-attempt row from /join-us/stories/optiver-sydney-campus-recruiting-faqs/ to https://optiver.com/working-at-optiver/career-hub/sydney-campus-faq/. Second, store the FULL two-sentence answer, not just the first sentence — the 'across all offices and roles' phrase is immediately qualified by 'this or a similar role that has the same assessment components', and publishing sentence one alone tells students the clock is broader than Optiver's own follow-on sentence and its two other regional FAQs describe. Third, the trigger differs by page and this is the part students will get wrong: the Chicago posting starts the 8 months from completing an assessment OR interviewing, the Europe FAQ separately starts it from an unsuccessful application, and the Europe FAQ warns that reapplying early RESETS the clock rather than being ignored. Retakes and resets are explicitly refused within the 8 months once an attempt has been started, and Optiver states no exceptions. Also captured for the Chicago row and independently verified in raw source: graduation window December 2027 to June 2029 with sophomore standing or higher, a STEM Bachelor's or Master's in progress, US immigration sponsorship supported, and a stated base salary range of $70,000 to $88,000 USD. Sydney working-rights sentence, verbatim, if a Sydney row is ever added: 'If you are an Australian or New Zealand citizen, Australian Permanent Resident or an international student studying at an Australian university, you are eligible for our roles.' Remaining gap worth one follow-up: pull the US campus recruiting FAQ at raw-HTML level to see whether Optiver states a fourth, US-specific scope formulation. No test-prep vendor sources were used or cited; search-engine result summaries were treated as leads only and every quote in this record was re-derived from Optiver's own HTML."
+}

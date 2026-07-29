@@ -1,0 +1,46 @@
+{
+  "firm": "Salesforce",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "id": "futureforce-tech-launchpad-summer-2027",
+      "name": "Futureforce Tech Launchpad",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://info.codepath.org/futureforce-tech-launchpad",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "~Oct 2026",
+      "closes": "~Feb 2027"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

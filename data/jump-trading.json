@@ -1,0 +1,41 @@
+{
+  "firm": "Jump Trading",
+  "sector": "other",
+  "programs": [
+    {
+      "id": "jump-trading-campus-swe-intern-chicago",
+      "name": "Jump Trading Campus SWE Intern (Chicago)",
+      "audience": "unknown",
+      "source": {
+        "url": "https://www.jumptrading.com/hr/job?gh_jid=8002989",
+        "checked": "2026-07-27",
+        "check_method": "manual",
+        "status": "blocked",
+        "note": "~$138/hr per aggregator. JS-rendered, blocked unattended."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "firm": "Microsoft",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "name": "Explore Microsoft Program (Explore Internship)",
+      "cycle": "Summer 2027 / 2026-2027 cycle — no cycle-specific opening date published as of 2026-07-29",
+      "location": "Redmond WA, Atlanta GA, and India campuses (per program page)",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Program page readable. Formal eligibility criteria live on a separate page: https://careers.microsoft.com/v2/global/en/internship_eligibility . No Summer 2027 dates, no application-open date, and no F-1/CPT/OPT language appear on the Explore page itself."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Candidate must be a 1st or 2nd year full time enrolled bachelor student (Freshmen/Sophomore) during the academic term immediately before their internship.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/internship_eligibility"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, Microsoft provides visa sponsorship.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Candidates need to apply online to be considered. The interview process varies depending on the role. Interview preparation and details are communicated to candidates when they are invited to interviews. All interviews are conducted virtually.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our salaries are competitive for the tech industry. All job postings will include the base pay range.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "All candidates must submit a new application each year. Interview spots are limited, so being selected for an interview is never a guarantee",
+        "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "application",
+          "duration_months": null,
+          "scope": "all_roles",
+          "resets_allowed": null
+        },
+        "notes": "This is the closest thing Microsoft publishes to a reapplication rule, and it is NOT a cooling-off period — it is the answer to the FAQ question 'I interviewed last year, can I skip to the final round of interviews this year?' and it requires a fresh application each year rather than imposing a wait. The quote is reproduced exactly as it appears, including the missing terminal period. Microsoft's Early in Profession FAQ (https://careers.microsoft.com/v2/global/en/universityinternship) and the internship eligibility page (https://careers.microsoft.com/v2/global/en/internship_eligibility) were both read in full: NEITHER states any waiting period after rejection, any assessment-retake rule, or any cap on the number of applications per cycle. That is silence in the public record, not evidence that no such rule exists internally. The eligibility page does state a separate restriction on consecutive internships — see the University Internship row."
+      }
+    },
+    {
+      "name": "Microsoft University Internship",
+      "cycle": "Summer 2027 / 2026-2027 cycle — no cycle-specific opening date published as of 2026-07-29",
+      "location": "United States / Canada / Latin America (eligibility page region block cited)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://careers.microsoft.com/v2/global/en/internship_eligibility",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Region-segmented eligibility table. Quotes below are from the United States / Canada / Latin America block."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Candidate must be enrolled in a full time bachelor's, masters, MBA, or PhD program in area relevant for the role during the academic term immediately before their internship.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/internship_eligibility"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, Microsoft provides visa sponsorship.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Recruiters will continue accepting applications until all positions are filled. A recruiter will review your application and contact you directly if you are selected for interviews. You can track the real-time status of your application on your action center on the Microsoft careers site. Please allow up to 90 days to receive a decision on your application. Be sure to check both the \"Active\" and \"Inactive\" folders in the Action Center.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our salaries are competitive for the tech industry. All job postings will include the base pay range.",
+          "source_url": "https://careers.microsoft.com/v2/global/en/universityinternship"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Candidate can not complete 2 back to back internships with Microsoft.",
+        "source_url": "https://careers.microsoft.com/v2/global/en/internship_eligibility",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "all_roles",
+          "resets_allowed": null
+        },
+        "notes": "This is a restriction on consecutive internships (triggered by having interned, not by rejection or by an assessment attempt). It appears in the United States / Canada / Latin America block alongside 'Candidate must be returning to school for 1 full academic term post internship.' It is NOT a post-rejection cooling-off period. No post-rejection waiting period and no application cap is published on either the FAQ or the eligibility page."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://jobs.careers.microsoft.com/global/en/job/1884365",
+      "reason": "301 Moved Permanently to https://apply.careers.microsoft.com/ (cross-host redirect, not followed). Live ATS job postings for Explore could not be read, so no posting-level quote on required qualifications, immigration/export-control statements, or the base pay range was captured."
+    }
+  ],
+  "notes_for_human": "SPONSORSHIP CAVEAT — READ BEFORE PUBLISHING: 'Yes, Microsoft provides visa sponsorship.' is the complete verbatim answer to the FAQ question 'Does Microsoft provide visa sponsorship?' on the Early in Profession / university internships page, which also describes Explore. It is a firm-wide, program-agnostic statement. Microsoft publishes NO F-1, CPT, OPT, or STEM-OPT terms anywhere on the pages checked, and the Explore program page itself says nothing about work authorization. Do not let this row be read as 'Explore sponsors F-1 CPT.' Related verbatim FAQ line worth noting: 'Most of our internships take place in the summer period. There are a few exceptions for specific school programs, visa complications, emergencies, international candidates, etc.' The eligibility page is region-segmented and several non-US regions carry explicit no-intern-visa language; the US/Canada/Latin America block contains no visa language at all, so US-specific sponsorship terms are SILENT in the public record.\n\n2027 OPENING DATE: silent. No opening date, deadline, or Summer 2027 cycle date appears on the Explore page, the university internships page, or the eligibility page. The only timing statements are 'Recruiters will continue accepting applications until all positions are filled.' and, from the 'Is Microsoft hiring?' answer, 'Job opportunities may be posted at different times throughout the year, so please keep an eye out and you can set up job alerts.'\n\nEXPLORE STRUCTURE (verbatim, from https://careers.microsoft.com/v2/global/en/exploremicrosoft): 'Explore Microsoft is an 8 week (India only) or 12 (US only) week summer internship program specifically designed for first- and/or second-year college students.' / 'The Explore Microsoft's first-year application is intended for candidates in their first year of a bachelor's degree program in the United States, Canada, or Mexico.' / 'Microsoft's second-year application is intended for candidates in their second year of a bachelor's degree program in the United States, Canada, Mexico or India.' / 'We do not require you be a computer science major to apply. However, we do require all candidates to have completed an Introduction to Computer Science (or equivalent course) and one semester of calculus (or equivalent).' / 'Most of the opportunities are offered at our Redmond, WA, Atlanta, GA, and various India campuses.' Note that Explore runs SEPARATE first-year and second-year applications — that distinction matters to applicants and is not captured by the schema's single audience field.\n\nTRANSCRIPTION CONFIDENCE: the eligibility page was fetched twice. The two passes agreed character-for-character on the University Interns bullets, but rendered the Explore program's consecutive-internship bullet once as 'Candidate can not complete' and once as 'Candidate cannot complete'. Because I cannot resolve which spacing is on the page, I recorded that quote ONLY under the University Internship row, where both passes agreed. The Explore row deliberately carries no consecutive-internship quote even though the restriction is listed for Explore too. A human should open the eligibility page directly if that Explore bullet needs to be quoted.\n\nPAY: no numeric intern pay figure was captured. Microsoft points to https://careers.microsoft.com/us/en/us-intern-pay — not fetched, and worth checking for a US intern pay range before this row is used for compensation claims."
+}

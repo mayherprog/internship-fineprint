@@ -1,0 +1,47 @@
+{
+  "firm": "Voloridge",
+  "sector": "other",
+  "programs": [
+    {
+      "id": "voloridge-quantitative-research-intern-summer-2027",
+      "name": "Voloridge Quantitative Research Intern",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-23",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Completion of at least three years",
+          "checked": "2026-07-23",
+          "source_url": null,
+          "source_status": "url_pending"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

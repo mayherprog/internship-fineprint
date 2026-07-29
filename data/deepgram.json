@@ -1,0 +1,41 @@
+{
+  "firm": "Deepgram",
+  "sector": "other",
+  "programs": [
+    {
+      "id": "deepgram-swe-internship-fall-2026-summer-2027-remote-us",
+      "name": "Deepgram SWE Internship — Fall 2026/Summer 2027 (Remote-US)",
+      "audience": "unknown",
+      "source": {
+        "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+        "checked": "2026-07-27",
+        "check_method": "manual",
+        "status": "blocked",
+        "note": "Ashby JS-rendered. Remote is rare — worth a look."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

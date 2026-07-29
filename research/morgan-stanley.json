@@ -1,0 +1,277 @@
+{
+  "firm": "Morgan Stanley",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "name": "2027 Investment Banking Summer Analyst Program (United States)",
+      "cycle": "Summer 2027",
+      "location": "United States (up to three preferred offices selectable)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Morgan Stanley's own tal.net applicant tracking system posting; loaded with full job content."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing an undergraduate degree with a graduation date between December 2027 and June 2028",
+          "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications are open from January 1, 2026 – February 15, 2026 and are reviewed on a rolling basis.",
+          "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Expected base pay rates for the role will be $52.89 per hour at the commencement of employment.",
+          "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "You can select and rank up to three preferred office locations and up to three Investment Banking Division (IBD) groups.",
+        "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "application",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "IMPORTANT SCOPE LIMIT: this is a cap on preferences ranked WITHIN a single application (3 offices, 3 IBD groups). It is NOT a reapplication rule, not a firm-wide application cap, and says nothing about waiting after rejection. Morgan Stanley published no reapplication or waiting-period rule on any page retrieved."
+      }
+    },
+    {
+      "name": "2027 Wealth Management Summer Analyst Program (New York)",
+      "cycle": "Summer 2027",
+      "location": "New York",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm's own tal.net posting. Page loaded with full content but is flagged on-site as no longer active as of the check date; text below is what the firm published for this cycle."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing an undergraduate degree with an expected graduation date between December 2027 and June 2028",
+          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Legally authorized to work in the U.S. without requiring sponsorship, now or in the future, for employment visa status",
+          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Candidates must apply with their resume through the Morgan Stanley website and complete their HireVue digital questionnaire. Resumes will be reviewed on a rolling basis until the role is filled or the application deadline, whichever comes first. Applications must be submitted by March 13, 2026 at 11:55 PM EST and HireVues completed by March 15, 2026 at 11:55 PM EST",
+          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Expected base pay rate for the role will be $52.89 per hour at the commencement of employment.",
+          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "No statement on application caps, reapplication, HireVue retakes, or waiting periods appears on this posting. A HireVue digital questionnaire is required, but no retake rule is published."
+      }
+    },
+    {
+      "name": "2027 Technology Summer Analyst Program",
+      "cycle": "Summer 2027",
+      "location": "United States (not specified on this source)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 2 university career services page relaying the firm's posting. The firm's own tal.net posting for this program was not retrieved; treat as tier 2 only."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Rising Juniors: Apply now for Morgan Stanley's 2027 Technology Summer Analyst Program!",
+          "source_url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 2,
+        "quote": "",
+        "source_url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "Nothing published on this page about caps, reapplication, or waiting periods. Additional verbatim criteria on the same page: \"Minimum cumulative GPA of 3.0/4.0\" and \"0-1 years of professional experience in Technology or related field\"."
+      }
+    },
+    {
+      "name": "Freshman Enhancement Program",
+      "cycle": "NOT a 2027-cycle source — page describes an earlier cycle",
+      "location": "New York (hybrid)",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 2 university page. STALE: its stated graduation window is December 2025 to June 2026 and its listed program dates are May 2023, so it documents a prior cycle, not the 2027 cycle. No current Morgan Stanley-domain page for this program was retrieved. Audience is first-year/freshman students; the schema enum has no 'freshman' value so 'sophomore' is used as the nearest early-ID bucket."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "You are pursuing an undergraduate degree with an expected graduation date between December 2025 and June 2026.",
+          "source_url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Selected candidates will participate in a 4-week virtual program. The program will include valuable training, as well as opportunities to network with each other and learn from Morgan Stanley professionals across our divisions.",
+          "source_url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 2,
+        "quote": "",
+        "source_url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No caps, reapplication, or waiting-period language on this page. The page also lists targeted identities (Black/African American, Hispanic/Latinx, Historically Underrepresented Populations, Indigenous/Native American, LGBTQ+) as a non-verbatim field list, not as a quotable sentence, so it is not placed in a quote field."
+      }
+    },
+    {
+      "name": "Early Insights Program (sophomore / early-ID track)",
+      "cycle": "2027 (unverified)",
+      "location": "unverified",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.morganstanley.com/people-opportunities/emea-early-insight-faq",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Morgan Stanley's own Early Insight FAQ timed out on two separate fetch attempts (ETIMEDOUT, read timeout). No firm-domain or university-career-services page carrying 2027-cycle Early Insights eligibility text was successfully retrieved within budget. Search-engine snippets asserting a 'December 2027 to June 2028' second-year eligibility window were seen but could NOT be traced to a retrievable primary page, so they are deliberately NOT recorded as quotes."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "A search snippet referenced a one-application-per-program rule for a 2022 Early Insights cycle, but no primary page was retrievable to confirm the wording, the cycle, or whether it still applies. Not recorded as a quote."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.morganstanley.com/people-opportunities/emea-early-insight-faq",
+      "reason": "ETIMEDOUT read timeout on two consecutive fetch attempts. This is the firm's own Early Insight FAQ and is the most likely home of application-cap / reapplication rules; it should be retried."
+    },
+    {
+      "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/faq/topic/local/15",
+      "reason": "Not blocked — loaded, but the candidate-system FAQ topic reached covers only editing a submitted application. Its only substantive text was: \"Once you have submitted your application, it is only possible to change your contact details. It is not possible for any other section to be amended.\" No cooling-off, cap, or reapplication content in this topic."
+    }
+  ],
+  "notes_for_human": "PRIORITY FIELD RESULT: Morgan Stanley publishes NO reapplication rule, NO post-rejection waiting period, NO assessment/HireVue retake rule, and NO firm-wide cap on number of applications on any page retrieved. The single cap found is the IBD posting's within-one-application preference limit (3 offices, 3 IBD groups) — do not let that be read as an application cap. The firm's EMEA Early Insight FAQ, the most probable location for a real cap, timed out twice and is the top retry target. Two aggregator claims were seen and deliberately EXCLUDED for lack of a primary source: (a) a '9 applications per year / 3 intern' IBD cap, and (b) a 2022 Early Insights one-application rule. Both are plausible and both are unverified — do not publish them. Also note the compensation figure $52.89/hour appears identically on both the IBD and Wealth Management 2027 postings, which is consistent but worth a second check. The Freshman Enhancement row is stale (prior cycle) and is flagged as such rather than dropped, because it documents the program's existence and structure; its graduation window must not be presented as 2027-cycle eligibility."
+}

@@ -1,0 +1,51 @@
+{
+  "firm": "PDT Partners",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "summer-2027-software-engineering-intern-ny-summer-2027",
+      "name": "Summer 2027 Software Engineering Intern (NY)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Current Bachelor's, Master's, or PhD students... graduating in Fall 2027 or later",
+          "checked": "2026-07-27",
+          "source_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$180,000 salary (posting figure, excl. bonus)"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now (posted ~7/25)",
+      "closes": "Rolling"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

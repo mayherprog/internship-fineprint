@@ -1,0 +1,233 @@
+{
+  "firm": "Google",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "name": "All Google roles — general application policy (applies to internships and full-time)",
+      "cycle": "evergreen (no cycle stated)",
+      "location": "not stated (global help centre article)",
+      "audience": "all",
+      "source": {
+        "url": "https://support.google.com/googlecareers/answer/6095391?hl=en",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Google's own Careers Help Centre article 'Apply for a job'. Readable server-side. This is the only page in this sweep that yielded a verbatim cooling-off rule."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://support.google.com/googlecareers/answer/6095391?hl=en"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://support.google.com/googlecareers/answer/6095391?hl=en"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "You can apply to up to three jobs within a rolling 30 day window.",
+          "source_url": "https://support.google.com/googlecareers/answer/6095391?hl=en"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://support.google.com/googlecareers/answer/6095391?hl=en"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "You must wait 90 days before re-applying for the same job.",
+        "source_url": "https://support.google.com/googlecareers/answer/6095391?hl=en",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "application",
+          "duration_months": 3,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "A second, separate rule on the same page caps concurrent applications, quoted verbatim: \"You can apply to up to three jobs within a rolling 30 day window.\" That is an application cap, not a waiting period, so it is recorded in fields.process as well. The 90-day rule is worded as 'the same job' — Google does not state on this page whether it extends to other roles, other teams, or other offices. Do not infer a broader scope."
+      }
+    },
+    {
+      "name": "STEP (Student Training in Engineering Program) — First Year Student track",
+      "cycle": "2023/24 — ARCHIVED, NOT the 2026-27 cycle",
+      "location": "North America",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Google-published document titled '2023/24 FAQs - STEP Application, North America'. Readable. CRITICAL: the graduation windows quoted below belong to the 2023/24 cycle. No 2026-27 equivalent of this document was located. A student must not apply the quoted dates to a Summer 2027 application."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our STEP- First Year Student application is intended for candidates in their first year of a Bachelor's degree program in Computer Science located in North America (with an anticipated graduation date of December 2026 - May 2027 depending on their program and unique circumstances).",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Please do not apply for both.",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "This STEP FAQ states nothing about reapplying after rejection, waiting periods, or retaking assessments. The only application-count language is the four-word instruction quoted in fields.process, which appears in the context of the First Year vs Second Year STEP applications — its scope beyond those two applications is not stated. The general 90-day / three-jobs rule in the row above lives on a different Google page and is not repeated here."
+      }
+    },
+    {
+      "name": "STEP (Student Training in Engineering Program) — Second Year Student track",
+      "cycle": "2023/24 — ARCHIVED, NOT the 2026-27 cycle",
+      "location": "North America",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Same archived 2023/24 Google-published FAQ. This is the sophomore-specific track the task asked about — it does exist as a named, separately-applied-for program."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our STEP- Second Year Student application is intended for candidates in their second year of a Bachelor's degree program in Computer Science located in North America (with an anticipated graduation date of December 2025 - June 2026 depending on their program and unique circumstances).",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Please do not apply for both.",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Nothing stated about reapplication, waiting periods, or assessment retakes in this FAQ."
+      }
+    },
+    {
+      "name": "Software Engineering Intern, BS, Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "not readable (posting blocked)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "The posting EXISTS and is live under this exact title as of 2026-07-29 (returned by search against google.com), which confirms Google is recruiting undergraduates for Summer 2027. The page body is JavaScript-rendered: two fetch attempts returned only site navigation plus a truncation marker, with zero qualification text. No eligibility language could be copied verbatim, so every field is left unverified rather than filled from a search snippet."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "Posting body unreadable. The firm-wide 90-day rule recorded in the first row is published separately at support.google.com and is not quoted here because it was not read on this posting."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.google.com/about/careers/applications/how-we-hire/faq",
+      "reason": "JavaScript-rendered. Fetch returned only navigation chrome and footer; no FAQ body text. This was the primary target for cooling-off language and it yielded nothing."
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/internships",
+      "reason": "JavaScript-rendered. Fetch returned navigation/landing scaffold only; no eligibility text."
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/buildyourfuture/internships",
+      "reason": "JavaScript-rendered. Fetch returned header/navigation only; no FAQ body."
+    },
+    {
+      "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/",
+      "reason": "JavaScript-rendered plus content truncation. Two attempts with different prompts both returned navigation only, no qualification bullets."
+    }
+  ],
+  "notes_for_human": "TWO THINGS A HUMAN MUST CHECK BEFORE THIS SHIPS. (1) The STEP graduation windows are from an ARCHIVED 2023/24 document — the internal evidence is the dates themselves (Dec 2025-June 2026 for second-years, Dec 2026-May 2027 for first-years), which are three cycles stale. Google publishes no equivalent 2026-27 STEP FAQ that I could reach. If these rows go into a public database keyed to Summer 2027, the cycle label MUST stay visible or a student will target the wrong graduation window. Consider suppressing the class_year rows entirely rather than publishing stale dates. (2) The whole of google.com/about/careers is client-side rendered and returned nothing usable across four fetches — including the careers FAQ, the internships landing page, and a live Summer 2027 posting. Any future pass on Google needs a headless browser, not plain fetching. THE ONE HIGH-VALUE FIND: support.google.com/googlecareers is server-rendered and DOES carry the cooling-off rule verbatim — 90 days before re-applying to the same job, and a cap of three applications per rolling 30 days. Both are firm-wide and tier 1. Note the 90-day rule is scoped by Google's own wording to 'the same job'; it does not say anything about other roles or other offices, and I have not extended it. WHAT I DID NOT DO: search results surfaced plausible-sounding minimum qualifications for the Summer 2027 SWE intern role and for STEP (programming languages, prior CS coursework, work permit in applying country, being located in the US). None of that came from a page I could read, so none of it was recorded. It is not evidence and should not be back-filled from an aggregator. Google's Summer 2027 undergraduate SWE internship IS confirmed live as of 2026-07-29 by the existence of the posting title; only its contents are unread."
+}

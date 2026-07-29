@@ -1,0 +1,297 @@
+{
+  "firm": "Goldman Sachs",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "id": "2027-summer-analyst-program",
+      "name": "2027 Summer Analyst Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched raw HTML directly (HTTP 200). Page states 'Applications will open on August 15' with no year given. Divisions listed: Asset Management, Controllers, Corporate Planning & Management, Corporate Treasury, Engineering, Executive Office, FICC and Equities (Sales and Trading), Global Investment Research, Global Compliance, Human Capital Management, Internal Audit, Investment Banking, Legal, Office of Regulatory Relations, Operations, Platform Solutions, Risk, Tax, Wealth Management."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The summer analyst role is for candidates currently pursuing a college or university degree and is usually undertaken during the third or penultimate year of study.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "If your application is selected, you will be asked to participate in a video interview, which will take approximately 30 minutes to complete. Engineering applicants will be asked to take a HackerRank assessment.",
+          "source_url": "https://www.goldmansachs.com/careers/students/prepare"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.goldmansachs.com/careers/students/prepare",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication rule, application cap, division cap, or assessment-retake rule appears on the program page or on the firm's student 'Prepare' page. Four guessed careers-FAQ URLs all returned HTTP 404 (see blocked_urls); the 'check our FAQs' link on the Prepare page is not present in the served HTML. Aggregator/vendor pages assert a 'up to four division/location combinations' cap, but that claim was NOT found in Goldman Sachs' own words and is therefore deliberately NOT recorded here."
+      },
+      "cycle": "Summer 2027",
+      "location": "Americas"
+    },
+    {
+      "id": "2027-summer-analyst-programme",
+      "name": "2027 Summer Analyst Programme",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched raw HTML directly (HTTP 200). EMEA wording differs materially from Americas: penultimate OR final year, and Masters students are explicitly in scope."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Summer Analyst role is for candidates currently pursuing a Bachelors or Masters university degree and in their penultimate or final year of study. We review applications on a rolling basis and encourage you to apply as soon as you are ready.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications for our 2027 EMEA Summer Analyst programmes will open on 15 August 2026.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "The page states rolling review but says nothing about reapplying, waiting periods, application caps, or retaking an assessment."
+      },
+      "cycle": "Summer 2027",
+      "location": "Europe, Middle East and Africa"
+    },
+    {
+      "id": "virtual-insight-series",
+      "name": "Virtual Insight Series",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched raw HTML directly (HTTP 200). Page is labelled 'UNDERGRAD AND MBA PROGRAM | AMERICAS'. The graduation window quoted (May 2026 - June 2027) appears to be carried over from a prior cycle and was NOT updated for a 2027-cycle audience as of the check date; recorded verbatim, not corrected."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Undergraduate students graduating between May 2026 -June 2027 attending a U.S College or University",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Goldman Sachs Virtual Insight Series is a multi-part educational experience for candidates interested in learning more about Goldman Sachs and exploring the opportunities available at the firm. This program will provide insight into the various businesses at Goldman Sachs and tips for navigating the recruiting process. Program details and schedule to be provided upon acceptance.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No stated rule on reapplying, caps, or waiting periods. The page also does not state whether participation feeds an early-identification or accelerated pipeline."
+      },
+      "cycle": "applications open in September (year not stated on page)",
+      "location": "Virtual / Americas"
+    },
+    {
+      "id": "goldman-sachs-possibilities-series",
+      "name": "Goldman Sachs Possibilities Series",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched raw HTML directly (HTTP 200). Labelled 'UNDERGRAD PROGRAM | AMERICAS'. Audience tagged 'sophomore' in this schema only as the closest early-year bucket; the firm's own words say FIRST-YEAR students (graduating Dec 2028 - May 2029), which for the 2027 summer cycle is a later cohort, not a 2027 Summer Analyst feeder."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "First year undergraduate students graduating between December 2028 - May 2029 attending a U.S. college/university",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications are now closed.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No stated rule on reapplying, caps, or waiting periods."
+      },
+      "cycle": "Spring 2026 (applications closed as of check date)",
+      "location": "Americas"
+    },
+    {
+      "id": "emerging-leaders-series",
+      "name": "Emerging Leaders Series",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched raw HTML directly (HTTP 200). Labelled 'UNDERGRAD AND MBA PROGRAM | AMERICAS'. This is the closest thing on the site to an explicit early-ID track for second-year undergraduates: the firm states it gives 'transparency into the recruitment process', but stops short of stating any accelerated or guaranteed pathway."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Emerging Leaders Series is a program for undergraduate students in their 2nd year of study. Our program provides participants with technical training, mentorship, and transparency into the recruitment process.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will open in the fall 2026.",
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No stated rule on reapplying, caps, or waiting periods. Additional verbatim eligibility line on the same page: 'Open to all majors' and 'Undergraduate students graduating between December 2028 - June 2029'."
+      },
+      "cycle": "December 2026 (applications open fall 2026)",
+      "location": "Americas"
+    },
+    {
+      "id": "virtual-insight-series-summer-2027",
+      "name": "Virtual Insight Series",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.goldmansachs.com/careers/students",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "All undergrads incl. sophomores"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "~Sep 2026",
+      "closes": "—"
+    }
+  ],
+  "provenance": {
+    "origin": "per-firm web research, one agent per firm",
+    "transcribed": "2026-07-29",
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
+  }
+}

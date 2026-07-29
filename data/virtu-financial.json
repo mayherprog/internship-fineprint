@@ -1,0 +1,84 @@
+{
+  "firm": "Virtu Financial",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "2027-internship-quant-research-undergrad-ny-summer-2027",
+      "name": "2027 Internship — Quant Research (Undergrad), NY",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "No class-year/graduation-date restriction in posting text; standard future-sponsorship screening question (form live 7/27); program Jun 7–Aug 13, 2027"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$5,000–$5,300/week"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    },
+    {
+      "id": "virtu-financial-software-engineer-internship-austin-ny-summer-2027",
+      "name": "Virtu Financial — Software Engineer Internship (Austin/NY)",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-24",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Rising juniors, or students expected to be ready for full time employment between December 2027 - June 2028",
+          "checked": "2026-07-24",
+          "source_url": null,
+          "source_status": "url_pending"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

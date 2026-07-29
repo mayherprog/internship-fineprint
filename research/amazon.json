@@ -1,0 +1,293 @@
+{
+  "firm": "Amazon",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "name": "Internships for students (Amazon University Talent Acquisition program hub)",
+      "cycle": "not stated on page (evergreen program hub)",
+      "location": "not stated",
+      "audience": "all",
+      "source": {
+        "url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Program hub page rendered and returned body text. Contains a single eligibility sentence; no sponsorship, process, or pay language returned."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our internships are for rising seniors and recent graduates with an undergraduate, master's, or doctorate degree.",
+          "source_url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or retake language on this page."
+      }
+    },
+    {
+      "name": "2027 Amazon Finance Rotation Program - Accounting Intern (Job ID 10435671)",
+      "cycle": "Summer 2027",
+      "location": "USA, WA, Seattle (per posted pay range)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Amazon's own ATS posting. Basic qualifications, sponsorship line, and pay range all returned. No description of interview/assessment steps returned."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Currently enrolled in a bachelor's degree program in Accounting (or a dual degree/sub-matriculation master's degree program completed concurrently with your bachelor's degree at the same institution) with a graduation conferral date between December 2027 and June 2028",
+          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We are unable to offer visa sponsorship for this role",
+          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "USA, WA, Seattle - 80,200.00 - 99,300.00 USD annually",
+          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "Job posting contains no reapplication or assessment-retake language."
+      }
+    },
+    {
+      "name": "2027 Software Dev Engineer Intern (Job ID 10418355)",
+      "cycle": "Summer 2027",
+      "location": "not captured",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Amazon's own ATS posting. Basic qualifications returned; sponsorship line, process description, and pay range were NOT present in the retrieved text — this may be a rendering artifact rather than true silence, so those fields are marked unverified."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Are enrolled in a Bachelor's degree or above in Computer Science, Computer Engineering, or related fields at time of application",
+          "source_url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or online-assessment-retake language in the posting body."
+      }
+    },
+    {
+      "name": "Amazon Future Engineer Scholarship (with paid Amazon internship offer)",
+      "cycle": "not stated on page",
+      "location": "U.S.",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.amazonfutureengineer.com/scholarships",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "This is the only Amazon-run track surfaced that reaches students below rising-senior standing, but entry is at HIGH SCHOOL SENIOR stage, not open to current college sophomores. The page did not state, in text, which college year the internship falls in — only winner testimonials referenced interning as a freshman, and testimonials were not captured verbatim."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Be a high school senior in the U.S. who is currently enrolled in or who has completed a high school or college dual degree course where computer science is the subject.",
+          "source_url": "https://www.amazonfutureengineer.com/scholarships"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Must be authorized to work in the U.S. Example: Employment Authorization Document holder, Permanent Resident, or U.S. Citizen.",
+          "source_url": "https://www.amazonfutureengineer.com/scholarships"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.amazonfutureengineer.com/scholarships"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "$40,000 (up to $10,000/year)",
+          "source_url": "https://www.amazonfutureengineer.com/scholarships"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.amazonfutureengineer.com/scholarships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication waiting period stated."
+      }
+    },
+    {
+      "name": "Amazon hiring FAQ - reapplication and assessment retake policy (firm-wide)",
+      "cycle": "n/a",
+      "location": "n/a",
+      "audience": "all",
+      "source": {
+        "url": "https://amazon.jobs/content/en/faq/assessment",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "FAQ question TITLES render, but every answer body is inside a JavaScript-collapsed accordion and was not retrievable. Same failure on /faq/application and /faq/university-talent. Amazon's OA retake/reapplication rule, if published, lives behind these accordions and could NOT be read."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://amazon.jobs/content/en/faq/university-talent"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://amazon.jobs/content/en/faq/university-talent"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://amazon.jobs/content/en/faq/assessment"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://amazon.jobs/content/en/faq/university-talent"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://amazon.jobs/content/en/faq/assessment",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "all_roles",
+          "resets_allowed": null
+        },
+        "notes": "PRIORITY FIELD NOT RESOLVED. Amazon's assessment FAQ exposes question titles including 'Can you provide info on the HackerRank Assessment?', 'Can you provide info on the Workstyle Assessment?' and 'Can you provide info on the SDE II Online Assessment?', and the application FAQ exposes 'Can I apply or interview for more than one role at a time?' — but all answer text is JS-collapsed and unreadable. No verbatim retake-limit or waiting-period sentence could be captured from Amazon's own domain. Do NOT populate this field from forum claims."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://amazon.jobs/content/en/faq/assessment",
+      "reason": "JS-collapsed accordion; question titles render but no answer text retrievable"
+    },
+    {
+      "url": "https://amazon.jobs/content/en/faq/application",
+      "reason": "JS-collapsed accordion; question titles render but no answer text retrievable"
+    },
+    {
+      "url": "https://amazon.jobs/content/en/faq/university-talent",
+      "reason": "JS-collapsed accordion; 11 Application + 9 Interview Process question titles render, no answer bodies"
+    },
+    {
+      "url": "https://www.amazon.jobs/content/en/how-we-hire/assessments",
+      "reason": "Hub page only; section bodies ('About assessments', 'The formalities', 'After assessments') not rendered"
+    },
+    {
+      "url": "https://www.amazon.jobs/content/en/faq/application-process",
+      "reason": "HTTP 404 (dead URL; correct path is /faq/application)"
+    },
+    {
+      "url": "https://www.amazon.jobs/content/en/career-programs/student-programs",
+      "reason": "Rendered but contained no eligibility, sponsorship, process, or pay text"
+    }
+  ],
+  "notes_for_human": "1) PRIORITY FIELD FAILED CLEANLY: Amazon's cooling-off / online-assessment-retake rule could not be verified. Every candidate FAQ page on amazon.jobs renders question titles but hides answer bodies behind JavaScript accordions. A human with a browser should open https://amazon.jobs/content/en/faq/assessment and https://amazon.jobs/content/en/faq/application and expand each item. Do not backfill from Reddit/Blind/aggregators. 2) CONFLICT WORTH FLAGGING: Amazon's own program hub states internships are for 'rising seniors and recent graduates', while Amazon's newsroom (aboutamazon.com) has separately described internships as occurring between sophomore and junior years. I did not capture the newsroom sentence verbatim, so it is not recorded as a quote. These two tier-1 Amazon sources appear to disagree; a human should resolve before this row is published. 3) SOPHOMORE ANSWER: no Amazon program found that admits current college sophomores or first-years as an entry point. Amazon Future Engineer is the closest, but its entry gate is high school senior standing; the attached internship goes to scholarship winners, not to external sophomore applicants. No 'Propel' undergraduate program was found on any Amazon domain — searches returned nothing; treat as 'no evidence found', not 'does not exist'. 4) Job-posting rows are cycle-specific and will rot: job IDs 10435671 and 10418355 are live 2027-cycle reqs and will be delisted after the season. 5) Quotes were extracted via a page-summarizing fetch layer rather than direct DOM copy; the Accounting posting bullets and the AFE eligibility bullets read as clean verbatim, but a human should spot-check character-level fidelity before this goes into a citable public database."
+}

@@ -1,0 +1,81 @@
+{
+  "firm": "D. E. Shaw",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "software-developer-intern-summer-2027-ny-summer-2027",
+      "name": "Software Developer Intern, Summer 2027 (NY)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Students who apply to this internship are usually approaching their final year",
+          "checked": "2026-07-27",
+          "source_url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$25k/month + $25k sign-on + housing/allowance + stipends"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    },
+    {
+      "id": "d-e-shaw-quant-analyst-intern-2027",
+      "name": "D. E. Shaw Quant Analyst Intern 2027",
+      "audience": "unknown",
+      "source": {
+        "url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890",
+        "checked": "2026-07-27",
+        "check_method": "manual",
+        "status": "blocked",
+        "note": "deshaw.com blocked unattended; combined QA+SWE posting (5906) also exists."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

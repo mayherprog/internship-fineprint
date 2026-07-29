@@ -1,0 +1,51 @@
+{
+  "firm": "Stevens Capital Management",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "developer-internship-radnor-pa-summer-2027",
+      "name": "Developer Internship (Radnor, PA)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/scm/jobs/721888",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing an undergraduate or graduate level degree in Computer Science or Mathematics",
+          "checked": "2026-07-27",
+          "source_url": "https://job-boards.greenhouse.io/scm/jobs/721888",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "Not listed (quant fund; do not assume a figure)"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}
