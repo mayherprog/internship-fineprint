@@ -47,6 +47,13 @@ Semantic roles, defined once per theme (light and dark via `prefers-color-scheme
 | `--unver` / `--unver-bg` | not yet verified (grey) |
 | `--warn` / `--warn-bg` | caution: lockout rules, missing sources, the read-this-first notice |
 | `--accent-soft` | filled hover/selected wash for interactive surfaces (blue-tinted, so it can never be mistaken for a state) |
+| `--shadow` | card/tile/search elevation; soft double shadow in light, single subtle in dark |
+
+Tokens are defined on `:root` (light), redefined under `prefers-color-scheme:
+dark`, then again under `:root[data-theme="light"]` and `:root[data-theme="dark"]`
+so the manual toggle overrides the OS preference **in both directions**. The
+choice persists in `localStorage` — a device preference, not personal data, so it
+does not violate the nothing-personal rule.
 
 The three record states map one-to-one to the three state color pairs and nowhere
 else. Do not reuse state colors decoratively. The accent stays blue
@@ -100,7 +107,15 @@ max 80ch.
   search, not with a warning. The screener keeps its own short inline
   disclaimer next to the results it qualifies — that one carries the caveat at
   the point of use, which is why the About line can afford to be one word.
+- **Header** — the wordmark "Fineprint" (heavy, tight tracking, accent full
+  stop) over the tagline, with the theme toggle pill on the right. The product
+  has a name; the page title is not a sentence.
+- **Hero line** — one sentence above the search box carrying the live counts
+  ("Search N programs at N firms."). This is the only place counts appear on
+  home.
 - **Sector tile** — bold name over muted "N firms · N programs". Navigates.
+  Tiles, cards and the search field carry `--shadow`; the reference register is
+  a job board (raised white cards on a warm ground), not a terminal.
 - **Quick chip** — pill-shaped view shortcut. Plain descriptions, no slang.
 - **Controls bar** — sticky; back button, selects, search. First option of each
   select doubles as its label; each select also carries an `aria-label`.

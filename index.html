@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Internship eligibility, in the firms' own words</title>
+<title>Fineprint — internship eligibility, in the firms' own words</title>
 <meta name="description" content="A sourced, dated record of what firms actually state about internship eligibility, sponsorship, class year and cooling-off periods.">
 <style>
 :root{
-  --bg:#fbfbfa; --fg:#1a1a19; --muted:#6b6b66; --line:#e2e1dc; --card:#fff;
+  --bg:#f6f5f2; --fg:#1a1a19; --muted:#6b6b66; --line:#e2e1dc; --card:#fff;
   --stated:#1c6b3f; --stated-bg:#e8f3ec; --silent:#7a6a2f; --silent-bg:#f6f1e0;
   --unver:#6b6b66; --unver-bg:#efeeea; --warn:#8a3324; --warn-bg:#f9ebe8; --accent:#1f4f82;
   --accent-soft:#e7eef6;
+  --shadow:0 1px 2px rgba(26,26,25,.05),0 4px 14px rgba(26,26,25,.06);
   --r-sm:8px; --r-md:12px; --r-pill:999px;
 }
 @media (prefers-color-scheme: dark){
@@ -20,25 +21,53 @@
     --stated:#8ecfa4; --stated-bg:#25392b; --silent:#d8c47e; --silent-bg:#39321d;
     --unver:#a8a096; --unver-bg:#333029; --warn:#e8a396; --warn-bg:#42261f; --accent:#93bce8;
     --accent-soft:#2c3c50;
+    --shadow:0 1px 3px rgba(0,0,0,.35);
   }
+}
+/* Manual theme choice beats the OS preference in BOTH directions. */
+:root[data-theme="light"]{
+  --bg:#f6f5f2; --fg:#1a1a19; --muted:#6b6b66; --line:#e2e1dc; --card:#fff;
+  --stated:#1c6b3f; --stated-bg:#e8f3ec; --silent:#7a6a2f; --silent-bg:#f6f1e0;
+  --unver:#6b6b66; --unver-bg:#efeeea; --warn:#8a3324; --warn-bg:#f9ebe8; --accent:#1f4f82;
+  --accent-soft:#e7eef6;
+  --shadow:0 1px 2px rgba(26,26,25,.05),0 4px 14px rgba(26,26,25,.06);
+}
+:root[data-theme="dark"]{
+  --bg:#23211d; --fg:#f0ede6; --muted:#a8a096; --line:#3c3730; --card:#2d2a25;
+  --stated:#8ecfa4; --stated-bg:#25392b; --silent:#d8c47e; --silent-bg:#39321d;
+  --unver:#a8a096; --unver-bg:#333029; --warn:#e8a396; --warn-bg:#42261f; --accent:#93bce8;
+  --accent-soft:#2c3c50;
+  --shadow:0 1px 3px rgba(0,0,0,.35);
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);
   font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-.wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
-h1{font-size:1.7rem;margin:0 0 6px;letter-spacing:-.02em}
-h2{margin:30px 0 10px;color:var(--muted);font-weight:600;font-size:.92rem}
+.wrap{max-width:1180px;margin:0 auto;padding:20px 20px 80px}
+.top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:0 0 26px}
+.wordmark{font-size:1.65rem;font-weight:800;letter-spacing:-.03em;line-height:1.15}
+.wordmark::after{content:".";color:var(--accent)}
+.tagline{color:var(--muted);font-size:.95rem;margin-top:2px}
+.theme{font:inherit;font-size:1.05rem;line-height:1;padding:9px 11px;border:1px solid var(--line);
+  border-radius:var(--r-pill);background:var(--card);color:var(--fg);cursor:pointer;box-shadow:var(--shadow)}
+.theme:hover{border-color:var(--accent);background:var(--accent-soft)}
+h2{margin:34px 0 12px;color:var(--fg);font-weight:700;font-size:.98rem}
 .sub{color:var(--muted);margin:0 0 20px;max-width:70ch}
+.hero-line{color:var(--muted);margin:0 0 10px;font-size:1.02rem}
+.hero-line b{color:var(--fg)}
 .banner{border:1px solid var(--line);border-left:4px solid var(--warn);background:var(--warn-bg);
   padding:12px 16px;border-radius:var(--r-sm);margin:0 0 22px;font-size:.9rem;max-width:80ch}
-.bigsearch{display:flex;gap:10px;margin:0 0 8px;max-width:640px}
-.bigsearch input{flex:1;font:inherit;font-size:1.05rem;padding:13px 16px;border:1px solid var(--line);
-  border-radius:var(--r-md);background:var(--card);color:var(--fg)}
-.bigsearch button{font:inherit;padding:13px 20px;border:1px solid var(--line);border-radius:var(--r-md);
-  background:var(--accent);color:var(--bg);font-weight:600;cursor:pointer}
+.bigsearch{display:flex;gap:10px;margin:0 0 8px;max-width:720px}
+.bigsearch input{flex:1;font:inherit;font-size:1.08rem;padding:15px 18px;border:1px solid var(--line);
+  border-radius:var(--r-md);background:var(--card);color:var(--fg);box-shadow:var(--shadow)}
+.bigsearch input:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.bigsearch button{font:inherit;font-size:1.02rem;padding:15px 26px;border:1px solid var(--accent);
+  border-radius:var(--r-md);background:var(--accent);color:#fff;font-weight:600;cursor:pointer;
+  box-shadow:var(--shadow)}
+.bigsearch button:hover{filter:brightness(1.08)}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
-.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px;
-  cursor:pointer;text-align:left;color:var(--fg);font-family:inherit;font-size:.95rem}
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:15px 17px;
+  cursor:pointer;text-align:left;color:var(--fg);font-family:inherit;font-size:.95rem;
+  box-shadow:var(--shadow)}
 .tile:hover,.tile:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
 .tile b{display:block;margin-bottom:3px}
 .tile span{color:var(--muted);font-size:.8rem}
@@ -55,7 +84,9 @@ select,.controls input{font:inherit;font-size:.9rem;padding:7px 10px;border:1px 
   border-radius:var(--r-sm);background:var(--card);color:var(--accent);cursor:pointer;font-weight:600}
 .controls .back:hover,.controls .back:focus-visible{background:var(--accent-soft);border-color:var(--accent)}
 .count{color:var(--muted);font-size:.85rem;margin:10px 0 14px}
-details.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);margin:0 0 8px}
+details.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);margin:0 0 10px;
+  box-shadow:var(--shadow)}
+details.card:hover{border-color:var(--accent)}
 details.card>summary{list-style:none;cursor:pointer;padding:12px 16px;display:flex;
   flex-wrap:wrap;align-items:baseline;gap:6px 10px}
 details.card>summary::-webkit-details-marker{display:none}
@@ -107,12 +138,17 @@ footer{margin-top:20px;padding-top:14px;border-top:1px solid var(--line);color:v
 </head>
 <body>
 <div class="wrap">
-<h1>Internship eligibility, in the firms' own words</h1>
-<p class="sub">Every row is a sentence a firm published about who may apply, quoted exactly, with a
-link and the date it was read. Firms that say nothing are recorded as saying nothing.</p>
+<header class="top">
+  <div>
+    <h1 class="wordmark">Fineprint</h1>
+    <div class="tagline">Internship eligibility, in the firms' own words</div>
+  </div>
+  <button id="themeToggle" class="theme" aria-label="Switch between light and dark theme">◐</button>
+</header>
 
 <!-- ============================== HOME ============================== -->
 <section id="home">
+  <p class="hero-line">Search <b id="nProg"></b> programs at <b id="nFirm"></b> firms.</p>
   <div class="bigsearch">
     <input id="homeq" type="search" placeholder="Search firms, programs, quoted text — try a firm name or &ldquo;CPT&rdquo;">
     <button id="homego">Search</button>
@@ -180,6 +216,8 @@ link and the date it was read. Firms that say nothing are recorded as saying not
 <details class="about">
   <summary>About</summary>
   <div class="body">
+    <p>Every row is a sentence a firm published about who may apply, quoted exactly, with a
+    link and the date it was read. Firms that say nothing are recorded as saying nothing.</p>
     <p>This is a dated snapshot, not advice, and not a verdict about you.
     <strong>The firm's own current page is always the authority</strong> — pages get rewritten
     without notice, and several postings recorded here have already been taken down since they
@@ -354,7 +392,7 @@ function fill(sel, map, label){
       .map(v => `<option value="${esc(v)}">${esc(map[v] || v)}</option>`).join('');
 }
 fill('sector', SECTORS, 'Sector');
-fill('audience', AUD, 'Aimed at');
+fill('audience', AUD, 'Class year');
 
 const coolMatch = (r, c) =>
   !c || (c === 'restrictive' ? (r.cooling_off.parsed || {}).restrictive === true
@@ -395,7 +433,30 @@ $('homeBtn').addEventListener('click', () => show('home'));
 $('homego').addEventListener('click', () => go({q: $('homeq').value.trim()}));
 $('homeq').addEventListener('keydown', e => { if (e.key === 'Enter') go({q: $('homeq').value.trim()}); });
 
+/* ------------------------------ theme ------------------------------ */
+/* Manual choice persists and overrides the OS preference in both
+   directions; a device preference is not personal data. */
+const themeBtn = $('themeToggle');
+function applyTheme(t){
+  if (t) document.documentElement.dataset.theme = t;
+  const dark = t ? t === 'dark'
+                 : matchMedia('(prefers-color-scheme: dark)').matches;
+  themeBtn.textContent = dark ? '☀' : '☾';
+  themeBtn.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
+}
+try { applyTheme(localStorage.getItem('fineprint-theme') || null); }
+catch(e){ applyTheme(null); }
+themeBtn.addEventListener('click', () => {
+  const cur = document.documentElement.dataset.theme
+    || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+  const next = cur === 'dark' ? 'light' : 'dark';
+  applyTheme(next);
+  try { localStorage.setItem('fineprint-theme', next); } catch(e){}
+});
+
 /* ------------------------------ home ------------------------------- */
+$('nProg').textContent = DATA.length;
+$('nFirm').textContent = new Set(DATA.map(r => r.firm)).size;
 const bySector = {};
 DATA.forEach(r => {
   const o = bySector[r.sector] ||= {n:0, firms:new Set(), rules:0};
