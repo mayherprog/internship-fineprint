@@ -4,6 +4,13 @@ The rules the interface follows. New surfaces — including the screener — mus
 from these tokens and components rather than introducing parallel ones. The tokens
 live as CSS custom properties in `tools/template.html`; this file is their contract.
 
+Parts of this contract were adopted from the sibling project's design system
+(`mental-math/DESIGN.md`), which documents what transfers and what must not. The
+boundary matters more than the imports: that project's accent is green and its warn
+colour is amber, and neither colour value may travel here, because here green
+uniquely means *stated* and amber uniquely means *publishes nothing* (principle 2).
+A shared aesthetic is worth less than an unambiguous state colour.
+
 ## Principles, in priority order
 
 1. **The quote is the interface.** Everything else — pills, filters, parsed chips —
@@ -39,9 +46,15 @@ Semantic roles, defined once per theme (light and dark via `prefers-color-scheme
 | `--silent` / `--silent-bg` | publishes nothing (amber — deliberately neither go nor stop) |
 | `--unver` / `--unver-bg` | not yet verified (grey) |
 | `--warn` / `--warn-bg` | caution: lockout rules, missing sources, the read-this-first notice |
+| `--accent-soft` | filled hover/selected wash for interactive surfaces (blue-tinted, so it can never be mistaken for a state) |
 
 The three record states map one-to-one to the three state color pairs and nowhere
-else. Do not reuse state colors decoratively.
+else. Do not reuse state colors decoratively. The accent stays blue
+(`#1f4f82` / `#8fb8e8`) precisely so that no interactive affordance shares a hue
+with any record state.
+
+Neutrals are warm on purpose (`#fbfbfa` ground, `#14150f` dark ground), matching
+the sibling project's warm-neutral rule without importing its palette.
 
 ## Type scale
 
@@ -57,12 +70,21 @@ else. Do not reuse state colors decoratively.
 
 Section headers on home are the Label step at 0.8rem, muted.
 
+**Monospace is for digits that must line up in a column, never for words.** The
+`.num` helper (system mono stack, tabular numerals) applies to the home stat
+numbers. It does not apply to dates inside sentences, durations, headings, labels,
+or quotes — a date in a quote is part of a phrase, not a column. Small uppercase
+field labels and state pills are kept deliberately: they are conventional in a
+dense data table (the sibling project removed uppercase for its own reasons; that
+was a judgement call there, not a rule here).
+
 ## Spacing and shape
 
 Base unit 4px. Common paddings: 12–16px inside cards and tiles, 9–13px inside
-controls and stats. Radii: 7px controls, 8px field boxes and stats, 10px cards and
-tiles, 20px pills and quick chips. Page column max-width 1180px; long prose blocks
-(banner, footer) max 80ch.
+controls and stats. Radii are tokens: `--r-sm: 8px` (controls, field boxes, stats,
+banner), `--r-md: 12px` (cards, tiles, the home search), `--r-pill: 999px` (pills
+and quick chips). Page column max-width 1180px; long prose blocks (banner, footer)
+max 80ch.
 
 ## Components
 
@@ -72,9 +94,14 @@ tiles, 20px pills and quick chips. Page column max-width 1180px; long prose bloc
 - **Quick chip** — pill-shaped view shortcut. Plain descriptions, no slang.
 - **Controls bar** — sticky; back button, selects, search. First option of each
   select doubles as its label; each select also carries an `aria-label`.
-- **Card (`<details>`)** — collapsed summary row: firm (accent) — program, state
-  pill for class year, warn pill if a reapplication rule is stated, muted audience/
-  cycle. Cycle text over 28 characters stays in the drawer.
+- **Card (`<details>`)** — collapsed summary row: firm (accent) — program, then
+  **labelled** state pills for class year and sponsorship, warn pill if a
+  reapplication rule is stated, muted audience/cycle. Cycle text over 28
+  characters stays in the drawer. **The summary must carry the record's state,
+  named** — a bare "stated" pill answers "what state?" but not "state of what?",
+  and a collapsed card that hides its states forces a reader to open every
+  drawer. (Adopted from the sibling project's disclosure rule: the summary
+  carries the current value.)
 - **Drawer** — meta line, source note if any, calendar line if a date parses,
   2×2 field grid, cooling-off block, unfiled quotes.
 - **Field box** — label + state pill, then exactly one of: a quote (green left
@@ -102,3 +129,15 @@ semantics:
 The screener never uses the words "eligible", "qualified", or "fit". A disclaimer
 above the results repeats that this is criteria matching against a dated snapshot,
 not an eligibility determination.
+
+## Interaction rules
+
+- **Selected and hovered interactive surfaces fill, they do not hint.** Stat
+  tiles, sector tiles, quick chips and the back button take an `--accent-soft`
+  fill with an accent border on hover and keyboard focus — never a one-pixel
+  border change alone.
+- **A control is always rendered; a media query may only restyle it, never
+  create it.** A media query must not be the only thing standing between a
+  reader and a working control.
+- **Stat labels reserve two lines** so the numbers above them share a baseline
+  regardless of label length.
