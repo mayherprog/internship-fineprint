@@ -20,7 +20,13 @@
           "quote": "At least junior standing, with a graduation date of December 2027 or May 2028",
           "checked": "2026-07-24",
           "source_url": null,
-          "source_status": "url_pending"
+          "source_status": "url_pending",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-05"
+            ]
+          }
         },
         "sponsorship": {
           "state": "unverified"

@@ -20,7 +20,10 @@
           "quote": "Current Bachelor's, Master's, or PhD students... graduating in Fall 2027 or later",
           "checked": "2026-07-27",
           "source_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
-          "source_status": "ok"
+          "source_status": "ok",
+          "parsed": {
+            "graduates_from": "2027-09"
+          }
         },
         "sponsorship": {
           "state": "unverified"

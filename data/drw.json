@@ -20,7 +20,13 @@
           "quote": "Expected graduation date between December 2027 and June 2028",
           "checked": "2026-07-27",
           "source_url": null,
-          "source_status": "url_pending"
+          "source_status": "url_pending",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "unverified"

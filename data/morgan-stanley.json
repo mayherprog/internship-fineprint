@@ -17,7 +17,13 @@
           "state": "stated",
           "tier": 1,
           "quote": "Pursuing an undergraduate degree with a graduation date between December 2027 and June 2028",
-          "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB"
+          "source_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "silent",
@@ -75,13 +81,22 @@
           "state": "stated",
           "tier": 1,
           "quote": "Pursuing an undergraduate degree with an expected graduation date between December 2027 and June 2028",
-          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB"
+          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Legally authorized to work in the U.S. without requiring sponsorship, now or in the future, for employment visa status",
-          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB"
+          "source_url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB",
+          "parsed": {
+            "no_future_sponsorship": true
+          }
         },
         "process": {
           "state": "stated",

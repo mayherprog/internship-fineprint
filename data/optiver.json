@@ -17,13 +17,22 @@
           "state": "stated",
           "tier": 1,
           "quote": "Expected graduation between December 2027 and June 2029, with sophomore standing or higher.",
-          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/"
+          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2029-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Optiver is supportive of US immigration sponsorship for this role.",
-          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/"
+          "source_url": "https://www.optiver.com/join-us/jobs/institutional-sales-and-trading/chicago/quantitative-intern-summer-2027/",
+          "parsed": {
+            "sponsors": true
+          }
         },
         "process": {
           "state": "stated",
@@ -74,7 +83,13 @@
           "quote": "Dec 2027 to June 2028, junior standing or higher",
           "checked": "2026-07-22",
           "source_url": null,
-          "source_status": "url_pending"
+          "source_status": "url_pending",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "unverified"
