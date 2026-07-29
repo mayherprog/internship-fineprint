@@ -216,11 +216,15 @@ def normalise(rec):
         else:
             seen[base] = 1
 
+    # Research files are raw output and still carry the original sector
+    # spellings; the schema renamed big_tech/big_law to plain names.
+    sector = {"big_tech": "technology", "big_law": "law"}.get(
+        rec.get("sector"), rec.get("sector"))
     return {
         "firm": (rec.get("firm") or "").replace("&amp;", "&").strip(),
-        "sector": rec.get("sector") if rec.get("sector") in {
-            "big_tech", "banking_finance", "quant_trading", "consulting",
-            "big_law", "asset_management", "government", "other"} else "other",
+        "sector": sector if sector in {
+            "technology", "banking_finance", "quant_trading", "consulting",
+            "law", "asset_management", "government", "other"} else "other",
         "programs": programs,
         "provenance": {
             "origin": "per-firm web research, one agent per firm",

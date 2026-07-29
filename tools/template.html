@@ -129,13 +129,13 @@ link and the date it was read. Firms that say nothing are recorded as saying not
       <option value="restrictive">States a waiting period or cap</option>
       <option value="stated">States any reapplication rule</option>
       <option value="silent">Publishes nothing</option>
-      <option value="unverified">Not checked yet</option>
+      <option value="unverified">Not yet verified</option>
     </select>
     <select id="spon">
       <option value="">Sponsorship: any</option>
       <option value="stated">States something</option>
       <option value="silent">Publishes nothing</option>
-      <option value="unverified">Not checked yet</option>
+      <option value="unverified">Not yet verified</option>
     </select>
     <input id="q" type="search" placeholder="Search firms, programs, quoted text…">
   </div>
@@ -160,7 +160,7 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
 const $ = id => document.getElementById(id);
 
 function pill(state, extra){
-  const label = {stated:'stated', silent:'publishes nothing', unverified:'not checked'}[state] || state;
+  const label = {stated:'stated', silent:'publishes nothing', unverified:'unverified'}[state] || state;
   return `<span class="pill s-${esc(state)}${extra||''}">${esc(label)}</span>`;
 }
 function srcLink(url, status){
@@ -175,7 +175,7 @@ function fieldHTML(key, f){
   if (f.state === 'stated') body = `<div class="q quote">&ldquo;${esc(f.quote)}&rdquo;</div>`;
   else if (f.state === 'silent') body = `<div class="none">The firm publishes nothing on this.</div>`;
   else body = `<div class="none">${f.summary_note ? esc(f.summary_note) + ' — unverified, not the firm\'s wording'
-                                                  : 'Nobody has checked this yet.'}</div>`;
+                                                  : 'Not yet verified.'}</div>`;
   const tier = f.tier && f.state === 'stated' ? ` &middot; tier ${esc(f.tier)}` : '';
   const link = f.state === 'stated' ? ' &middot; ' + srcLink(f.source_url, f.source_status) : '';
   return `<div class="f"><div class="lbl">${esc(FIELDS[key])}${pill(f.state)}</div>${body}
@@ -188,7 +188,7 @@ function coolHTML(co){
   else if (co.state === 'silent') body = `<div class="none">The firm publishes no reapplication or
     assessment-retry rule on the page checked. That is a fact about the public record, not proof
     no rule exists.</div>`;
-  else body = `<div class="none">Not checked yet.</div>`;
+  else body = `<div class="none">Not yet verified.</div>`;
   const p = co.parsed || {};
   const bits = [];
   // Parsed labels appear ONLY when the firm states an actual constraint;
@@ -207,8 +207,51 @@ function coolHTML(co){
     <div class="notes">${co.checked ? 'checked ' + esc(co.checked) + ' &middot; ' : ''}
       ${has ? srcLink(co.source_url, co.source_status) : ''}</div></div>`;
 }
+/* --------------------------- calendar links ------------------------ */
+const MONTHS = {jan:0,feb:1,mar:2,apr:3,may:4,jun:5,jul:6,aug:7,sep:8,oct:9,nov:10,dec:11};
+function parseWhen(s){
+  if (!s) return null;
+  const m = s.match(/([A-Za-z]{3,9})\.?\s*(\d{1,2})?,?\s*(20\d\d)/);
+  if (!m) return null;
+  const mo = MONTHS[m[1].slice(0,3).toLowerCase()];
+  if (mo === undefined) return null;
+  // Nearly every date in this dataset is the tracker author's estimate,
+  // marked ~ / "expected" / "anticipated". A reminder built from one must
+  // say so, or the calendar entry asserts a deadline nobody stated.
+  return {y:+m[3], mo, d: m[2] ? +m[2] : 1, exact: !!m[2],
+          est: /[~≈]|expected|anticipated|late|early|mid|per\s|fall|spring/i.test(s)};
+}
+function icsEscape(s){ return s.replace(/\\/g,'\\\\').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\n/g,'\\n'); }
+function calHTML(r){
+  const c = parseWhen(r.closes), o = c ? null : parseWhen(r.opens);
+  const w = c || o;
+  if (!w) return '';
+  const kind = c ? 'application deadline' : 'application window opens';
+  const raw = c ? r.closes : r.opens;
+  const estimated = w.est || !w.exact;
+  const pad = n => String(n).padStart(2,'0');
+  const day1 = `${w.y}${pad(w.mo+1)}${pad(w.d)}`;
+  const next = new Date(Date.UTC(w.y, w.mo, w.d + 1));
+  const day2 = `${next.getUTCFullYear()}${pad(next.getUTCMonth()+1)}${pad(next.getUTCDate())}`;
+  const title = `${r.firm} — ${r.name}: ${kind}${estimated ? ' (estimated)' : ''}`;
+  const details = `Recorded ${r.source.checked || 'undated'} as: "${raw}". ` +
+    (estimated ? 'This date is an estimate, not a firm-stated deadline. ' : '') +
+    `Verify on the firm's own page before relying on it.` +
+    (r.source.url ? ` ${r.source.url}` : '');
+  const g = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(title)}&dates=${day1}/${day2}&details=${encodeURIComponent(details)}`;
+  const ics = ['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//internship-eligibility//EN','BEGIN:VEVENT',
+    `UID:${r.id}@internship-eligibility`,`DTSTART;VALUE=DATE:${day1}`,`DTEND;VALUE=DATE:${day2}`,
+    `SUMMARY:${icsEscape(title)}`,`DESCRIPTION:${icsEscape(details)}`,'END:VEVENT','END:VCALENDAR'].join('\r\n');
+  const icsUri = 'data:text/calendar;charset=utf-8,' + encodeURIComponent(ics);
+  return `<div class="notes">${esc(kind)}: ${esc(raw)}${estimated ? ' <span class="pill s-warn">estimate</span>' : ''}
+    &middot; <a href="${g}" rel="noopener">add to Google Calendar</a>
+    &middot; <a href="${icsUri}" download="${esc(r.id)}.ics">download .ics</a></div>`;
+}
+
 function cardHTML(r){
-  const meta = [r.cycle, r.location, AUD[r.audience] || r.audience].filter(Boolean).map(esc).join(' &middot; ');
+  const meta = [r.cycle, r.location, AUD[r.audience] || r.audience,
+                r.opens ? 'opens: ' + r.opens : '', r.closes ? 'closes: ' + r.closes : '']
+               .filter(Boolean).map(esc).join(' &middot; ');
   const cy = r.fields.class_year || {state:'unverified'};
   // Compact summary row; full detail lives in the drawer below it.
   return `<details class="card">
@@ -225,6 +268,7 @@ function cardHTML(r){
         ${srcLink(r.source.url, r.source.status)}
         ${r.source.checked ? ' &middot; read ' + esc(r.source.checked) : ''}</p>
       ${r.source.note ? `<p class="meta">${esc(r.source.note)}</p>` : ''}
+      ${calHTML(r)}
       <div class="grid">${Object.keys(FIELDS).map(k => fieldHTML(k, r.fields[k] || {state:'unverified'})).join('')}</div>
       ${coolHTML(r.cooling_off)}
       ${(r.unfiled && r.unfiled.length) ? `<div class="notes">Other quoted sentences from this source:
@@ -266,7 +310,7 @@ function render(){
     (!s || r.sector === s) && (!a || r.audience === a) && coolMatch(r, c) &&
     (!sp || (r.fields.sponsorship || {}).state === sp) &&
     (!q || JSON.stringify(r).toLowerCase().includes(q)));
-  $('count').textContent = `${rows.length} of ${DATA.length} programs — click a row for the quotes and sources`;
+  $('count').textContent = `${rows.length} of ${DATA.length} programs  — select a row for quotes and sources`;
   // A search that lands on a handful of rows opens them; a broad browse stays compact.
   const open = rows.length <= 3 ? ' open' : '';
   $('list').innerHTML = rows.length
@@ -291,7 +335,7 @@ $('stats').innerHTML = [
   [restrictive, 'state a waiting period or cap', {cool:'restrictive'}],
   [cs.stated, 'state any reapplication rule', {cool:'stated'}],
   [cs.silent, 'publish nothing on reapplying', {cool:'silent'}],
-  [cs.unverified, 'not yet checked', {cool:'unverified'}],
+  [cs.unverified, 'not yet verified', {cool:'unverified'}],
 ].map(([v, k], i) => `<button class="stat" data-i="${i}"><b>${v}</b>${esc(k)}</button>`).join('');
 const STAT_GO = [{}, {}, {cool:'restrictive'}, {cool:'stated'}, {cool:'silent'}, {cool:'unverified'}];
 $('stats').addEventListener('click', e => {
@@ -318,10 +362,10 @@ $('sectors').addEventListener('click', e => {
 
 const QUICK = [
   ['View all programs', {}],
-  ['What can lock you out', {cool:'restrictive'}],
-  ['Aimed at sophomores', {audience:'sophomore'}],
-  ['Aimed at first-years', {audience:'freshman'}],
-  ['Firms that state sponsorship terms', {spon:'stated'}],
+  ['Reapplication lockouts', {cool:'restrictive'}],
+  ['Programs for sophomores', {audience:'sophomore'}],
+  ['Programs for first-year students', {audience:'freshman'}],
+  ['Stated sponsorship terms', {spon:'stated'}],
 ];
 $('quick').innerHTML = QUICK.map(([label], i) =>
   `<button data-i="${i}">${esc(label)}</button>`).join('');

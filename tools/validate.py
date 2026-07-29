@@ -39,8 +39,8 @@ AUDIENCE = {
     "graduate", "phd", "paralegal", "high_school", "all", "unknown",
 }
 SECTORS = {
-    "big_tech", "banking_finance", "quant_trading", "consulting",
-    "big_law", "asset_management", "government", "other",
+    "technology", "banking_finance", "quant_trading", "consulting",
+    "law", "asset_management", "government", "other",
 }
 TRIGGERS = {"assessment_attempt", "rejection", "application", "offer_declined", "unknown"}
 SCOPES = {"this_role", "this_program", "all_roles", "all_offices_all_roles", "unknown"}
