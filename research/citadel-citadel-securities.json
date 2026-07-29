@@ -4,38 +4,38 @@
   "programs": [
     {
       "name": "Software Engineer - Intern (US)",
-      "cycle": "Summer 2027 (posting live per search index July 2026; cycle year unverified on-page)",
-      "location": "US (specific offices unverified)",
-      "audience": "undergraduate",
+      "cycle": "Summer 2027 (posting live 2026-07-29; cycle year not printed on page)",
+      "location": "New York, Miami",
+      "audience": "all",
       "source": {
         "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden to non-browser fetcher (bot protection). Posting URL confirmed live via search index. Tier-2 mirror (Harvard FAS career services) returned HTTP 410 Gone. No verbatim on-page text could be captured; per rules no aggregator text substituted."
+        "status": "ok",
+        "note": "Read via interactive browser session 2026-07-29; automated fetches return HTTP 403 on this domain. 11-week program per posting."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
+          "quote": "Bachelor's, master's or PhD in computer science, computer engineering or related fields",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "silent",
           "tier": 1,
           "quote": "",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
+          "quote": "There are four steps in the process. Typically, it takes about eight weeks from start to finish.",
           "source_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/"
         },
         "compensation": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
+          "quote": "In accordance with applicable law, the base salary range for this role is $4,500 to $5,800 per week.",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         }
       },
@@ -48,22 +48,74 @@
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
-          "scope": "this_role",
+          "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "Firm's own interview-process page returned HTTP 403; no firm FAQ text was readable, so no verbatim rule captured. Third-party guides (Simplify, Extern — tier 3, not citable under project rules) assert a 12-month reapplication window; treat as unconfirmed rumor, not policy."
+        "notes": "Four citadel.com pages read in full in a browser session (SWE posting, programs-and-events, Candidate FAQs: Engineering, Our Engineering Interview Process body): none contains reapplication, waiting-period, or retake language. The interview-process page lists collapsed FAQ items (including 'Can I be considered for more than one season?') whose answer bodies would not expand to automated clicks and remain UNREAD - hence unverified rather than silent. Interviewing is stated to cover both Citadel and Citadel Securities at once."
+      }
+    },
+    {
+      "name": "Discover Citadel (two-day undergraduate event)",
+      "cycle": "current (cycle year not printed on page)",
+      "location": "New York, London, Hong Kong, Singapore",
+      "audience": "freshman",
+      "source": {
+        "url": "https://www.citadel.com/careers/programs-and-events/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Read via interactive browser session 2026-07-29; automated fetches return HTTP 403 on this domain."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "An invitation-only, two-day event in New York, London, Hong Kong or Singapore for a select group of first- and second-year undergraduates.",
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.citadel.com/careers/programs-and-events/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language on the programs page."
       }
     },
     {
       "name": "Citadel Launch Intern (US) (sophomore internship)",
-      "cycle": "current posting (cycle year unverified)",
+      "cycle": "unknown",
       "location": "US",
       "audience": "sophomore",
       "source": {
         "url": "https://www.citadel.com/careers/details/launch-intern-us/",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden (bot protection). Search-index extract indicated sophomore-only eligibility in CS/CE/STEM and a weekly base salary range of $4,300-$4,800, but this text came from a search summary, not the page itself, so it is NOT recorded as a verbatim quote."
+        "status": "dead",
+        "note": "Browser session 2026-07-29: URL returns 404 Not Found, and Launch no longer appears on the programs-and-events page, whose undergraduate roster is now: Citadel Associate Program, Datathon, Discover Citadel, Fixed Income and Macro Central Bank Challenge, Terminal, Trading Invitational, Conference Travel Grant. Launch may be renamed or its cycle closed; nothing quotable."
       },
       "fields": {
         "class_year": {
@@ -103,59 +155,7 @@
           "scope": "this_program",
           "resets_allowed": null
         },
-        "notes": "Page unreadable (403); no reapplication language could be checked."
-      }
-    },
-    {
-      "name": "Discover Citadel (two-day undergraduate event)",
-      "cycle": "current (cycle year unverified)",
-      "location": "New York / London / Hong Kong / Singapore / Sydney per search index (unverified on-page)",
-      "audience": "undergraduate",
-      "source": {
-        "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
-        "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden (bot protection). URL confirmed to exist via search index; no on-page text readable."
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified",
-          "tier": 1,
-          "quote": "",
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        },
-        "sponsorship": {
-          "state": "unverified",
-          "tier": 1,
-          "quote": "",
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        },
-        "process": {
-          "state": "unverified",
-          "tier": 1,
-          "quote": "",
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        },
-        "compensation": {
-          "state": "unverified",
-          "tier": 1,
-          "quote": "",
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified",
-        "tier": 1,
-        "quote": "",
-        "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
-        "checked": "2026-07-29",
-        "parsed": {
-          "trigger": "unknown",
-          "duration_months": null,
-          "scope": "this_program",
-          "resets_allowed": null
-        },
-        "notes": "Page unreadable (403)."
+        "notes": "Page dead."
       }
     }
   ],
@@ -181,5 +181,5 @@
       "reason": "HTTP 410 Gone — tier-2 university mirror removed"
     }
   ],
-  "notes_for_human": "Every citadel.com and citadelsecurities.com page returned HTTP 403 to the non-browser fetcher, and the one tier-2 university mirror found (Harvard FAS) is dead (410), so zero verbatim quotes could be captured and all fields are recorded unverified rather than silent — silent requires actually reading the page. Correct URLs for a manual or interactive-browser recheck are confirmed and listed above, including the additional relevant posting https://www.citadelsecurities.com/careers/details/software-engineer-university-graduate-us/ and the programs index https://www.citadel.com/careers/programs-and-events/. On cooling-off: only tier-3 aggregators (Simplify, Extern) claim a 12-month reapplication window; no firm-published rule was verified and none should be treated as established. Recommended next step: load the five blocked URLs in the interactive browser pane (a real browser session will likely pass the bot check) — that requires the user's go-ahead under their own tooling rules, so it was not attempted here."
+  "notes_for_human": "Browser-session pass 2026-07-29 replaced the fully bot-blocked wave-2 result. SWE intern posting, programs page, engineering FAQ article and interview-process body all read as rendered pages. Cooling-off remains unverified only because the interview-process page's collapsed FAQ answers would not expand; every page body read is free of reapplication language. The tier-3 '12-month reapplication window' claim from aggregators remains unimported."
 }

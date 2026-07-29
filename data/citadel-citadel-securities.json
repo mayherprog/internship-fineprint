@@ -5,32 +5,35 @@
     {
       "id": "software-engineer-intern-us",
       "name": "Software Engineer - Intern (US)",
-      "audience": "undergraduate",
+      "audience": "all",
       "source": {
         "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden to non-browser fetcher (bot protection). Posting URL confirmed live via search index. Tier-2 mirror (Harvard FAS career services) returned HTTP 410 Gone. No verbatim on-page text could be captured; per rules no aggregator text substituted."
+        "status": "ok",
+        "note": "Read via interactive browser session 2026-07-29; automated fetches return HTTP 403 on this domain. 11-week program per posting."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
+          "quote": "Bachelor's, master's or PhD in computer science, computer engineering or related fields",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "silent",
           "tier": 1,
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
+          "quote": "There are four steps in the process. Typically, it takes about eight weeks from start to finish.",
           "source_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/"
         },
         "compensation": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
+          "quote": "In accordance with applicable law, the base salary range for this role is $4,500 to $5,800 per week.",
           "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
         }
       },
@@ -42,13 +45,62 @@
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
-          "scope": "this_role",
+          "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "Firm's own interview-process page returned HTTP 403; no firm FAQ text was readable, so no verbatim rule captured. Third-party guides (Simplify, Extern — tier 3, not citable under project rules) assert a 12-month reapplication window; treat as unconfirmed rumor, not policy."
+        "notes": "Four citadel.com pages read in full in a browser session (SWE posting, programs-and-events, Candidate FAQs: Engineering, Our Engineering Interview Process body): none contains reapplication, waiting-period, or retake language. The interview-process page lists collapsed FAQ items (including 'Can I be considered for more than one season?') whose answer bodies would not expand to automated clicks and remain UNREAD - hence unverified rather than silent. Interviewing is stated to cover both Citadel and Citadel Securities at once."
       },
-      "cycle": "Summer 2027 (posting live per search index July 2026; cycle year unverified on-page)",
-      "location": "US (specific offices unverified)"
+      "cycle": "Summer 2027 (posting live 2026-07-29; cycle year not printed on page)",
+      "location": "New York, Miami"
+    },
+    {
+      "id": "discover-citadel-two-day-undergraduate-event",
+      "name": "Discover Citadel (two-day undergraduate event)",
+      "audience": "freshman",
+      "source": {
+        "url": "https://www.citadel.com/careers/programs-and-events/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Read via interactive browser session 2026-07-29; automated fetches return HTTP 403 on this domain."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "An invitation-only, two-day event in New York, London, Hong Kong or Singapore for a select group of first- and second-year undergraduates.",
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": "https://www.citadel.com/careers/programs-and-events/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language on the programs page."
+      },
+      "cycle": "current (cycle year not printed on page)",
+      "location": "New York, London, Hong Kong, Singapore"
     },
     {
       "id": "citadel-launch-intern-us-sophomore-internship",
@@ -57,8 +109,8 @@
       "source": {
         "url": "https://www.citadel.com/careers/details/launch-intern-us/",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden (bot protection). Search-index extract indicated sophomore-only eligibility in CS/CE/STEM and a weekly base salary range of $4,300-$4,800, but this text came from a search summary, not the page itself, so it is NOT recorded as a verbatim quote."
+        "status": "dead",
+        "note": "Browser session 2026-07-29: URL returns 404 Not Found, and Launch no longer appears on the programs-and-events page, whose undergraduate roster is now: Citadel Associate Program, Datathon, Discover Citadel, Fixed Income and Macro Central Bank Challenge, Terminal, Trading Invitational, Conference Travel Grant. Launch may be renamed or its cycle closed; nothing quotable."
       },
       "fields": {
         "class_year": {
@@ -93,58 +145,10 @@
           "scope": "this_program",
           "resets_allowed": null
         },
-        "notes": "Page unreadable (403); no reapplication language could be checked."
+        "notes": "Page dead."
       },
-      "cycle": "current posting (cycle year unverified)",
+      "cycle": "unknown",
       "location": "US"
-    },
-    {
-      "id": "discover-citadel-two-day-undergraduate-event",
-      "name": "Discover Citadel (two-day undergraduate event)",
-      "audience": "undergraduate",
-      "source": {
-        "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
-        "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "HTTP 403 Forbidden (bot protection). URL confirmed to exist via search index; no on-page text readable."
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified",
-          "tier": 1,
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        },
-        "sponsorship": {
-          "state": "unverified",
-          "tier": 1,
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        },
-        "process": {
-          "state": "unverified",
-          "tier": 1,
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        },
-        "compensation": {
-          "state": "unverified",
-          "tier": 1,
-          "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified",
-        "tier": 1,
-        "source_url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
-        "checked": "2026-07-29",
-        "parsed": {
-          "trigger": "unknown",
-          "duration_months": null,
-          "scope": "this_program",
-          "resets_allowed": null
-        },
-        "notes": "Page unreadable (403)."
-      },
-      "cycle": "current (cycle year unverified)",
-      "location": "New York / London / Hong Kong / Singapore / Sydney per search index (unverified on-page)"
     },
     {
       "id": "software-engineer-intern-us-miami-ny-houston-chicago-summer-2027",
@@ -185,6 +189,42 @@
       "status": "open",
       "opens": "Open now (surfaced ~Jul 16)",
       "closes": "Rolling"
+    },
+    {
+      "id": "discover-citadel-2027-summer-2027",
+      "name": "Discover Citadel 2027",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "1st/2nd-years (current page: Dec 2027–Jun 2029 grads May 2029 qualifies); US event; no citizenship req."
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "Expected ~Jan 2027",
+      "closes": "~Mar 2027 (2026 deadline was Mar 6)"
     }
   ],
   "provenance": {
