@@ -1,0 +1,64 @@
+{
+  "firm": "SEO Career",
+  "sector": "other",
+  "programs": [
+    {
+      "id": "seo-career-edge-success-phases",
+      "name": "SEO Career (Edge / Success phases)",
+      "audience": "unknown",
+      "source": {
+        "url": "https://career.seo-usa.org/apply-faq/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page fetched successfully but no explicit 2027-cycle deadline dates were present in the retrieved content; also fetched career.seo-usa.org/our-program/ and career.seo-usa.org/ (home) for cross-check."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "First Year, Sophomore, or Junior",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Work Authorized in the U.S.",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "SEO assists trainees with obtaining internships by providing resources to help participants learn about internship opportunities, meet recruiters, prepare for the application process, and practice interview skills.",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 3,
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 3,
+        "source_url": "https://career.seo-usa.org/apply-faq/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "apply-faq page read in full; no reapplication policy text found."
+      },
+      "cycle": "2027",
+      "location": "US (multiple — Wall Street, corporate America, commercial real estate, technology)",
+      "opens": "unverified — apply-faq page states applications are reviewed on a rolling/ongoing basis year-round; no fixed 2027 open date found",
+      "closes": "unverified — apply-faq page states \"Our Success Class typically closes in mid-April\"; no specific 2027 date found"
+    }
+  ],
+  "provenance": {
+    "origin": "per-firm web research, one agent per firm",
+    "transcribed": "2026-07-29",
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
+  }
+}

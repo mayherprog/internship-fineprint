@@ -1,0 +1,116 @@
+{
+  "firm": "Apple",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Software Undergrad Engineering Internships",
+      "cycle": "unverified - posting type is \"PIPE\" (evergreen/pipeline requisition, not a dated cycle); postDateInGMT=2026-05-21T19:14:07.743+00:00; no explicit \"Summer 2027\" language found",
+      "location": "United States (country-level only in extracted data; no specific city/site listed)",
+      "audience": "undergraduate",
+      "opens": "2026-05-21",
+      "closes": "unverified - no close date found in extracted page data",
+      "source": {
+        "url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "WebFetch returned only nav/footer (JS-rendered); raw HTML curl succeeded (HTTP 200) and contained embedded Next.js JSON with full job data, used for all quotes below"
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing an undergraduate (BS/BA) degree in Computer Science, Electrical Engineering, Computer Engineering, Data Science, Design, Information Security or related fields.\nAt the end of the internship, you must return to school to continue your education or the internship must be the last requirement for you to graduate.",
+          "source_url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off language found in the job posting page itself (searched for 'reapply', 're-apply', 'apply again', 'months' — zero hits). Did not check a separate general Apple students/careers policy page for this rule — out of call budget."
+      }
+    },
+    {
+      "name": "Machine Learning and Artificial Intelligence Undergrad Internships",
+      "cycle": "unverified - posting type is \"PIPE\" (evergreen/pipeline requisition, not a dated cycle); postDateInGMT=2026-05-21T20:54:08.380+00:00; no explicit \"Summer 2027\" language found",
+      "location": "United States (country-level only in extracted data; no specific city/site listed)",
+      "audience": "undergraduate",
+      "opens": "2026-05-21",
+      "closes": "unverified - no close date found in extracted page data",
+      "source": {
+        "url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-und",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Original URL returned HTTP 301 redirect to the canonical slug ...-undergrad-internships; followed redirect (curl -L), got HTTP 200 with embedded Next.js JSON job data, used for all quotes below"
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing an undergraduate (BS/BA) degree in Computer Science, Computer Engineering, Data Science, Applied Mathematics, or related field\n\nAt the end of the internship, you must return to school to continue your education or the internship must be the last requirement for you to graduate.",
+          "source_url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off language found in the job posting page itself (searched for 'reapply', 're-apply', 'apply again', 'months' — zero hits). Did not check a separate general Apple students/careers policy page for this rule — out of call budget."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Both postings are internal 'PIPE' (pipeline/evergreen) requisition types under the 'Students' team, not dated hiring-cycle postings, so no Summer 2027-specific cycle language exists to quote — do not infer a cycle. Both list location as country-level 'United States' only (showPayAndBenefits:false confirms no pay data is published for either). Neither page contains any sponsorship/visa/work-authorization sentence, any explicit application-process/deadline sentence, or any pay figure — all three are genuinely silent on-page, not extraction failures (verified via keyword search across the full extracted JSON payload). A dedicated Apple students/careers or FAQ page was not checked for a general reapplication/cooling-off policy; that remains unverified rather than confirmed-silent."
+}

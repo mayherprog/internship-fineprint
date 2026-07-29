@@ -3,6 +3,106 @@
   "sector": "government",
   "programs": [
     {
+      "id": "junior-summer-analyst-program-undergraduate-summer-analyst-program",
+      "name": "Junior Summer Analyst Program (Undergraduate Summer Analyst Program)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states 2026 cycle closed; 2027 details not yet posted."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Undergraduate Summer Analyst Program gives undergraduate juniors the opportunity to gain valuable work experience at a unique institution.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications for our summer 2026 junior internships have closed. Please check back in September 2026 for information on our 2027 program.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 2,
+          "source_url": "https://builtin.com/job/2026-summer-intern-research-group-sophomore/7175915"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off statement found on program hub or Junior Summer Analyst pages."
+      },
+      "cycle": "2027",
+      "location": "New York, NY"
+    },
+    {
+      "id": "sophomore-career-exploration-program",
+      "name": "Sophomore Career Exploration Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states 2026 cycle closed; 2027 details not yet posted."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Sophomore Career Exploration Internship gives undergraduate sophomores the opportunity to gain valuable work experience at a unique institution.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications for our summer 2026 sophomore internships have closed. Please check back in September 2026 for information on our 2027 program.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off statement found on program hub or Sophomore Career Exploration pages."
+      },
+      "cycle": "2027",
+      "location": "New York, NY"
+    },
+    {
       "id": "ny-fed-sophomore-program-summer-2027",
       "name": "NY Fed Sophomore Program",
       "audience": "undergraduate",
@@ -37,8 +137,8 @@
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

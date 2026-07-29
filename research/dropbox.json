@@ -1,0 +1,62 @@
+{
+  "firm": "Dropbox",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Emerging Talent Program (Summer Internship)",
+      "cycle": "2027 (unspecified — no cycle-specific dates found)",
+      "location": "Virtual First; studio options in San Francisco, Seattle, and Dublin",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.dropbox.jobs/teams/emerging-talent",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Original URL https://jobs.dropbox.com/teams/emerging-talent 301-redirects to https://www.dropbox.jobs/teams/emerging-talent. Page contains no specific 2027-cycle opening/closing dates — only general timing language."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "undergraduate, master's, and PhD students",
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Visas are assessed on a case-by-case basis. You can discuss your specific visa needs with your recruiter.",
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We encourage students to apply as early as possible.",
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.dropbox.jobs/teams/emerging-talent",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the page as fetched."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Page gives only general interview-timing language, not a stated 2027 opens/closes date: 'Most of our global interviews align with local academic calendars and typically take place between late August and March, the preceding year before our internship program takes place.' No numeric class-year cutoff (e.g., 'must graduate by X') was found — only degree-level audience ('undergraduate, master's, and PhD students'). No compensation figures and no reapplication/cooling-off rule appear on this page. Greenhouse job board API (boards-api.greenhouse.io/v1/boards/dropbox/jobs) was checked and currently lists no intern/Emerging Talent/2027 postings — those likely post closer to the cycle opening. All quotes sourced from https://www.dropbox.jobs/teams/emerging-talent via WebFetch (HTML-to-markdown extraction, not raw HTML/JSON-LD), checked 2026-07-29."
+}

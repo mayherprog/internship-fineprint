@@ -1,0 +1,120 @@
+{
+  "firm": "Aquatic Capital",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Quantitative Researcher, Intern (Summer 2027)",
+      "cycle": "Summer 2027",
+      "location": "Chicago; London",
+      "audience": "undergraduate|all",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job posting; first published 2026-04-01, last updated 2026-04-30 per boards-api metadata."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines with an expected graduation date between Fall 2027 and Spring 2028.",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
+          "notes": "quote removed (state=silent): Will you require the firm's sponsorship to obtain, maintain, or extend your employment authorization in the location(s) for which you are applying?"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
+          "notes": "quote removed (state=silent): What are your annualized total compensation expectations?"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the job posting."
+      }
+    },
+    {
+      "name": "Software Engineer, Intern (Summer 2027)",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
+      "audience": "undergraduate|all",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job posting."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines with an expected graduation date between Fall 2027 and Spring 2028.",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
+          "notes": "quote removed (state=silent): Will you require the firm's sponsorship to obtain, maintain, or extend your employment authorization in the location(s) for which you are applying?"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
+          "notes": "quote removed (state=silent): What are your annualized total compensation expectations?"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the job posting."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Both 2027 internships (Quant Researcher and Software Engineer) share identical class-year language: expected graduation between Fall 2027 and Spring 2028. Neither posting states a sponsorship policy or posted pay as a company commitment — the 'sponsorship' and 'compensation' text found are application-form QUESTIONS asked of the candidate (self-report fields), not statements of firm policy, so both are marked silent per the tier rules rather than treated as an implicit no-sponsorship or no-pay-disclosed rule. No reapplication/cooling-off language appears on either posting. Greenhouse boards-api slug 'aquaticcapitalmanagement' resolved directly (tier 1, static JSON); no JS-rendering workaround was needed. | Firm name canonicalized from 'Aquatic Capital Management' to match the existing tracker entry."
+}

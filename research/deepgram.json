@@ -1,0 +1,62 @@
+{
+  "firm": "Deepgram",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "SWE Internship - Fall 2026/Summer 2027 (Remote-US)",
+      "cycle": "Summer 2027",
+      "location": "Remote (US)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Ashby page is JS-rendered; HTTP fetch returned only job title, no posting text. Full job description requires browser rendering."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "blocked_urls": [
+    "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
+  ],
+  "notes_for_human": "Page requires JavaScript rendering to display job posting content. Standard HTTP fetch cannot access the full description."
+}

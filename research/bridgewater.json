@@ -1,0 +1,116 @@
+{
+  "firm": "Bridgewater Associates",
+  "sector": "asset_management",
+  "programs": [
+    {
+      "name": "Rising Fellows",
+      "cycle": "2027 (sophomore-year entry, feeder for Summer 2027-adjacent internship cycles)",
+      "location": "unverified",
+      "audience": "sophomore",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.bridgewater.com/working-at-bridgewater/students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page loaded successfully (static HTML, no JSON-LD) but contains no mention of 'Rising Fellows' at all. Only generic culture/mission content and a link to the Investment Associate Internship application."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://www.bridgewater.com/working-at-bridgewater/students"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://www.bridgewater.com/working-at-bridgewater/students"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language found anywhere checked."
+      }
+    },
+    {
+      "name": "Investment Associate Intern",
+      "cycle": "2027",
+      "location": "New York City",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Listing titled '2027 Investment Associate Intern - Bridgewater Immersion | AI Innovation Hackathon' confirmed live on Bridgewater's own Greenhouse ATS. WebFetch's text extraction returned no body copy (likely JS-rendered posting detail below the fold/behind a script) so no eligibility, sponsorship, process, or comp language could be captured verbatim despite two direct fetch attempts."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "No verbatim opening/closing dates for the next Rising Fellows cycle were found on any Bridgewater-owned page. The students landing page (known URL) does not mention Rising Fellows at all in its current content, and Bridgewater's own campus-recruiting Greenhouse board (job-boards.greenhouse.io/bridgewatercampusrecruiting) currently lists only two postings — '2027 Investment Associate Intern' and 'Metaculus Resume Drop' — no active Rising Fellows listing as of 2026-07-29. Background on program structure (three-week program for first-year/sophomore students from underrepresented backgrounds, feeding into an Immersion program in sophomore year and internship interviews in junior year) comes from Bridgewater's original 2021 launch announcement (https://www.bridgewater.com/in-the-news/bridgewater-launches-rising-fellows-program-to-help-expand-investment-industry-diversity and the matching PR Newswire release), but that page describes the program generically, not the 2027 cycle, and WebFetch extracted no verbatim eligibility/date/sponsorship sentences from it despite the source being legitimate. One search-engine synthesis claimed application dates of 'December 1, 2025–January 31, 2026' for a sophomore-spring 2027 cycle, but this was the search tool's own generated summary, not a quote traceable to any specific fetched Bridgewater page — per the verbatim-only rule it is EXCLUDED from the structured fields above and flagged here only as an unverified claim requiring independent confirmation. Aggregator/prep sites (getsmartresume.com, wearehbcus.com, startup.jobs) surfaced in search results were deliberately not used as quote sources per instructions. Recommend a human check job-boards.greenhouse.io/bridgewatercampusrecruiting periodically (Rising Fellows postings appear seasonally, not currently live) and/or a JS-capable browser fetch of the 2027 Investment Associate Intern posting to pull its full body text, which a plain WebFetch could not retrieve."
+}

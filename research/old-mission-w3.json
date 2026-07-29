@@ -1,0 +1,67 @@
+{
+  "firm": "Old Mission",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Software Engineer – 2027 Internship Program (June Start)",
+      "cycle": "Summer 2027",
+      "location": "Chicago, IL",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Careers page itself is JS-rendered and returned no content on direct fetch; posting content retrieved via Greenhouse job board API (boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003), which mirrors the same gh_jid posting."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "At least junior standing, with a graduation date of December 2027 or May 2028",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "$150,000 - $200,000 - Salaries are based on numerous factors such as skills, experience, and education.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language anywhere in the posting text."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
+      "reason": "JS-rendered careers page returned only nav/header shell on direct WebFetch (no job content); had to use Greenhouse boards-api JSON endpoint instead."
+    }
+  ],
+  "notes_for_human": "Base salary range field literally reads '$150,000 - $200,000' on an internship posting (verbatim, unedited) — that figure is implausible for a summer internship and looks like a template/boilerplate carryover from Old Mission's full-time postings rather than an intern-specific rate; flagged as a hedge, not corrected. No language on visa/work-authorization sponsorship or on reapplication/cooling-off was found anywhere in the posting after reading the full content field — both are genuinely silent, not just missed. Only one internship posting exists for 2027 (Software Engineer, Chicago, June 1 2027 start); separate 2027 Graduate Program listings exist for Quantitative Trader (Chicago/NY/London) and Software Engineer (Chicago) but those are post-graduation full-time roles, not internships, so excluded per your scope. No stated opens/closes dates found. | Firm name canonicalized from 'Old Mission Capital' to match the existing tracker entry."
+}

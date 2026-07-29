@@ -1,0 +1,129 @@
+{
+  "firm": "NVIDIA",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "NVIDIA Ignite",
+      "cycle": "2026-27 (next cycle, dates unconfirmed)",
+      "location": "Santa Clara, CA (on-site, per prior-cycle postings)",
+      "audience": "freshman|sophomore",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page confirms Ignite exists and its audience but states no dates. The live Workday job requisitions for the next Ignite cycle (e.g. paths like NVIDIA-2026-Ignite-Internships--Hardware-Engineering on nvidia.wd5.myworkdayjobs.com) could not be read: the standard job-detail URL returned an empty client-rendered shell, and the Workday CXS JSON API endpoint returned HTTP 403."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "This inclusive, 12-week summer pre-internship program was created to give current freshmen and sophomores from a wide range of backgrounds a chance to work hands-on with real technical experts on real projects.",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "This inclusive, 12-week summer pre-internship program was created to give current freshmen and sophomores from a wide range of backgrounds a chance to work hands-on with real technical experts on real projects.",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No dedicated NVIDIA careers FAQ page with reapplication/assessment-retake language was located within the tool budget; the only tier-1 page successfully read (university-recruiting overview) does not address this. Not verified as absent site-wide."
+      }
+    },
+    {
+      "name": "NVIDIA Undergraduate Internship (general, non-Ignite)",
+      "cycle": "year-round / unspecified next cycle",
+      "location": "unspecified",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "General program description page; no dated application windows for undergraduate track given."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Whether you're pursuing a BS, MS, PhD, or MBA, we offer year-round internships—for a minimum of 12 weeks—with great benefits.",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Same as Ignite entry: no FAQ page located within budget."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Ignite-Internships--Hardware-Engineering_JR2005170",
+      "reason": "JS-rendered Workday page; WebFetch returned no extractable content (empty client-side shell)."
+    },
+    {
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/NVIDIA-2026-Ignite-Internships--Business-Operations_JR2005167",
+      "reason": "JS-rendered Workday page; WebFetch returned no extractable content (empty client-side shell)."
+    },
+    {
+      "url": "https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/job/NVIDIA-2026-Ignite-Internships--Hardware-Engineering_JR2005170",
+      "reason": "HTTP 403 Forbidden on Workday CXS JSON API endpoint."
+    }
+  ],
+  "notes_for_human": "Unverified (tier 3, aggregator-sourced, NOT usable as quotes): multiple search-engine AI summaries and third-party job boards (AnitaB.org, Built In, Simplify, Extern, refer.me) state the 2026 Ignite cycle's application window ran roughly Oct 6-19, 2025 (one source said Sept 16-Oct 18, 2024 for the prior cycle), consistent with your ~2-week-October pattern, and that active NVIDIA job postings titled 'NVIDIA 2026 Ignite Internships: Hardware/Software Engineering, Business Operations' exist under requisition IDs JR2005170, JR2005169(software, inferred), JR2005167. None of this is confirmed against a firm-domain (tier 1) source because the actual Workday job pages would not render for WebFetch and the Workday API returned 403. To get verbatim tier-1 text (exact dates, sponsorship clause, reapplication rules) you would need either: (a) a real browser session against the Workday listing, or (b) NVIDIA's careers FAQ URL specifically (not located in this pass - it may sit under jobs.nvidia.com/careers or a separate 'FAQ' link not surfaced by search). Recommend a follow-up pass with a browser-rendering tool if this data is decision-relevant."
+}

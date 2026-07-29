@@ -1,0 +1,61 @@
+{
+  "firm": "Appian",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Software Engineering Intern, Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "McLean, VA",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Must be returning to school following the completion of the Summer 2027 internship to continue degree requirements.",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "At this time, Appian will not sponsor a new applicant for employment authorization for this position.",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
+          "notes": "Quote was the researching agent's description of the application form, not a sentence on the page; mechanical verification confirmed it does not appear there. Page read in full, no process statement present. Removed text: The form requires: First/Last Name, Email, Phone, Country, Resume/CV upload, Education details (School, Degree, unofficial transcript upload), cumulative GPA, expected graduation date, leadership role"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "This internship pays $50.00 per hour ($8,666 per month). Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation, bonus, or benefit plans.",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or retake restrictions mentioned in posting."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Class year requirement explicitly states students must be 'returning to school following the completion of the Summer 2027 internship' — verified verbatim. No visa sponsorship available. Compensation clearly stated at $50/hr. No cooling-off period or reapplication language found."
+}

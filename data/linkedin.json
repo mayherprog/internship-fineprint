@@ -3,45 +3,64 @@
   "sector": "technology",
   "programs": [
     {
-      "id": "first-play-summer-2027",
-      "name": "First Play",
-      "audience": "undergraduate",
+      "id": "first-play-underclassman-engineering-internship",
+      "name": "First Play (Underclassman Engineering Internship)",
+      "audience": "freshman",
       "source": {
         "url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play",
-        "checked": "2026-07-27",
-        "check_method": "static",
+        "checked": "2026-07-29",
         "status": "ok",
-        "note": ""
+        "note": "Server-rendered HTML read directly; no JSON-LD on page. Page states 'Applications for summer 2026 are now closed.' — no summer 2027 dates posted. Program targets first- and second-year students. Restructured by hand from the researching agent's report (its JSON serialization was malformed); quotes copied unchanged from the agent's verbatim findings. Trailing periods removed from two quotes after mechanical verification showed the page's list items carry none."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "Freshmen/sophomores"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing Bachelors degree in Computer Science (or related technical degrees) with an expected graduation date of December 2027 or later",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play",
+          "parsed": {
+            "graduates_from": "2027-12"
+          }
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Eligible to work in the United States",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
         },
         "process": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Can I apply to both First Play and the Software Engineering Internship? No. Candidates will only be considered for the program that matches their graduation date eligibility requirements.",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
         },
         "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Includes hourly pay rate, relocation support, hardware, and intern perks",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Page FAQ addresses only concurrent applications across two different programs, not reapplying to First Play in a later cycle. Silence finding: full page read, no reapplication rule present."
       },
-      "cycle": "Summer 2027",
-      "status": "future",
-      "opens": "~late Nov 2026",
-      "closes": "≈2-week window"
+      "cycle": "Summer 2026 shown; Summer 2027 cycle not yet posted",
+      "location": "Mountain View, CA"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

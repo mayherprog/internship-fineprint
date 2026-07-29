@@ -3,13 +3,12 @@
   "sector": "technology",
   "programs": [
     {
-      "id": "software-engineering-intern-summer-2027-mclean-va-summer-2027",
-      "name": "Software Engineering Intern, Summer 2027 (McLean, VA)",
+      "id": "software-engineering-intern-summer-2027",
+      "name": "Software Engineering Intern, Summer 2027",
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
-        "checked": "2026-07-27",
-        "check_method": "static",
+        "checked": "2026-07-29",
         "status": "ok",
         "note": ""
       },
@@ -17,40 +16,47 @@
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Currently pursuing a Bachelor's or Master's in CS/CE",
-          "checked": "2026-07-27",
-          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
-          "source_status": "ok"
+          "quote": "Must be returning to school following the completion of the Summer 2027 internship to continue degree requirements.",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
-          "quote": "will not sponsor",
-          "checked": "2026-07-27",
-          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237",
-          "source_status": "ok"
+          "quote": "At this time, Appian will not sponsor a new applicant for employment authorization for this position.",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
         },
         "process": {
-          "state": "unverified"
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
         },
         "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "$50/hr ($8,666/month)"
+          "state": "stated",
+          "tier": 1,
+          "quote": "This internship pays $50.00 per hour ($8,666 per month). Pay and benefits are subject to change at any time, consistent with the terms of any applicable compensation, bonus, or benefit plans.",
+          "source_url": "https://job-boards.greenhouse.io/appian/jobs/8041237"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or retake restrictions mentioned in posting."
       },
       "cycle": "Summer 2027",
-      "status": "open",
-      "opens": "Open now; review begins Aug 2026",
-      "closes": "Rolling"
+      "location": "McLean, VA"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

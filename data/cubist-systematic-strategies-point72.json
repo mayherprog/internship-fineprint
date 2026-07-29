@@ -14,9 +14,8 @@
       },
       "fields": {
         "class_year": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 3,
-          "quote": "Undergraduate degree or higher in math, computer science, or other quantitative fields",
           "source_url": "https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208"
         },
         "sponsorship": {
@@ -25,15 +24,13 @@
           "source_url": "https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208"
         },
         "process": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 3,
-          "quote": "Please send CVs to KEPL-talent@cubistsystematic.com with '2027 QD Summer Internship Application' in the subject line.",
           "source_url": "https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208"
         },
         "compensation": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 3,
-          "quote": "The annual base salary is $240,000-$300,000 (USD) which will be prorated based on internship start and end date.",
           "source_url": "https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208"
         }
       },

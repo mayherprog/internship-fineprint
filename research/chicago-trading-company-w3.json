@@ -1,0 +1,123 @@
+{
+  "firm": "Chicago Trading Company",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Quant Trading Internship",
+      "cycle": "Summer 2027",
+      "location": "Chicago, IL",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job-boards posting under org slug ctccampusboard (not chicagotradingcompany)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "You will graduate between December 2027-June 2028",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
+          "notes": "quote removed (state=silent): Please select one of the following statements based on your work authorization"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "You are allowed to submit one application per position (i.e. SE Intern and QT Intern)",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Monthly salary of $14,500 plus a signing bonus",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.chicagotrading.com/campus",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Campus page describes interview process (application, assessment, interview, office visit) but contains no reapplication, cooling-off, or assessment-retake language."
+      }
+    },
+    {
+      "name": "Software Engineering Internship",
+      "cycle": "Summer 2027",
+      "location": "Chicago, IL",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job-boards posting under org slug ctccampusboard (not chicagotradingcompany)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "You will graduate between December 2027-June 2028",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+          "notes": "quote removed (state=silent): Please select one of the following statements based on your work authorization"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "You are allowed to submit one application per position (i.e. SE Intern and QT Intern) during the recruiting cycle.",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Monthly Salary of $14,500 plus a signing bonus",
+          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.chicagotrading.com/campus",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Same campus page checked for QT posting applies here; no reapplication/cooling-off/retake language found."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/chicagotradingcompany/jobs",
+      "reason": "404 Not Found — wrong org slug; correct board is job-boards.greenhouse.io/ctccampusboard (found via web search, no working raw JSON API endpoint located for this slug within budget)"
+    }
+  ],
+  "notes_for_human": "Both postings state '8-week program from mid-June to early August 2027' as internship duration (context/process info, not a required field but relevant). Neither posting nor the campus FAQ page gives explicit sponsorship policy language ('will/will not sponsor') — they only reference a work-authorization selection step in the application form, so sponsorship is marked silent, not stated. No open/close application dates were found within the 4-8 call budget. Extraction was done via WebFetch's summarizing model rather than raw HTML, so treat quotes as high-fidelity but re-verify verbatim wording directly if this is going into a document that will be published or relied on for a legal/compliance claim."
+}

@@ -3,24 +3,21 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "old-mission-swe-intern-2027-summer-2027",
-      "name": "Old Mission SWE Intern 2027",
+      "id": "software-engineer-2027-internship-program-june-start",
+      "name": "Software Engineer – 2027 Internship Program (June Start)",
       "audience": "undergraduate",
       "source": {
-        "url": null,
-        "checked": "2026-07-24",
-        "check_method": "manual",
-        "status": "url_pending",
-        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+        "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Careers page itself is JS-rendered and returned no content on direct fetch; posting content retrieved via Greenhouse job board API (boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003), which mirrors the same gh_jid posting."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "At least junior standing, with a graduation date of December 2027 or May 2028",
-          "checked": "2026-07-24",
-          "source_url": null,
-          "source_status": "url_pending",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003",
           "parsed": {
             "graduates_between": [
               "2027-12",
@@ -29,25 +26,42 @@
           }
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
         },
         "process": {
-          "state": "unverified"
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
         },
         "compensation": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "$150,000 - $200,000 - Salaries are based on numerous factors such as skills, experience, and education.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language anywhere in the posting text."
       },
       "cycle": "Summer 2027",
-      "status": "unknown"
+      "location": "Chicago, IL"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

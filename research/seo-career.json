@@ -1,0 +1,61 @@
+{
+  "firm": "SEO Career",
+  "sector": "other",
+  "programs": [
+    {
+      "name": "SEO Career (Edge / Success phases)",
+      "cycle": "2027",
+      "location": "US (multiple — Wall Street, corporate America, commercial real estate, technology)",
+      "opens": "unverified — apply-faq page states applications are reviewed on a rolling/ongoing basis year-round; no fixed 2027 open date found",
+      "closes": "unverified — apply-faq page states \"Our Success Class typically closes in mid-April\"; no specific 2027 date found",
+      "source": {
+        "url": "https://career.seo-usa.org/apply-faq/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page fetched successfully but no explicit 2027-cycle deadline dates were present in the retrieved content; also fetched career.seo-usa.org/our-program/ and career.seo-usa.org/ (home) for cross-check."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "First Year, Sophomore, or Junior",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Work Authorized in the U.S.",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "SEO assists trainees with obtaining internships by providing resources to help participants learn about internship opportunities, meet recruiters, prepare for the application process, and practice interview skills.",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://career.seo-usa.org/apply-faq/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 3,
+        "quote": "",
+        "source_url": "https://career.seo-usa.org/apply-faq/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "apply-faq page read in full; no reapplication policy text found."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Two unresolved conflicts to flag before use. (1) Underrepresented-group / race-ethnicity eligibility language: one WebFetch pass of career.seo-usa.org/apply-faq/ returned the sentence \"All are welcome to apply\" with no race/ethnicity self-identification item in the eligibility checklist; a separate WebFetch pass of the same URL and independent WebSearch results state the eligibility list includes \"Self-Identify as Black, Latinx, or Native-American\" and that SEO Career is described elsewhere (e.g. career.seo-usa.org press pages, third-party partner pages) as being for \"high-achieving Black, Hispanic and Native American college students.\" These two readings of the same page are inconsistent — likely reflects either page content changing between fetches, an AI-summarization inconsistency in the WebFetch tool, or a genuine ambiguity on the live page. This needs a direct human/browser check of https://career.seo-usa.org/apply-faq/ to resolve before treating either version as fact. (2) No 2027-specific deadline dates were found anywhere on career.seo-usa.org in this pass — only general rolling-basis / 'Success Class typically closes in mid-April' language and unrelated references to a 2025-26 cycle (Jan 31, 2026 deadline) surfaced by search. GPA and major details found but not requested by the schema: '3.2 GPA required (3.0 may be considered)', 'All Majors', 'Accredited 4-Year University' — all from career.seo-usa.org/apply-faq/, checked 2026-07-29."
+}

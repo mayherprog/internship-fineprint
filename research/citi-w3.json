@@ -1,0 +1,71 @@
+{
+  "firm": "Citi",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "name": "Early Identification (Early ID) Program",
+      "cycle": "2027 (two intake windows)",
+      "location": "US",
+      "audience": "sophomore",
+      "opens": "November (for December program) / February (for March program) — verbatim: \"March (applications open in February), December (applications open in November).\"",
+      "closes": "unverified",
+      "source": {
+        "url": "https://jobs.citi.com/earlycareers-programs-preinternships",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched successfully; content reflects the Pre-Internships program grid, which lists Early Identification alongside D1 Athlete Development, Freshman Discovery, Spring Insight, and Citi Insight Program (SMN and BHN tracks)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "US sophomores enrolled in a four-year bachelor's degree.",
+          "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "participants apply to max two lines of business.",
+          "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off-after-rejection language found on the Pre-Internships page or the /early-careers FAQ section (which covers only Workday/account mechanics). The only application-limit language found is the 'max two lines of business' cap under Early ID, which is a concurrency cap, not a reapplication cooling-off rule."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://jobs.citi.com/job/new-york/early-id-program-services-securities-services-2025-new-york-city/287/72079112000",
+      "reason": "dead — HTTP 404 (expired job requisition, likely for a past cycle)"
+    },
+    {
+      "url": "https://jobs.citi.com/job/san-francisco/early-id-program-banking-investment-banking-fall-2025-san-francisco-healthcare-group/287/88170290880",
+      "reason": "dead — HTTP 404 (expired job requisition, likely for a past cycle)"
+    }
+  ],
+  "notes_for_human": "The reported 3.3 GPA floor for Early ID could NOT be verified verbatim on jobs.citi.com. Two individual Early ID job requisitions that might have carried GPA language returned HTTP 404 (expired postings). Web-search-engine AI summaries asserted a '3.3 minimum GPA' but those summaries are synthesized outputs (partly aggregator-influenced), not verbatim text pulled directly from a live jobs.citi.com page — per the no-aggregator-quoting rule, that figure is marked 'unverified' here rather than quoted. To get a verbatim GPA sentence, someone would need to open a currently-live Citi Early ID requisition (job IDs rotate/expire each cycle) or the specific track landing pages linked from the Pre-Internships grid (Early ID has its own sub-page not yet checked). The 'max two lines of business' quote came from the Pre-Internships page itself (tier 1) but its exact phrasing reads slightly oddly for a direct HTML quote — worth a second human read of the live page to confirm wording precisely. Work-authorization/sponsorship language was not found anywhere checked (2 pages); that is a genuine silence, not a missed search. Compensation was out of scope of my checks and is marked unverified rather than guessed."
+}

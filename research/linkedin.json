@@ -1,0 +1,60 @@
+{
+  "firm": "LinkedIn",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "First Play (Underclassman Engineering Internship)",
+      "cycle": "Summer 2026 shown; Summer 2027 cycle not yet posted",
+      "location": "Mountain View, CA",
+      "audience": "freshman",
+      "source": {
+        "url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Server-rendered HTML read directly; no JSON-LD on page. Page states 'Applications for summer 2026 are now closed.' — no summer 2027 dates posted. Program targets first- and second-year students. Restructured by hand from the researching agent's report (its JSON serialization was malformed); quotes copied unchanged from the agent's verbatim findings. Trailing periods removed from two quotes after mechanical verification showed the page's list items carry none."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing Bachelors degree in Computer Science (or related technical degrees) with an expected graduation date of December 2027 or later",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Eligible to work in the United States",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Can I apply to both First Play and the Software Engineering Internship? No. Candidates will only be considered for the program that matches their graduation date eligibility requirements.",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Includes hourly pay rate, relocation support, hardware, and intern perks",
+          "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Page FAQ addresses only concurrent applications across two different programs, not reapplying to First Play in a later cycle. Silence finding: full page read, no reapplication rule present."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "The graduation-date threshold ('December 2027 or later') is the summer 2026 cycle's criterion still displayed on the page; the page does not state whether it shifts for the next cycle. Descriptive audience sentence, also verbatim on page: 'First Play is designed for students who have completed their first or second year of computer science education who want hands-on experience, mentorship, and growth opportunities early in their college journey.' The page never uses the words freshman or sophomore."
+}
