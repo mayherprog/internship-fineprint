@@ -10,14 +10,20 @@
   --bg:#fbfbfa; --fg:#1a1a19; --muted:#6b6b66; --line:#e2e1dc; --card:#fff;
   --stated:#1c6b3f; --stated-bg:#e8f3ec; --silent:#7a6a2f; --silent-bg:#f6f1e0;
   --unver:#6b6b66; --unver-bg:#efeeea; --warn:#8a3324; --warn-bg:#f9ebe8; --accent:#1f4f82;
+  --accent-soft:#e7eef6;
+  --r-sm:8px; --r-md:12px; --r-pill:999px;
 }
 @media (prefers-color-scheme: dark){
   :root{
     --bg:#14150f; --fg:#eceade; --muted:#9d9b8e; --line:#2d2e26; --card:#1b1c15;
     --stated:#7fc79b; --stated-bg:#17301f; --silent:#d4bd6a; --silent-bg:#302a14;
     --unver:#9d9b8e; --unver-bg:#26261f; --warn:#e8a396; --warn-bg:#3a1d17; --accent:#8fb8e8;
+    --accent-soft:#22344a;
   }
 }
+/* Monospace is for digits that must line up in a column, never for words. */
+.num{font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
+  font-variant-numeric:tabular-nums}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);
   font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -27,54 +33,58 @@ h2{font-size:1.05rem;margin:30px 0 10px;color:var(--muted);font-weight:600;
   text-transform:uppercase;letter-spacing:.06em;font-size:.8rem}
 .sub{color:var(--muted);margin:0 0 20px;max-width:70ch}
 .banner{border:1px solid var(--line);border-left:4px solid var(--warn);background:var(--warn-bg);
-  padding:12px 16px;border-radius:8px;margin:0 0 22px;font-size:.9rem;max-width:80ch}
+  padding:12px 16px;border-radius:var(--r-sm);margin:0 0 22px;font-size:.9rem;max-width:80ch}
 .bigsearch{display:flex;gap:10px;margin:0 0 8px;max-width:640px}
 .bigsearch input{flex:1;font:inherit;font-size:1.05rem;padding:13px 16px;border:1px solid var(--line);
-  border-radius:10px;background:var(--card);color:var(--fg)}
-.bigsearch button{font:inherit;padding:13px 20px;border:1px solid var(--line);border-radius:10px;
+  border-radius:var(--r-md);background:var(--card);color:var(--fg)}
+.bigsearch button{font:inherit;padding:13px 20px;border:1px solid var(--line);border-radius:var(--r-md);
   background:var(--accent);color:var(--bg);font-weight:600;cursor:pointer}
-.stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 6px}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:9px 13px;
-  font-size:.85rem;cursor:pointer;text-align:left;color:var(--fg);font-family:inherit}
-.stat:hover{border-color:var(--accent)}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 6px;align-items:stretch}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 13px;
+  font-size:.85rem;cursor:pointer;text-align:left;color:var(--fg);font-family:inherit;max-width:170px}
+.stat:hover,.stat:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
 .stat b{font-size:1.15rem;display:block;line-height:1.2}
+/* labels reserve two lines so the numbers above them share a baseline */
+.stat span{display:block;min-height:2.4em}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
-.tile{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;
+.tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px;
   cursor:pointer;text-align:left;color:var(--fg);font-family:inherit;font-size:.95rem}
-.tile:hover{border-color:var(--accent)}
+.tile:hover,.tile:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
 .tile b{display:block;margin-bottom:3px}
 .tile span{color:var(--muted);font-size:.8rem}
 .quick{display:flex;flex-wrap:wrap;gap:10px}
 .quick button{font:inherit;font-size:.9rem;padding:9px 14px;border:1px solid var(--line);
-  border-radius:20px;background:var(--card);color:var(--fg);cursor:pointer}
-.quick button:hover{border-color:var(--accent)}
+  border-radius:var(--r-pill);background:var(--card);color:var(--fg);cursor:pointer}
+.quick button:hover,.quick button:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
 .controls{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 8px;position:sticky;top:0;
   background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
 select,.controls input{font:inherit;font-size:.9rem;padding:7px 10px;border:1px solid var(--line);
-  border-radius:7px;background:var(--card);color:var(--fg)}
+  border-radius:var(--r-sm);background:var(--card);color:var(--fg)}
 .controls input{flex:1;min-width:170px}
 .controls .back{font:inherit;font-size:.9rem;padding:7px 12px;border:1px solid var(--line);
-  border-radius:7px;background:var(--card);color:var(--accent);cursor:pointer;font-weight:600}
+  border-radius:var(--r-sm);background:var(--card);color:var(--accent);cursor:pointer;font-weight:600}
+.controls .back:hover,.controls .back:focus-visible{background:var(--accent-soft);border-color:var(--accent)}
 .count{color:var(--muted);font-size:.85rem;margin:10px 0 14px}
-details.card{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:0 0 8px}
+details.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);margin:0 0 8px}
 details.card>summary{list-style:none;cursor:pointer;padding:12px 16px;display:flex;
   flex-wrap:wrap;align-items:baseline;gap:6px 10px}
 details.card>summary::-webkit-details-marker{display:none}
 details.card>summary::before{content:"▸";color:var(--muted);font-size:.8rem;margin-right:2px}
 details.card[open]>summary::before{content:"▾"}
-details.card>summary:hover{background:var(--bg);border-radius:10px}
+details.card>summary:hover{background:var(--bg);border-radius:var(--r-md)}
 .sumtitle{font-weight:600}
 .sumtitle .firm{color:var(--accent)}
 .summeta{color:var(--muted);font-size:.8rem}
 .drawer{padding:0 16px 16px;border-top:1px solid var(--line)}
 .meta{color:var(--muted);font-size:.82rem;margin:10px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:10px}
-.f{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:var(--bg)}
+.f{border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;background:var(--bg)}
 .f .lbl,.cool .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:5px}
 .q{font-size:.88rem}
 .q.quote{border-left:3px solid var(--stated);padding-left:9px}
 .pill{display:inline-block;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;
-  padding:2px 7px;border-radius:20px;vertical-align:1px;font-weight:600}
+  padding:2px 7px;border-radius:var(--r-pill);vertical-align:1px;font-weight:600}
+.pill .k{font-weight:400;opacity:.75}
 .lbl .pill{margin-left:6px}
 .s-stated{background:var(--stated-bg);color:var(--stated)}
 .s-silent{background:var(--silent-bg);color:var(--silent)}
@@ -82,13 +92,13 @@ details.card>summary:hover{background:var(--bg);border-radius:10px}
 .s-warn{background:var(--warn-bg);color:var(--warn)}
 .none{color:var(--muted);font-style:italic;font-size:.88rem}
 .cool{margin-top:11px;border:1px solid var(--line);border-left:4px solid var(--muted);
-  border-radius:8px;padding:11px 13px;background:var(--bg)}
+  border-radius:var(--r-sm);padding:11px 13px;background:var(--bg)}
 .cool.has{border-left-color:var(--warn)}
 .notes{color:var(--muted);font-size:.82rem;margin-top:7px}
 .screener{display:flex;flex-wrap:wrap;gap:10px}
 .screener select{font:inherit;font-size:.9rem;padding:9px 10px;border:1px solid var(--line);
-  border-radius:7px;background:var(--card);color:var(--fg)}
-.screener button{font:inherit;padding:9px 18px;border:1px solid var(--line);border-radius:7px;
+  border-radius:var(--r-sm);background:var(--card);color:var(--fg)}
+.screener button{font:inherit;padding:9px 18px;border:1px solid var(--line);border-radius:var(--r-sm);
   background:var(--accent);color:var(--bg);font-weight:600;cursor:pointer}
 .matchgroup{margin:22px 0 6px;font-weight:600}
 .matchgroup .pill{margin-left:8px}
@@ -196,9 +206,12 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c =>
   ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const $ = id => document.getElementById(id);
 
-function pill(state, extra){
+function pill(state, extra, key){
   const label = {stated:'stated', silent:'publishes nothing', unverified:'unverified'}[state] || state;
-  return `<span class="pill s-${esc(state)}${extra||''}">${esc(label)}</span>`;
+  // A bare state pill next to a program name answers "what state?" but not
+  // "state of what?" — collapsed rows carry the field name inside the pill.
+  const k = key ? `<span class="k">${esc(key)}:</span> ` : '';
+  return `<span class="pill s-${esc(state)}${extra||''}">${k}${esc(label)}</span>`;
 }
 function srcLink(url, status){
   if (url) return `<a href="${esc(url)}" rel="noopener nofollow">source</a>`;
@@ -290,11 +303,14 @@ function cardHTML(r){
                 r.opens ? 'opens: ' + r.opens : '', r.closes ? 'closes: ' + r.closes : '']
                .filter(Boolean).map(esc).join(' &middot; ');
   const cy = r.fields.class_year || {state:'unverified'};
-  // Compact summary row; full detail lives in the drawer below it.
+  const sp = r.fields.sponsorship || {state:'unverified'};
+  // Compact summary row; full detail lives in the drawer below it. Both
+  // scanning axes — class year and sponsorship — are readable while
+  // collapsed, so a reader filters without opening every drawer.
   return `<details class="card">
     <summary>
       <span class="sumtitle"><span class="firm">${esc(r.firm)}</span> — ${esc(r.name)}</span>
-      ${pill(cy.state)} ${r.cooling_off.state === 'stated' ? `<span class="pill s-warn">reapply rule</span>` : ''}
+      ${pill(cy.state, '', 'class year')} ${pill(sp.state, '', 'sponsorship')} ${r.cooling_off.state === 'stated' ? `<span class="pill s-warn">reapply rule</span>` : ''}
       <span class="summeta">${AUD[r.audience] || ''}${
         /* researchers sometimes put an explanation in cycle; a collapsed row
            only has room for a label, the full text stays in the drawer */
@@ -390,7 +406,7 @@ $('stats').innerHTML = [
   [cs.stated, 'state any reapplication rule', {cool:'stated'}],
   [cs.silent, 'publish nothing on reapplying', {cool:'silent'}],
   [cs.unverified, 'not yet verified', {cool:'unverified'}],
-].map(([v, k], i) => `<button class="stat" data-i="${i}" aria-label="${v} ${esc(k)} — open this view"><b>${v}</b>${esc(k)}</button>`).join('');
+].map(([v, k], i) => `<button class="stat" data-i="${i}" aria-label="${v} ${esc(k)} — open this view"><b class="num">${v}</b><span>${esc(k)}</span></button>`).join('');
 const STAT_GO = [{}, {}, {cool:'restrictive'}, {cool:'stated'}, {cool:'silent'}, {cool:'unverified'}];
 $('stats').addEventListener('click', e => {
   const b = e.target.closest('.stat'); if (b) go(STAT_GO[+b.dataset.i]);
