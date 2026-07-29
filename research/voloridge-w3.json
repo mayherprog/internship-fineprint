@@ -1,0 +1,224 @@
+{
+  "firm": "Voloridge Investment Management",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Quantitative Research Intern 2027",
+      "cycle": "Summer 2027",
+      "location": "Jupiter, FL",
+      "audience": "all",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Completion of at least three years of an undergraduate or graduate degree program in Math, Statistics, Physics or equivalent field of study",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Thank you for your application! Our team will review your submission, and we will be in touch with you when there is an update regarding the next steps.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Exceptionally high compensation",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Full posting text read; no reapplication/cooling-off language present."
+      }
+    },
+    {
+      "name": "Quantitative Developer Intern 2027",
+      "cycle": "Summer 2027",
+      "location": "Jupiter, FL",
+      "audience": "all",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing a Bachelor's, Master's, or PhD degree in Computer Science, or related discipline",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Thank you for your application! Our team will review your submission, and we will be in touch with you when there is an update regarding the next steps.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Exceptionally high compensation",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Full posting text read; no reapplication/cooling-off language present. Posting also states role is onsite-only: 'Ability to work onsite in our Jupiter, Florida office (not a remote role).'"
+      }
+    },
+    {
+      "name": "Quantitative Research Fellowship 2027",
+      "cycle": "2027, 10-week program",
+      "location": "Jupiter, FL",
+      "audience": "all",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Recently completed a PhD in any quantitative field, such as Physics, Mathematics, Computer Science, and Statistics",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Thank you for your application! Our team will review your submission, and we will be in touch with you when there is an update regarding the next steps.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Exceptionally high compensation",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Described as a '10 week program with the opportunity to join full-time.'"
+      }
+    },
+    {
+      "name": "Ascend Program 2027",
+      "cycle": "January 11-14, 2027",
+      "location": "Jupiter, FL",
+      "audience": "all",
+      "opens": "unverified",
+      "closes": "2026-10-31",
+      "source": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "First and second-year undergraduate students, or early-stage Ph.D. students",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "This application will be open until October 31, 2026.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Participants will receive a daily stipend during the program.",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Requires a professor/faculty advisor letter of recommendation. Only 20 participants selected per cohort. Travel and hotel fully covered."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "All four 2027 programs (Quantitative Research Intern, Quantitative Developer Intern, Quantitative Research Fellowship, Ascend Program) were pulled from Voloridge's Greenhouse ATS API, which mirrors the live careers site. None of the four postings mention visa/work-authorization sponsorship or any reapplication/cooling-off rule anywhere in their full text — this is a genuine silence, not a fetch failure. 'Exceptionally high compensation' appears verbatim in three postings with no dollar figure attached; do not convert third-party salary-estimator figures (e.g. Jobright/Vaia $95K-$206K ranges seen in search results) into stated facts — those are tier-3 estimator guesses, not company-sourced numbers, and were excluded from the fields above. Ascend Program 2027 is the only one with a hard stated deadline (application open until 2026-10-31) and program dates (Jan 11-14, 2027); the three others list no explicit open/close dates in the posting body."
+}

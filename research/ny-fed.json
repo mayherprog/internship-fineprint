@@ -1,0 +1,130 @@
+{
+  "firm": "Federal Reserve Bank of New York",
+  "sector": "government",
+  "programs": [
+    {
+      "name": "Junior Summer Analyst Program (Undergraduate Summer Analyst Program)",
+      "cycle": "2027",
+      "location": "New York, NY",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states 2026 cycle closed; 2027 details not yet posted."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Undergraduate Summer Analyst Program gives undergraduate juniors the opportunity to gain valuable work experience at a unique institution.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications for our summer 2026 junior internships have closed. Please check back in September 2026 for information on our 2027 program.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://builtin.com/job/2026-summer-intern-research-group-sophomore/7175915",
+          "notes": "quote removed (state=unverified): Your regular wages for the 10 weeks will be paid on a semi-monthly basis and will be calculated based on an annual salary of $65,600."
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off statement found on program hub or Junior Summer Analyst pages."
+      }
+    },
+    {
+      "name": "Sophomore Career Exploration Program",
+      "cycle": "2027",
+      "location": "New York, NY",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states 2026 cycle closed; 2027 details not yet posted."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Sophomore Career Exploration Internship gives undergraduate sophomores the opportunity to gain valuable work experience at a unique institution.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications for our summer 2026 sophomore internships have closed. Please check back in September 2026 for information on our 2027 program.",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off statement found on program hub or Sophomore Career Exploration pages."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.newyorkfed.org/careers",
+      "reason": "WebFetch tool returned HTTP 403 Forbidden (bot protection); not re-attempted via browser since specific program pages were reached directly through search."
+    },
+    {
+      "url": "https://www.newyorkfed.org/careers/student-programs-and-internships",
+      "reason": "WebFetch tool returned HTTP 403 Forbidden (bot protection); content successfully obtained instead via browser navigation tool."
+    },
+    {
+      "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program",
+      "reason": "WebFetch tool returned HTTP 403 Forbidden (bot protection); content successfully obtained instead via browser navigation tool."
+    }
+  ],
+  "notes_for_human": "Neither undergraduate program's official newyorkfed.org page states a citizenship/work-authorization requirement — both are silent on the program-overview page itself (confirmed by direct read on 2026-07-29). That clause instead appears on individual job requisitions (hosted via the Bank's applicant-tracking system and mirrored on third-party boards like BuiltIn). One such 2026-cycle requisition (https://builtin.com/job/2026-summer-intern-research-group-sophomore/7175915, a Sophomore/Research Group posting) states verbatim: 'Access to CSI and FOMC information is limited to U.S. citizens, lawful permanent residents, individuals who meet the definition of \"protected individual\" under 8 U.S.C. § 1324b(a)(3), and certain other nonimmigrants,' with non-citizens required to 'sign a declaration of intent to expeditiously become a lawful permanent resident and thereafter a U.S. citizen when eligible.' This is a hedge tied to roles requiring CSI/FOMC access, not a blanket citizenship mandate for every intern role, and it is drawn from the 2026 cycle, not confirmed as applying verbatim to 2027 — hence 'unverified' rather than 'stated' in the JSON above. The same 2026 posting also gave a class-year cutoff ('expected graduation date of Winter 2026 or Spring 2027') and an application deadline ('October 5th, 2025, 11:59 PM EST') — both cycle-specific and not usable as 2027 facts. Both official pages uniformly say 2027 program details will be posted 'in September 2026.' WebFetch was blocked (403) on newyorkfed.org domain generally; all successful primary-source reads used the browser tool instead."
+}

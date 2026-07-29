@@ -3,40 +3,56 @@
   "sector": "banking_finance",
   "programs": [
     {
-      "id": "early-id-leadership-program-summer-2027",
-      "name": "Early ID Leadership Program",
-      "audience": "undergraduate",
+      "id": "early-identification-early-id-program",
+      "name": "Early Identification (Early ID) Program",
+      "audience": "sophomore",
       "source": {
         "url": "https://jobs.citi.com/earlycareers-programs-preinternships",
-        "checked": "2026-07-27",
-        "check_method": "static",
+        "checked": "2026-07-29",
         "status": "ok",
-        "note": ""
+        "note": "Fetched successfully; content reflects the Pre-Internships program grid, which lists Early Identification alongside D1 Athlete Development, Freshman Discovery, Spring Insight, and Citi Insight Program (SMN and BHN tracks)."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "US sophomores, 4-yr degree; GPA 3.3 floor"
+          "state": "stated",
+          "tier": 1,
+          "quote": "US sophomores enrolled in a four-year bachelor's degree.",
+          "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships"
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships"
         },
         "process": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "participants apply to max two lines of business.",
+          "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships"
         },
         "compensation": {
           "state": "unverified",
-          "checked": "2026-07-27"
+          "tier": 3,
+          "source_url": null
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://jobs.citi.com/earlycareers-programs-preinternships",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off-after-rejection language found on the Pre-Internships page or the /early-careers FAQ section (which covers only Workday/account mechanics). The only application-limit language found is the 'max two lines of business' cap under Early ID, which is a concurrency cap, not a reapplication cooling-off rule."
       },
-      "cycle": "Summer 2027",
-      "status": "future",
-      "opens": "Nov 2026 (Dec cohort); Feb 2027 (Mar cohort)",
-      "closes": "—"
+      "cycle": "2027 (two intake windows)",
+      "location": "US",
+      "opens": "November (for December program) / February (for March program) — verbatim: \"March (applications open in February), December (applications open in November).\"",
+      "closes": "unverified"
     },
     {
       "id": "citi-markets-quantitative-analysis-sa-2027-summer-2027",
@@ -82,8 +98,8 @@
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

@@ -81,8 +81,9 @@
         "process": {
           "state": "stated",
           "tier": 1,
-          "quote": "You should hear back from us within a week. We will follow up with you whether or not we're moving forward with the process.",
-          "source_url": "https://www.janestreet.com/join-jane-street/interviewing/"
+          "quote": "You should hear back from us within a week. We will follow up with you whether or not we’re moving forward with the process (no one likes to be left hanging), so if you haven’t heard by then, please follow up with your recruiter.",
+          "source_url": "https://www.janestreet.com/join-jane-street/interviewing/",
+          "notes": "Quote extended to the full on-page sentence 2026-07-29: the earlier capture stopped at 'the process' and added a terminal period mid-sentence; mechanical verification caught the truncation."
         },
         "compensation": {
           "state": "unverified",

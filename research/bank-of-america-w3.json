@@ -1,0 +1,175 @@
+{
+  "firm": "Bank of America",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "name": "Global Banking & Markets (GBAM) Sophomore Summer Analyst Program",
+      "cycle": "2027 (unverified)",
+      "location": "unverified",
+      "audience": "sophomore",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://careers.bankofamerica.com/en-us/students/programs/global-corporate-investment-banking",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm program-overview page loaded but contained no sophomore-specific program name, dates, or eligibility text; general job-search/job-detail pages returned no live sophomore-tagged 2027-cycle posting during this search."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No firm FAQ page with application-cap/reapplication language was located within the call budget."
+      }
+    },
+    {
+      "name": "Global Technology Sophomore Summer Analyst Program",
+      "cycle": "2027 (unverified)",
+      "location": "unverified",
+      "audience": "sophomore",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://careers.bankofamerica.com/en-us/students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm students landing page and programs listing loaded successfully but contained only three broad umbrella categories (Banking Markets & Finance; Corporate Functions; Technology & Operations) and a generic 4-step process; no sophomore-tagged Technology posting or dates surfaced. Aggregator sites (WayUp) reference a 'Global Technology Sophomore Summer Analyst Program' name but per instructions that text is not eligible to be quoted."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    },
+    {
+      "name": "Global Technology Summer Analyst 2027 - Business Analyst (standard, non-sophomore junior-year program — included for contrast/context only)",
+      "cycle": "2027",
+      "location": "Multiple Locations",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "Apply by Nov 8, 2026",
+      "source": {
+        "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Live tier-1 job posting; explicitly NOT described as a sophomore program."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Eligible candidates must have a graduation timeframe between November 2027 and August 2028.",
+          "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Bank of America is unable to consider candidates who will require visa sponsorship now, or in the future, for this specific role.",
+          "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No application-cap/reapplication text present on this job-detail page."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://careers.bankofamerica.com/en-us/careers/students/programs.html",
+      "reason": "HTTP 404 — incorrect path guessed from site nav; correct programs URL not located within call budget"
+    }
+  ],
+  "notes_for_human": "Could not verify (tier-1, direct firm source) any 2027-cycle sophomore-program opening date, eligibility text, sponsorship clause, or application-cap rule within the 8-call budget. The only sophomore-program names and eligibility windows found ('GBAM Sophomore Summer Analyst,' 'Global Technology Sophomore Summer Analyst,' with a cited graduation window of Dec 2026-June 2027) came exclusively from tier-3 aggregators (WayUp, Prosple, Fastweb, getsmartresume, Extern) and per your rules cannot be placed in quote fields — note also that a Dec2026-June2027 graduation window is inconsistent with a sophomore-level program (that window fits a graduating senior, not a rising junior), suggesting the aggregator data may be stale or mismatched from a prior cycle. What IS tier-1-verified is the standard (non-sophomore) Global Technology Summer Analyst 2027 posting: apply-by Nov 8, 2026, graduation window Nov 2027-Aug 2028, and a firm sponsorship bar ('unable to consider candidates who will require visa sponsorship now, or in the future'). No FAQ page with an application-cap/reapplication rule was located. Recommend a follow-up pass specifically crawling careers.bankofamerica.com's job-search filtered by 'Sophomore' once BofA's fall 2026 posting cycle opens (reportedly ~September), since no such live posting existed as of 2026-07-29."
+}

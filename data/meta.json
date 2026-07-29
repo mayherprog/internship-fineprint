@@ -3,6 +3,80 @@
   "sector": "technology",
   "programs": [
     {
+      "id": "meta-university",
+      "name": "Meta University",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.metacareers.com/careerprograms/pathways/metauniversity",
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "Direct fetch returns HTTP 404. Wayback Machine snapshot dated 2025-12-04 shows this URL's canonical/og:url rewritten to https://www.metacareers.com/404, indicating the page was already retired by Dec 2025. Cannot confirm whether Meta University still exists as a distinct program for the 2027 cycle from Meta's own site."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "source_url": null
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "source_url": null
+        },
+        "process": {
+          "state": "unverified",
+          "source_url": null
+        },
+        "compensation": {
+          "state": "unverified",
+          "source_url": null
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "source_url": null
+      },
+      "cycle": "2027",
+      "location": "unverified",
+      "opens": "unverified",
+      "closes": "unverified"
+    },
+    {
+      "id": "meta-undergraduate-summer-internship-general",
+      "name": "Meta Undergraduate/Summer Internship (general)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.metacareers.com/students-and-grads/",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Direct fetch returns 404. Wayback snapshot (2026-05-14) returns HTTP 200 but raw HTML is an unrendered JavaScript SPA shell containing only a generic Organization JSON-LD block (no program/job JSON-LD); no page text extractable without JS execution, which is unavailable in this environment."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "source_url": null
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "source_url": null
+        },
+        "process": {
+          "state": "unverified",
+          "source_url": null
+        },
+        "compensation": {
+          "state": "unverified",
+          "source_url": null
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "source_url": null
+      },
+      "cycle": "2027",
+      "location": "unverified",
+      "opens": "unverified",
+      "closes": "unverified"
+    },
+    {
       "id": "meta-university-summer-2027",
       "name": "Meta University",
       "audience": "undergraduate",
@@ -37,8 +111,8 @@
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

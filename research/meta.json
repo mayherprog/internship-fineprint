@@ -1,0 +1,49 @@
+{
+  "firm": "Meta",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Meta University",
+      "cycle": "2027",
+      "location": "unverified",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://www.metacareers.com/careerprograms/pathways/metauniversity",
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "Direct fetch returns HTTP 404. Wayback Machine snapshot dated 2025-12-04 shows this URL's canonical/og:url rewritten to https://www.metacareers.com/404, indicating the page was already retired by Dec 2025. Cannot confirm whether Meta University still exists as a distinct program for the 2027 cycle from Meta's own site."
+      }
+    },
+    {
+      "name": "Meta Undergraduate/Summer Internship (general)",
+      "cycle": "2027",
+      "location": "unverified",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://www.metacareers.com/students-and-grads/",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Direct fetch returns 404. Wayback snapshot (2026-05-14) returns HTTP 200 but raw HTML is an unrendered JavaScript SPA shell containing only a generic Organization JSON-LD block (no program/job JSON-LD); no page text extractable without JS execution, which is unavailable in this environment."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.metacareers.com/careerprograms/pathways/metauniversity",
+      "reason": "404 — appears retired; Wayback snapshot from 2025-12-04 shows redirect to /404"
+    },
+    {
+      "url": "https://www.metacareers.com/faq",
+      "reason": "404 on direct fetch; no Wayback Machine snapshot exists for this path (archived_snapshots empty), so no historical check possible either"
+    },
+    {
+      "url": "https://www.metacareers.com/students-and-grads/",
+      "reason": "404 on direct fetch; Wayback snapshot (2026-05-14, HTTP 200) is a JS SPA shell with no extractable static content"
+    }
+  ],
+  "notes_for_human": "metacareers.com is a JavaScript single-page application; static fetch tools (curl, WebFetch) only retrieve an unrendered shell with a generic Organization JSON-LD block — no job/program-specific structured data is present in raw HTML. The specific Meta University pathway URL returns 404 both live and in a Dec-2025 archive snapshot, which is itself notable: it suggests the program page (at least at that URL) had already been taken down before this check, though I cannot confirm whether Meta University was discontinued, renamed, merged into a broader program, or just moved to a different URL — all of those are equally consistent with a 404. No verbatim quotes were obtainable for eligibility, sponsorship, pay, deadlines, or cooling-off/reapplication rules from Meta's own site in this pass. To get real answers you would need either a JS-rendering fetch (headless browser) against metacareers.com, or to search metacareers.com's current internal search/navigation manually for the live Meta University and internship FAQ URLs, since the ones tested here are stale."
+}

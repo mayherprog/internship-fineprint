@@ -1,0 +1,133 @@
+{
+  "firm": "Arrowstreet Capital",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Quantitative Researcher Intern, Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "Boston, MA",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Workday CXS-backed job posting page; WebFetch returned an empty/unrenderable page (JS-rendered SPA, no static content retrieved)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Could not access the job-specific posting to check for a cooling-off clause."
+      }
+    },
+    {
+      "name": "Quantitative Developer Intern, Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "Boston, MA",
+      "audience": "undergraduate",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Workday Campus_Careers board is a JS-rendered SPA; WebFetch could not retrieve posting content. Direct CXS API call (wday/cxs/arrowstreetcapital/Campus_Careers/jobs) returned HTTP 400."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Could not access the job-specific posting to check for a cooling-off clause."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/wday/cxs/arrowstreetcapital/Campus_Careers/jobs",
+      "reason": "HTTP 400 Bad Request — Workday CXS API requires a POST with session/tenant params that a simple GET fetch cannot satisfy."
+    },
+    {
+      "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
+      "reason": "Workday job posting is a client-side-rendered SPA; WebFetch retrieved no body content."
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/arrowstreetcapital/jobs",
+      "reason": "HTTP 404 — Arrowstreet Capital does not use Greenhouse; not their ATS."
+    },
+    {
+      "url": "https://www.ziprecruiter.com/c/Arrowstreetcapital/Job/Quantitative-Developer-Intern,-Summer-2027/-in-Boston,MA?jid=cfb21da87d2ca740",
+      "reason": "HTTP 403 Forbidden (bot-blocked aggregator; would have been tier 3/no-quote source anyway)."
+    }
+  ],
+  "notes_for_human": "Confirmed via WebSearch that Arrowstreet Capital is actively posting Summer 2027 internships (Quantitative Researcher Intern and Quantitative Developer Intern, both Boston, both on Workday under R1505-series requisition IDs), but the actual Workday job-posting pages and the CXS JSON API are both inaccessible to this tool (SPA rendering / 400 response), so none of the priority fields (class year, sponsorship, pay, cooling-off, dates) could be verified against primary source text. The two general company pages that did load — https://www.arrowstreetcapital.com/student-careers/ and https://www.arrowstreetcapital.com/professional-careers/ — describe a '10-week' summer program with internships across 'six' teams but contain no eligibility, sponsorship, pay, or cooling-off language; treat as silent only for those general pages, not for the job-specific postings. A search-engine snippet suggested a $3,500-$5,000/week pay range for the Quantitative Developer Intern role, but this was not confirmed by reading the source page directly, so it is omitted from the structured fields per the verbatim-or-omit rule. Recommend the human open the Workday links in an actual browser (JS execution required) to pull the verbatim eligibility/sponsorship/pay/cooling-off language."
+}

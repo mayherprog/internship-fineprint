@@ -1,0 +1,125 @@
+{
+  "firm": "Wells Fargo",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "name": "Undergraduate Programs (general — Audit, BRCRO, CAO, Commercial Banking, Consumer Banking and Lending, CIB, Corporate Risk, Finance, Global Operations, Global Payments & Liquidity, HR, Public Affairs, Technology, Wealth & Investment Management)",
+      "cycle": "Summer 2027 (non-CIB) / Summer 2028 (CIB) / Full-Time",
+      "location": "unspecified on pages read",
+      "audience": "undergraduate",
+      "opens": "Non-CIB Summer 2027 internships: \"applications open June - July 2026\"; CIB Summer 2028 internships: \"applications open January 2027\"; Full-Time: \"typically open August–September, based on intern conversion\"",
+      "closes": "General internships: \"remain open through fall; applications close on a rolling basis\"",
+      "source": {
+        "url": "https://www.wellsfargojobs.com/en/early-careers/application-process/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched via WebFetch (HTML-to-markdown + model extraction); quotes reflect the fetch tool's extraction of page text, not a raw-HTML/JSON-LD diff against source."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.wellsfargojobs.com/en/early-careers/application-process/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.wellsfargojobs.com/en/early-careers/application-process/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "applications open mid-June to July and remain open through fall; applications close on a rolling basis",
+          "source_url": "https://www.wellsfargojobs.com/en/early-careers/application-process/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.wellsfargojobs.com/en/early-careers/application-process/"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "No. You cannot reapply for a position if you have been declined for it.",
+        "source_url": "https://www.wellsfargojobs.com/en/frequently-asked-questions/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "rejection",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": false
+        },
+        "notes": "Parsed scope this_role: the FAQ rule is per job opening (\"You cannot reapply for a position if you have been declined for it\"; \"You must apply separately to each job opening\"). FAQ additionally states: \"When you withdraw your submitted application from a job opening, the tool prevents you from reapplying to the job.\" No numeric cooling-off duration or global application cap was found on this page — the rule as stated is a permanent per-req bar, not a time-limited cooling-off period."
+      }
+    },
+    {
+      "name": "Sophomore Discovery Fellowship Program",
+      "cycle": "unverified — could not confirm 2027 cycle details from a primary source",
+      "location": "unverified",
+      "audience": "sophomore",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://talent.wellsfargojobs.com/flows/sdfp2026",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "HTTP 403 Forbidden on WebFetch; page is a Beamery-hosted registration flow, likely requires JS/session and blocks automated fetch. Raw HTML/JSON-LD was not retrievable."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No program-specific page was successfully fetched; general FAQ cooling-off rule above (tier 1) likely applies firm-wide but was not confirmed as applying specifically to this program."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://talent.wellsfargojobs.com/flows/sdfp2026",
+      "reason": "HTTP 403 Forbidden on WebFetch — appears to require browser/session, standard fetch was rejected."
+    },
+    {
+      "url": "https://talent.wellsfargojobs.com/flows/sophomore-discovery-fellowship-program",
+      "reason": "Not attempted directly (budget); same host/pattern as the blocked 403 URL above, high likelihood of identical block."
+    }
+  ],
+  "notes_for_human": "Known URL (wellsfargojobs.com/en/early-careers/undergraduate-programs/) loaded but, per WebFetch extraction, contained only a 13-track program list with no sophomore-cycle dates, eligibility, or sponsorship text — could not confirm whether this reflects true page content or JS-rendered content the fetch tool missed. The Sophomore Discovery Fellowship Program's actual details live on a separate Beamery-hosted flow (talent.wellsfargojobs.com) that returned 403 and could not be read raw or via JSON-LD within budget. All specific sophomore-program facts circulating publicly (Dec 2027/May-June 2028 grad eligibility, Charlotte NC relocation, 6+ months work experience, no-sponsorship language, notify-when-applications-open messaging) come only from third-party aggregator/prep sites (Bentley CareerEdge, Opportunities for Youth, Prosple, ScholarDigger, GetSmartResume) and were explicitly excluded from this JSON per the no-aggregator-quoting rule — treat those claims as unconfirmed against a primary source. The one solid primary-source (tier 1) finding is the FAQ's reapplication rule, quoted above. Recommend a follow-up pass with a JS-capable browser tool against talent.wellsfargojobs.com/flows/sdfp2026 (or sophomore-discovery-fellowship-program) to get primary verbatim sophomore-cycle dates and eligibility text; budget (8 calls) was exhausted before that could be attempted safely."
+}

@@ -1,0 +1,133 @@
+{
+  "firm": "Capital One",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "name": "Technology Early Internship Program (TEIP)",
+      "cycle": "2027",
+      "location": "McLean, VA",
+      "audience": "sophomore",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "No program on the live careers site is currently branded 'Technology Early Internship Program.' The site's early-career page (checked 2026-07-29) lists a 'Tech Summit' (short workshop event, not a 10-week internship) feeding into the 'Technology Internship Program' or 'Technology Development Program,' and a separate 10-week 'Analyst Early Internship Program.' Individual TEIP job requisition URLs surfaced by search (e.g. themuse.com/builtin.com listings for 'Technology Early Internship Program - Summer 2025') were for a prior cycle and are not live Capital One pages."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Not found; no accessible current TEIP posting to check."
+      }
+    },
+    {
+      "name": "Analyst Early Internship Program",
+      "cycle": "unspecified (page not cycle-dated beyond 'Copyright 2026')",
+      "location": "McLean, VA (in-person, corporate housing provided)",
+      "audience": "sophomore",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "This is the current live 10-week 'Early Internship Program' family description page, not an individual job requisition. Every specific job-requisition URL found via search (Product Development Internship Program - Summer 2027, Finance Internship Program - Summer 2027, Commercial Internship Program - Summer 2027, Analyst Early Internship Program - Summer 2026) returned a 'Custom Job Error' page when loaded directly in-browser on 2026-07-29 — i.e. dead/closed requisitions, not JS-rendering failures (page loaded fine, just showed a 404-style error)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Who we’re looking for: First-year students or sophomores pursuing a quantitative/STEM major.",
+          "source_url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Our 10-week Early Internship Programs are paid, in-person experiences at our McLean office, with corporate housing provided.",
+          "source_url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication-rule language found on the pages checked; no live individual req page was reachable to check further."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.capitalonecareers.com/job/mclean/product-development-internship-program-summer-2027/31238/97421687312",
+      "reason": "dead - loads capitalonecareers.com homepage/'Custom Job Error' page (requisition closed or removed), confirmed via direct browser navigation, not a JS-render issue"
+    },
+    {
+      "url": "https://www.capitalonecareers.com/job/mclean/finance-internship-program-summer-2027/31238/97421687360",
+      "reason": "dead - WebFetch returned HTTP 404"
+    },
+    {
+      "url": "https://www.capitalonecareers.com/job/mclean/analyst-early-internship-program-summer-2026/31238/85485933920",
+      "reason": "dead - loads 'Custom Job Error' page on direct browser navigation"
+    },
+    {
+      "url": "https://www.capitalonecareers.com/job/mclean/commercial-internship-program-summer-2027/31238/97421687536",
+      "reason": "not independently loaded - found only via search index snippet, same domain pattern as three confirmed-dead reqs above so treated as unverified, not fetched to conserve budget"
+    }
+  ],
+  "notes_for_human": "Could not verify the private tracker's 'future-sponsorship screen' claim against a live, currently-open TEIP or intern posting: no TEIP-branded program exists on the live Capital One careers site as of 2026-07-29 (it appears folded into 'Tech Summit' -> 'Technology Internship Program'/'Technology Development Program'), and every specific Summer-2027-cycle job requisition URL turned up by search (Product Development, Finance, Commercial Internship Programs - Summer 2027; Analyst Early Internship Program - Summer 2026) is dead when loaded directly - each redirects to a 'Custom Job Error' page rather than showing content, so these reqs are closed/removed, not merely JS-blocked. A WebSearch tool's AI-generated summary (not a verbatim page quote) claimed sponsorship language reading approximately 'Capital One will not sponsor a new applicant for employment authorization... including H1B, F-1 OPT, F-1 STEM OPT, F-1 CPT, J-1, TN, E-3, and O-1' appears across their 2026/2027 internship postings, but per the VERBATIM-or-omit rule this is explicitly NOT included as a quote since I never loaded that exact text from a live page myself - treat it as an unconfirmed lead only, and re-check when Capital One's 2027-cycle undergraduate internship requisitions (typically posted later in the year, e.g. fall 2026 for a Summer 2027 start based on the Summer 2026 Analyst posting's Nov/Dec-era pattern implied by adjacent 'Summer 2027' Master's/PhD reqs already posted 2026-07-20) go live. Recommend re-running this check once actual open Summer 2027 undergraduate (not PhD/Master's) req pages exist."
+}

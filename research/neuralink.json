@@ -1,0 +1,60 @@
+{
+  "firm": "Neuralink",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "SWE Intern, BCI Applications",
+      "cycle": "Summer 2027",
+      "location": "Fremont, CA",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Currently pursuing a Bachelor's degree in Computer Science or a related field",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Will you, at any point, require employer sponsorship to work in the United States?",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Answering this question fully is the most important part of our interview process.",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "California Hourly Rate: $35/Hr USD",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No statement about reapplying restrictions or retaking assessments on page."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": ""
+}

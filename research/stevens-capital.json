@@ -1,0 +1,125 @@
+{
+  "firm": "Stevens Capital Management",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Developer Internship",
+      "cycle": "",
+      "location": "Radnor, PA",
+      "audience": "all",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/scminternships/jobs/1146391",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched via job-boards.greenhouse.io and boards-api.greenhouse.io (board token 'scminternships'); content retrieved through an AI-summarizing fetch tool, not raw HTML/JSON inspection."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Pursuing an undergraduate or graduate level degree in Computer Science or Mathematics.",
+          "source_url": "https://job-boards.greenhouse.io/scminternships/jobs/1146391"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/scminternships/jobs/1146391"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://job-boards.greenhouse.io/scminternships/jobs/1146391",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off language found on the job posting."
+      }
+    },
+    {
+      "name": "Quantitative Research Analyst Internship",
+      "cycle": "",
+      "location": "Radnor, PA",
+      "audience": "all",
+      "opens": "",
+      "closes": "",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/scminternships/jobs/1146416",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Fetched via job-boards.greenhouse.io and boards-api.greenhouse.io (board token 'scminternships'); content retrieved through an AI-summarizing fetch tool, not raw HTML/JSON inspection."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Substantial progress toward a degree",
+          "source_url": "https://job-boards.greenhouse.io/scminternships/jobs/1146416"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Opportunities, including full-time summer internships and part-time work throughout the school year, are available for qualified students at each of the undergraduate, masters and PhD levels.",
+          "source_url": "https://job-boards.greenhouse.io/scminternships/jobs/1146416"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://job-boards.greenhouse.io/scminternships/jobs/1146416",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off language found on the job posting."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.scm-lp.com/open-positions/?gh_jid=721888",
+      "reason": "JS-rendered Greenhouse embed returned only the page header ('Stevens Capital Management') with no job content when fetched."
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/stevenscapitalmanagement/jobs/721888",
+      "reason": "HTTP 404 — wrong board token; the firm's actual Greenhouse board token is 'scminternships', not 'stevenscapitalmanagement'. Job id 721888 could not be located under the correct token via the tools available."
+    }
+  ],
+  "notes_for_human": "Could not resolve gh_jid=721888 to a specific posting; instead found the firm's live internship board (job-boards.greenhouse.io/scminternships) via web search, listing two current postings: Developer Internship (id 1146391) and Quantitative Research Analyst Internship (id 1146416), both Radnor PA, no explicit '2027' cycle label on either page. Neither posting states a specific graduating class year (e.g. 'Class of 2027') — the class_year quotes above are general degree-progress language, not class-year-specific. No verbatim sponsorship or compensation statement could be confirmed directly on either job page through the tools used (WebFetch uses an AI summarizer, not raw text extraction, so absence of a quote is not fully conclusive — a manual browser check of the two URLs above is recommended for higher confidence, especially on sponsorship language and any EEO/immigration boilerplate). A third-party site (ZipRecruiter) listed an estimated pay of $17.25-$22.75/hr for the Developer Internship, but this is a third-party estimate (tier 3), not company-stated, so it is excluded from compensation quotes per instructions. Task budget (4-8 calls) was used in full (8 calls)."
+}

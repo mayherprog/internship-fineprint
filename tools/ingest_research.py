@@ -55,6 +55,15 @@ REFUTED_ROWS = {
         "in the live posting (Greenhouse job 8052083 read in full: no occurrence of "
         "'2028' or 'eligib'). Superseded by the current posting's stated criterion.",
 }
+
+# URL-less tracker watch rows made fully redundant by later sourced rows for
+# the same firm — nothing refuted, just no residual information: no quote, no
+# URL, and every role they name now has its own sourced row.
+REDUNDANT_WATCH_ROWS = {
+    ("Aquatic Capital", "aquatic-capital-swe-qr-2027-summer-2027"):
+        "Combined SWE/QR watch row; both roles recorded as sourced rows "
+        "(Greenhouse 8489186002, 8489233002) on 2026-07-29.",
+}
 FIELD_KEYS = ("class_year", "sponsorship", "process", "compensation")
 FIELD_ALLOWED = {"state", "tier", "quote", "source_url", "source_status",
                  "checked", "summary_note", "parsed"}
@@ -304,6 +313,16 @@ def main():
                 if not url:
                     return None
                 u = re.sub(r"^https?://(www\.)?", "", url.lower()).rstrip("/")
+                u = u.split("?")[0]
+                # Greenhouse serves one posting from two hosts; collapse both
+                # to org/jobs/id so they dedupe as the same posting.
+                m = re.match(
+                    r"(?:job-boards|boards)\.greenhouse\.io/([^/]+)/jobs/(\d+)"
+                    r"|boards-api\.greenhouse\.io/v1/boards/([^/]+)/jobs/(\d+)", u)
+                if m:
+                    org = m.group(1) or m.group(3)
+                    jid = m.group(2) or m.group(4)
+                    return f"greenhouse/{org}/{jid}"
                 return "/".join(re.match(r"^(\d{8,})", s).group(1)
                                 if re.match(r"^(\d{8,})", s) else s
                                 for s in u.split("/"))
@@ -346,6 +365,10 @@ def main():
                     continue
                 if superseded(q):
                     deduped.append(f"{rec['firm']}: pending-quote row {q['id']} superseded by a sourced research row")
+                    continue
+                if (rec["firm"], q["id"]) in REDUNDANT_WATCH_ROWS:
+                    deduped.append(f"{rec['firm']}: watch row {q['id']} redundant — "
+                                   + REDUNDANT_WATCH_ROWS[(rec["firm"], q["id"])])
                     continue
                 rival = research_by_url.get(norm(q["source"].get("url")))
                 if rival is None:

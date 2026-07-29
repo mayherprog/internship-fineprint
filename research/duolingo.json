@@ -1,0 +1,72 @@
+{
+  "firm": "Duolingo",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Thrive Program",
+      "cycle": "unverified (annual program; specific 2027 dates not published as of check date)",
+      "location": "unverified",
+      "audience": "sophomore",
+      "opens": "unverified (see per-track quotes in fields.process)",
+      "closes": "",
+      "source": {
+        "url": "https://careers.duolingo.com/?type=Thrive+Program",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "JS-rendered SPA; WebFetch returned only the page shell ('Duolingo Careers' heading), no job/program content. boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true was also checked (tier 1, status ok) and currently lists no Thrive/internship postings — consistent with the program being off-cycle, but this does not confirm future dates."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "rising juniors",
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/",
+          "notes": "Quote was a composite of three separate per-track sentences with bracketed editorial insertions, not verbatim page text; failed mechanical verification. The blog does state per-track opening windows (late September for software engineering, October for product management, early November for design) but the individual sentences were not captured verbatim. Removed text: opens yearly at the end of September [Software Engineering]; opens in October yearly [Product Management]; open in early November [Product Design and Studio Art]"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off language found on the Duolingo blog page read. The primary careers URL (type=Thrive+Program) could not be read due to JS rendering, so silence cannot be treated as confirmed for that page specifically — only for blog.duolingo.com/duolingo-thrive-intern-program/, which was successfully fetched."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://careers.duolingo.com/?type=Thrive+Program",
+      "reason": "JavaScript-rendered SPA; WebFetch (HTML-to-markdown conversion) returned only a bare page heading with no listings or program copy."
+    },
+    {
+      "url": "https://careers.duolingo.com/jobs/7636988002",
+      "reason": "Same JS-rendered shell issue; underlying Greenhouse job ID (Software Engineer, Thrive Intern) returned HTTP 404 on boards-api.greenhouse.io, indicating the posting is no longer live."
+    }
+  ],
+  "notes_for_human": "Verbatim, tier-1 detail came only from Duolingo's own blog post (blog.duolingo.com/duolingo-thrive-intern-program/), not the careers site itself, which is JS-blocked to both WebFetch and the Greenhouse content API. The blog states Thrive targets 'rising juniors' (i.e., current sophomores applying for the summer before junior year) and gives per-track opening windows (late Sept for SWE, Oct for PM, early Nov for Design/Studio Art) as a recurring annual pattern — it does NOT give year-specific 2027 dates, so I did not fabricate a 'Summer 2027 opens [date]' claim. Several aggregator sites (Extern, GeeksforGeeks, Opportunities for Youth) surfaced in search with more specific-sounding 2026/2027 dates and a '76% conversion rate' stat, but per your rules I did not quote or rely on them — none is Duolingo's own site. Sponsorship and reapplication/cooling-off policy are genuinely silent on the one page I could read; I could not confirm they're silent on the official Thrive careers page itself since that page never rendered. If precise 2027 dates matter, the next verification pass should retry careers.duolingo.com with a JS-capable browser tool (e.g., the Browser pane) rather than WebFetch, or watch boards-api.greenhouse.io/v1/boards/duolingo/jobs for new Thrive postings to appear around late September 2026."
+}

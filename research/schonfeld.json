@@ -1,0 +1,72 @@
+{
+  "firm": "Schonfeld",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "2027 Summer Internships-Express Your Interest",
+      "cycle": "Summer 2027",
+      "location": "Dubai, UAE; Hong Kong; London; Miami; New York (per aggregator mirror only — unverified via tier 1)",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "unverified",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430",
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "URL no longer resolves to a job posting; Greenhouse redirects/serves the generic Schonfeld job-board index (54 current openings, none titled '2027 Summer Internships'). The Greenhouse API mirror (boards-api.greenhouse.io/v1/boards/schonfeld/jobs/7635430) also returned HTTP 404. Confirmed via the full board listing (boards-api.greenhouse.io/v1/boards/schonfeld/jobs, checked 2026-07-29) that no 2027-titled internship req currently exists — only 2026-cycle internships (São Paulo QR/Strat, São Paulo LATAM Investment Analyst, São Paulo Operational Risk) and one open-dated Hong Kong QR/Developer intern req are live."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "quote": "",
+          "source_url": "https://builtin.com/job/2027-summer-internships-express-your-interest/8538243",
+          "source_url_note_ignore": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/schonfeld/jobs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Read the full live Schonfeld Greenhouse job-board listing (54 open reqs) on 2026-07-29; no reapplication or cooling-off language appears anywhere on that page. No dedicated Schonfeld 'careers FAQ' or policy page was located to check separately."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430",
+      "reason": "Job posting removed/expired — resolves to generic board index rather than the specific req"
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/schonfeld/jobs/7635430",
+      "reason": "HTTP 404 — req no longer exists in Greenhouse API"
+    }
+  ],
+  "notes_for_human": "The specific req you flagged (id 7635430, '2027 Summer Internships-Express Your Interest') is dead as of 2026-07-29 — confirmed two ways: the Greenhouse job-board URL redirects to the generic listing page, and the Greenhouse API returns 404 for that id. A third-party aggregator mirror (builtin.com, tier 3, NOT used for quotes per your rule) shows a cached copy explicitly flagged 'This job posting was removed on June 15, 2026 at 6:22 p.m. UTC' — i.e., it was pulled roughly six weeks before today's check, consistent with a placeholder 'express interest' listing that Schonfeld took down once it presumably converted into real dated reqs (which have not yet appeared on the live board as of 2026-07-29). That cached copy claims 'Class of 2027,' a pay range of roughly $45,000–$150,000 annualized/prorated (with a likely typo, '$150,00', in the original), a 12–16 week duration, and 5 locations — but since it is tier 3, none of that clears your verbatim/tier-1 bar, so every field above is marked unverified rather than stated. The live board currently shows only 2026-cycle internships (three in São Paulo, one open-dated in Hong Kong) — no 2027-titled internship req is live right now. Recommend re-checking the board closer to the 'August' opening window the aggregator mentions, since Schonfeld appears to cycle placeholder 'express interest' postings before real dated reqs go up."
+}

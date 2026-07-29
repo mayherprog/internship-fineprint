@@ -3,6 +3,108 @@
   "sector": "banking_finance",
   "programs": [
     {
+      "id": "technology-early-internship-program-teip",
+      "name": "Technology Early Internship Program (TEIP)",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "No program on the live careers site is currently branded 'Technology Early Internship Program.' The site's early-career page (checked 2026-07-29) lists a 'Tech Summit' (short workshop event, not a 10-week internship) feeding into the 'Technology Internship Program' or 'Technology Development Program,' and a separate 10-week 'Analyst Early Internship Program.' Individual TEIP job requisition URLs surfaced by search (e.g. themuse.com/builtin.com listings for 'Technology Early Internship Program - Summer 2025') were for a prior cycle and are not live Capital One pages."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 3,
+          "source_url": null
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "source_url": null
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "source_url": null
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 3,
+          "source_url": null
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Not found; no accessible current TEIP posting to check."
+      },
+      "cycle": "2027",
+      "location": "McLean, VA",
+      "opens": "unverified",
+      "closes": "unverified"
+    },
+    {
+      "id": "analyst-early-internship-program",
+      "name": "Analyst Early Internship Program",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "This is the current live 10-week 'Early Internship Program' family description page, not an individual job requisition. Every specific job-requisition URL found via search (Product Development Internship Program - Summer 2027, Finance Internship Program - Summer 2027, Commercial Internship Program - Summer 2027, Analyst Early Internship Program - Summer 2026) returned a 'Custom Job Error' page when loaded directly in-browser on 2026-07-29 — i.e. dead/closed requisitions, not JS-rendering failures (page loaded fine, just showed a 404-style error)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Who we’re looking for: First-year students or sophomores pursuing a quantitative/STEM major.",
+          "source_url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 3,
+          "source_url": null
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 3,
+          "source_url": null
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Our 10-week Early Internship Programs are paid, in-person experiences at our McLean office, with corporate housing provided.",
+          "source_url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 3,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication-rule language found on the pages checked; no live individual req page was reachable to check further."
+      },
+      "cycle": "unspecified (page not cycle-dated beyond 'Copyright 2026')",
+      "location": "McLean, VA (in-person, corporate housing provided)",
+      "opens": "unverified",
+      "closes": "unverified"
+    },
+    {
       "id": "capital-one-teip-early-roles-summer-2027",
       "name": "Capital One TEIP / early roles",
       "audience": "undergraduate",
@@ -37,8 +139,8 @@
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

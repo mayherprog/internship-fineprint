@@ -1,0 +1,60 @@
+{
+  "firm": "Epic Systems",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Software Development Internship",
+      "cycle": "Summer 2027",
+      "location": "Verona, WI",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://careers.epic.com/jobs/intern/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Current students working towards a BS/BA (or combined BS/MS) in computer science, software engineering, or a related field.",
+          "source_url": "https://careers.epic.com/jobs/intern/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Technical assessments and a final interview—that's all.",
+          "source_url": "https://careers.epic.com/jobs/intern/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": ""
+}

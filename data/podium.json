@@ -3,45 +3,55 @@
   "sector": "technology",
   "programs": [
     {
-      "id": "software-engineering-intern-lehi-ut-summer-2027",
-      "name": "Software Engineering Intern (Lehi, UT)",
+      "id": "software-engineering-intern",
+      "name": "Software Engineering Intern",
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/podium81/jobs/7939921",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Primary URL returned job listings index, not detail page. API endpoint returned 404."
       },
       "fields": {
         "class_year": {
           "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "No class-year language (verified 7/23); sponsorship screening question only (form live 7/27)"
+          "tier": 1,
+          "source_url": null
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         },
         "process": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         },
         "compensation": {
           "state": "unverified",
-          "checked": "2026-07-27"
+          "tier": 1,
+          "source_url": null
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        }
       },
-      "cycle": "Summer 2027",
-      "status": "open",
-      "opens": "Open now",
-      "closes": "Rolling"
+      "cycle": "Summer 2027"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

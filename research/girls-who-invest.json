@@ -1,0 +1,67 @@
+{
+  "firm": "Girls Who Invest",
+  "sector": "asset_management",
+  "programs": [
+    {
+      "name": "Summer Intensive Program (SIP)",
+      "cycle": "2027",
+      "location": "",
+      "audience": "sophomore",
+      "opens": "late summer 2026",
+      "closes": "unknown",
+      "source": {
+        "url": "https://www.girlswhoinvest.org/sip",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Live page mixes closed-2026-cycle content (deadline Oct 1, 2025) with forward-looking 2027 eligibility language; no 2027 deadline posted yet."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Girls Who Invest is an inclusive training program for first years and sophomores of all gender identities, including male-identifying students, who have demonstrated a commitment to GWI's mission.",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The majority of internship matches facilitated by Girls Who Invest require unrestricted authorization to work in the U.S. and will not be filled by students on Curricular Practical Training (CPT), or by those who would otherwise need visa sponsorship in the future (i.e., STEM OPT, H-1B, TN, E-3, etc.).",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Please note that all internships are paid positions, with rates of compensation determined by participating Partner firms.",
+          "source_url": "https://www.girlswhoinvest.org/sip"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 2,
+        "quote": "",
+        "source_url": "https://www.girlswhoinvest.org/apply-faq",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No sentence addressing reapplication after prior rejection or repeat participation was found on either the SIP or apply-FAQ pages during this check."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://girlswhoinvest.org/programs/summer-intensive-program/",
+      "reason": "HTTP 404 — path does not exist; correct path is /sip"
+    }
+  ],
+  "notes_for_human": "Class-year eligibility also stated separately (apply-faq, tier 1): \"All applicants must hold first-year or sophomore status, with an expected graduation date between fall 2027 and spring 2029.\" This appears to be current live-page text as of 2026-07-29 but may be residual from the 2026 cycle rather than confirmed 2027-cycle criteria — the page explicitly says 2027 applications aren't available until late summer 2026, so treat the graduation-year window as provisional pending the official 2027 posting. Program location (e.g., Wharton) appeared only in a third-party Facebook post, not on girlswhoinvest.org itself, so it was omitted rather than reported as stated fact."
+}

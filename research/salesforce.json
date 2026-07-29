@@ -1,0 +1,84 @@
+{
+  "firm": "Salesforce",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Futureforce Tech Launchpad",
+      "cycle": "2026 cohort (most recent published data; 2027-cycle dates not yet posted on this page as of check date)",
+      "location": "Salesforce Tower, San Francisco",
+      "audience": "sophomore",
+      "opens": "unverified",
+      "closes": "February 22, 2026",
+      "source": {
+        "url": "https://info.codepath.org/futureforce-tech-launchpad",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 2 (CodePath partner page). Program dates listed are 'June 1 - August 7, 2026' — a cohort already in progress as of the 2026-07-29 check date. Page does not yet show a 2027-cycle application window; next-cycle opening date (expected ~October per typical pattern) is not stated."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Bachelor's graduation year: 2028",
+          "source_url": "https://info.codepath.org/futureforce-tech-launchpad"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://info.codepath.org/futureforce-tech-launchpad"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://info.codepath.org/futureforce-tech-launchpad",
+          "notes": "Quote was a label-plus-value composite; the static page carries only the bare label 'Application Deadline'. The February 22, 2026 deadline was the 2026 cohort's in any case. Needs browser verification when the 2027 window posts. Removed text: Application deadline: February 22, 2026"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 2,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 2,
+        "quote": "",
+        "source_url": "https://info.codepath.org/futureforce-tech-launchpad",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Page read in full; no reapplication/cooling-off language found."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.salesforce.com/company/careers/university-recruiting/",
+      "reason": "HTTP 403 Forbidden"
+    },
+    {
+      "url": "https://careers.salesforce.com/en/university/",
+      "reason": "301 redirect to https://www.salesforce.com/company/careers/university/internships/, which then returned HTTP 403 Forbidden"
+    },
+    {
+      "url": "https://www.salesforce.com/company/careers/university/internships/",
+      "reason": "HTTP 403 Forbidden"
+    },
+    {
+      "url": "https://careers.salesforce.com/en/jobs/jr324012/summer-2026-scholar-futureforce-tech-launchpad/",
+      "reason": "301 redirect to https://www.salesforce.com/company/careers/jobs/jr324012/summer-2026-scholar-futureforce-tech-launchpad/, which then returned HTTP 403 Forbidden"
+    },
+    {
+      "url": "https://www.salesforce.com/company/careers/jobs/jr324012/summer-2026-scholar-futureforce-tech-launchpad/",
+      "reason": "HTTP 403 Forbidden"
+    }
+  ],
+  "notes_for_human": "All salesforce.com and careers.salesforce.com (tier 1) pages returned 403 Forbidden on direct fetch — likely bot/Cloudflare blocking, not a content issue. Could not verify Summer 2027 internship (general Futureforce, non-Tech-Launchpad) eligibility, sponsorship, or opening-date language from any tier 1 or tier 2 source within the 8-call budget; WebSearch surfaced snippets from aggregators (Built In, getsmartresume.com) claiming a 'projected graduation date of December 2027 or later' eligibility line and a 'May 31' deadline, but per the task rules these are tier 3 and were excluded from quotes/fields entirely — treat that specific eligibility and deadline claim as unconfirmed. The Tech Launchpad data captured reflects the 2026 cohort (already in progress as of 2026-07-29); the 2027-cycle application window for Tech Launchpad had not yet been posted on the CodePath page at check time. A follow-up check of the CodePath page and a retry of salesforce.com via a tool that can render JS or bypass bot detection (e.g. a headless-browser tool) around or after October 2026 would be needed to get verbatim 2027-cycle opening dates and sponsorship language."
+}

@@ -3,44 +3,59 @@
   "sector": "technology",
   "programs": [
     {
-      "id": "thrive-summer-2027",
-      "name": "Thrive",
-      "audience": "undergraduate",
+      "id": "thrive-program",
+      "name": "Thrive Program",
+      "audience": "sophomore",
       "source": {
         "url": "https://careers.duolingo.com/?type=Thrive+Program",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "JS-rendered SPA; WebFetch returned only the page shell ('Duolingo Careers' heading), no job/program content. boards-api.greenhouse.io/v1/boards/duolingo/jobs?content=true was also checked (tier 1, status ok) and currently lists no Thrive/internship postings — consistent with the program being off-cycle, but this does not confirm future dates."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-27"
+          "state": "stated",
+          "tier": 1,
+          "quote": "rising juniors",
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
         },
         "process": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
         },
         "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27"
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://blog.duolingo.com/duolingo-thrive-intern-program/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication/cooling-off language found on the Duolingo blog page read. The primary careers URL (type=Thrive+Program) could not be read due to JS rendering, so silence cannot be treated as confirmed for that page specifically — only for blog.duolingo.com/duolingo-thrive-intern-program/, which was successfully fetched."
       },
-      "cycle": "Summer 2027",
-      "status": "future",
-      "opens": "~late Sep 2026",
-      "closes": "—"
+      "cycle": "unverified (annual program; specific 2027 dates not published as of check date)",
+      "location": "unverified",
+      "opens": "unverified (see per-track quotes in fields.process)"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

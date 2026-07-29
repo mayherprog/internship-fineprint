@@ -1,0 +1,170 @@
+{
+  "firm": "Walleye Capital",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "name": "Investment Data Science Intern",
+      "cycle": "Summer 2027",
+      "location": "New York, New York",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "Friday, July 31 at 11:59pm ET",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job board posting fetched directly."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "pursuing an undergraduate or non-MBA master's degree in a STEM-related field, with an expected graduation date between December 2027 and June 2028",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we support work authorization for international intern candidates.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will be reviewed on a rolling basis.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The expected monthly pay for this position is $14,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from New York City (domestic travel only).",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://walleyecapital.com/campus-faq",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting."
+      }
+    },
+    {
+      "name": "Technology Intern",
+      "cycle": "Summer 2027",
+      "location": "New York, New York",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "Friday, July 31 at 11:59pm ET",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job board posting fetched directly."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "pursuing an undergraduate or non-MBA master's degree in computer science, engineering, or a related field, with an expected graduation date between December 2027 and June 2028.",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we support work authorization for international intern candidates.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will be reviewed on a rolling basis.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The expected monthly pay for this position is $14,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from New York City (domestic travel only).",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://walleyecapital.com/campus-faq",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting."
+      }
+    },
+    {
+      "name": "Fundamental Equities Intern",
+      "cycle": "Summer 2027",
+      "location": "New York, New York",
+      "audience": "undergraduate",
+      "opens": "unverified",
+      "closes": "Friday, July 31 at 11:59pm ET",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Greenhouse job board posting fetched directly."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Currently pursuing an undergraduate or non-MBA master's degree in any discipline, with an expected graduation date between December 2027 and June 2028.",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we support work authorization for international intern candidates.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will be reviewed on a rolling basis.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The expected monthly pay for this position is $14,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from New York City (domestic travel only).",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://walleyecapital.com/campus-faq",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting."
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Greenhouse board 'walleyecapital-external-students' lists 11 Summer 2027 internship postings total (Business Operations, CEQR, Equity Volatility Quant Research, Fundamental Equities, Investment Data Science, Investor Relations, Quantic PhD Quant Researcher, Quantic Quant Developer, Quantic Quant Researcher, Risk Technology Analyst, Technology, Volatility Trading Developer). Only the 3 above (Investment Data Science, Technology, Fundamental Equities) were individually fetched and quote-verified from the job posting itself; the other 8 were seen only in the board's title/location listing (boards-api.greenhouse.io JSON) and were NOT opened, so their class-year, sponsorship, pay, and cooling-off text is unverified pending direct fetch. The 3 verified postings share near-identical template language on pay ($14,000/month + $10,000 housing stipend + domestic-only transportation) and a July 31, 2026 11:59pm ET application deadline, which is very likely the same deadline for the unverified postings but that is an inference, not a confirmed fact. Sponsorship policy ('Yes, we support work authorization for international intern candidates') comes from the general walleyecapital.com/campus-faq page, not from the individual job postings, which only present a sponsorship-need application question without stating firm policy. Tier-3 aggregator sites (Tealhq, ZipRecruiter, Lensa, MIT Sloan CDO, Harvard FAS reposts, Wikipedia) appeared in search results and were used only to locate the Greenhouse board URL and program names — no quotes were sourced from them, per rules. No reapplication/cooling-off policy was found anywhere reviewed (campus-faq page or job postings)."
+}

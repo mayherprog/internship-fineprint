@@ -1,0 +1,60 @@
+{
+  "firm": "Western Digital",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Summer 2027 SWE Internship (Bachelors) - NAND Product Engineering",
+      "cycle": "Summer 2027",
+      "location": "",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, Computer Engineering, Systems Engineering, Data Science, Electrical Engineering, or a related technical field.",
+          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "An immediate opening or interview is not guaranteed.",
+          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Salary Range: 34.52-46.00",
+          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "blocked_urls": [],
+  "notes_for_human": "Salary range appears incomplete (no currency or pay period specified on page). No location specified in posting. No visa sponsorship policy stated. No cooling-off / reapplication period mentioned."
+}

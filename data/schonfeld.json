@@ -3,39 +3,59 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "schonfeld-2027-summer-roles",
-      "name": "Schonfeld 2027 summer roles",
-      "audience": "unknown",
+      "id": "2027-summer-internships-express-your-interest",
+      "name": "2027 Summer Internships-Express Your Interest",
+      "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430",
-        "checked": "2026-07-27",
-        "check_method": "manual",
-        "status": "ok",
-        "note": "Open August 2026 (this week) — express-interest pipeline live now; posted comp range $45k–$150k prorated. Class-year language TBD when roles post — checking daily."
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "URL no longer resolves to a job posting; Greenhouse redirects/serves the generic Schonfeld job-board index (54 current openings, none titled '2027 Summer Internships'). The Greenhouse API mirror (boards-api.greenhouse.io/v1/boards/schonfeld/jobs/7635430) also returned HTTP 404. Confirmed via the full board listing (boards-api.greenhouse.io/v1/boards/schonfeld/jobs, checked 2026-07-29) that no 2027-titled internship req currently exists — only 2026-cycle internships (São Paulo QR/Strat, São Paulo LATAM Investment Analyst, São Paulo Operational Risk) and one open-dated Hong Kong QR/Developer intern req are live."
       },
       "fields": {
         "class_year": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 3,
+          "source_url": "https://builtin.com/job/2027-summer-internships-express-your-interest/8538243"
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430"
         },
         "process": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430"
         },
         "compensation": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/schonfeld/jobs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Read the full live Schonfeld Greenhouse job-board listing (54 open reqs) on 2026-07-29; no reapplication or cooling-off language appears anywhere on that page. No dedicated Schonfeld 'careers FAQ' or policy page was located to check separately."
       },
-      "status": "unknown"
+      "cycle": "Summer 2027",
+      "location": "Dubai, UAE; Hong Kong; London; Miami; New York (per aggregator mirror only — unverified via tier 1)",
+      "opens": "unverified",
+      "closes": "unverified"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

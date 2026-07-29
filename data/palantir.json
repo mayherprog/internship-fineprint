@@ -3,6 +3,172 @@
   "sector": "technology",
   "programs": [
     {
+      "id": "software-engineer-internship",
+      "name": "Software Engineer, Internship",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Raw HTML fetched via curl (tier 1); WebFetch returned HTTP 403 on all three lever.co URLs, curl with browser UA succeeded (200). JSON-LD datePosted field on this listing reads 2021-07-01, which may indicate a long-standing/evergreen requisition ID rather than a freshly opened posting — flagged, not verified further."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Must be planning on graduating in 2028. This should be your final internship before graduating.",
+          "source_url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Active US Security clearance, or eligibility and willingness to obtain a US Security clearance.",
+          "source_url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "An updated resume / CV - please do so in PDF format. Thoughtful responses to our application questions.",
+          "source_url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The estimated salary range for this position is estimated to be $10,500/month.",
+          "source_url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Full raw HTML searched for 'reapply', 're-apply', 'apply again' — no matches. Silence confirmed against full page text, not just visible summary."
+      },
+      "cycle": "unstated",
+      "location": "Palo Alto, CA",
+      "opens": "unstated",
+      "closes": "unstated"
+    },
+    {
+      "id": "forward-deployed-software-engineer-internship-us-government",
+      "name": "Forward Deployed Software Engineer, Internship - US Government",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "datePosted in JSON-LD: 2025-12-11. Fetched via curl (browser UA); WebFetch got HTTP 403."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Must be planning on graduating in 2027. This should be your final internship before graduating.",
+          "source_url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "An updated resume / CV - please do so in PDF format. Thoughtful responses to our application questions.",
+          "source_url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The estimated salary range for this position is estimated to be $10,000/month.",
+          "source_url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No 'clearance', 'citizen', or 'sponsor' string anywhere in raw HTML despite 'US Government' in title — verified by direct grep on full page source, not just the description block."
+      },
+      "cycle": "unstated",
+      "location": "Honolulu, HI",
+      "opens": "unstated",
+      "closes": "unstated"
+    },
+    {
+      "id": "forward-deployed-software-engineer-internship-commercial",
+      "name": "Forward Deployed Software Engineer, Internship - Commercial",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "datePosted in JSON-LD: 2026-06-30. Fetched via curl (browser UA); WebFetch got HTTP 403."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Must be graduating in December 2027 or Spring 2028.",
+          "source_url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "An updated resume / CV - please do so in PDF format. Thoughtful responses to our application questions.",
+          "source_url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The salary range for this position is estimated to be $10,000/month.",
+          "source_url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No clearance/citizen/sponsor language found on full page."
+      },
+      "cycle": "unstated",
+      "location": "Chicago, IL",
+      "opens": "unstated",
+      "closes": "unstated"
+    },
+    {
       "id": "palantir-incl-accelerate-summer-2027",
       "name": "Palantir (incl. Accelerate)",
       "audience": "undergraduate",
@@ -37,8 +203,8 @@
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

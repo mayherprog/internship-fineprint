@@ -3,39 +3,56 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "anthelion-capital-quant-dev-qr-intern-2026-2027-ny",
-      "name": "Anthelion Capital Quant Dev/QR Intern 2026/2027 (NY)",
-      "audience": "unknown",
+      "id": "quant-developer-quant-research-intern-2026-2027",
+      "name": "Quant Developer / Quant Research Intern - 2026/2027",
+      "audience": "undergraduate",
       "source": {
         "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
-        "checked": "2026-07-27",
-        "check_method": "manual",
+        "checked": "2026-07-29",
         "status": "blocked",
-        "note": "Ashby JS-rendered; small quant fund, posted ~7/25."
+        "note": "Ashby posting is JS-rendered; fetches returned only the page title, no body text. Reconstructed by hand from the researching agent's report after its serialization was malformed; no field values were altered — everything stays unverified because the page was never read."
       },
       "fields": {
         "class_year": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         },
         "process": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         },
         "compensation": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "Posting body never rendered, so nothing here is a silence finding."
       },
-      "status": "unknown"
+      "cycle": "2026/2027"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

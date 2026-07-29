@@ -3,13 +3,12 @@
   "sector": "technology",
   "programs": [
     {
-      "id": "summer-2027-swe-internship-san-jose-multiple-tracks-summer-2027",
-      "name": "Summer 2027 SWE Internship (San Jose; multiple tracks)",
+      "id": "summer-2027-swe-internship-bachelors-nand-product-engineering",
+      "name": "Summer 2027 SWE Internship (Bachelors) - NAND Product Engineering",
       "audience": "undergraduate",
       "source": {
-        "url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship",
-        "checked": "2026-07-27",
-        "check_method": "static",
+        "url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-",
+        "checked": "2026-07-29",
         "status": "ok",
         "note": ""
       },
@@ -17,35 +16,45 @@
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Currently pursuing a Bachelor's or Master's degree",
-          "checked": "2026-07-27",
-          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship",
-          "source_status": "ok"
+          "quote": "Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, Computer Engineering, Systems Engineering, Data Science, Electrical Engineering, or a related technical field.",
+          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-"
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
         },
         "process": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "An immediate opening or interview is not guaranteed.",
+          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-"
         },
         "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "$34.52–$46.00/hr"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Salary Range: 34.52-46.00",
+          "source_url": "https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        }
       },
-      "cycle": "Summer 2027",
-      "status": "open",
-      "opens": "Open now",
-      "closes": "Anticipated Oct 20, 2026 (may close early)"
+      "cycle": "Summer 2027"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }

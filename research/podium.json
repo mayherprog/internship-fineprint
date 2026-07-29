@@ -1,0 +1,69 @@
+{
+  "firm": "Podium",
+  "sector": "technology",
+  "programs": [
+    {
+      "name": "Software Engineering Intern",
+      "cycle": "Summer 2027",
+      "location": "",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/podium81/jobs/7939921",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Primary URL returned job listings index, not detail page. API endpoint returned 404."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": ""
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://job-boards.greenhouse.io/podium81/jobs/7939921",
+      "reason": "Page retrieved but contained only job listings index, not full job details"
+    },
+    {
+      "url": "https://boards-api.greenhouse.io/v1/boards/podium81/jobs/7939921",
+      "reason": "HTTP 404 Not Found"
+    }
+  ],
+  "notes_for_human": "Both endpoints unreachable: primary URL returns listings page without detail text; API endpoint not found. Job posting content unverified. May require direct Greenhouse URL or different job ID."
+}

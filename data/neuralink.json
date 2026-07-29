@@ -3,13 +3,12 @@
   "sector": "technology",
   "programs": [
     {
-      "id": "swe-intern-bci-applications-fremont-ca-summer-2027",
-      "name": "SWE Intern, BCI Applications (Fremont, CA)",
+      "id": "swe-intern-bci-applications",
+      "name": "SWE Intern, BCI Applications",
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003",
-        "checked": "2026-07-27",
-        "check_method": "static",
+        "checked": "2026-07-29",
         "status": "ok",
         "note": ""
       },
@@ -18,33 +17,47 @@
           "state": "stated",
           "tier": 1,
           "quote": "Currently pursuing a Bachelor's degree in Computer Science or a related field",
-          "checked": "2026-07-27",
-          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003",
-          "source_status": "ok"
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
         },
         "sponsorship": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Will you, at any point, require employer sponsorship to work in the United States?",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
         },
         "process": {
-          "state": "unverified"
+          "state": "stated",
+          "tier": 1,
+          "quote": "Answering this question fully is the most important part of our interview process.",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
         },
         "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27"
+          "state": "stated",
+          "tier": 1,
+          "quote": "California Hourly Rate: $35/Hr USD",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003"
         }
       },
       "cooling_off": {
-        "state": "unverified"
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No statement about reapplying restrictions or retaking assessments on page."
       },
       "cycle": "Summer 2027",
-      "status": "open",
-      "opens": "Open now",
-      "closes": "Rolling"
+      "location": "Fremont, CA"
     }
   ],
   "provenance": {
-    "origin": "private posting tracker, transcribed programmatically",
+    "origin": "per-firm web research, one agent per firm",
     "transcribed": "2026-07-29",
-    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
   }
 }
