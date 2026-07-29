@@ -54,60 +54,64 @@
       "location": "New York, NY, USA"
     },
     {
-      "id": "2027-point72-academy-investment-analyst-summer-internship-program-us",
-      "name": "2027 Point72 Academy Investment Analyst Summer Internship Program - US",
+      "id": "point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027",
+      "name": "Point72 Academy Investment Analyst Program for Upcoming Graduates (US) 2027",
       "audience": "undergraduate",
       "source": {
-        "url": "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081&location=New+York+%7C+San+Francisco+%7C+Chicago+%7C+West+Palm+Beach+/+Miami&locale=English&retURL=/CSCareerSearch",
+        "url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Tier-1 posting exists but is JavaScript-rendered; fetch returned empty content. Verbatim capture from the posting itself was not possible."
+        "status": "ok",
+        "note": "Read fully rendered via interactive browser session 2026-07-29. The separate Academy SUMMER INTERNSHIP posting (CPA-0014081) returns 404 as of this date - its row awaits the next cycle's posting."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Interns join us during their final summer of university for eight weeks of investment training in preparation for our full-time program.",
-          "source_url": "https://point72.com/point72-academy/"
+          "quote": "A current student who will graduate from university between December 2026 and July 2027.",
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
+          "parsed": {
+            "graduates_between": [
+              "2026-12",
+              "2027-07"
+            ]
+          }
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "silent",
           "tier": 1,
-          "source_url": "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081"
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081"
+          "quote": "There is no set application deadline for this position. Candidates are considered as they apply, until the program is at capacity.",
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871"
         },
         "compensation": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": "https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081"
+          "quote": "The US annual base salary for this role is $125,000 (USD) which does not include discretionary bonus compensation or our comprehensive benefits package.",
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871"
         }
       },
       "cooling_off": {
-        "state": "silent",
+        "state": "stated",
         "tier": 1,
-        "source_url": "https://point72.com/blog/applying-for-the-academy-internship-how-to-put-your-best-foot-forward/",
+        "quote": "Please note, you may only submit one application to the Academy program globally, so please be sure to apply to the region you are most interested in.",
+        "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
         "checked": "2026-07-29",
         "parsed": {
-          "trigger": "unknown",
+          "trigger": "application",
           "duration_months": null,
           "scope": "this_program",
-          "resets_allowed": null
+          "resets_allowed": null,
+          "application_cap": 1,
+          "restrictive": true
         },
-        "notes": "A quote originally filed here was moved to unfiled_quotes because it does not concern reapplying, waiting, or retaking an assessment. Tier-1 pages read on 2026-07-29 with zero reapplication/waiting-period language: https://point72.com/point72-academy/ and https://point72.com/blog/applying-for-the-academy-internship-how-to-put-your-best-foot-forward/. The quote above is the closest tier-1 eligibility-adjacent language found; it concerns grad-year targeting, not cooling-off. Search summaries attribute a 'you may only submit one application to the Academy internship program globally' rule to the careers.point72.com posting, but that page could not be read (JS-rendered), so the one-application rule is unverified, not quoted. A dedicated Academy candidate FAQ page was searched for and not found on point72.com or careers.point72.com."
+        "notes": "A global one-application cap for the Academy program, stated on the posting itself: one application across all regions (US, UK, HK, SG, JP). Verified on the rendered page; previously only search-indexed."
       },
-      "cycle": "Summer 2027",
-      "location": "New York | San Francisco | Chicago | West Palm Beach / Miami",
-      "unfiled_quotes": [
-        {
-          "quote": "many of our opportunities are only applicable to certain grad years, and we want to make sure you are considered for the right roles.",
-          "source_url": "https://point72.com/blog/applying-for-the-academy-internship-how-to-put-your-best-foot-forward/",
-          "source_status": "ok"
-        }
-      ]
+      "cycle": "2027 (ten-month program)",
+      "location": "New York | San Francisco | Chicago | West Palm Beach / Miami"
     },
     {
       "id": "summer-2027-quantitative-developer-internship-ny-summer-2027",

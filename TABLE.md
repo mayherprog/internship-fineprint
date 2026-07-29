@@ -2,7 +2,7 @@
 
 Generated from `data/` by `tools/build.py`. Do not edit by hand.
 
-**160 programs across 68 firms.** Cooling-off: 20 stated, 57 publish nothing, 83 not yet checked.
+**161 programs across 68 firms.** Cooling-off: 21 stated, 56 publish nothing, 84 not yet checked.
 
 Every quote is the firm's own wording. **A firm's current page is always the authority** — these rows are a dated snapshot and firms rewrite pages without notice.
 
@@ -111,10 +111,11 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Aquatic Capital | Aquatic Capital SWE/QR 2027 | Undergraduate | "Fall 2027–Spring 2028" grads. | not checked yet | 2026-07-22 | _no URL yet_ |
 | Chicago Trading Company | Chicago Trading Company — Quant Trading + SWE Intern 2027 | Undergraduate | "You will graduate between December 2027–June 2028" | not checked yet | 2026-07-23 | _no URL yet_ |
 | Citadel / Citadel Securities | Citadel Launch Intern (US) (sophomore internship) | Sophomore/2nd year | not checked yet | not checked yet | 2026-07-29 | [link](https://www.citadel.com/careers/details/launch-intern-us/) |
-| Citadel / Citadel Securities | Discover Citadel (two-day undergraduate event) | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://www.citadel.com/careers/programs-and-events/discover-citadel/) |
-| Citadel / Citadel Securities | Software Engineer - Intern (US) | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
+| Citadel / Citadel Securities | Discover Citadel (two-day undergraduate event) | First year | "An invitation-only, two-day event in New York, London, Hong Kong or Singapore for a select group of first- and second-year undergraduates." | not checked yet | 2026-07-29 | [link](https://www.citadel.com/careers/programs-and-events/) |
+| Citadel / Citadel Securities | Discover Citadel 2027 | Undergraduate | 1st/2nd-years (current page: Dec 2027–Jun 2029 grads May 2029 qualifies); US event; no citizenship req. | not checked yet | 2026-07-27 | [link](https://www.citadel.com/careers/programs-and-events/discover-citadel/) |
+| Citadel / Citadel Securities | Software Engineer - Intern (US) | All | "Bachelor's, master's or PhD in computer science, computer engineering or related fields" | not checked yet | 2026-07-29 | [link](https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/) |
 | Citadel / Citadel Securities | Software Engineer Intern — US (Miami/NY/Houston/Chicago) | Undergraduate | "Bachelor's, master's or PhD in computer science, computer engineering or related fields" | not checked yet | 2026-07-27 | [link](https://www.citadel.com/careers/details/software-engineer-intern-us/) |
-| Cubist Systematic Strategies (Point72) | 2027 Point72 Academy Investment Analyst Summer Internship Program - US | Undergraduate | "Interns join us during their final summer of university for eight weeks of investment training in preparation for our full-time program." | publishes nothing | 2026-07-29 | [link](https://careers.point72.com/CSJobDetail?jobName=2027-point72-academy-investment-analyst-summer-internship-program-us&jobCode=CPA-0014081&location=New+York+%7C+San+Francisco+%7C+Chicago+%7C+West+Palm+Beach+/+Miami&locale=English&retURL=/CSCareerSearch) |
+| Cubist Systematic Strategies (Point72) | Point72 Academy Investment Analyst Program for Upcoming Graduates (US) | Undergraduate | "A current student who will graduate from university between December 2026 and July 2027." | rule stated, no duration given | 2026-07-29 | [link](https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871) |
 | Cubist Systematic Strategies (Point72) | Summer 2027 Quantitative Developer Internship (Cubist Systematic Strat | Undergraduate | "Undergraduate degree or higher in math, computer science, or other quantitative fields" | publishes nothing | 2026-07-29 | [link](https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208) |
 | Cubist Systematic Strategies (Point72) | Summer 2027 Quantitative Developer Internship (NY) | Undergraduate | "Undergraduate degree or higher in math, computer science, or other quantitative fields" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002) |
 | D. E. Shaw | Fellowships (discovery programs: Nexus, Latitude, Momentum, Discovery) | Sophomore/2nd year | not checked yet | not checked yet | 2026-07-29 | [link](https://fellowships.deshaw.com/) |
