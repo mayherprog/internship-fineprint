@@ -390,7 +390,7 @@ $('stats').innerHTML = [
   [cs.stated, 'state any reapplication rule', {cool:'stated'}],
   [cs.silent, 'publish nothing on reapplying', {cool:'silent'}],
   [cs.unverified, 'not yet verified', {cool:'unverified'}],
-].map(([v, k], i) => `<button class="stat" data-i="${i}"><b>${v}</b>${esc(k)}</button>`).join('');
+].map(([v, k], i) => `<button class="stat" data-i="${i}" aria-label="${v} ${esc(k)} — open this view"><b>${v}</b>${esc(k)}</button>`).join('');
 const STAT_GO = [{}, {}, {cool:'restrictive'}, {cool:'stated'}, {cool:'silent'}, {cool:'unverified'}];
 $('stats').addEventListener('click', e => {
   const b = e.target.closest('.stat'); if (b) go(STAT_GO[+b.dataset.i]);
@@ -407,7 +407,7 @@ $('sectors').innerHTML = Object.keys(bySector)
   .map(sec => {
     const o = bySector[sec];
     const pl = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
-    return `<button class="tile" data-sec="${esc(sec)}"><b>${esc(SECTORS[sec] || sec)}</b>
+    return `<button class="tile" data-sec="${esc(sec)}" aria-label="Browse ${esc(SECTORS[sec] || sec)}"><b>${esc(SECTORS[sec] || sec)}</b>
     <span>${pl(o.firms.size, 'firm')} &middot; ${pl(o.n, 'program')}</span></button>`;
   }).join('');
 $('sectors').addEventListener('click', e => {
