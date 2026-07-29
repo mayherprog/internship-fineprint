@@ -84,7 +84,15 @@ details.card>summary:hover{background:var(--bg);border-radius:10px}
 .cool{margin-top:11px;border:1px solid var(--line);border-left:4px solid var(--muted);
   border-radius:8px;padding:11px 13px;background:var(--bg)}
 .cool.has{border-left-color:var(--warn)}
-.notes{color:var(--muted);font-size:.79rem;margin-top:7px}
+.notes{color:var(--muted);font-size:.82rem;margin-top:7px}
+.screener{display:flex;flex-wrap:wrap;gap:10px}
+.screener select{font:inherit;font-size:.9rem;padding:9px 10px;border:1px solid var(--line);
+  border-radius:7px;background:var(--card);color:var(--fg)}
+.screener button{font:inherit;padding:9px 18px;border:1px solid var(--line);border-radius:7px;
+  background:var(--accent);color:var(--bg);font-weight:600;cursor:pointer}
+.matchgroup{margin:22px 0 6px;font-weight:600}
+.matchgroup .pill{margin-left:8px}
+.why{color:var(--muted);font-size:.8rem;font-style:italic}
 a{color:var(--accent)}
 footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.84rem;max-width:80ch}
 [hidden]{display:none !important}
@@ -116,6 +124,35 @@ link and the date it was read. Firms that say nothing are recorded as saying not
 
   <h2>Quick views</h2>
   <div class="quick" id="quick"></div>
+
+  <h2>Match against stated criteria</h2>
+  <div class="screener">
+    <select id="me-month" aria-label="Expected graduation month"></select>
+    <select id="me-year" aria-label="Expected graduation year"></select>
+    <select id="me-auth" aria-label="Work authorization situation">
+      <option value="citizen">U.S. citizen or permanent resident</option>
+      <option value="cpt">F-1 student — can work via CPT/OPT, no employer sponsorship needed</option>
+      <option value="sponsor">Will need employer visa sponsorship</option>
+    </select>
+    <button id="me-go">Match</button>
+  </div>
+  <p class="notes">Your answers stay on this page — nothing is stored, sent, or written to the
+  address bar. Matching compares your answers with criteria firms have stated, in a dated
+  snapshot. It is not an eligibility determination.</p>
+</section>
+
+<!-- ============================= MATCH ============================== -->
+<section id="match" hidden>
+  <div class="controls">
+    <button class="back" id="matchHome">&larr; Home</button>
+    <span class="count" id="matchProfile"></span>
+  </div>
+  <div class="banner">These groups compare your answers with criteria firms have <strong>stated</strong>,
+  as recorded on the dates shown. &ldquo;Exclude&rdquo; means a stated criterion, as written on the
+  date it was read, does not cover your answers — it is not a verdict about you, and the firm's
+  current page is the authority. The largest group is usually the one nobody has verified:
+  treat it as unread, not unavailable.</div>
+  <div id="matchout"></div>
 </section>
 
 <!-- ============================= BROWSE ============================= -->
@@ -281,6 +318,7 @@ function cardHTML(r){
 function show(view){
   $('home').hidden = view !== 'home';
   $('browse').hidden = view !== 'browse';
+  $('match').hidden = view !== 'match';
   window.scrollTo(0, 0);
 }
 function go(opts){
@@ -303,13 +341,29 @@ fill('audience', AUD, 'Aimed at');
 const coolMatch = (r, c) =>
   !c || (c === 'restrictive' ? (r.cooling_off.parsed || {}).restrictive === true
                              : r.cooling_off.state === c);
+
+// Search covers what a reader can see - names, quotes, notes - not the raw
+// record, where matching schema words like "stated" would hit every row.
+DATA.forEach(r => {
+  const bits = [r.firm, r.name, r.cycle, r.location];
+  for (const k in r.fields){ const f = r.fields[k];
+    bits.push(f.quote || '', f.summary_note || ''); }
+  bits.push(r.cooling_off.quote || '', r.cooling_off.notes || '',
+            (r.unfiled || []).map(u => u.quote).join(' '), r.source.note || '');
+  r._search = bits.join(' ').toLowerCase();
+});
+
 function render(){
   const s = $('sector').value, a = $('audience').value, c = $('cool').value,
         sp = $('spon').value, q = $('q').value.trim().toLowerCase();
   const rows = DATA.filter(r =>
     (!s || r.sector === s) && (!a || r.audience === a) && coolMatch(r, c) &&
     (!sp || (r.fields.sponsorship || {}).state === sp) &&
-    (!q || JSON.stringify(r).toLowerCase().includes(q)));
+    (!q || r._search.includes(q)));
+  // Browse filters are shareable state; screener answers never are.
+  const h = new URLSearchParams();
+  [['sector',s],['audience',a],['cool',c],['spon',sp],['q',q]].forEach(([k,v]) => v && h.set(k,v));
+  history.replaceState(null, '', h.toString() ? '#' + h.toString() : location.pathname + location.search);
   $('count').textContent = `${rows.length} of ${DATA.length} programs  — select a row for quotes and sources`;
   // A search that lands on a handful of rows opens them; a broad browse stays compact.
   const open = rows.length <= 3 ? ' open' : '';
@@ -373,8 +427,79 @@ $('quick').addEventListener('click', e => {
   const b = e.target.closest('button'); if (b) go(QUICK[+b.dataset.i][1]);
 });
 
+/* ----------------------------- screener ---------------------------- */
+const MNAMES = ['January','February','March','April','May','June','July',
+                'August','September','October','November','December'];
+$('me-month').innerHTML = MNAMES.map((m, i) =>
+  `<option value="${String(i+1).padStart(2,'0')}"${i === 4 ? ' selected' : ''}>${m}</option>`).join('');
+$('me-year').innerHTML = [2027,2028,2029,2030,2031].map(y =>
+  `<option${y === 2029 ? ' selected' : ''}>${y}</option>`).join('');
+
+// Compares the reader's answers with parsed, firm-stated criteria. Returns
+// which group a program belongs to and the stated reasons - never a verdict.
+function judge(r, me){
+  const inc = [], exc = [];
+  const cy = (r.fields.class_year || {}).parsed || {};
+  if (cy.graduates_between){
+    const [a, b] = cy.graduates_between;
+    (me.grad >= a && me.grad <= b ? inc : exc)
+      .push(`stated graduation window ${a} to ${b}`);
+  } else if (cy.graduates_from){
+    (me.grad >= cy.graduates_from ? inc : exc)
+      .push(`stated graduation ${cy.graduates_from} or later`);
+  } else if (cy.graduates_by){
+    (me.grad <= cy.graduates_by ? inc : exc)
+      .push(`stated graduation by ${cy.graduates_by}`);
+  }
+  const sp = (r.fields.sponsorship || {}).parsed || {};
+  if (me.auth !== 'citizen'){
+    if (sp.no_future_sponsorship) exc.push('requires authorization without sponsorship now or in the future');
+    if (me.auth === 'sponsor'){
+      if (sp.sponsors === false) exc.push('states it does not sponsor this role');
+      if (sp.us_work_auth_required && sp.sponsors !== true) exc.push('requires existing U.S. work authorization');
+    }
+    if (me.auth === 'cpt' && sp.cpt_refused) exc.push('states it will not support CPT or OPT');
+    if (sp.sponsors === true) inc.push('states sponsorship is supported');
+  }
+  if (exc.length) return {group: 2, why: exc};
+  if (inc.length) return {group: 1, why: inc};
+  return {group: 3, why: []};
+}
+
+function runMatch(){
+  const me = {grad: `${$('me-year').value}-${$('me-month').value}`, auth: $('me-auth').value};
+  const groups = {1: [], 2: [], 3: []};
+  DATA.forEach(r => { const v = judge(r, me); groups[v.group].push([r, v.why]); });
+  const authLabel = $('me-auth').selectedOptions[0].textContent;
+  $('matchProfile').textContent =
+    `Graduating ${MNAMES[+$('me-month').value - 1]} ${$('me-year').value} · ${authLabel}`;
+  const section = (title, pillHTML, list) => list.length ? `
+    <div class="matchgroup">${esc(title)}${pillHTML} <span class="summeta">${list.length} program${list.length === 1 ? '' : 's'}</span></div>` +
+    list.map(([r, why]) => cardHTML(r).replace('</summary>',
+      why.length ? ` <span class="why">${esc(why.join('; '))}</span></summary>` : '</summary>')).join('') : '';
+  $('matchout').innerHTML =
+    section('Stated criteria that include your answers',
+            '<span class="pill s-stated">stated</span>', groups[1]) +
+    section('Stated criteria that exclude your answers',
+            '<span class="pill s-warn">stated</span>', groups[2]) +
+    section('Not decidable from the parsed record — silent, unverified, or stated only in prose',
+            '<span class="pill s-unverified">unread</span>', groups[3]);
+  show('match');
+}
+$('me-go').addEventListener('click', runMatch);
+$('matchHome').addEventListener('click', () => show('home'));
+
 $('gen').textContent = 'Built __BUILT__ from __N__ programs.';
-show('home');
+
+// Deep links restore browse filters; screener answers are deliberately
+// excluded from the URL, so a shared link can never carry someone's profile.
+const boot = new URLSearchParams(location.hash.slice(1));
+if ([...boot.keys()].length){
+  go({sector: boot.get('sector') || '', audience: boot.get('audience') || '',
+      cool: boot.get('cool') || '', spon: boot.get('spon') || '', q: boot.get('q') || ''});
+} else {
+  show('home');
+}
 </script>
 </body>
 </html>

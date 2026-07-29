@@ -109,6 +109,24 @@ def check_field(where, field, is_cooling_off=False):
         check(f"{where}: checked is ISO date", bool(DATE_RE.match(field["checked"] or "")),
               f"got {field.get('checked')!r}")
 
+    # Machine-readable graduation windows may only annotate a stated quote,
+    # and must be well-formed: the screener's exclusions ride on them.
+    parsed = field.get("parsed") or {}
+    if any(k in parsed for k in ("graduates_between", "graduates_from", "graduates_by")):
+        check(f"{where}: graduation parse annotates a stated quote",
+              state == "stated" and bool(quote),
+              "a parsed window exists without the quote that justifies it")
+        gb = parsed.get("graduates_between")
+        if gb is not None:
+            ok = (isinstance(gb, list) and len(gb) == 2 and
+                  all(re.match(r"^\d{4}-\d{2}$", str(x)) for x in gb) and gb[0] <= gb[1])
+            check(f"{where}: graduates_between is an ordered YYYY-MM pair", ok, f"got {gb!r}")
+        for key in ("graduates_from", "graduates_by"):
+            if key in parsed:
+                check(f"{where}: {key} is YYYY-MM",
+                      bool(re.match(r"^\d{4}-\d{2}$", str(parsed[key]))),
+                      f"got {parsed[key]!r}")
+
     # Rule 6 — the most expensive field may not rest on forum reports alone.
     if is_cooling_off and state == "stated":
         check(f"{where}: cooling-off claim is not tier 3 alone",

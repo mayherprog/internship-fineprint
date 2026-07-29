@@ -17,13 +17,24 @@
           "state": "stated",
           "tier": 2,
           "quote": "Expected graduation date of December 2027 – June 2028 from bachelor's or master's program",
-          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/"
+          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "stated",
           "tier": 2,
           "quote": "To be eligible for this program, you must be authorized to work in the U.S. We do not offer any type of employment-based immigration sponsorship for this program. Likewise, JPMorgan Chase, will not provide any assistance or sign any documentation in support of any other form of immigration sponsorship or benefit including optional practical training (OPT) or curricular practical training (CPT.)",
-          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/"
+          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/",
+          "parsed": {
+            "sponsors": false,
+            "cpt_refused": true,
+            "us_work_auth_required": true
+          }
         },
         "process": {
           "state": "stated",
@@ -70,13 +81,24 @@
           "state": "stated",
           "tier": 2,
           "quote": "Expected graduation date of December 2027 – June 2028.",
-          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/"
+          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "stated",
           "tier": 2,
           "quote": "To be eligible for this program, you must be authorized to work in the U.S. We do not offer any type of employment-based immigration sponsorship for this program. Likewise, JPMorgan Chase, will not provide any assistance or sign any documentation in support of any other form of immigration sponsorship or benefit including optional practical training (OPT) or curricular practical training (CPT.)",
-          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/"
+          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/",
+          "parsed": {
+            "sponsors": false,
+            "cpt_refused": true,
+            "us_work_auth_required": true
+          }
         },
         "process": {
           "state": "stated",

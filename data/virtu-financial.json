@@ -57,7 +57,13 @@
           "quote": "Rising juniors, or students expected to be ready for full time employment between December 2027 - June 2028",
           "checked": "2026-07-24",
           "source_url": null,
-          "source_status": "url_pending"
+          "source_status": "url_pending",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "unverified"

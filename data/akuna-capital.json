@@ -20,7 +20,10 @@
           "quote": "Graduating by August 2028.",
           "checked": "2026-07-22",
           "source_url": null,
-          "source_status": "url_pending"
+          "source_status": "url_pending",
+          "parsed": {
+            "graduates_by": "2028-08"
+          }
         },
         "sponsorship": {
           "state": "unverified"

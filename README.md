@@ -117,9 +117,15 @@ Known gaps, all recorded in the data rather than papered over:
 ```bash
 python3 tools/transcribe_tracker.py path/to/tracker.xlsx   # private tracker -> data/
 python3 tools/ingest_research.py                           # research/ -> data/
+python3 tools/parse_criteria.py                            # annotate stated quotes with parses
 python3 tools/validate.py                                  # enforce the rules above
 python3 tools/build.py                                     # data/ -> TABLE.md + index.html
 ```
+
+`parse_criteria.py` adds machine-readable graduation windows and sponsorship terms to
+quotes that state them, printing every annotation for review. It refuses hedged
+language ("typically", "preferred"), stale cycles, and ambiguous dates — a row the
+screener cannot decide lands in the honest third bucket rather than in a guess.
 
 `transcribe_tracker.py` extracts quotes programmatically rather than by hand, because a
 script cannot mistype a firm's sentence. Text in the spreadsheet that was **not** inside

@@ -28,7 +28,10 @@
           "quote": "We do not provide visa sponsorship for our interns",
           "checked": "2026-07-27",
           "source_url": "https://www.flowtraders.com/careers/job-description/8047166",
-          "source_status": "ok"
+          "source_status": "ok",
+          "parsed": {
+            "sponsors": false
+          }
         },
         "process": {
           "state": "unverified"

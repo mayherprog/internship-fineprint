@@ -66,13 +66,22 @@
           "state": "stated",
           "tier": 1,
           "quote": "Currently enrolled in a bachelor's degree program in Accounting (or a dual degree/sub-matriculation master's degree program completed concurrently with your bachelor's degree at the same institution) with a graduation conferral date between December 2027 and June 2028",
-          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern"
+          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "We are unable to offer visa sponsorship for this role",
-          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern"
+          "source_url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern",
+          "parsed": {
+            "sponsors": false
+          }
         },
         "process": {
           "state": "unverified",
@@ -172,7 +181,10 @@
           "state": "stated",
           "tier": 1,
           "quote": "Must be authorized to work in the U.S. Example: Employment Authorization Document holder, Permanent Resident, or U.S. Citizen.",
-          "source_url": "https://www.amazonfutureengineer.com/scholarships"
+          "source_url": "https://www.amazonfutureengineer.com/scholarships",
+          "parsed": {
+            "us_work_auth_required": true
+          }
         },
         "process": {
           "state": "silent",

@@ -56,7 +56,13 @@
           "quote": "Graduation Dates: between November 2027 and August 2028.",
           "checked": "2026-07-24",
           "source_url": null,
-          "source_status": "url_pending"
+          "source_status": "url_pending",
+          "parsed": {
+            "graduates_between": [
+              "2027-11",
+              "2028-08"
+            ]
+          }
         },
         "sponsorship": {
           "state": "unverified"
