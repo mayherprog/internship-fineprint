@@ -15,10 +15,11 @@
 }
 @media (prefers-color-scheme: dark){
   :root{
-    --bg:#14150f; --fg:#eceade; --muted:#9d9b8e; --line:#2d2e26; --card:#1b1c15;
-    --stated:#7fc79b; --stated-bg:#17301f; --silent:#d4bd6a; --silent-bg:#302a14;
-    --unver:#9d9b8e; --unver-bg:#26261f; --warn:#e8a396; --warn-bg:#3a1d17; --accent:#8fb8e8;
-    --accent-soft:#22344a;
+    /* warm dark grey, not near-black: near-black is what reads as cinematic */
+    --bg:#23211d; --fg:#f0ede6; --muted:#a8a096; --line:#3c3730; --card:#2d2a25;
+    --stated:#8ecfa4; --stated-bg:#25392b; --silent:#d8c47e; --silent-bg:#39321d;
+    --unver:#a8a096; --unver-bg:#333029; --warn:#e8a396; --warn-bg:#42261f; --accent:#93bce8;
+    --accent-soft:#2c3c50;
   }
 }
 /* Monospace is for digits that must line up in a column, never for words. */
@@ -29,8 +30,7 @@ body{margin:0;background:var(--bg);color:var(--fg);
   font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .wrap{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
 h1{font-size:1.7rem;margin:0 0 6px;letter-spacing:-.02em}
-h2{font-size:1.05rem;margin:30px 0 10px;color:var(--muted);font-weight:600;
-  text-transform:uppercase;letter-spacing:.06em;font-size:.8rem}
+h2{margin:30px 0 10px;color:var(--muted);font-weight:600;font-size:.92rem}
 .sub{color:var(--muted);margin:0 0 20px;max-width:70ch}
 .banner{border:1px solid var(--line);border-left:4px solid var(--warn);background:var(--warn-bg);
   padding:12px 16px;border-radius:var(--r-sm);margin:0 0 22px;font-size:.9rem;max-width:80ch}
@@ -79,12 +79,12 @@ details.card>summary:hover{background:var(--bg);border-radius:var(--r-md)}
 .meta{color:var(--muted);font-size:.82rem;margin:10px 0 12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:10px}
 .f{border:1px solid var(--line);border-radius:var(--r-sm);padding:10px 12px;background:var(--bg)}
-.f .lbl,.cool .lbl{font-size:.7rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-bottom:5px}
+.f .lbl,.cool .lbl{font-size:.8rem;font-weight:600;color:var(--muted);margin-bottom:5px}
 .q{font-size:.88rem}
 .q.quote{border-left:3px solid var(--stated);padding-left:9px}
-.pill{display:inline-block;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;
-  padding:2px 7px;border-radius:var(--r-pill);vertical-align:1px;font-weight:600}
-.pill .k{font-weight:400;opacity:.75}
+.pill{display:inline-block;font-size:.76rem;
+  padding:2px 8px;border-radius:var(--r-pill);vertical-align:1px;font-weight:600}
+.pill .k{font-weight:400;opacity:.8}
 .lbl .pill{margin-left:6px}
 .s-stated{background:var(--stated-bg);color:var(--stated)}
 .s-silent{background:var(--silent-bg);color:var(--silent)}
@@ -104,7 +104,14 @@ details.card>summary:hover{background:var(--bg);border-radius:var(--r-md)}
 .matchgroup .pill{margin-left:8px}
 .why{color:var(--muted);font-size:.8rem;font-style:italic}
 a{color:var(--accent)}
-footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.84rem;max-width:80ch}
+.about{margin-top:44px;border-top:1px solid var(--line);padding-top:14px;max-width:80ch}
+.about>summary{cursor:pointer;color:var(--muted);font-weight:600;font-size:.92rem;list-style:none}
+.about>summary::-webkit-details-marker{display:none}
+.about>summary::before{content:"▸ ";font-size:.8rem}
+.about[open]>summary::before{content:"▾ "}
+.about .body{margin-top:10px;color:var(--muted);font-size:.9rem}
+.about .body strong{color:var(--fg)}
+footer{margin-top:20px;padding-top:14px;border-top:1px solid var(--line);color:var(--muted);font-size:.84rem;max-width:80ch}
 [hidden]{display:none !important}
 </style>
 </head>
@@ -119,11 +126,6 @@ link and the date it was read. Firms that say nothing are recorded as saying not
 
 <!-- ============================== HOME ============================== -->
 <section id="home">
-  <div class="banner"><strong>Read this first.</strong> This is a dated snapshot, not advice, and not a
-  verdict about you. <strong>The firm's own current page is always the authority</strong> — pages get
-  rewritten without notice. &ldquo;Publishes nothing&rdquo; is a fact about the public record only: it
-  does not mean a firm has no such policy, and silence is neither permission nor prohibition.</div>
-
   <div class="bigsearch">
     <input id="homeq" type="search" placeholder="Search firms, programs, quoted text — try a firm name or &ldquo;CPT&rdquo;">
     <button id="homego">Search</button>
@@ -160,11 +162,9 @@ link and the date it was read. Firms that say nothing are recorded as saying not
     <button class="back" id="matchHome">&larr; Home</button>
     <span class="count" id="matchProfile"></span>
   </div>
-  <div class="banner">These groups compare your answers with criteria firms have <strong>stated</strong>,
-  as recorded on the dates shown. &ldquo;Exclude&rdquo; means a stated criterion, as written on the
-  date it was read, does not cover your answers — it is not a verdict about you, and the firm's
-  current page is the authority. The largest group is usually the one nobody has verified:
-  treat it as unread, not unavailable.</div>
+  <p class="sub">These groups compare your answers with criteria firms have <strong>stated</strong>, as
+  recorded on the dates shown — not a verdict about you, and the firm's current page is always
+  the authority. The largest group is usually the unread one: treat it as unread, not unavailable.</p>
   <div id="matchout"></div>
 </section>
 
@@ -193,6 +193,21 @@ link and the date it was read. Firms that say nothing are recorded as saying not
   <div id="list"></div>
 </section>
 
+<details class="about">
+  <summary>About this data — a dated snapshot of what firms state, not advice</summary>
+  <div class="body">
+    <p>This is a dated snapshot, not advice, and not a verdict about you.
+    <strong>The firm's own current page is always the authority</strong> — pages get rewritten
+    without notice, and several postings recorded here have already been taken down since they
+    were read.</p>
+    <p>&ldquo;Publishes nothing&rdquo; is a fact about the public record only: it does not mean a
+    firm has no such policy, and silence is neither permission nor prohibition. &ldquo;Not yet
+    verified&rdquo; means exactly that — nobody has read the page yet.</p>
+    <p>Every quote is reproduced exactly as written, with a link to its source and the date it
+    was read. Quotes rest only on a firm's own pages or a university career service, never on
+    aggregators or test-prep sites.</p>
+  </div>
+</details>
 <footer>
 <p>Generated from <code>data/</code>, one JSON file per firm, validated by
 <code>tools/validate.py</code>. Quoted material belongs to the firms that wrote it, is
@@ -313,7 +328,7 @@ function cardHTML(r){
   return `<details class="card">
     <summary>
       <span class="sumtitle"><span class="firm">${esc(r.firm)}</span> — ${esc(r.name)}</span>
-      ${pill(cy.state, '', 'class year')} ${pill(sp.state, '', 'sponsorship')} ${r.cooling_off.state === 'stated' ? `<span class="pill s-warn">reapply rule</span>` : ''}
+      ${pill(cy.state, '', 'Class year')} ${pill(sp.state, '', 'Sponsorship')} ${r.cooling_off.state === 'stated' ? `<span class="pill s-warn">Reapply rule</span>` : ''}
       <span class="summeta">${AUD[r.audience] || ''}${
         /* researchers sometimes put an explanation in cycle; a collapsed row
            only has room for a label, the full text stays in the drawer */

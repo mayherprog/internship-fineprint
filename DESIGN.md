@@ -53,7 +53,8 @@ else. Do not reuse state colors decoratively. The accent stays blue
 (`#1f4f82` / `#8fb8e8`) precisely so that no interactive affordance shares a hue
 with any record state.
 
-Neutrals are warm on purpose (`#fbfbfa` ground, `#14150f` dark ground), matching
+Neutrals are warm on purpose (`#fbfbfa` ground; dark ground `#23211d`, a warm
+dark grey, **not near-black** — near-black is what reads as cinematic), matching
 the sibling project's warm-neutral rule without importing its palette.
 
 ## Type scale
@@ -73,10 +74,12 @@ Section headers on home are the Label step at 0.8rem, muted.
 **Monospace is for digits that must line up in a column, never for words.** The
 `.num` helper (system mono stack, tabular numerals) applies to the home stat
 numbers. It does not apply to dates inside sentences, durations, headings, labels,
-or quotes — a date in a quote is part of a phrase, not a column. Small uppercase
-field labels and state pills are kept deliberately: they are conventional in a
-dense data table (the sibling project removed uppercase for its own reasons; that
-was a judgement call there, not a rule here).
+or quotes — a date in a quote is part of a phrase, not a column.
+
+**Sentence case everywhere.** Uppercase tracked labels and pills were tried and
+reversed on owner feedback: combined with a dark ground and mono digits they read
+as a terminal, not a reference. Section headers, field labels, and pills are
+sentence case at slightly larger sizes (labels 0.8rem, pills 0.76rem).
 
 ## Spacing and shape
 
@@ -88,7 +91,13 @@ max 80ch.
 
 ## Components
 
-- **Notice banner** — warn-tinted, 4px left rule. One per page, home only.
+- **About disclosure** (`<details class="about">`) — the full caveats (dated
+  snapshot, firm's page is the authority, what silence means, source rules) live
+  collapsed at the bottom of the page, above the footer, on every view. The
+  summary line itself states the core caveat, so a reader who never opens it
+  still sees "a dated snapshot of what firms state, not advice". The home page
+  opens with search, not with a warning. The screener keeps its own short
+  inline disclaimer next to the results it qualifies.
 - **Stat** — clickable count tile: bold number over muted label. Navigates to a view.
 - **Sector tile** — bold name over muted "N firms · N programs". Navigates.
 - **Quick chip** — pill-shaped view shortcut. Plain descriptions, no slang.
