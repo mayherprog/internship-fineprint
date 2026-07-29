@@ -1,0 +1,123 @@
+{
+  "firm": "Citadel / Citadel Securities",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "software-engineer-intern-us-miami-ny-houston-chicago-summer-2027",
+      "name": "Software Engineer Intern — US (Miami/NY/Houston/Chicago)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Bachelor's, master's or PhD in computer science, computer engineering or related fields",
+          "checked": "2026-07-27",
+          "source_url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$4,500–$5,800/week + sign-on + housing stipend/accommodations"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now (surfaced ~Jul 16)",
+      "closes": "Rolling"
+    },
+    {
+      "id": "launch-sophomore-intern-summer-2027",
+      "name": "Launch (sophomore intern)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.citadel.com/careers/details/launch-intern-us/",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "Sophomores; pedigree-blind, sponsor-friendly"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "~Oct 2026",
+      "closes": "~Nov 2026"
+    },
+    {
+      "id": "discover-citadel-2027-summer-2027",
+      "name": "Discover Citadel 2027",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "1st/2nd-years (current page: Dec 2027–Jun 2029 grads May 2029 qualifies); US event; no citizenship req."
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "Expected ~Jan 2027",
+      "closes": "~Mar 2027 (2026 deadline was Mar 6)"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

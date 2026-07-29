@@ -1,0 +1,369 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mayherprog/internship-fineprint/schema/program.schema.json",
+  "title": "Firm eligibility record",
+  "description": "One file per firm. Every claim about a firm is a verbatim quote with a source, a tier and a date checked. Records what a firm STATES, never a verdict about any particular candidate.",
+  "type": "object",
+  "required": [
+    "firm",
+    "sector",
+    "programs"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "firm": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entity": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sector": {
+      "type": "string",
+      "enum": [
+        "big_tech",
+        "banking_finance",
+        "quant_trading",
+        "consulting",
+        "big_law",
+        "asset_management",
+        "government",
+        "other"
+      ]
+    },
+    "programs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/program"
+      }
+    },
+    "provenance": {
+      "$ref": "#/$defs/provenance"
+    }
+  },
+  "$defs": {
+    "state": {
+      "description": "stated = the firm says it and `quote` proves it. silent = the firm publishes nothing on this; a fact about the PUBLIC RECORD, not about the firm's practice. unverified = nobody has checked yet.",
+      "enum": [
+        "stated",
+        "silent",
+        "unverified"
+      ]
+    },
+    "tier": {
+      "description": "1 = the firm itself (own domain or own ATS posting). 2 = university career services, official campus-recruiting pages. 3 = aggregated candidate reports; establishes 'widely reported', never 'true'. Test-prep vendors are excluded from citation entirely.",
+      "enum": [
+        1,
+        2,
+        3
+      ]
+    },
+    "source_status": {
+      "description": "ok = the source URL was reachable when checked. url_pending = a verbatim quote was recorded from a posting whose URL has not yet been re-attached; the quote is NOT yet independently citable. blocked = the page is JavaScript-rendered or refuses automated reads. dead = non-200 or connection refused.",
+      "enum": [
+        "ok",
+        "url_pending",
+        "blocked",
+        "dead"
+      ]
+    },
+    "field": {
+      "type": "object",
+      "required": [
+        "state"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "$ref": "#/$defs/state"
+        },
+        "tier": {
+          "$ref": "#/$defs/tier"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1,
+          "description": "VERBATIM. Never a paraphrase. If it cannot be quoted exactly, this key must be absent."
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_status": {
+          "$ref": "#/$defs/source_status"
+        },
+        "checked": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "summary_note": {
+          "type": "string",
+          "description": "A human summary that is explicitly NOT a quote. Only legal when state is unverified. Never rendered as though the firm said it."
+        },
+        "parsed": {
+          "type": "object"
+        }
+      }
+    },
+    "cooling_off": {
+      "type": "object",
+      "required": [
+        "state"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "state": {
+          "$ref": "#/$defs/state"
+        },
+        "tier": {
+          "$ref": "#/$defs/tier"
+        },
+        "quote": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_status": {
+          "$ref": "#/$defs/source_status"
+        },
+        "checked": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "summary_note": {
+          "type": "string"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "parsed": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "trigger": {
+              "description": "WHICH EVENT starts the clock. This and `scope` decide whether a lockout applies to a given reader, and they are the two fields most often got wrong.",
+              "enum": [
+                "assessment_attempt",
+                "rejection",
+                "application",
+                "offer_declined",
+                "unknown"
+              ]
+            },
+            "duration_months": {
+              "type": [
+                "number",
+                "null"
+              ]
+            },
+            "scope": {
+              "enum": [
+                "this_role",
+                "this_program",
+                "all_roles",
+                "all_offices_all_roles",
+                "unknown"
+              ]
+            },
+            "resets_allowed": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "application_cap": {
+              "type": [
+                "number",
+                "null"
+              ],
+              "description": "Maximum applications or divisions permitted per cycle, where a firm states one."
+            },
+            "restrictive": {
+              "type": [
+                "boolean",
+                "null"
+              ],
+              "description": "True only when the firm itself states a number that constrains reapplying (a duration, a cap, or an explicit no-resets). Null means the rule exists but its restrictiveness is not derivable from the firm's words - the reader must read the quote. Never inferred."
+            }
+          }
+        }
+      }
+    },
+    "program": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "audience",
+        "source",
+        "fields",
+        "cooling_off"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "cycle": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "audience": {
+          "description": "Who the program is for, as the firm states it. Recorded so a reader can decide for themselves; never used to render a verdict.",
+          "enum": [
+            "undergraduate",
+            "sophomore",
+            "freshman",
+            "law_student_jd",
+            "graduate",
+            "phd",
+            "paralegal",
+            "all",
+            "unknown"
+          ]
+        },
+        "status": {
+          "enum": [
+            "open",
+            "future",
+            "closed",
+            "unknown"
+          ]
+        },
+        "opens": {
+          "type": "string"
+        },
+        "closes": {
+          "type": "string"
+        },
+        "source": {
+          "type": "object",
+          "required": [
+            "checked",
+            "status"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "url": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "checked": {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+            },
+            "check_method": {
+              "enum": [
+                "static",
+                "manual",
+                "mirror"
+              ]
+            },
+            "content_hash": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "status": {
+              "$ref": "#/$defs/source_status"
+            },
+            "note": {
+              "type": "string"
+            }
+          }
+        },
+        "fields": {
+          "type": "object",
+          "required": [
+            "class_year",
+            "sponsorship",
+            "process",
+            "compensation"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "class_year": {
+              "$ref": "#/$defs/field"
+            },
+            "sponsorship": {
+              "$ref": "#/$defs/field"
+            },
+            "process": {
+              "$ref": "#/$defs/field"
+            },
+            "compensation": {
+              "$ref": "#/$defs/field"
+            }
+          }
+        },
+        "cooling_off": {
+          "$ref": "#/$defs/cooling_off"
+        },
+        "unfiled_quotes": {
+          "type": "array",
+          "description": "Verbatim quotes recorded from the source that did not map cleanly onto a field. Kept so no firm sentence is ever silently discarded.",
+          "items": {
+            "type": "object",
+            "required": [
+              "quote"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "quote": {
+                "type": "string"
+              },
+              "source_url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_status": {
+                "$ref": "#/$defs/source_status"
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "origin": {
+          "type": "string"
+        },
+        "transcribed": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

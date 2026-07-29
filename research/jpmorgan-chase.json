@@ -1,0 +1,353 @@
+{
+  "firm": "JPMorgan Chase",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "name": "2027 Commercial & Investment Bank Securities Services Leadership Program - Summer Analyst Program",
+      "cycle": "Summer 2027",
+      "location": "United States (specific city not verified on a readable page)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 2. The firm's own applicant tracking system posting (jpmc.fa.oraclecloud.com) is JavaScript-rendered and returned no readable job text, and careers.jpmorgan.com now 301-redirects to jpmorganchase.com/careers. This university career-services page carries the firm's posting text."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Expected graduation date of December 2027 – June 2028 from bachelor's or master's program",
+          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "To be eligible for this program, you must be authorized to work in the U.S. We do not offer any type of employment-based immigration sponsorship for this program. Likewise, JPMorgan Chase, will not provide any assistance or sign any documentation in support of any other form of immigration sponsorship or benefit including optional practical training (OPT) or curricular practical training (CPT.)",
+          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Completion of the HireVue video interview is required, and your application will not be considered for further review until you have completed it.",
+          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "If you meet the eligibility requirements, you can submit a new application for the same program in future program years.",
+        "source_url": "https://www.jpmorganchase.com/careers/how-we-hire/faqs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "rejection",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Firmwide FAQ, not program-specific. Two further verbatim sentences from the same FAQ page, quoted exactly: (1) 'We recommend you focus on no more than three summer internship program applications.' — this answers the FAQ question 'Can I apply to more than one summer internship program each year?' and is worded as a recommendation, NOT a stated hard cap; the database should not render it as a cap. (2) 'Once completed, many assessments may not be retaken for a designated timeframe. You will be notified of the assessment retake period, if applicable.' — the firm does not publish the length of that retake period, so duration_months stays null."
+      }
+    },
+    {
+      "name": "2027 Asset Management Product Summer Analyst Program",
+      "cycle": "Summer 2027",
+      "location": "United States (specific city not verified on a readable page)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 2 university career-services reposting of the firm's posting text; the firm's own ATS page was unreadable."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "Expected graduation date of December 2027 – June 2028.",
+          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "To be eligible for this program, you must be authorized to work in the U.S. We do not offer any type of employment-based immigration sponsorship for this program. Likewise, JPMorgan Chase, will not provide any assistance or sign any documentation in support of any other form of immigration sponsorship or benefit including optional practical training (OPT) or curricular practical training (CPT.)",
+          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 2,
+          "quote": "The HireVue is required, and your application will not be considered for further review until you have completed your HireVue video interview.",
+          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 2,
+          "quote": "",
+          "source_url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "If you meet the eligibility requirements, you can submit a new application for the same program in future program years.",
+        "source_url": "https://www.jpmorganchase.com/careers/how-we-hire/faqs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "rejection",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Firmwide FAQ. See the identical note on the Securities Services row for the two other verbatim FAQ sentences (three-application recommendation; assessment retake period)."
+      }
+    },
+    {
+      "name": "JPMorganChase Fellowship Program (the firm's current program page; the Advancing Black Pathways Fellowship name appears only on older 2025-cycle postings and no live 2027 page under that name was found)",
+      "cycle": "not stated for 2027 on the readable program page",
+      "location": "not stated on the readable program page",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 1 firm page. Page is thin: it does not publish work-authorization language, graduation-date range, or selection steps."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "All sophomore students who are interested in the JPMorganChase fellowship program, regardless of background, are welcome to apply.",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The JPMorganChase Fellowship Program offers a five-week paid, full-time summer fellowship",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "If you meet the eligibility requirements, you can submit a new application for the same program in future program years.",
+        "source_url": "https://www.jpmorganchase.com/careers/how-we-hire/faqs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "rejection",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Firmwide FAQ, not published on the fellowship page itself."
+      }
+    },
+    {
+      "name": "Winning Women Undergrad Programs",
+      "cycle": "not stated on the readable program page",
+      "location": "not stated on the readable program page",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 1 firm page, but it publishes essentially no eligibility detail. It states only that open locations are displayed dynamically. Sophomore/junior class-year claims circulating on third-party sites were NOT verifiable on any firm page and are deliberately not recorded here."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Please note, only locations where this program is currently open will be displayed.",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "If you meet the eligibility requirements, you can submit a new application for the same program in future program years.",
+        "source_url": "https://www.jpmorganchase.com/careers/how-we-hire/faqs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "rejection",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Firmwide FAQ, not published on the Winning Women page."
+      }
+    },
+    {
+      "name": "Code for Good (listed on the firm's Tech for Social Good Hackathons page)",
+      "cycle": "not stated for 2027 on the readable page",
+      "location": "not stated on the readable page",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 1. A dedicated /programs/code-for-good URL returns HTTP 404; Code for Good now appears under the Tech for Social Good Hackathons page, which routes applicants to the Software Engineer Summer program page."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Students enrolled in a bachelor's degree program or a program sponsored by JPMorganChase.",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Showcase your tech skills and work alongside a team, guided by our technologists, to solve real-world problems for social good organizations.",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "If you meet the eligibility requirements, you can submit a new application for the same program in future program years.",
+        "source_url": "https://www.jpmorganchase.com/careers/how-we-hire/faqs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "rejection",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Firmwide FAQ, not published on the hackathons page."
+      }
+    },
+    {
+      "name": "Firmwide hiring process (applies across student programs)",
+      "cycle": "n/a",
+      "location": "n/a",
+      "audience": "all",
+      "source": {
+        "url": "https://www.jpmorganchase.com/careers/how-we-hire",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Tier 1. Included so the process and cooling-off quotes have a firm-domain anchor independent of any single program page."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/how-we-hire"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/how-we-hire"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "If you're a possible match for a role, we'll contact you to discuss next steps. The interview process will differ for each position. But as we get to know you—and you get to know us—you can expect to meet with several people in multiple rounds.",
+          "source_url": "https://www.jpmorganchase.com/careers/how-we-hire"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.jpmorganchase.com/careers/how-we-hire"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Once completed, many assessments may not be retaken for a designated timeframe. You will be notified of the assessment retake period, if applicable.",
+        "source_url": "https://www.jpmorganchase.com/careers/how-we-hire/faqs",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "assessment_attempt",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "The firm states a retake lockout exists but does not publish its length or the scope of 'many assessments'. Verbatim companion sentences on the same FAQ page: 'We recommend you focus on no more than three summer internship program applications.' and 'If you meet the eligibility requirements, you can submit a new application for the same program in future program years.'"
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691542",
+      "reason": "JavaScript-rendered Oracle applicant tracking system page; fetch returned only the page title, no job description text. This is the 2027 Global Investment Banking Summer Analyst Program posting."
+    },
+    {
+      "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690282",
+      "reason": "JavaScript-rendered Oracle ATS page; no readable job text. This is the 2027 Markets Summer Analyst Program - Research posting, which third-party repostings claim carries a limited-STEM-sponsorship exception. That exception is NOT recorded anywhere in this file because it could not be read verbatim from any tier 1 or tier 2 page."
+    },
+    {
+      "url": "https://careers.jpmorgan.com/us/en/students/programs/summer-analyst",
+      "reason": "HTTP 301 redirect to https://www.jpmorganchase.com/careers?redirect=careers_jpm — the careers.jpmorgan.com student program pages no longer resolve."
+    },
+    {
+      "url": "https://careers.jpmorgan.com/global/en/how-we-hire/faq",
+      "reason": "HTTP 301 redirect to https://www.jpmorganchase.com/careers?redirect=careers_jpm"
+    },
+    {
+      "url": "https://www.jpmorganchase.com/careers/explore-opportunities/students-and-graduates/programs",
+      "reason": "HTTP 404 Not Found"
+    },
+    {
+      "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/code-for-good",
+      "reason": "HTTP 404 Not Found; Code for Good content now sits on the tfsg-hackathons page"
+    },
+    {
+      "url": "https://www.jpmorganchase.com/careers/explore-opportunities/students-and-graduates",
+      "reason": "Readable but names no individual programs and carries no eligibility text; effectively empty for this purpose"
+    },
+    {
+      "url": "https://seasonalworks.labor.ny.gov/new-york-ny/2027-markets-summer-analyst-program-research/AECC24E441CA47C78BE599A39A8974F9/job/",
+      "reason": "Returned no readable page content"
+    }
+  ],
+  "notes_for_human": "SPONSORSHIP (high-stakes field): the verbatim sentence recorded here is tier 2 (university career services carrying the firm's posting text), not tier 1, because every firm-hosted 2027 posting on jpmc.fa.oraclecloud.com is JavaScript-rendered and returned no text. Two independent university career-services sites (Mercy University, Indiana University Kelley) carry byte-identical language, including the firm's own typo 'JPMorgan Chase, will not provide' and the misplaced parenthesis in '(CPT.)' — that identical-typo match is the reason for confidence that this is the firm's actual boilerplate rather than a paraphrase. It explicitly refuses OPT and CPT support. A rendering-capable fetch of the Oracle ATS is needed to promote this to tier 1.\n\nMARKETS RESEARCH EXCEPTION NOT RECORDED: search snippets asserted the 2027 Markets Summer Analyst Program - Research offers limited sponsorship for STEM students, which would contradict the blanket no-sponsorship line. That page was unreadable, so nothing was recorded. This is the single highest-value follow-up: if true it is the only known sponsorship-eligible undergraduate route, and it must be read verbatim before publication.\n\nPROGRAM RENAME: no live page for 'Advancing Black Pathways Fellowship' was found. The firm's current sophomore fellowship page is 'JPMorganChase Fellowship Program' at /programs/jpmcfellowship. ABP-named postings appear only in 2025-cycle archives. Treat ABP as likely renamed, not as a separate live program — but the rename itself is inference, not a firm statement, and is not recorded in any field.\n\nAPPLICATION CAP: the FAQ wording is 'We recommend you focus on no more than three summer internship program applications.' That is a recommendation. Do not publish it as an enforced cap. No stated per-cycle hard limit, no stated reapplication waiting period in months, and no stated video-interview retake duration were found anywhere on the firm's domain.\n\nFELLOWSHIP COMPENSATION QUOTE IS TRUNCATED: 'The JPMorganChase Fellowship Program offers a five-week paid, full-time summer fellowship' is a contiguous verbatim substring that ends mid-sentence. It is accurate as far as it goes but should be re-pulled in full before publication.\n\nSILENCE IS RECORDED AS SILENCE: Winning Women publishes no class year and no work-authorization sentence on the firm's domain; Code for Good publishes no work-authorization sentence; the Fellowship page publishes no work-authorization sentence. Third-party sites assert values for all three. None were adopted. Do not infer that these programs sponsor, or that they do not."
+}

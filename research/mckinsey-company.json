@@ -1,0 +1,309 @@
+{
+  "firm": "McKinsey & Company",
+  "sector": "consulting",
+  "programs": [
+    {
+      "name": "Business Analyst Intern / Summer Business Analyst",
+      "cycle": "2027",
+      "location": "not verified",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "www.mckinsey.com accepted the TLS connection then never returned a response body. Six attempts across two tools: WebFetch timed out at 60s (x2); curl over HTTP/2 aborted with 'HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR'; curl over HTTP/1.1 with a desktop Chrome user-agent timed out at 20s, 30s and 60s. Consistent with bot mitigation on the origin. No page text was ever received, so no quote can be taken."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.mckinsey.com/careers/frequently-asked-questions",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "NOT recorded as silent. The careers FAQ page was requested four times and never returned readable content, so the public record on reapplication could not be inspected. Widely circulated 12/18/24-month figures appear only on test-prep vendors and candidate forums, which are excluded by the sourcing rules and were deliberately not imported."
+      }
+    },
+    {
+      "name": "Sophomore Summer Business Analyst",
+      "cycle": "2027",
+      "location": "not verified",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Program name and canonical URL confirmed only from a site:mckinsey.com search result listing; the page itself never returned content (same origin-level timeouts). No eligibility text read."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.mckinsey.com/careers/frequently-asked-questions",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Not inspected; FAQ unreachable."
+      }
+    },
+    {
+      "name": "Next Generation Women Leaders",
+      "cycle": "2027",
+      "location": "not verified (regional sub-pages exist, e.g. /next-generation-women-leaders/emea)",
+      "audience": "all",
+      "source": {
+        "url": "https://www.mckinsey.com/next-generation-women-leaders",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Main page timed out. A secondary host, next-generation-women.mckinsey.com/how-apply, returned HTTP 301 and then the redirect target hung with no body. No eligibility text read."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/next-generation-women-leaders"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/next-generation-women-leaders"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://next-generation-women.mckinsey.com/how-apply"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/next-generation-women-leaders"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.mckinsey.com/careers/frequently-asked-questions",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Not inspected; FAQ unreachable."
+      }
+    },
+    {
+      "name": "McKinsey Achievement Awards",
+      "cycle": "2027",
+      "location": "not verified",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.mckinsey.com/careers/students",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "No canonical program page located on mckinsey.com. Only careers-blog articles about past awardees surfaced in search (e.g. /careers/meet-our-people/careers-blog/...), which are narrative posts, not eligibility statements. The careers/students hub itself timed out, so the program's own criteria page could neither be located nor read."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.mckinsey.com/careers/frequently-asked-questions",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Not inspected; FAQ unreachable."
+      }
+    },
+    {
+      "name": "Undergraduate degree candidates (hub page, covers insight/early-ID tracks)",
+      "cycle": "2027",
+      "location": "not verified",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.mckinsey.com/careers/students/undergraduate-degree",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Timed out on every attempt. Per-school sub-pages exist under /careers/students/undergraduate-degree-candidates/ (Northeastern, University of Chicago, and an 'other-schools' page appeared in site: results) and would likely carry cycle-specific dates, but none could be read."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/undergraduate-degree"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/undergraduate-degree"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/undergraduate-degree"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.mckinsey.com/careers/students/undergraduate-degree"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.mckinsey.com/careers/frequently-asked-questions",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "all_roles",
+          "resets_allowed": null
+        },
+        "notes": "Not inspected; FAQ unreachable."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.mckinsey.com/careers/frequently-asked-questions",
+      "reason": "Connection established then hung with zero bytes returned. WebFetch timed out at 60s; curl HTTP/1.1 timed out at 30s and 60s. Likely bot mitigation."
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/students",
+      "reason": "WebFetch timed out at 60s; no content returned."
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/students/undergraduate-degree",
+      "reason": "curl HTTP/2 aborted with INTERNAL_ERROR; HTTP/1.1 timed out at 30s."
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship",
+      "reason": "curl HTTP/2 aborted with INTERNAL_ERROR; HTTP/1.1 timed out at 30s and 60s."
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+      "reason": "curl HTTP/2 aborted with INTERNAL_ERROR; HTTP/1.1 timed out."
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/search-jobs/jobs/summerbusinessanalystintern-101101",
+      "reason": "WebFetch timed out at 60s. Job ID itself is unconfirmed and may not exist."
+    },
+    {
+      "url": "https://www.mckinsey.com/careers/apply",
+      "reason": "curl HTTP/1.1 timed out at 60s."
+    },
+    {
+      "url": "https://www.mckinsey.com/next-generation-women-leaders",
+      "reason": "curl HTTP/1.1 timed out at 20s; no body."
+    },
+    {
+      "url": "https://next-generation-women.mckinsey.com/how-apply",
+      "reason": "HTTP 301 redirect returned, then the target hung with zero bytes."
+    },
+    {
+      "url": "https://jobs.mckinsey.com/careers?folderId=15275",
+      "reason": "Returned HTTP 200, but the body is a JavaScript-rendered Phenom applicant-portal shell (login/registration UI only). No job description text present in the served HTML."
+    }
+  ],
+  "notes_for_human": "ZERO tier-1 quotes were captured. www.mckinsey.com is fully unreachable from this environment: TLS completes, then the origin returns no body, across two tools, both HTTP versions, and timeouts from 20s to 60s. The one McKinsey host that did respond, jobs.mckinsey.com, serves a JS-rendered ATS shell with no posting text. Everything in this record is therefore 'unverified', never 'stated' and never 'silent'. IMPORTANT DISTINCTION on cooling_off: I did not mark it silent, because silent is a claim about the public record that requires actually reading the page. I could not read it. Search engines surfaced only prep vendors (MConsultingPrep, HackingTheCaseInterview, StrategyCase, CaseBasix, MyConsultingOffer, Leland, RoadToOffer) and forums (PrepLounge) asserting 12-18 or 18-24 month bans and a 12-month Solve score-reuse window; these are excluded by the sourcing rules and were deliberately NOT imported, including as tier 3. The folklore number remains unverified against McKinsey's own words. Search snippets also floated specific graduation windows (Dec 2026-Aug 2027 for Summer BA; Dec 2027-Aug 2028 for SSBA) and a '3.8+ GPA preferred' claim; the GPA claim in particular reads as vendor invention and none of it is firm-sourced, so none was recorded. One URL correction worth carrying forward: the Sophomore Summer Business Analyst page lives at the legacy slug /careers/students/sophomore-diversity-leaders-internship. RETRY PATH: this needs a browser session with real JS rendering and a residential-looking client, or a manual capture. Recommend re-running from a different network before this firm's rows are published."
+}

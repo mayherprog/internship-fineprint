@@ -1,0 +1,50 @@
+{
+  "firm": "Neuralink",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "id": "swe-intern-bci-applications-fremont-ca-summer-2027",
+      "name": "SWE Intern, BCI Applications (Fremont, CA)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Currently pursuing a Bachelor's degree in Computer Science or a related field",
+          "checked": "2026-07-27",
+          "source_url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

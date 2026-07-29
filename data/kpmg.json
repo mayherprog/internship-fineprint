@@ -1,0 +1,302 @@
+{
+  "firm": "KPMG",
+  "sector": "consulting",
+  "programs": [
+    {
+      "id": "kpmg-internship-experience-audit-tax-advisory-summer-and-winter-internships",
+      "name": "KPMG Internship Experience (Audit / Tax / Advisory summer and winter internships)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.kpmguscareers.com/early-career/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm's own early-career hub. Individual 2027 job postings on kpmguscareers.com/jobdetail/ could not be read - see blocked_urls."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "KPMG early career opportunities include jobs that will consider qualified applicants who require visa sponsorship.",
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Internships, unless otherwise noted, are 40 hours per week. Interns must be available to work during regular business hours (approximately 8am-5pm) and live within a commutable distance to the office.",
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "No KPMG US early-career FAQ page located; https://www.kpmguscareers.com/early-career/faq/ returns 404. No reapplication-waiting-period language found on any readable KPMG-owned page."
+      },
+      "cycle": "Summer 2027 / Winter 2027",
+      "location": "Multiple US locations (per-posting; includes Jackson, San Juan, and multi-location postings)"
+    },
+    {
+      "id": "kpmg-early-career-visa-sponsorship-practice-list-applies-across-internship-and-f",
+      "name": "KPMG early-career visa sponsorship practice list (applies across internship and full-time early-career roles)",
+      "audience": "all",
+      "source": {
+        "url": "https://www.kpmguscareers.com/early-career/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Separate row because the sponsorship statement is scoped to named practices, not to one program."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Practices that historically consider candidates requiring visa sponsorship on a regular basis: Korean Audit Practice, Japanese Audit Practice, Korean Business Tax Services Practice, Japanese Business Tax Services Practice",
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "A second sentence on the same page reads verbatim: \"Practices that historically consider candidates requiring sponsorship on a limited basis: Select Tax jobs, Audit Data Engineering\". A fetch summary indicated Audit Data Engineering is annotated as fulltime opportunities only, but that qualifier could not be captured character-for-character and is therefore not quoted here."
+      },
+      "cycle": "2027",
+      "location": "United States"
+    },
+    {
+      "id": "embark-scholars-program",
+      "name": "Embark Scholars Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.kpmguscareers.com/early-career/program/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Program landing page. A dedicated brochure exists at https://view.ceros.com/kpmg-design/embark-scholars-program (not fetched)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Eligibility text captured verbatim from the program page: \"Applicants must be first-generation or Community College students pursuing or intending to pursue a Bachelor or Master of accounting (or other equivalent) or IT related degree from an accredited college/university and be interested in a career with a public accounting firm.\" This is an audience/major gate, not a class-year gate, so it is recorded here rather than in class_year. A search-engine summary also referenced a requirement of at least 3 additional semesters remaining after the internship plus CPA-eligibility language, but that sentence could NOT be confirmed character-for-character on a KPMG-owned page and is deliberately not quoted."
+      },
+      "cycle": "2027 (2026 intern postings observed)",
+      "location": "United States"
+    },
+    {
+      "id": "kpmg-rise-leadership-conference",
+      "name": "KPMG Rise Leadership Conference",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.kpmguscareers.com/early-career/program/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Listed on the KPMG programs page; no dedicated eligibility page located."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.kpmguscareers.com/early-career/program/"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Page describes Rise as offering scholarship opportunities and career development at Lakehouse, but no full sentence could be captured verbatim and no eligibility criteria are published on the readable page."
+      },
+      "cycle": "2027",
+      "location": "KPMG Lakehouse, Lake Nona, Florida"
+    },
+    {
+      "id": "kpmg-advisory-talent-program",
+      "name": "KPMG Advisory Talent Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://kpmgcampus.avature.net/advisorytalentprogram",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Avature-hosted campus microsite, not fetched/readable in this session. Linked from https://www.kpmguscareers.com/early-career/program/"
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Microsite not read; no fields asserted."
+      },
+      "cycle": "2027",
+      "location": "United States"
+    },
+    {
+      "id": "hbcu-talent",
+      "name": "HBCU Talent+",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://kpmgcampus.avature.net/hbcutalentplus",
+        "checked": "2026-07-29",
+        "status": "blocked",
+        "note": "Avature-hosted campus microsite, not fetched/readable in this session. Linked from https://www.kpmguscareers.com/early-career/program/"
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": null
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "source_url": null,
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Microsite not read; no fields asserted."
+      },
+      "cycle": "2027",
+      "location": "United States"
+    }
+  ],
+  "provenance": {
+    "origin": "per-firm web research, one agent per firm",
+    "transcribed": "2026-07-29",
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed."
+  }
+}

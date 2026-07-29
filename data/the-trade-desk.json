@@ -1,0 +1,47 @@
+{
+  "firm": "The Trade Desk",
+  "sector": "big_tech",
+  "programs": [
+    {
+      "id": "swe-intern-north-america-summer-2027-denver-multiple-us-summer-2027",
+      "name": "SWE Intern, North America, Summer 2027 (Denver + multiple US)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "No class-year or graduation-date language in posting (verified 7/23); standard sponsorship screening only (form live 7/27)"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

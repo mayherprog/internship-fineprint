@@ -1,0 +1,169 @@
+{
+  "firm": "Cravath, Swaine & Moore",
+  "sector": "big_law",
+  "programs": [
+    {
+      "name": "Summer Associate Program (2L Summer Program)",
+      "cycle": "Summer 2027 (application cycle closed as of check date)",
+      "location": "New York",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.cravath.com/careers/legal-hiring/recruiting/index.html",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm-owned recruiting landing page; details cross-checked against /recruiting/how-to-apply.html and /recruiting/summer-program.html, both also firm-owned and reachable."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Each recruiting season, we aim to hire a summer class comprised of exceptional second-year law students from schools across the United States and Canada.",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/index.html"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/faq.html"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The application for our New York-based 2027 2L Summer Associate Program is now closed.",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/how-to-apply.html"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Summer associates are paid a weekly salary of $4,327.",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/how-to-apply.html"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/faq.html",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication waiting period, assessment-retake bar, or cooling-off rule appears anywhere on the Recruiting, How to Apply, Summer Program, or FAQ pages. Silence on the public record; not evidence either way about internal practice."
+      }
+    },
+    {
+      "name": "Paralegal Program",
+      "cycle": "Two-year program; openings posted on a rolling basis",
+      "location": "Not stated on the program page (Firm's principal office is New York)",
+      "audience": "paralegal",
+      "source": {
+        "url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm-owned Administrative Staff > Paralegals page; application page at /paralegals/apply.html also checked and reachable."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/apply.html"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "To see if there are any open paralegal positions, please check our available positions page.",
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/apply.html"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/apply.html",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "Nothing published about reapplication timing."
+      }
+    },
+    {
+      "name": "1L diversity fellowship (searched for; no such named program published)",
+      "cycle": "",
+      "location": "",
+      "audience": "law_student_jd (1L) — hypothetical; no program found",
+      "source": {
+        "url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page loads and describes student outreach and affinity-group recruiting events, but names no 1L fellowship, diversity fellowship, or scholars program and states no eligibility criteria for any such program. The recruiting, how-to-apply and FAQ pages likewise contain no 1L application information."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.cravath.com/careers/law-students.html",
+      "reason": "HTTP 404 Not Found — guessed path, does not exist. The live equivalent is /careers/legal-hiring/recruiting/index.html."
+    }
+  ],
+  "notes_for_human": "EXPLICIT ANSWER ON UNDERGRADUATE AVAILABILITY: Cravath publishes NO undergraduate-facing internship or summer program. Its Summer Associate Program is, on the firm's own words, a law-student program: 'Each recruiting season, we aim to hire a summer class comprised of exceptional second-year law students from schools across the United States and Canada.' (https://www.cravath.com/careers/legal-hiring/recruiting/index.html, checked 2026-07-29). The same page adds, verbatim: 'We also welcome applications from outstanding third‑year law students interested in joining us as incoming associates following graduation.' and 'Our summer program is designed to provide law students with an experience that mirrors the life of a first‑year associate.' An undergraduate, having no JD candidacy, cannot be a second- or third-year law student, so the program is closed to them on its stated criterion. The application page reinforces the framing by name: 'The application for our New York-based 2027 2L Summer Associate Program is now closed.' IMPORTANT DISTINCTION: the firm never writes a sentence of the form 'undergraduates are not eligible' — the exclusion is implied by an affirmative class-year criterion, not by an explicit bar. Record it that way in the database. CLOSEST UNDERGRADUATE-ADJACENT ROUTE: the two-year Paralegal Program, listed under Administrative Staff, not under Legal Hiring. It is a post-graduation full-time job, not a student summer program, and it is NOT described as an internship. The firm states 'The Paralegal Program lasts for two years.' and 'Some participants choose to stay on as career paralegals; others continue on to graduate studies, including law school, business school or other graduate programs, or to other professions.' Critically, Cravath publishes NO degree requirement, no class-year requirement, no GPA floor and no work-authorization statement for paralegals — the only qualification language on the page is 'We seek applicants who are bright, willing to work hard and always motivated to do their best.' Hiring is opening-driven: 'To see if there are any open paralegal positions, please check our available positions page.' and 'If there are no openings, please feel free to submit a resume for general consideration.' 1L / DIVERSITY FELLOWSHIP: none found. The Diversity & Inclusion 'Recruiting & Student Outreach' page describes affinity-group outreach and events but names no fellowship or scholars program and publishes no eligibility criteria; the Recruiting, How to Apply and FAQ pages carry no 1L application track at all. Treat as silent, not as 'no program exists.' VISA SPONSORSHIP: silent across all four legal-hiring pages and both paralegal pages. No H-1B, OPT, CPT or work-authorization language published anywhere checked. COOLING-OFF / REAPPLICATION: silent everywhere. COMPENSATION: summer associate pay is published verbatim ('Summer associates are paid a weekly salary of $4,327.'); paralegal pay is not published. SOURCING CAVEAT: all quotes above were returned by a fetch-and-extract step that was instructed to reproduce sentences character for character, and each was returned inside quotation marks as an exact sentence; I did not compose or condense any of them. Two items were deliberately EXCLUDED from quote fields because the extraction returned them damaged or fragmentary: the associate-application materials line (returned as an incomplete clause, 'If you are interested in applying for an associate position, please email your application (resume and transcripts--law school and undergraduate)') and a recruiting email address that came back visibly corrupted ('csmrecruit@csmrecruit@cravath.com', plainly a duplication artifact). Both concern lateral/post-clerkship associate hiring rather than student programs; if the database needs them, re-verify against the live page. One noteworthy statistic on the Summer Program page, quoted for context only and not used as an eligibility criterion: 'The summer associates in our 2026 class come from 21 law schools; they attended 62 different colleges and had 60 different majors; and 76% worked between college and law school.' — this describes where admitted law students went to college, which is precisely the kind of line an undergraduate may misread as evidence of undergraduate eligibility."
+}

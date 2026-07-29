@@ -1,0 +1,341 @@
+{
+  "firm": "Latham & Watkins",
+  "sector": "big_law",
+  "programs": [
+    {
+      "name": "Summer Associate Program (US)",
+      "cycle": "Summer; 2026 1L and 2027 2L application cycles listed as closed as of check date",
+      "location": "US offices; page also references US law student opportunities in Hong Kong, London, and Singapore",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm's own careers domain (lwcareers.com). Retrieved as raw HTML and text-extracted; quotes copied character-for-character from that extraction. Page states: \"Our 2026 1L and 2027 2L applications are closed.\""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The application process is open to all Class of 2029 law students enrolled in an ABA-accredited law school, regardless of race, color, religion, citizenship, national origin, gender, age, sexual orientation, gender identity, gender expression, marital status, military service, disability, or any other characteristic or condition protected by applicable law.",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "A complete application package must include the following items:",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication restriction, waiting period, or attempt limit appears anywhere on the summer program page."
+      }
+    },
+    {
+      "name": "Summer Associate Program — law-student-only restriction (undergraduate exclusion evidence)",
+      "cycle": "n/a — this entry exists to record the audience restriction verbatim",
+      "location": "United States",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Second verbatim sentence from the same page restating the law-student-only audience in general terms (not tied to a single class year)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We offer opportunities for law students at ABA-accredited schools to learn from some of the best in the profession, refine their skills, and develop their talents.",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our 2026 1L and 2027 2L applications are closed.",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    },
+    {
+      "name": "Business Services Training Program (BSTP)",
+      "cycle": "Typically two years (London: one year); applications open Autumn 2026",
+      "location": "US: Chicago, Los Angeles — GSO, New York, Washington, D.C. UK: London, Manchester",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "This is the ONLY undergraduate-facing Latham program found on the firm's own domain. It is a full-time post-graduation rotational business-services role (non-lawyer), not a legal internship. The London Placement variant is open to current university students on a year in industry."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Business Services Training Program (BSTP) is a highly selective rotational program for recent university graduates seeking hands-on experience across business functions at Latham.",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We encourage interested candidates to register their interest to receive updates and application reminders.",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language on the page."
+      }
+    },
+    {
+      "name": "BSTP — London Placement variant",
+      "cycle": "One-year placement between second and final years of university",
+      "location": "London",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Recorded separately because it is the only Latham program on the firm's own domain open to CURRENTLY ENROLLED undergraduates. UK-only."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "A one-year program designed for current university students completing a year-in-industry between their second and final years.",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications open: Autumn 2026",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    },
+    {
+      "name": "Paralegal I (Transactional)",
+      "cycle": "Rolling / experienced hire; not a cohort program",
+      "location": "US offices (job description notes California-office declaration requirement)",
+      "audience": "paralegal",
+      "source": {
+        "url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm-published PDF job description dated \"Last Updated: June__, 2025\". This is a full-time hire, not a student program. Latham publishes no paralegal INTERNSHIP or undergraduate paralegal pipeline program that I could find on its own domain."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Bachelor’s degree required",
+          "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": ""
+      }
+    },
+    {
+      "name": "1L Fellowship / 1L Diversity Scholars Program",
+      "cycle": "Historically a 1L summer program; current status unverified",
+      "location": "US offices (historically)",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.lw.com/1LFellowship",
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "The firm's own vanity URL lw.com/1LFellowship now resolves to a \"Belong As You Are\" inclusion page that contains NO fellowship eligibility criteria, deadlines, or stipend. The law-school page law.utexas.edu/careers/scholarships/latham-watkins-1l-fellowship-program/ returns HTTP 404. The only current firm-domain evidence that a 1L track exists at all is the summer program page line \"Our 2026 1L and 2027 2L applications are closed.\" No verbatim eligibility text is currently published on any tier-1 or reachable tier-2 source, so all fields are left unverified rather than filled from aggregator summaries."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/1LFellowship"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/1LFellowship"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/1LFellowship"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.lw.com/1LFellowship"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.lw.com/1LFellowship",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No page reachable to assess."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.lw.com/en/careers/law-students",
+      "reason": "HTTP 404 Not Found"
+    },
+    {
+      "url": "https://www.lw.com/1LFellowship",
+      "reason": "Resolves to a general inclusion page with no 1L fellowship eligibility, deadline, or stipend content; original fellowship page appears removed"
+    },
+    {
+      "url": "https://law.utexas.edu/careers/scholarships/latham-watkins-1l-fellowship-program/",
+      "reason": "HTTP 404 Not Found (tier-2 law school page removed)"
+    },
+    {
+      "url": "https://www.lwcareers.com/en/business-services-training-program",
+      "reason": "HTTP 404 Not Found — correct path is /en/professional-staff-paralegals/business-services-training-program"
+    },
+    {
+      "url": "https://www.lwcareers.com/en/professional-staff-and-paralegals/united-states",
+      "reason": "HTTP 404 Not Found"
+    }
+  ],
+  "notes_for_human": "DIRECT ANSWER ON UNDERGRADUATE AVAILABILITY: Latham & Watkins' Summer Associate Program is NOT open to undergraduates. It is restricted to enrolled JD candidates at ABA-accredited law schools. Firm's own words (lwcareers.com, tier 1): \"The application process is open to all Class of 2029 law students enrolled in an ABA-accredited law school...\" and \"We offer opportunities for law students at ABA-accredited schools to learn from some of the best in the profession, refine their skills, and develop their talents.\" A law school transcript is a mandatory application item, which an undergraduate cannot produce. The only mention of an undergraduate transcript is as a SUPPLEMENT for IP Litigation applicants who are already law students. So the common undergraduate belief that a \"big law summer program\" is open to them is wrong in Latham's case. HOWEVER — and this is the genuinely useful finding for an undergraduate database — Latham does run one undergraduate-facing program on its own domain: the Business Services Training Program (BSTP), \"a highly selective rotational program for recent university graduates\" in Chicago, Los Angeles (GSO), New York, Washington D.C., London, and Manchester. Two important caveats: (1) it is a full-time post-graduation job of roughly two years, NOT a summer internship, and (2) it is a business-services (non-lawyer) role in finance, business development, attorney support, and technology. The Los Angeles and Manchester tracks are explicitly aimed away from future law students: \"Our Los Angeles and Manchester BSTP program is specifically designed for individuals interested in long-term careers in the business of law, rather than those planning to attend law school.\" The single BSTP variant open to CURRENTLY ENROLLED undergraduates is the London Placement: \"A one-year program designed for current university students completing a year-in-industry between their second and final years.\" BSTP applications open Autumn 2026; there is currently only a register-interest form, no live application. PARALEGAL: Latham hires paralegals as full-time staff requiring a bachelor's degree already completed (\"Bachelor's degree required\", Paralegal I job description PDF on lw.com). No paralegal internship or undergraduate paralegal pipeline program is published. 1L FELLOWSHIP: I could not verify current eligibility from any tier-1 or reachable tier-2 source. lw.com/1LFellowship no longer serves fellowship content and the University of Texas Law page is 404. Search-engine summaries describe a 10-week 1L program at roughly $3,470/week with a client secondment, but I refused to place any of that in a quote field because I could not open a live page containing that text; treat those figures as unconfirmed. The only live firm-domain confirmation that a 1L track exists is \"Our 2026 1L and 2027 2L applications are closed.\" COMPENSATION AND SPONSORSHIP are silent across every page I read; the summer program page links to a separate \"Compensation & Benefits\" section I did not open within budget. That section (https://www.lwcareers.com/en/beginning-your-legal-career/united-states/compensation-benefits, path inferred, unverified) is the obvious next fetch. COOLING-OFF is silent everywhere — no reapplication restriction, attempt limit, or waiting period is published for any Latham program. METHOD NOTE: all tier-1 quotes were taken from raw HTML/PDF fetched via curl and text-extracted locally, not from a summarizing fetch tool, specifically to guarantee they are character-for-character."
+}

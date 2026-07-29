@@ -1,0 +1,156 @@
+{
+  "firm": "Cravath, Swaine & Moore",
+  "sector": "big_law",
+  "programs": [
+    {
+      "id": "summer-associate-program-2l-summer-program",
+      "name": "Summer Associate Program (2L Summer Program)",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.cravath.com/careers/legal-hiring/recruiting/index.html",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm-owned recruiting landing page; details cross-checked against /recruiting/how-to-apply.html and /recruiting/summer-program.html, both also firm-owned and reachable."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Each recruiting season, we aim to hire a summer class comprised of exceptional second-year law students from schools across the United States and Canada.",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/index.html"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/faq.html"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The application for our New York-based 2027 2L Summer Associate Program is now closed.",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/how-to-apply.html"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Summer associates are paid a weekly salary of $4,327.",
+          "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/how-to-apply.html"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.cravath.com/careers/legal-hiring/recruiting/faq.html",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication waiting period, assessment-retake bar, or cooling-off rule appears anywhere on the Recruiting, How to Apply, Summer Program, or FAQ pages. Silence on the public record; not evidence either way about internal practice."
+      },
+      "cycle": "Summer 2027 (application cycle closed as of check date)",
+      "location": "New York"
+    },
+    {
+      "id": "paralegal-program",
+      "name": "Paralegal Program",
+      "audience": "paralegal",
+      "source": {
+        "url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Firm-owned Administrative Staff > Paralegals page; application page at /paralegals/apply.html also checked and reachable."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/apply.html"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "To see if there are any open paralegal positions, please check our available positions page.",
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/apply.html"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.cravath.com/careers/administrative-staff/paralegals/apply.html",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_role",
+          "resets_allowed": null
+        },
+        "notes": "Nothing published about reapplication timing."
+      },
+      "cycle": "Two-year program; openings posted on a rolling basis",
+      "location": "Not stated on the program page (Firm's principal office is New York)"
+    },
+    {
+      "id": "1l-diversity-fellowship-searched-for-no-such-named-program-published",
+      "name": "1L diversity fellowship (searched for; no such named program published)",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page loads and describes student outreach and affinity-group recruiting events, but names no 1L fellowship, diversity fellowship, or scholars program and states no eligibility criteria for any such program. The recruiting, how-to-apply and FAQ pages likewise contain no 1L application information."
+      },
+      "fields": {
+        "class_year": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        }
+      }
+    }
+  ],
+  "provenance": {
+    "origin": "per-firm web research, one agent per firm",
+    "transcribed": "2026-07-29",
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed."
+  }
+}

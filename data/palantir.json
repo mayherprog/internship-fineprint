@@ -1,0 +1,44 @@
+{
+  "firm": "Palantir",
+  "sector": "other",
+  "programs": [
+    {
+      "id": "palantir-incl-accelerate-summer-2027",
+      "name": "Palantir (incl. Accelerate)",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-21",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-21",
+          "summary_note": "Clearance eligibility."
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "firm": "Skadden, Arps, Slate, Meagher & Flom",
+  "sector": "big_law",
+  "programs": [
+    {
+      "name": "Summer Associate Program (United States)",
+      "cycle": "Summer; 1L and 2L recruiting cycles (2026 1L / 2027 2L cycles referenced on site as of check date)",
+      "location": "United States - multiple offices (US page lists 1L offices Chicago, Houston, Palo Alto, Toronto and 2L offices Boston, Hong Kong, London, Los Angeles, New York, Tokyo, Washington, Wilmington; office list NOT captured verbatim)",
+      "audience": "law_student_jd",
+      "source": {
+        "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Skadden's site is an AngularJS client-rendered app; raw HTTP GET returns only a JS shell (17,726 bytes, no body copy). The verbatim eligibility sentence below was retrieved from the rendered UK Law Students and Graduates page. The US page at /law-students-and-graduates/united-states rendered but only a summarized (non-verbatim) extraction was obtainable, so no US-page text is quoted here. The URL /law-students-and-graduates/united-states/summer-associates returned Skadden's 404 page on the check date."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our Summer Associate Program is geared towards students in three-year J.D. programs in the United States who will be admitted to practice law in the United States.",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states",
+          "note": "The US page does describe an application process (resume, undergraduate transcript, fall grades, and an online assessment administered by a third-party vendor), but only a paraphrased extraction was obtainable from the JavaScript-rendered page. No verbatim sentence captured, so nothing is quoted."
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states",
+          "note": "A salary figure appears in a paraphrased extraction of the US page but could not be captured verbatim. Not recorded as stated."
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication restriction, waiting period, or assessment-retake limit found on any Skadden page reviewed."
+      }
+    },
+    {
+      "name": "Legal Practice Assistant (LPA) Program - Paralegal Services Department",
+      "cycle": "Annual class; June start (June 2027 class posting opens first week of November 2026, planned close Friday, December 4, 2026)",
+      "location": "United States - Skadden offices (specific offices not enumerated on the paralegals page)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.skadden.com/careers/staff/paralegals",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page rendered and full body text was retrievable. This is the only Skadden program found that is explicitly aimed at people whose highest completed credential is an undergraduate degree. Note it is a full-time entry-level job, not a summer internship."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Skadden offers a distinctive Legal Practice Assistant (LPA) program tailored for recent college graduates who aspire to pursue legal careers and seek to gain invaluable, first-hand experience in a prestigious law firm before attending law school.",
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applicants should be prepared to submit a cover letter along with an up-to-date resume. First-round interviews will be conducted via Webex, Skadden's virtual meeting platform. Second-round interviews will be conducted in person at a Skadden office.",
+          "source_url": "https://www.skadden.com/careers/staff/paralegals"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/staff/paralegals",
+          "note": "The paralegals page states no salary. It does state an unreimbursed-expense condition on interviews: \"*Any incurred travel expenses will not be reimbursed by Skadden.\" Third-party university job-board listings carry a salary figure but were not fetched or verified."
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.skadden.com/careers/staff/paralegals",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication restriction stated. The page does state a forward-looking service expectation, not a cooling-off rule: \"We expect our LPAs to commit to a two-year tenure at the firm, during which they will develop critical skills and gain substantial legal experience.\""
+      }
+    },
+    {
+      "name": "1L Scholars Program",
+      "cycle": "unknown",
+      "location": "unknown",
+      "audience": "law_student_jd (first-year J.D. candidates, per program name only - no eligibility text retrievable)",
+      "source": {
+        "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars",
+        "checked": "2026-07-29",
+        "status": "dead",
+        "note": "URL indexed by search engines but returned Skadden's 404 page on the check date: \"The page you are looking for is no longer available. Please use the navigation or search to find another page.\" The alternate indexed URL /careers/attorneys/apply-and-connect/opportunities/london/1l-scholar returned the same 404. No eligibility criteria could be read from any live Skadden page."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        },
+        "sponsorship": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "quote": "",
+          "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified",
+        "tier": 1,
+        "quote": "",
+        "source_url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "Page dead; nothing verifiable."
+      }
+    }
+  ],
+  "blocked_urls": [
+    {
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/summer-associates",
+      "reason": "Returned Skadden's 404 page (\"The page you are looking for is no longer available.\") despite being indexed by search engines."
+    },
+    {
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/explore-opportunities/summer-associates/summer-associate-application-information",
+      "reason": "Direct HTTP GET returns only the AngularJS shell (17,726 bytes, identical byte size for every skadden.com route, no body copy). Content is client-rendered; not readable without JS execution."
+    },
+    {
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states",
+      "reason": "Page renders, but only a paraphrased extraction was obtainable. Verbatim sentences on process and compensation could not be captured, so those fields are recorded as unverified rather than quoted."
+    },
+    {
+      "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-states/1l-scholars",
+      "reason": "404 - page no longer available."
+    },
+    {
+      "url": "https://www.skadden.com/careers/attorneys/apply-and-connect/opportunities/london/1l-scholar",
+      "reason": "404 - page no longer available."
+    }
+  ],
+  "notes_for_human": "DIRECT ANSWER ON UNDERGRADUATE AVAILABILITY: Skadden's Summer Associate Program is NOT open to undergraduates. Skadden states verbatim on its own domain (tier 1): \"Our Summer Associate Program is geared towards students in three-year J.D. programs in the United States who will be admitted to practice law in the United States.\" (https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom, checked 2026-07-29). The entire program sits under a section of the site titled \"Law Students and Graduates,\" and the US page's recruiting cycles are organised around 1L and 2L candidates. An undergraduate with no J.D. enrollment does not meet the stated criterion. Note the confusing detail that Skadden asks summer-associate applicants for an UNDERGRADUATE transcript - that is a document request from an enrolled law student, not evidence the program admits undergraduates.\n\nWHAT IS ACTUALLY OPEN TO UNDERGRADUATES: exactly one program found - the Legal Practice Assistant (LPA) program in the Paralegal Services Department, stated verbatim to be \"tailored for recent college graduates.\" Two things must be flagged to any undergraduate user: (1) it is a full-time two-year JOB starting after graduation, not a summer internship - Skadden states \"We expect our LPAs to commit to a two-year tenure at the firm\"; (2) it therefore targets final-year students / graduating seniors, not sophomores or juniors seeking a summer placement. No summer internship, insight day, spring week, or first-year/sophomore diversity program for undergraduates was found anywhere on skadden.com.\n\n1L SCHOLARS: both indexed URLs for the 1L Scholars program returned Skadden's 404 page on 2026-07-29. Search engines still index the pages and a University of Michigan Law event listing references an info session, but no live Skadden page states its eligibility. Recorded as dead, not as silent, and not guessed. If the database needs this field, it should be re-checked; the program may have been renamed, moved, or discontinued. Even if live, it is by definition for first-year law students, not undergraduates.\n\nMETHOD CAVEAT: skadden.com is an AngularJS client-rendered site - every route returns an identical 17,726-byte JS shell to a plain HTTP GET, so raw-HTML verification is impossible. Only two pages yielded genuinely verbatim body text (the UK law students page and the paralegals page); all quotes in this record come from those two. Where only a paraphrased rendering was available (US summer associate page: application requirements, third-party online assessment, salary figure), fields are marked \"unverified\" with empty quote fields rather than back-filled from a summary. Compensation for both programs is therefore NOT established from the public record here.\n\nCOOLING-OFF: no reapplication waiting period, assessment-retake limit, or rejection-based restriction was found for any Skadden program. Recorded as silent, which is a statement about the public record only."
+}

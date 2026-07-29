@@ -1,0 +1,47 @@
+{
+  "firm": "Citi",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "id": "early-id-leadership-program-summer-2027",
+      "name": "Early ID Leadership Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://jobs.citi.com/earlycareers-programs-preinternships",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "US sophomores, 4-yr degree; GPA 3.3 floor"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "future",
+      "opens": "Nov 2026 (Dec cohort); Feb 2027 (Mar cohort)",
+      "closes": "—"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

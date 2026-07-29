@@ -1,0 +1,51 @@
+{
+  "firm": "Cubist Systematic Strategies (Point72)",
+  "sector": "quant_trading",
+  "programs": [
+    {
+      "id": "summer-2027-quantitative-developer-internship-ny-summer-2027",
+      "name": "Summer 2027 Quantitative Developer Internship (NY)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002",
+        "checked": "2026-07-27",
+        "check_method": "static",
+        "status": "ok",
+        "note": ""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Undergraduate degree or higher in math, computer science, or other quantitative fields",
+          "checked": "2026-07-27",
+          "source_url": "https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002",
+          "source_status": "ok"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$240k–$300k annualized base, prorated"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

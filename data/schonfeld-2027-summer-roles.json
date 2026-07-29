@@ -1,0 +1,41 @@
+{
+  "firm": "Schonfeld 2027 summer roles",
+  "sector": "other",
+  "programs": [
+    {
+      "id": "schonfeld-2027-summer-roles",
+      "name": "Schonfeld 2027 summer roles",
+      "audience": "unknown",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430",
+        "checked": "2026-07-27",
+        "check_method": "manual",
+        "status": "ok",
+        "note": "Open August 2026 (this week) — express-interest pipeline live now; posted comp range $45k–$150k prorated. Class-year language TBD when roles post — checking daily."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "private posting tracker, transcribed programmatically",
+    "transcribed": "2026-07-29",
+    "note": "Quotes are byte-for-byte substrings of quoted spans in the source spreadsheet. Unquoted text became summary_note on unverified fields, never a quote."
+  }
+}

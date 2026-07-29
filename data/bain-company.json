@@ -1,0 +1,309 @@
+{
+  "firm": "Bain & Company",
+  "sector": "consulting",
+  "programs": [
+    {
+      "id": "associate-consultant-intern-aci-associate-consultant-internship",
+      "name": "Associate Consultant Intern (ACI) — Associate Consultant Internship",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Program page renders as static text and was readable. A companion page, https://www.bain.com/careers/hiring-process/associate-consultant-intern/, was also read and contains no reapplication or eligibility language."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "This program is typically for current bachelor's and master's students with one full summer left before graduation.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
+        },
+        "process": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/hiring-process/associate-consultant-intern/"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Compensation for this role in the United States includes a monthly base salary of $9,000 and Bain's best-in-class benefits package",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Yes, you may re-apply but we will ask that you refrain from doing so until at least 12 months has passed, in line with our global approach to recruiting.",
+        "source_url": "https://www.bain.com/careers-old/recruiting/bfls/sea-recruiting/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": 12,
+          "scope": "all_roles",
+          "resets_allowed": null,
+          "restrictive": true
+        },
+        "notes": "This is the ONLY Bain-owned page found stating a numeric reapplication period. It sits on a LEGACY path (/careers-old/) for Southeast Asia recruiting, not on the current global careers site. The sentence itself does not name the trigger (rejection vs. any prior application), does not name the roles covered, and does not mention assessment retakes; 'in line with our global approach to recruiting' is Bain's own wording and is the basis for scope=all_roles. The current ACI program page and ACI hiring-process page say NOTHING about reapplication."
+      },
+      "cycle": "not labelled by year on the program page; page describes the standing summer internship",
+      "location": "global; page lists 54+ offices"
+    },
+    {
+      "id": "building-entrepreneurial-leaders-bel",
+      "name": "Building Entrepreneurial Leaders (BEL)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.bain.com/careers/bel/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states verbatim: \"Applications for our 2026 program are now closed. Check back later for more information on our 2027 BEL program.\" No 2027 eligibility criteria are published yet."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We founded the BEL program in 2009 to help undergraduate students explore a career in management consulting.",
+          "source_url": "https://www.bain.com/careers/bel/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/bel/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/bel/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/bel/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.bain.com/careers/bel/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language on the BEL page. The quote used for class_year is a program-history sentence that names 'undergraduate students' but states NO specific class year or graduation year for 2027."
+      },
+      "cycle": "2027 (2026 cycle closed; 2027 details not yet published)",
+      "location": "US and Toronto — Atlanta, Austin, Boston, Chicago, Dallas, Denver, Houston, Los Angeles, New York, San Francisco, Seattle, Silicon Valley, Toronto, Washington, DC"
+    },
+    {
+      "id": "connecting-and-resourcing-empowered-women-crew",
+      "name": "Connecting and Resourcing Empowered Women (CREW)",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states verbatim: \"Applications for our 2026 program are now closed. Check back later for more information on our 2027 CREW program.\""
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Bain's Connecting and Resourcing Empowered Women (CREW) program is for second-year (sophomore) undergraduate students",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language on the CREW page. The class_year quote is captured as it appears and may be a sentence fragment continuing past the captured text; verify the full sentence before publishing. Note that the page does NOT state a gender eligibility requirement despite the program name."
+      },
+      "cycle": "2027 (2026 cycle closed; 2027 details not yet published)",
+      "location": "US and Canada — Atlanta, Austin, Boston, Chicago, Dallas, Denver, Houston, Los Angeles, Montreal, New York, San Francisco, Seattle, Silicon Valley, Toronto, Washington, DC"
+    },
+    {
+      "id": "consulting-kickstart",
+      "name": "Consulting Kickstart",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states verbatim: \"Applications for our 2025 program are now closed. Check back later this year for more information on our 2026 Consulting Kickstart program.\" This page appears staler than BEL/CREW, which already reference 2027."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We welcome first-year (freshman) undergraduate students to join us for this interactive, virtual series.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language on the page."
+      },
+      "cycle": "2026 (2025 cycle closed; page points to a 2026 program, not 2027)",
+      "location": "US — Atlanta, Austin, Boston, Chicago, Dallas, Denver, Houston, Los Angeles, New York, San Francisco, Seattle, Silicon Valley, Washington, DC"
+    },
+    {
+      "id": "first-forward",
+      "name": "First Forward",
+      "audience": "sophomore",
+      "source": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Page states verbatim: \"Applications for our First Forward program are now closed.\" Page describes a 1.5-day in-person summit and includes an FAQ."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "All applicants will be asked to answer several questions in a video format through the HireVue platform following the application deadline.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language. A second clean verbatim sentence on process is also on the page: \"There will be no formal interviews for First Forward.\" class_year is marked unverified DELIBERATELY: the page does state sophomore standing, a first-generation / lower-socioeconomic identity criterion, and a graduation window in the winter 2027 - spring 2028 range, but extraction returned only fragments, not a copyable full sentence. Re-read this page by hand before publishing an eligibility row."
+      },
+      "cycle": "closed at time of check; next cycle year not stated",
+      "location": "US — Boston, Chicago, Denver, New York, San Francisco, Washington, DC"
+    },
+    {
+      "id": "spark",
+      "name": "Spark",
+      "audience": "all",
+      "source": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Spark is a DACH-region (Germany/Austria/Switzerland) program, NOT a US sophomore program. It is open to bachelor's, master's and PhD students, so audience is 'all', not undergraduate-only."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "This program is for university students enrolled in a Bachelor's program (from the second semester onward), a Master's, or a PhD—no matter the discipline—with at least six months left before graduation.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We accept applications year-round from students interested in one of our German, Swiss, or Austrian offices.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication language on the page."
+      },
+      "cycle": "rolling; applications accepted year-round",
+      "location": "Germany, Switzerland, Austria — Berlin, Dusseldorf, Frankfurt, Munich, Vienna, Zurich"
+    }
+  ],
+  "provenance": {
+    "origin": "per-firm web research, one agent per firm",
+    "transcribed": "2026-07-29",
+    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed."
+  }
+}
