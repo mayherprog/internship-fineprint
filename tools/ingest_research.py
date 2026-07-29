@@ -29,7 +29,22 @@ import sys
 import unicodedata
 
 AUDIENCE = ("undergraduate", "sophomore", "freshman", "law_student_jd",
-            "graduate", "phd", "paralegal", "all", "unknown")
+            "graduate", "phd", "paralegal", "high_school", "all", "unknown")
+
+# Researchers occasionally filed a program under the wrong audience while
+# quoting the sentence that proves it wrong (one noted the schema "has no
+# freshman value" - it does). The quote wins over the parsed label, so these
+# overrides realign the label with the firm's own quoted words:
+#   freshman-enhancement-program      "Freshman Enhancement Program" (Morgan Stanley)
+#   goldman-sachs-possibilities-series  "First year undergraduate students..."
+#   amazon-future-engineer-scholarship  "Be a high school senior in the U.S. ..."
+#   consulting-kickstart              "We welcome first-year (freshman) undergraduate students..."
+AUDIENCE_OVERRIDES = {
+    "freshman-enhancement-program": "freshman",
+    "goldman-sachs-possibilities-series": "freshman",
+    "amazon-future-engineer-scholarship": "high_school",
+    "consulting-kickstart": "freshman",
+}
 FIELD_KEYS = ("class_year", "sponsorship", "process", "compensation")
 FIELD_ALLOWED = {"state", "tier", "quote", "source_url", "source_status",
                  "checked", "summary_note", "parsed"}
@@ -169,10 +184,13 @@ def normalise(rec):
 
         unfiled = list(prog.get("unfiled_quotes") or [])
         fields = prog.get("fields") or {}
+        pid = slug(prog.get("name") or "program")[:80].strip("-")
         out = {
-            "id": slug(prog.get("name") or "program")[:80].strip("-"),
+            "id": pid,
             "name": prog.get("name") or "Unnamed program",
-            "audience": clean_audience(prog.get("audience")),
+            "audience": next((v for k, v in AUDIENCE_OVERRIDES.items()
+                              if pid.startswith(k)),
+                             clean_audience(prog.get("audience"))),
             "source": source,
             "fields": {k: clean_field(dict(fields.get(k) or {"state": "unverified"}))
                        for k in FIELD_KEYS},
