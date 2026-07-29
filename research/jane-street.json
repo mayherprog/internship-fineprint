@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "software-engineer-internship-may-august-nyc-summer-cycle",
       "name": "Software Engineer Internship, May-August, NYC (Summer cycle)",
+      "cycle": "Summer 2027 (target); page currently marked '(not currently accepting applications)' as of 2026-07-29",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-nyc/",
@@ -16,11 +17,13 @@
         "class_year": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-nyc/"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-nyc/"
         },
         "process": {
@@ -32,6 +35,7 @@
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-nyc/"
         }
       },
@@ -45,17 +49,15 @@
           "trigger": "rejection",
           "duration_months": 12,
           "scope": "all_roles",
-          "resets_allowed": true,
-          "restrictive": null
+          "resets_allowed": true
         },
         "notes": "Framed as a recommendation, not a bar. Companion FAQ quote from same page: 'Can I reinterview if I was rejected? How long do I have to wait before I can reapply? You can absolutely reinterview if it didn't work out the first time around.' Also: 'We have several success stories of people who are hired their second or even third time around. We do encourage you to consider if you're a new candidate when you reapply, have you had new experiences in the classroom or professionally that will make your resume and your candidacy different from the last time you applied?' No assessment-retake rule found; scope not explicitly bounded by Jane Street, 'all_roles' is an inference from the quote's generality."
-      },
-      "cycle": "Summer 2027 (target); page currently marked '(not currently accepting applications)' as of 2026-07-29",
-      "location": "New York"
+      }
     },
     {
-      "id": "trading-internship-quantitative-trading-summer-2027-ny",
       "name": "Trading Internship (Quantitative Trading), Summer 2027, NY",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
@@ -67,12 +69,14 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         },
         "process": {
           "state": "stated",
@@ -83,7 +87,8 @@
         "compensation": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         }
       },
       "cooling_off": {
@@ -96,17 +101,15 @@
           "trigger": "rejection",
           "duration_months": 12,
           "scope": "all_roles",
-          "resets_allowed": true,
-          "restrictive": null
+          "resets_allowed": true
         },
         "notes": "Firm-wide guidance from the interviewing page; see SWE entry for full context."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     },
     {
-      "id": "quantitative-research-internship-summer-2027-ny",
       "name": "Quantitative Research Internship, Summer 2027, NY",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
@@ -118,22 +121,26 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         },
         "process": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
-          "source_url": null
+          "quote": "",
+          "source_url": ""
         }
       },
       "cooling_off": {
@@ -146,17 +153,15 @@
           "trigger": "rejection",
           "duration_months": 12,
           "scope": "all_roles",
-          "resets_allowed": true,
-          "restrictive": null
+          "resets_allowed": true
         },
         "notes": "Firm-wide guidance from the interviewing page; see SWE entry for full context."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     },
     {
-      "id": "jsip-jane-street-immersion-program-first-year-second-year-program-for-class-year",
       "name": "JSIP (Jane Street Immersion Program) — first-year/second-year program, for class-year contrast",
+      "cycle": "mid-June to mid-August (next cycle; application deadline stated as Sunday, February 8th, 2026, at 11:59 p.m. EST)",
+      "location": "New York",
       "audience": "sophomore",
       "source": {
         "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/",
@@ -174,6 +179,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/"
         },
         "process": {
@@ -185,6 +191,7 @@
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/"
         }
       },
@@ -198,48 +205,17 @@
           "trigger": "rejection",
           "duration_months": 12,
           "scope": "all_roles",
-          "resets_allowed": true,
-          "restrictive": null
+          "resets_allowed": true
         },
         "notes": "Firm-wide guidance; not JSIP-specific."
-      },
-      "cycle": "mid-June to mid-August (next cycle; application deadline stated as Sunday, February 8th, 2026, at 11:59 p.m. EST)",
-      "location": "New York"
-    },
-    {
-      "id": "jane-street-swe-summer-internship-2027-ny",
-      "name": "Jane Street SWE Summer Internship 2027 (NY)",
-      "audience": "unknown",
-      "source": {
-        "url": "https://www.janestreet.com/join-jane-street/position/8599644002",
-        "checked": "2026-07-27",
-        "check_method": "manual",
-        "status": "ok",
-        "note": "~$120/hr per aggregator. Site rejects automated reads. Jane Street's summer internship historically has no class-year bar — would be a top-tier open-all target if confirmed."
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified"
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "status": "unknown"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
+      "reason": "Job list is dynamically loaded via JavaScript; static fetch returns filter UI only, no listings."
+    }
+  ],
+  "notes_for_human": "As of 2026-07-29 no Summer 2027 SWE/Trading/QR internship postings were live on janestreet.com or Jane Street's Greenhouse board (only Cybersecurity Analyst NYC, Data Engineer NYC, and ML Researcher HKG summer internships were listed); the summer SWE NYC internship page exists but reads '(not currently accepting applications)', consistent with Summer 2027 applications not yet open. The cooling-off language is a recommendation (about one year for current students), attached to rejection/reinterview, with multiple reapplications explicitly acknowledged ('second or even third time around'); Jane Street states no assessment-retake or hard waiting rule anywhere read. Class-year eligibility is silent on the main internships page; the only stated class-year gate found is JSIP's first/second-year requirement. Compensation and sponsorship: silent on every janestreet.com page read; aggregator figures (e.g., levels.fyi) deliberately excluded per rules. Caveat: verbatim quotes were captured via automated page extraction and labeled exact by the extractor; spot-check character-level fidelity before sealing them into the dashboard."
 }

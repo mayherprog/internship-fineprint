@@ -462,6 +462,7 @@ function judge(r, me){
       if (sp.us_work_auth_required && sp.sponsors !== true) exc.push('requires existing U.S. work authorization');
     }
     if (me.auth === 'cpt' && sp.cpt_refused) exc.push('states it will not support CPT or OPT');
+    if (me.auth === 'cpt' && sp.cpt_ok) inc.push('states F-1 students on CPT/OPT are accepted');
     if (sp.sponsors === true) inc.push('states sponsorship is supported');
   }
   if (exc.length) return {group: 2, why: exc};

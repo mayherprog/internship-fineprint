@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "campus-software-engineer-intern",
       "name": "Campus Software Engineer (Intern)",
+      "cycle": "2027 campus cycle (posting live 2026-07-29; no cycle year stated in posting text read)",
+      "location": "Chicago, IL",
       "audience": "all",
       "source": {
         "url": "https://www.jumptrading.com/hr/job?gh_jid=8002989",
@@ -16,20 +17,19 @@
         "class_year": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/8002989"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions",
-          "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/8002989",
-          "parsed": {
-            "cpt_ok": true
-          }
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/8002989"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/8002989"
         },
         "compensation": {
@@ -42,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/8002989",
         "checked": "2026-07-29",
         "parsed": {
@@ -51,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "Posting content read in full via Greenhouse API: no reapplication, retake, or waiting-period language. IMPORTANT LIMIT: jumptrading.com HR pages that would carry a firm-wide FAQ (https://www.jumptrading.com/hr/students-new-grads and https://www.jumptrading.com/hr/overview) returned HTTP 403 to fetch, so firm-site-wide silence is unverified — only the ATS posting text is confirmed silent."
-      },
-      "cycle": "2027 campus cycle (posting live 2026-07-29; no cycle year stated in posting text read)",
-      "location": "Chicago, IL"
+      }
     },
     {
-      "id": "campus-quantitative-trader-intern",
       "name": "Campus Quantitative Trader (Intern)",
+      "cycle": "2027 campus cycle (posting live 2026-07-29; no cycle year stated in posting text read)",
+      "location": "Chicago; New York",
       "audience": "all",
       "source": {
         "url": "https://www.jumptrading.com/hr/job?gh_jid=7848371",
@@ -81,17 +81,20 @@
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7848371"
         },
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7848371"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7848371",
         "checked": "2026-07-29",
         "parsed": {
@@ -101,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "No reapplication/retake/waiting language in posting text read. Firm-wide FAQ pages on jumptrading.com blocked (403), so silence confirmed only at posting level."
-      },
-      "cycle": "2027 campus cycle (posting live 2026-07-29; no cycle year stated in posting text read)",
-      "location": "Chicago; New York"
+      }
     },
     {
-      "id": "campus-quantitative-researcher-ug-ms-intern",
       "name": "Campus Quantitative Researcher, UG/MS (Intern)",
+      "cycle": "2027 campus cycle (posting live 2026-07-29; no cycle year stated in posting text read)",
+      "location": "Chicago; New York",
       "audience": "all",
       "source": {
         "url": "https://www.jumptrading.com/hr/job?gh_jid=7982648",
@@ -126,14 +128,12 @@
           "state": "stated",
           "tier": 1,
           "quote": "INTERNATIONAL STUDENTS are encouraged to apply. We accept students eligible for CPT/OPT and we sponsor work visas for full-time positions.",
-          "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7982648",
-          "parsed": {
-            "cpt_ok": true
-          }
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7982648"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7982648"
         },
         "compensation": {
@@ -146,6 +146,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7982648",
         "checked": "2026-07-29",
         "parsed": {
@@ -155,14 +156,18 @@
           "resets_allowed": null
         },
         "notes": "No reapplication/retake/waiting language in posting text read. Firm-wide FAQ pages on jumptrading.com blocked (403), so silence confirmed only at posting level."
-      },
-      "cycle": "2027 campus cycle (posting live 2026-07-29; no cycle year stated in posting text read)",
-      "location": "Chicago; New York"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://www.jumptrading.com/hr/students-new-grads",
+      "reason": "HTTP 403 Forbidden to fetch (2026-07-29). This is the most likely home of any firm-stated reapplication/cooling-off rule; content unverified."
+    },
+    {
+      "url": "https://www.jumptrading.com/hr/overview",
+      "reason": "HTTP 403 Forbidden to fetch (2026-07-29)."
+    }
+  ],
+  "notes_for_human": "Workaround that succeeded: jumptrading.com/hr pages are JS-rendered and 403 plain fetches, but Greenhouse's static endpoints serve identical posting content — boards-api.greenhouse.io/v1/boards/jumptrading/jobs/{id} (job list and full descriptions) and job-boards.greenhouse.io/embed/job_app?for=jumptrading&token={id}. Findings: (1) SWE Intern Chicago (gh_jid=8002989) states no class-year restriction, sponsors CPT/OPT interns and visas for full-time, estimated base $250,000/yr; process steps not published. (2) cooling_off PRIORITY: all three postings read are silent on reapplication/retake/waiting rules, but the two jumptrading.com pages most likely to carry a firm-wide FAQ returned 403 — treat firm-level cooling-off as posting-level-silent, site-level-unverified. A WebSearch targeting jumptrading.com for reapply/cooling-off language surfaced no such policy text either. (3) Full campus intern slate (39 Campus roles among 100 total jobs) captured from the Greenhouse API, including Campus Quantitative Trader (Intern) Chicago/NY gh_jid=7848371 (no compensation stated) and Campus Quantitative Researcher UG/MS (Intern) Chicago/NY gh_jid=7982648 ($300,000/yr estimated base); PhD QR, Data/FPGA/Systems/UI/AI Research intern variants and London/Amsterdam/Hong Kong equivalents also listed and available on request. Postings do not print a cycle year in the text read; '2027' is the current recruiting cycle inference, not a verbatim claim."
 }

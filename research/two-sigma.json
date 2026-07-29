@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "quantitative-researcher-intern-2027-summer",
       "name": "Quantitative Researcher - Intern [2027 Summer]",
+      "cycle": "Summer 2027",
+      "location": "New York, NY",
       "audience": "undergraduate",
       "source": {
         "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2027-Summer/13945",
@@ -22,11 +23,13 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2027-Summer/13945"
         },
         "process": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2027-Summer/13945"
         },
         "compensation": {
@@ -39,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.twosigma.com/careers/internships/",
         "checked": "2026-07-29",
         "parsed": {
@@ -48,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "Read three tier-1 pages: twosigma.com/careers/internships/, careers.twosigma.com/careers/InternshipsAndEarlyCareers, careers.twosigma.com/careers/OpenRoles. None contains any FAQ or text on reapplication waiting periods, assessment retakes, or cooling-off. No careers FAQ page link exists on these pages. Two Sigma publicly publishes no cooling-off rule as of 2026-07-29."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York, NY"
+      }
     },
     {
-      "id": "software-engineering-internship-nyc-2027-cycle",
       "name": "Software Engineering Internship - NYC (2027 cycle)",
+      "cycle": "Summer 2027",
+      "location": "New York, NY",
       "audience": "undergraduate",
       "source": {
         "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-NYC/13353",
@@ -66,27 +69,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/OpenRoles"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/OpenRoles"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/OpenRoles"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/OpenRoles"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.twosigma.com/careers/internships/",
         "checked": "2026-07-29",
         "parsed": {
@@ -96,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "Same firm-wide silence as above."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York, NY"
+      }
     },
     {
-      "id": "first-year-software-engineering-internship-nyc",
       "name": "First Year Software Engineering Internship - NYC",
+      "cycle": "unknown (2026 posting dead; no 2027 posting found)",
+      "location": "New York, NY",
       "audience": "freshman",
       "source": {
         "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-First-Year-Software-Engineering-Internship-2026-NYC/13357",
@@ -114,27 +121,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/InternshipsAndEarlyCareers"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/InternshipsAndEarlyCareers"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/InternshipsAndEarlyCareers"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://careers.twosigma.com/careers/InternshipsAndEarlyCareers"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.twosigma.com/careers/internships/",
         "checked": "2026-07-29",
         "parsed": {
@@ -144,14 +156,22 @@
           "resets_allowed": null
         },
         "notes": "Same firm-wide silence as above."
-      },
-      "cycle": "unknown (2026 posting dead; no 2027 posting found)",
-      "location": "New York, NY"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Software-Engineering-Internship-NYC/13353",
+      "reason": "HTTP 404 — prior-cycle SWE internship posting removed"
+    },
+    {
+      "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-First-Year-Software-Engineering-Internship-NYC/12605",
+      "reason": "HTTP 404 — prior-cycle First Year SWE posting removed"
+    },
+    {
+      "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-First-Year-Software-Engineering-Internship-2026-NYC/13357",
+      "reason": "HTTP 404 — 2026-cycle First Year SWE posting removed"
+    }
+  ],
+  "notes_for_human": "Verification mission resolved: the QR Intern 2027 posting is live and the fragment 'Approximately one year remaining.' is a truncation of the full eligibility bullet quoted above (note it says 'approximately one year remaining in your programs' and explicitly welcomes all levels from bachelor's to doctorate, so it is a graduation-timing criterion, not undergrad-only). SWE Intern 2027 and First Year SWE 2027 postings do not exist on the careers site as of 2026-07-29 — only AI Research Scientist Intern 2027 (job 14096) and QR Intern 2027 (13945) are posted; SWE typically posts later in the cycle. No public FAQ on cooling-off/reapplication exists anywhere on twosigma.com careers pages read. Tier-3 aggregator pages (extern.com, getsmartresume.com, kadoa.com) surfaced in search were NOT used per rules. Sponsorship and process are unstated on the live QR posting itself; QR compensation quote is tier-1 verbatim."
 }

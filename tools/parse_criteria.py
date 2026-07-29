@@ -82,7 +82,13 @@ SPONSOR_FALSE = re.compile(
     r"|we do not provide visa sponsorship", re.I)
 SPONSOR_TRUE = re.compile(
     r"\bprovides visa sponsorship\b"
-    r"|supportive of us immigration sponsorship", re.I)
+    r"|supportive of us immigration sponsorship"
+    r"|visa sponsorship is available", re.I)
+# Explicit acceptance of F-1 students working on CPT/OPT. Matched narrowly:
+# Akuna's SWE posting says "OPT or STEM" without CPT, and must not match.
+CPT_OK = re.compile(
+    r"students eligible for cpt/opt"
+    r"|f-1 students using cpt", re.I)
 NO_FUTURE = re.compile(r"without requiring sponsorship, now or in the future", re.I)
 CPT_REFUSED = re.compile(
     r"will not provide any assistance[^.]*curricular practical training", re.I)
@@ -96,6 +102,8 @@ def parse_sponsorship(quote):
         p["sponsors"] = False
     if SPONSOR_TRUE.search(quote):
         p["sponsors"] = True
+    if CPT_OK.search(quote):
+        p["cpt_ok"] = True
     if NO_FUTURE.search(quote):
         p["no_future_sponsorship"] = True
     if CPT_REFUSED.search(quote):

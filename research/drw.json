@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "software-developer-intern-chicago",
       "name": "Software Developer Intern (Chicago)",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328",
@@ -26,8 +27,9 @@
           "source_url": "https://job-boards.greenhouse.io/drweng/jobs/7992936"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/interns"
         },
         "compensation": {
@@ -40,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.drw.com/work-at-drw/interns",
         "checked": "2026-07-29",
         "parsed": {
@@ -49,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "Read drw.com/work-at-drw/interns in full: no FAQ section exists on the page and no reapplication, assessment-retake, or waiting-period rules are published there. Page covers the 10-week program, housing, mentorship, and a 4-step interview process (application, technical challenge, Zoom interview, final round visit). No separate careers FAQ page was found on drw.com via domain-restricted search."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "quantitative-trading-analyst-intern-chicago",
       "name": "Quantitative Trading Analyst Intern (Chicago)",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090",
@@ -68,22 +70,18 @@
           "state": "stated",
           "tier": 1,
           "quote": "expected graduation date between December 2027 and June 2028",
-          "source_url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090",
-          "parsed": {
-            "graduates_between": [
-              "2027-12",
-              "2028-06"
-            ]
-          }
+          "source_url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/interns"
         },
         "compensation": {
@@ -96,6 +94,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.drw.com/work-at-drw/interns",
         "checked": "2026-07-29",
         "parsed": {
@@ -105,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "Same finding as above: no published cooling-off/retake rules anywhere read on drw.com."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "discover-drw-chicago",
       "name": "Discover DRW (Chicago)",
+      "cycle": "unknown",
+      "location": "Chicago",
       "audience": "sophomore",
       "source": {
         "url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468",
@@ -123,27 +121,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468"
         }
       },
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468",
         "checked": "2026-07-29",
         "parsed": {
@@ -153,14 +156,22 @@
           "resets_allowed": null
         },
         "notes": "Page unreadable (HTTP 500 x2)."
-      },
-      "cycle": "unknown",
-      "location": "Chicago"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468",
+      "reason": "HTTP 500 Internal Server Error on two attempts"
+    },
+    {
+      "url": "https://www.drw.com/work-at-drw/students",
+      "reason": "HTTP 404 Not Found"
+    },
+    {
+      "url": "https://www.drw.com/work-at-drw/campus",
+      "reason": "HTTP 404 Not Found"
+    }
+  ],
+  "notes_for_human": "Verification mission: CONFIRMED. The unsourced sentence 'Expected graduation date between December 2027 and June 2028' matches the live SDE Chicago posting verbatim (in-posting it reads lowercase, mid-sentence: 'expected graduation date between December 2027 and June 2028') at https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328, cross-checked on Greenhouse drweng/jobs/7992936. Compensation: the $225k figure is real and posted -- exact sentence captured above; oddly DRW words it as a 'range' of a single number. QTA Chicago posts $250,000. Sponsorship: DRW posting bodies carry NO sponsorship eligibility statement; the only work-auth language is the two standard Greenhouse application questions quoted above (US work authorization yes/no and future-H-1B-sponsorship yes/no) -- these are screening questions, not stated criteria, so treat sponsorship policy as effectively unstated. Cooling-off: DRW publishes nothing -- /work-at-drw/interns read in full, no FAQ section exists, and no careers FAQ page was found on the drw.com domain. Interview process is described on /work-at-drw/interns as four steps (application, technical challenge, Zoom interview, final-round visit) but I only obtained a paraphrase, not copyable verbatim text, hence the empty process quotes per rules. Aggregator claims from search snippets (e.g. '$96.13/hr + $25,000 signing bonus', 'Dec 2026-Aug 2027 window') were NOT used -- they reflect the prior cycle or tier-3 sources."
 }

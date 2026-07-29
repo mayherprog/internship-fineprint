@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "quantitative-trader-intern-summer-2027",
       "name": "Quantitative Trader Intern - Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.imc.com/us/careers/jobs/4823923101",
@@ -17,17 +18,12 @@
           "state": "stated",
           "tier": 1,
           "quote": "Current university student graduating between September 2027 and July 2028",
-          "source_url": "https://www.imc.com/us/careers/jobs/4823923101",
-          "parsed": {
-            "graduates_between": [
-              "2027-09",
-              "2028-07"
-            ]
-          }
+          "source_url": "https://www.imc.com/us/careers/jobs/4823923101"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.imc.com/us/careers/jobs/4823923101"
         },
         "process": {
@@ -53,18 +49,15 @@
           "trigger": "rejection",
           "duration_months": 12,
           "scope": "this_role",
-          "resets_allowed": null,
-          "application_cap": 1,
-          "restrictive": null
+          "resets_allowed": null
         },
         "notes": "Limit is one application per role per year; rejected candidates may reapply at the start of the next recruitment season. No assessment-retake rule found anywhere on imc.com — claims that a poor assessment bars reconsideration come only from third-party prep sites (excluded per rules). The two quoted sentences appear in the posting but were extracted via an intermediary fetch; ellipsis marks non-adjacent sentences."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "software-engineer-intern-summer-2027",
       "name": "Software Engineer Intern - Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "Chicago",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.imc.com/us/careers/jobs/4823924101",
@@ -77,17 +70,12 @@
           "state": "stated",
           "tier": 1,
           "quote": "Current university student graduating between September 2027 - July 2028",
-          "source_url": "https://www.imc.com/us/careers/jobs/4823924101",
-          "parsed": {
-            "graduates_between": [
-              "2027-09",
-              "2028-07"
-            ]
-          }
+          "source_url": "https://www.imc.com/us/careers/jobs/4823924101"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.imc.com/us/careers/jobs/4823924101"
         },
         "process": {
@@ -113,18 +101,15 @@
           "trigger": "application",
           "duration_months": 12,
           "scope": "this_role",
-          "resets_allowed": null,
-          "application_cap": 1,
-          "restrictive": true
+          "resets_allowed": null
         },
         "notes": "Same one-application-per-role-per-year and next-season reapply language as the trading posting."
-      },
-      "cycle": "Summer 2027",
-      "location": "Chicago"
+      }
     },
     {
-      "id": "launchpad-two-day-discovery-program",
       "name": "Launchpad (two-day discovery program)",
+      "cycle": "2026 program for students graduating Fall 2027 - Spring 2028; 2027-cycle role postings not currently live",
+      "location": "Chicago",
       "audience": "sophomore",
       "source": {
         "url": "https://www.imc.com/us/careers/students-graduates/programs/launchpad",
@@ -142,6 +127,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.imc.com/us/careers/students-graduates/programs/launchpad"
         },
         "process": {
@@ -153,12 +139,14 @@
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.imc.com/us/careers/students-graduates/programs/launchpad"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.imc.com/us/careers/students-graduates/programs/launchpad",
         "checked": "2026-07-29",
         "parsed": {
@@ -168,14 +156,14 @@
           "resets_allowed": null
         },
         "notes": "Launchpad page states no reapplication or assessment rules."
-      },
-      "cycle": "2026 program for students graduating Fall 2027 - Spring 2028; 2027-cycle role postings not currently live",
-      "location": "Chicago"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [
+    {
+      "url": "https://www.imc.com/us/careers/jobs/4875922101",
+      "reason": "HTTP 404 - Launchpad Trading and Quant Research requisition no longer live (2026 cycle likely closed)"
+    }
+  ],
+  "notes_for_human": "VERIFICATION RESULT: the unsourced sentence 'Graduating between September 2027 and July 2028.' is CONFIRMED in substance at https://www.imc.com/us/careers/jobs/4823923101, but current wording is 'Current university student graduating between September 2027 and July 2028' (the SWE posting 4823924101 renders the range with a dash: 'September 2027 - July 2028'). Two caveats: (1) quotes were extracted through an intermediary page-reader, so treat exact punctuation as medium-confidence and spot-check before publishing; (2) the 'Base Salary: $250,000' / '$200,000' figures on intern postings are almost certainly annualized rates for a 10-week internship — labeled estimate, the postings were not read raw. Sponsorship: neither US intern posting contains any visa/work-authorization language per the page reads — recorded as silent, not as 'no sponsorship'. No assessment-retake or waiting-period rule exists anywhere on imc.com that I could find; the only firm-domain rules are one-application-per-role-per-year and reapply-next-season. A ML Research Intern Summer 2027 posting also exists (https://www.imc.com/in/careers/jobs/4907430101, note the /in/ locale) but was not read - not covered in this pass."
 }

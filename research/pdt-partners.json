@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "summer-2027-software-engineering-intern",
       "name": "Summer 2027 Software Engineering Intern",
+      "cycle": "Summer 2027",
+      "location": "New York, NY",
       "audience": "all",
       "source": {
         "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
@@ -22,6 +23,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685"
         },
         "process": {
@@ -40,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
         "checked": "2026-07-29",
         "parsed": {
@@ -49,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "No reapplication, waiting-period, or assessment-retake language anywhere read: posting 8077685, posting 8083292, pdtpartners.com/careers, plus a site:pdtpartners.com search for reapply/reapplication/wait terms returned zero pdtpartners.com pages."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York, NY"
+      }
     },
     {
-      "id": "summer-2027-systems-engineering-intern",
       "name": "Summer 2027 Systems Engineering Intern",
+      "cycle": "Summer 2027",
+      "location": "New York, NY",
       "audience": "all",
       "source": {
         "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
@@ -73,6 +75,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292"
         },
         "process": {
@@ -91,6 +94,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
         "checked": "2026-07-29",
         "parsed": {
@@ -100,14 +104,9 @@
           "resets_allowed": null
         },
         "notes": "Same sweep as SWE posting; no cooling-off language found."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York, NY"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [],
+  "notes_for_human": "1) VERBATIM CORRECTION: the prior pass's sentence 'Current Bachelor's, Master's, or PhD students... graduating in Fall 2027 or later' is a splice of two distinct lines in the live SWE posting: (a) 'Current Bachelor's, Master's, or PhD students pursuing degrees in rigorous, highly technical fields (e.g., Computer Science, Computer Engineering) who are eligible for full-time roles starting in 2028 or 2029.' and (b) 'Excellent academic background from a rigorous computer science or engineering program graduating in Fall 2027 or later'. Both verified on jobs/8077685, checked 2026-07-29. 2) $180,000 salary VERIFIED on both intern postings, with the SWE posting adding 'This amount is not inclusive of any potential bonus amounts.' 3) Sponsorship: neither posting publishes a sponsorship policy statement; the application form asks 'Do you require sponsorship for employment visa status?' but states no outcome either way — recorded as silent, not stated. 4) No Summer 2027 quant research internship exists on pdtpartners.com/careers as of 2026-07-29; the only Research/Strategies openings are full-time (Quantitative Researcher jobs/82459, Applied ML Scientist jobs/1473516, Research Engineer jobs/5403145). The only 2027 intern roles are the two above. 5) Cooling-off: firm is silent everywhere read (both postings, careers page, domain-restricted search)."
 }

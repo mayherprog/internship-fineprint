@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "2027-internship-software-engineer",
       "name": "2027 Internship - Software Engineer",
+      "cycle": "Summer 2027",
+      "location": "Austin, TX; New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
@@ -17,13 +18,7 @@
           "state": "stated",
           "tier": 1,
           "quote": "Rising juniors, or students expected to be ready for full time employment between December 2027 - June 2028.",
-          "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
-          "parsed": {
-            "graduates_between": [
-              "2027-12",
-              "2028-06"
-            ]
-          }
+          "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002"
         },
         "sponsorship": {
           "state": "stated",
@@ -47,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
         "checked": "2026-07-29",
         "parsed": {
@@ -56,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "Posting read in full; no reapplication, retake, or waiting-period language present."
-      },
-      "cycle": "Summer 2027",
-      "location": "Austin, TX; New York"
+      }
     },
     {
-      "id": "2027-internship-quantitative-researcher-undergrad",
       "name": "2027 Internship - Quantitative Researcher (Undergrad)",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
@@ -74,6 +69,7 @@
         "class_year": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002"
         },
         "sponsorship": {
@@ -98,6 +94,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
         "checked": "2026-07-29",
         "parsed": {
@@ -107,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "Posting read in full; no reapplication/retake/waiting rule. A web search for any published Virtu reapplication policy also returned nothing from firm sources."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     },
     {
-      "id": "women-s-winternship",
       "name": "Women's Winternship",
+      "cycle": "January 2027 (January 11th to January 15th)",
+      "location": "New York",
       "audience": "sophomore",
       "source": {
         "url": "https://job-boards.greenhouse.io/virtu/jobs/8445018002",
@@ -131,6 +127,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8445018002"
         },
         "process": {
@@ -142,12 +139,14 @@
         "compensation": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8445018002"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://job-boards.greenhouse.io/virtu/jobs/8445018002",
         "checked": "2026-07-29",
         "parsed": {
@@ -157,47 +156,9 @@
           "resets_allowed": null
         },
         "notes": "Posting read in full; no reapplication, retake, or waiting-period language present."
-      },
-      "cycle": "January 2027 (January 11th to January 15th)",
-      "location": "New York"
-    },
-    {
-      "id": "virtu-quantitative-trading-2027-summer-2027",
-      "name": "Virtu Quantitative Trading 2027",
-      "audience": "undergraduate",
-      "source": {
-        "url": null,
-        "checked": "2026-07-22",
-        "check_method": "manual",
-        "status": "url_pending",
-        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-22",
-          "summary_note": "Class of 2028; Ireland."
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "cycle": "Summer 2027",
-      "status": "unknown"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [],
+  "notes_for_human": "1) VERIFICATION: the unsourced SWE sentence is CONFIRMED verbatim on the live Austin/NY posting (job 8624410002): 'Rising juniors, or students expected to be ready for full time employment between December 2027 - June 2028.' 2) CORRECTION: QR Undergrad compensation is $5,000 - $5,800 weekly on the live posting, not the $5,000 - $5,300 previously reported. 3) QR Undergrad class-year silence re-verified: no class-year or graduation-date restriction stated. 4) cooling_off: all three postings are silent on reapplication/retake/waiting rules, and a targeted web search surfaced no firm-published policy; the 'sponsorship' quotes on SWE and QR are the standard Greenhouse application question, not an affirmative policy statement about whether Virtu sponsors. 5) Board also lists a Dublin SWE internship (8551566002), QR PhD NY (8624424002), QR Master/PhD Dublin (8631180002), Quant Trading Austin/Chicago/NY (8624408002) and Dublin (8547254002), plus Winternships in Singapore and Dublin - not captured this pass."
 }

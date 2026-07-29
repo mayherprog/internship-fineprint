@@ -3,8 +3,9 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "software-developer-intern-new-york-summer-2027",
       "name": "Software Developer Intern (New York) – Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894",
@@ -22,6 +23,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894"
         },
         "process": {
@@ -40,6 +42,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://www.deshaw.com/careers/internships",
         "checked": "2026-07-29",
         "parsed": {
@@ -49,13 +52,12 @@
           "resets_allowed": null
         },
         "notes": "Silence verified with URLs read: both https://www.deshaw.com/careers/internships and https://campus.deshaw.com/internships were fetched and read on 2026-07-29; neither contains any statement on reapplying, waiting periods, assessment retakes, or application caps. The internships page states the process as: 'application review, a phone interview and virtual interviews, conversations with your references, and, finally, an offer' and 'We consider applications on a rolling basis to accommodate a range of recruiting timelines and student obligations.' Parsed fields are placeholders only; no rule exists to parse."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     },
     {
-      "id": "quantitative-analyst-intern-new-york-summer-2027",
       "name": "Quantitative Analyst Intern (New York) – Summer 2027",
+      "cycle": "Summer 2027",
+      "location": "New York",
       "audience": "undergraduate",
       "source": {
         "url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890",
@@ -73,6 +75,7 @@
         "sponsorship": {
           "state": "silent",
           "tier": 1,
+          "quote": "",
           "source_url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890"
         },
         "process": {
@@ -91,6 +94,7 @@
       "cooling_off": {
         "state": "silent",
         "tier": 1,
+        "quote": "",
         "source_url": "https://campus.deshaw.com/internships",
         "checked": "2026-07-29",
         "parsed": {
@@ -100,13 +104,12 @@
           "resets_allowed": null
         },
         "notes": "Same finding as SDE role: campus.deshaw.com/internships and deshaw.com/careers/internships were both read on 2026-07-29 and contain no reapplication, waiting-period, retake, or application-cap language. Compensation for this role as extracted: monthly base salary $25,000, sign-on bonus $25,000, overtime pay, travel coverage, housing choice, $3,300 self-study stipend, $4,000 technology stipend."
-      },
-      "cycle": "Summer 2027",
-      "location": "New York"
+      }
     },
     {
-      "id": "fellowships-discovery-programs-nexus-latitude-momentum-discovery",
       "name": "Fellowships (discovery programs: Nexus, Latitude, Momentum, Discovery)",
+      "cycle": "unknown (2026-27 pages not live as of check date)",
+      "location": "unknown",
       "audience": "sophomore",
       "source": {
         "url": "https://fellowships.deshaw.com/",
@@ -118,27 +121,32 @@
         "class_year": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://campus.deshaw.com/fellowships"
         },
         "sponsorship": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://campus.deshaw.com/fellowships"
         },
         "process": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://campus.deshaw.com/fellowships"
         },
         "compensation": {
           "state": "unverified",
           "tier": 1,
+          "quote": "",
           "source_url": "https://campus.deshaw.com/fellowships"
         }
       },
       "cooling_off": {
         "state": "unverified",
         "tier": 1,
+        "quote": "",
         "source_url": "https://campus.deshaw.com/fellowships",
         "checked": "2026-07-29",
         "parsed": {
@@ -148,14 +156,9 @@
           "resets_allowed": null
         },
         "notes": "No live firm-domain page describing fellowship eligibility could be read on 2026-07-29, so nothing is quotable. Search-engine snippets attributed to deshaw.com describe Nexus/Latitude/Momentum/Discovery as programs for second-year (sophomore) undergraduates, but per rules these are not reproduced as quotes since the source page could not be read directly. Recheck when the 2026-27 fellowship cycle pages go live (historically at fellowships.deshaw.com / campus.deshaw.com)."
-      },
-      "cycle": "unknown (2026-27 pages not live as of check date)",
-      "location": "unknown"
+      }
     }
   ],
-  "provenance": {
-    "origin": "per-firm web research, one agent per firm",
-    "transcribed": "2026-07-29",
-    "note": "Quotes were copied from the firm's own pages by the researching agent and passed through normalisation untouched. Rows the researcher could not locate were dropped, not guessed. Merged with rows transcribed from a private posting tracker."
-  }
+  "blocked_urls": [],
+  "notes_for_human": "deshaw.com did NOT block fetches this time; all listed 'ok' pages were read directly on 2026-07-29. Two caveats: (1) quotes were extracted by an automated fetch-and-extract layer, so wording should be spot-checked against the live pages before being treated as character-exact; (2) the compensation quote for the QA Intern role is a partial verbatim fragment — the extractor returned the rest as a bullet list (monthly base $25,000, sign-on $25,000, overtime, travel, $3,300 self-study stipend, $4,000 tech stipend), matching the SDE posting's boilerplate sentence. cooling_off headline: D. E. Shaw publishes NO reapplication/waiting-period/retake/cap rule on either internships page read — genuine tier-1 silence, not a blocked read. Both 2027 postings use identical class-year language ('usually approaching their final year of full-time study') — descriptive, not a hard bar. Sponsorship is unmentioned in both postings. Fellowship (Nexus/Latitude/Momentum/Discovery) pages are not currently live; third-party listings (MIT Innovation, Duke) reference them for second-year students but were deliberately not used as quote sources per tier rules."
 }
