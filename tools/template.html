@@ -100,6 +100,9 @@ footer{margin-top:44px;padding-top:18px;border-top:1px solid var(--line);color:v
 </head>
 <body>
 <div class="wrap">
+<!--TEMPLATE-ONLY--><div class="banner"><strong>This is the source template</strong>, not the
+application. Its data placeholder is unfilled, so nothing on this page works. Run
+<code>python3 tools/build.py</code> and open <code>index.html</code>.</div><!--/TEMPLATE-ONLY-->
 <h1>Internship eligibility, in the firms' own words</h1>
 <p class="sub">Every row is a sentence a firm published about who may apply, quoted exactly, with a
 link and the date it was read. Firms that say nothing are recorded as saying nothing.</p>
@@ -390,7 +393,7 @@ $('stats').innerHTML = [
   [cs.stated, 'state any reapplication rule', {cool:'stated'}],
   [cs.silent, 'publish nothing on reapplying', {cool:'silent'}],
   [cs.unverified, 'not yet verified', {cool:'unverified'}],
-].map(([v, k], i) => `<button class="stat" data-i="${i}"><b>${v}</b>${esc(k)}</button>`).join('');
+].map(([v, k], i) => `<button class="stat" data-i="${i}" aria-label="${v} ${esc(k)} — open this view"><b>${v}</b>${esc(k)}</button>`).join('');
 const STAT_GO = [{}, {}, {cool:'restrictive'}, {cool:'stated'}, {cool:'silent'}, {cool:'unverified'}];
 $('stats').addEventListener('click', e => {
   const b = e.target.closest('.stat'); if (b) go(STAT_GO[+b.dataset.i]);
@@ -407,7 +410,7 @@ $('sectors').innerHTML = Object.keys(bySector)
   .map(sec => {
     const o = bySector[sec];
     const pl = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
-    return `<button class="tile" data-sec="${esc(sec)}"><b>${esc(SECTORS[sec] || sec)}</b>
+    return `<button class="tile" data-sec="${esc(sec)}" aria-label="Browse ${esc(SECTORS[sec] || sec)}"><b>${esc(SECTORS[sec] || sec)}</b>
     <span>${pl(o.firms.size, 'firm')} &middot; ${pl(o.n, 'program')}</span></button>`;
   }).join('');
 $('sectors').addEventListener('click', e => {

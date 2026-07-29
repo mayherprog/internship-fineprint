@@ -17,6 +17,7 @@ Usage:  python3 tools/build.py [data_dir]
 import html
 import json
 import pathlib
+import re
 import sys
 from collections import Counter
 
@@ -142,11 +143,14 @@ PAGE = (pathlib.Path(__file__).parent / "template.html").read_text()
 
 
 def build_html(rows, built):
+    # The template carries a self-identifying banner so that opening the raw
+    # file never impersonates a broken app; the build strips it.
+    page = re.sub(r"<!--TEMPLATE-ONLY-->.*?<!--/TEMPLATE-ONLY-->\n?", "", PAGE, flags=re.S)
     payload = json.dumps(rows, ensure_ascii=False, separators=(",", ":"))
     # The payload sits inside a <script> block, so a literal </script> in any
     # quoted sentence would end the block early. Neutralise it.
     payload = payload.replace("</", "<\\/")
-    return (PAGE
+    return (page
             .replace("__DATA__", payload)
             .replace("__SECTORS__", json.dumps(SECTOR_LABEL))
             .replace("__AUD__", json.dumps(AUDIENCE_LABEL))
