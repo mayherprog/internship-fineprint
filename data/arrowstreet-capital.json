@@ -1,10 +1,10 @@
 {
-  "firm": "Citi Markets",
-  "sector": "other",
+  "firm": "Arrowstreet Capital",
+  "sector": "asset_management",
   "programs": [
     {
-      "id": "citi-markets-quantitative-analysis-sa-2027-summer-2027",
-      "name": "Citi Markets Quantitative Analysis SA 2027",
+      "id": "arrowstreet-capital-qr-qd-intern-summer-2027-summer-2027",
+      "name": "Arrowstreet Capital QR + QD Intern Summer 2027",
       "audience": "undergraduate",
       "source": {
         "url": null,
@@ -17,7 +17,7 @@
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Graduating in Fall 2027 or Spring 2028",
+          "quote": "Expected degree completion within a year of the internship",
           "checked": "2026-07-24",
           "source_url": null,
           "source_status": "url_pending"

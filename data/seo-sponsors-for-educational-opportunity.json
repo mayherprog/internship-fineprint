@@ -1,10 +1,10 @@
 {
-  "firm": "Amazon Future Engineer",
+  "firm": "SEO (Sponsors for Educational Opportunity)",
   "sector": "other",
   "programs": [
     {
-      "id": "amazon-future-engineer-summer-2027",
-      "name": "Amazon Future Engineer",
+      "id": "seo-placement-tier-summer-2027",
+      "name": "SEO placement tier",
       "audience": "undergraduate",
       "source": {
         "url": null,
@@ -17,7 +17,7 @@
         "class_year": {
           "state": "unverified",
           "checked": "2026-07-21",
-          "summary_note": "High-school-gated."
+          "summary_note": "Permanent work authorization required."
         },
         "sponsorship": {
           "state": "unverified"

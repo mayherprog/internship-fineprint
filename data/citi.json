@@ -37,6 +37,42 @@
       "status": "future",
       "opens": "Nov 2026 (Dec cohort); Feb 2027 (Mar cohort)",
       "closes": "—"
+    },
+    {
+      "id": "citi-markets-quantitative-analysis-sa-2027-summer-2027",
+      "name": "Citi Markets Quantitative Analysis SA 2027",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-24",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Graduating in Fall 2027 or Spring 2028",
+          "checked": "2026-07-24",
+          "source_url": null,
+          "source_status": "url_pending"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "unknown"
     }
   ],
   "provenance": {

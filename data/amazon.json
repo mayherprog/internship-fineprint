@@ -285,6 +285,39 @@
       "status": "future",
       "opens": "~Aug–Oct 2026 (per Extern guide)",
       "closes": "—"
+    },
+    {
+      "id": "amazon-future-engineer-summer-2027",
+      "name": "Amazon Future Engineer",
+      "audience": "undergraduate",
+      "source": {
+        "url": null,
+        "checked": "2026-07-21",
+        "check_method": "manual",
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "checked": "2026-07-21",
+          "summary_note": "High-school-gated."
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "cycle": "Summer 2027",
+      "status": "unknown"
     }
   ],
   "provenance": {

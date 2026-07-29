@@ -1,14 +1,14 @@
 {
-  "firm": "Uber 2027",
-  "sector": "other",
+  "firm": "Barclays / Deutsche Bank / UBS / Jefferies / HSBC",
+  "sector": "banking_finance",
   "programs": [
     {
-      "id": "uber-2027-swe-internship-career-prep-summer-2027",
-      "name": "Uber 2027 SWE Internship / Career Prep",
+      "id": "barclays-db-ubs-jefferies-hsbc-pipelines-summer-2027",
+      "name": "Barclays / DB / UBS / Jefferies / HSBC pipelines",
       "audience": "undergraduate",
       "source": {
         "url": null,
-        "checked": "2026-07-22",
+        "checked": "2026-07-21",
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
@@ -16,8 +16,8 @@
       "fields": {
         "class_year": {
           "state": "unverified",
-          "checked": "2026-07-22",
-          "summary_note": "\"3rd/4th year\" UberSTAR is the channel."
+          "checked": "2026-07-21",
+          "summary_note": "Non-sponsors per WSO consensus re-log only if a specific posting's language checks out."
         },
         "sponsorship": {
           "state": "unverified"
@@ -32,13 +32,6 @@
       "cooling_off": {
         "state": "unverified"
       },
-      "unfiled_quotes": [
-        {
-          "quote": "3rd/4th year",
-          "source_url": null,
-          "source_status": "url_pending"
-        }
-      ],
       "cycle": "Summer 2027",
       "status": "unknown"
     }

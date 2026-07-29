@@ -1,21 +1,23 @@
 {
-  "firm": "Schonfeld 2027 summer roles",
-  "sector": "other",
+  "firm": "Federal Reserve Bank of New York",
+  "sector": "government",
   "programs": [
     {
-      "id": "schonfeld-2027-summer-roles",
-      "name": "Schonfeld 2027 summer roles",
-      "audience": "unknown",
+      "id": "ny-fed-sophomore-program-summer-2027",
+      "name": "NY Fed Sophomore Program",
+      "audience": "undergraduate",
       "source": {
-        "url": "https://job-boards.greenhouse.io/schonfeld/jobs/7635430",
-        "checked": "2026-07-27",
+        "url": null,
+        "checked": "2026-07-21",
         "check_method": "manual",
-        "status": "ok",
-        "note": "Open August 2026 (this week) — express-interest pipeline live now; posted comp range $45k–$150k prorated. Class-year language TBD when roles post — checking daily."
+        "status": "url_pending",
+        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
       "fields": {
         "class_year": {
-          "state": "unverified"
+          "state": "unverified",
+          "checked": "2026-07-21",
+          "summary_note": "Citizenship requirement."
         },
         "sponsorship": {
           "state": "unverified"
@@ -30,6 +32,7 @@
       "cooling_off": {
         "state": "unverified"
       },
+      "cycle": "Summer 2027",
       "status": "unknown"
     }
   ],

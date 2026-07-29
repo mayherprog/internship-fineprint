@@ -1,6 +1,6 @@
 {
   "firm": "Apple",
-  "sector": "other",
+  "sector": "big_tech",
   "programs": [
     {
       "id": "apple-software-undergrad-internship",
@@ -37,6 +37,36 @@
           "source_status": "ok"
         }
       ],
+      "status": "unknown"
+    },
+    {
+      "id": "apple-ml-ai-undergrad-internship",
+      "name": "Apple ML/AI Undergrad Internship",
+      "audience": "unknown",
+      "source": {
+        "url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships",
+        "checked": "2026-07-27",
+        "check_method": "manual",
+        "status": "ok",
+        "note": "Same as above."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
       "status": "unknown"
     }
   ],

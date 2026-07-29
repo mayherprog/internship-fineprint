@@ -1,14 +1,14 @@
 {
-  "firm": "Bank junior SA 2027 programs",
-  "sector": "other",
+  "firm": "HRT / Virtu (women's programs)",
+  "sector": "quant_trading",
   "programs": [
     {
-      "id": "bank-junior-sa-2027-programs-jpmc-markets-citi-services-bnp-blackrock-bofa-global-tech-summer-2027",
-      "name": "Bank junior SA 2027 programs (JPMC Markets, Citi Services, BNP, BlackRock, BofA Global Tech)",
+      "id": "hrt-witti-virtu-winternship-summer-2027",
+      "name": "HRT WiTTI · Virtu Winternship",
       "audience": "undergraduate",
       "source": {
         "url": null,
-        "checked": "2026-07-22",
+        "checked": "2026-07-21",
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
@@ -16,8 +16,8 @@
       "fields": {
         "class_year": {
           "state": "unverified",
-          "checked": "2026-07-22",
-          "summary_note": "Target class of 2028 the sophomore programs are the bank channel for S27."
+          "checked": "2026-07-21",
+          "summary_note": "Women/non-binary only."
         },
         "sponsorship": {
           "state": "unverified"

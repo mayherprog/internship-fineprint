@@ -41,6 +41,36 @@
       "status": "open",
       "opens": "Open now (per mirrors)",
       "closes": "Rolling"
+    },
+    {
+      "id": "tower-research-quant-trader-intern-logged-quant-developer-intern-unverified",
+      "name": "Tower Research Quant Trader Intern (logged) + Quant Developer Intern (unverified)",
+      "audience": "unknown",
+      "source": {
+        "url": "https://tower-research.com/open-positions/?gh_jid=8044334",
+        "checked": "2026-07-27",
+        "check_method": "manual",
+        "status": "blocked",
+        "note": "Both now behind a JS-rendered page. QT verified via mirrors only; QD not verified at all — do not assume."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified"
+        },
+        "sponsorship": {
+          "state": "unverified"
+        },
+        "process": {
+          "state": "unverified"
+        },
+        "compensation": {
+          "state": "unverified"
+        }
+      },
+      "cooling_off": {
+        "state": "unverified"
+      },
+      "status": "unknown"
     }
   ],
   "provenance": {

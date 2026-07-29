@@ -1,10 +1,10 @@
 {
-  "firm": "Capital One TEIP / early roles",
-  "sector": "other",
+  "firm": "Meta",
+  "sector": "big_tech",
   "programs": [
     {
-      "id": "capital-one-teip-early-roles-summer-2027",
-      "name": "Capital One TEIP / early roles",
+      "id": "meta-university-summer-2027",
+      "name": "Meta University",
       "audience": "undergraduate",
       "source": {
         "url": null,
@@ -17,7 +17,7 @@
         "class_year": {
           "state": "unverified",
           "checked": "2026-07-21",
-          "summary_note": "Future-sponsorship screen."
+          "summary_note": "Discontinued."
         },
         "sponsorship": {
           "state": "unverified"

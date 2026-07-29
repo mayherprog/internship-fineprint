@@ -1,10 +1,10 @@
 {
-  "firm": "Two Sigma QR Intern 2027",
-  "sector": "other",
+  "firm": "Multiple banks (junior-cycle programs)",
+  "sector": "banking_finance",
   "programs": [
     {
-      "id": "two-sigma-qr-intern-2027-summer-2027",
-      "name": "Two Sigma QR Intern 2027",
+      "id": "bank-junior-sa-2027-programs-jpmc-markets-citi-services-bnp-blackrock-bofa-global-tech-summer-2027",
+      "name": "Bank junior SA 2027 programs (JPMC Markets, Citi Services, BNP, BlackRock, BofA Global Tech)",
       "audience": "undergraduate",
       "source": {
         "url": null,
@@ -15,12 +15,9 @@
       },
       "fields": {
         "class_year": {
-          "state": "stated",
-          "tier": 1,
-          "quote": "Approximately one year remaining.",
+          "state": "unverified",
           "checked": "2026-07-22",
-          "source_url": null,
-          "source_status": "url_pending"
+          "summary_note": "Target class of 2028 the sophomore programs are the bank channel for S27."
         },
         "sponsorship": {
           "state": "unverified"

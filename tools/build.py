@@ -277,7 +277,12 @@ function coolHTML(co){
   else body = `<div class="none">Not checked yet.</div>`;
   const p = co.parsed || {};
   const bits = [];
-  if (has){
+  // Parsed trigger/scope labels appear ONLY when the firm states an actual
+  // constraint (a duration, a cap, an explicit no-resets). Attaching
+  // "triggered by rejection" to a permissive sentence like JPMorgan's
+  // "you can submit a new application" would imply a lockout the firm
+  // never stated. The quote is on screen either way and always wins.
+  if (has && p.restrictive === true){
     if (p.duration_months) bits.push(`${p.duration_months} months`);
     if (p.trigger && p.trigger !== 'unknown') bits.push('triggered by ' + p.trigger.replace(/_/g,' '));
     if (p.scope && p.scope !== 'unknown') bits.push('scope: ' + p.scope.replace(/_/g,' '));
@@ -285,7 +290,7 @@ function coolHTML(co){
   }
   return `<div class="cool${has ? ' has' : ''}"><div class="lbl">Cooling-off / reapplying${pill(co.state)}</div>
     ${body}
-    ${bits.length ? `<div class="notes">${esc(bits.join(' &middot; ').replace(/&amp;middot;/g,'&middot;'))}</div>` : ''}
+    ${bits.length ? `<div class="notes">${esc(bits.join(' · '))}</div>` : ''}
     ${co.notes ? `<div class="notes">${esc(co.notes)}</div>` : ''}
     <div class="notes">${co.checked ? 'checked ' + esc(co.checked) + ' &middot; ' : ''}
       ${has ? srcLink(co.source_url, co.source_status) : ''}</div></div>`;
@@ -297,6 +302,7 @@ function cardHTML(r){
     <p class="meta">${meta} &middot; ${SECTORS[r.sector] || r.sector} &middot;
       ${srcLink(r.source.url, r.source.status)}
       ${r.source.checked ? ' &middot; read ' + esc(r.source.checked) : ''}</p>
+    ${r.source.note ? `<p class="meta">${esc(r.source.note)}</p>` : ''}
     <div class="grid">${Object.keys(FIELDS).map(k => fieldHTML(k, r.fields[k] || {state:'unverified'})).join('')}</div>
     ${coolHTML(r.cooling_off)}
     ${(r.unfiled && r.unfiled.length) ? `<div class="notes">Other quoted sentences from this source:

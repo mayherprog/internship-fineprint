@@ -46,7 +46,7 @@ REAPPLY_RE = re.compile(
     re.I,
 )
 
-moved, dropped = [], []
+moved, dropped, deduped = [], [], []
 
 
 def slug(text):
@@ -231,6 +231,40 @@ def main():
             existing = json.loads(target.read_text())
             have = {q["id"] for q in rec["programs"]}
             keep = [q for q in existing.get("programs", []) if q["id"] not in have]
+
+            # When both sides cite the SAME posting URL they are the same row
+            # twice. Keep whichever carries more verified fields; showing a
+            # stale duplicate next to a verified row misinforms twice over.
+            def score(p):
+                fields = list((p.get("fields") or {}).values()) + [p.get("cooling_off") or {}]
+                return sum(1 for f in fields if f.get("state") == "stated")
+
+            def norm(url):
+                """Same posting, different slug: ATS URLs carry a numeric job id
+                (Google's /jobs/results/<id>-<slug>, Greenhouse's /jobs/<id>).
+                Collapse id-led path segments to the id so slug variants match."""
+                if not url:
+                    return None
+                u = re.sub(r"^https?://(www\.)?", "", url.lower()).rstrip("/")
+                return "/".join(re.match(r"^(\d{8,})", s).group(1)
+                                if re.match(r"^(\d{8,})", s) else s
+                                for s in u.split("/"))
+
+            research_by_url = {norm(p["source"].get("url")): p for p in rec["programs"]
+                               if p["source"].get("url")}
+            deduped_keep = []
+            for q in keep:
+                rival = research_by_url.get(norm(q["source"].get("url")))
+                if rival is None:
+                    deduped_keep.append(q)
+                elif score(q) > score(rival):
+                    rec["programs"].remove(rival)   # tracker row is the better one
+                    deduped_keep.append(q)
+                    deduped.append(f"{rec['firm']}: research row was the weaker duplicate of {q['id']}")
+                else:
+                    deduped.append(f"{rec['firm']}: tracker row was the weaker duplicate of {rival['id']}")
+            keep = deduped_keep
+
             merged_in += len(keep)
             rec["programs"] = rec["programs"] + keep
             prov = existing.get("provenance", {}).get("note", "")
@@ -246,6 +280,8 @@ def main():
         print(f"  MOVED out of cooling_off (not a reapplication rule): {m}...")
     for d in dropped:
         print(f"  DROPPED (program could not be located): {d}")
+    for d in deduped:
+        print(f"  DEDUPED (same posting recorded twice): {d}")
 
 
 if __name__ == "__main__":

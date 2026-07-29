@@ -1,13 +1,13 @@
 {
-  "firm": "Bridgewater",
-  "sector": "other",
+  "firm": "SIG / Five Rings / Optiver (trader development)",
+  "sector": "quant_trading",
   "programs": [
     {
-      "id": "rising-fellows-summer-2027",
-      "name": "Rising Fellows",
+      "id": "discovery-link-futurefocus-quant-funnels-summer-2027",
+      "name": "Discovery / LINK / FutureFocus (quant funnels)",
       "audience": "undergraduate",
       "source": {
-        "url": "https://www.bridgewater.com/working-at-bridgewater/students",
+        "url": "https://github.com/Julian048/CS-Everything-but-Internships",
         "checked": "2026-07-27",
         "check_method": "static",
         "status": "ok",
@@ -16,7 +16,8 @@
       "fields": {
         "class_year": {
           "state": "unverified",
-          "checked": "2026-07-27"
+          "checked": "2026-07-27",
+          "summary_note": "Pre-internship years"
         },
         "sponsorship": {
           "state": "unverified"
@@ -34,8 +35,8 @@
       },
       "cycle": "Summer 2027",
       "status": "future",
-      "opens": "~Dec 2026",
-      "closes": "~Jan 2027"
+      "opens": "Fall 2026",
+      "closes": "—"
     }
   ],
   "provenance": {
