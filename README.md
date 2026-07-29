@@ -9,7 +9,7 @@ Every row is a sentence a firm published, quoted exactly, with a link and the da
 read. Firms that publish nothing are recorded as publishing nothing.
 
 ```bash
-python3 tools/validate.py     # 4,016 assertions over 132 programs, 0 failures
+python3 tools/validate.py     # 6,338 assertions over 190 programs, 0 failures
 ```
 
 **[Browse the data →](TABLE.md)** &nbsp;·&nbsp; **[Interactive view →](index.html)**
@@ -97,19 +97,33 @@ in its own founding fact. The full quote and all three formulations are in
 
 ## Coverage, stated honestly
 
-132 programs across 68 firms, spanning technology, banking and finance, quantitative
-trading, consulting and law. Of those, **11 state a cooling-off rule, 30 publish nothing
-on it, and 91 have not been checked yet.** The unchecked majority is the honest state of this dataset today, not
-a rounding error, and it is visible in the interface rather than hidden.
+190 programs across 69 firms, spanning quantitative trading, technology, banking and
+finance, asset management, consulting, law and government. On cooling-off specifically:
+**22 state a rule, 94 publish nothing on it, and 74 have not been checked yet.** The
+unchecked share is the honest state of this dataset today, not a rounding error, and it is
+visible in the interface rather than hidden.
+
+These counts move as the data grows. `tools/build.py` regenerates
+[`TABLE.md`](TABLE.md) with a current breakdown at the top, and `tools/validate.py` prints
+the same totals; where this section and the generated output disagree, the generated output
+is right.
 
 Known gaps, all recorded in the data rather than papered over:
 
-- **32 rows carry a verbatim quote but no source URL.** They were transcribed from a
+- **19 programs carry a verbatim quote but no source URL.** They were transcribed from a
   private posting tracker whose links were not captured. They are flagged `url_pending`
-  and render as *source link missing*. They are not independently citable until re-sourced.
-- **16 rows are `blocked`** — the page is JavaScript-rendered or refuses automated reads.
-  Google's careers site, Amazon's FAQ accordions, Skadden's app shell and all of
+  and render as *no URL yet*. They are not independently citable until re-sourced.
+- **14 programs are `blocked`** — the page is JavaScript-rendered or refuses automated
+  reads. Amazon's FAQ accordions, Jane Street, Morgan Stanley, Tower Research and all of
   mckinsey.com fall here. These need a browser, not a fetch.
+- **11 programs are `dead`** — the URL returns a non-200 or refuses the connection, in
+  nearly every case because the posting or program page was taken down between cycles.
+  Citadel Launch, Meta University, Two Sigma's first-year software engineering internship
+  and several law-firm 1L programs sit here. Ten of the eleven carry no quote at all, and
+  seven are `unverified` on every field, because a page that cannot be read cannot be said
+  to publish nothing. The three marked `silent` are silent against a *different* page that
+  was read successfully — the firm's general early-careers page — never against the dead
+  URL itself.
 - **Sponsorship is silent on most rows.** Do not read that as either sponsoring or not.
 
 ## Reproducing the data
