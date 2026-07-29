@@ -43,10 +43,17 @@
 body{margin:0;background:var(--bg);color:var(--fg);
   font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
 .wrap{max-width:1180px;margin:0 auto;padding:20px 20px 80px}
-.top{display:flex;align-items:flex-start;justify-content:space-between;gap:14px;margin:0 0 26px}
-.wordmark{font-size:1.65rem;font-weight:800;letter-spacing:-.03em;line-height:1.15}
+.top{position:sticky;top:0;z-index:20;background:var(--bg);display:flex;align-items:center;
+  gap:16px;padding:12px 0;border-bottom:1px solid var(--line);margin:0 0 24px}
+.wordmark{font-size:1.45rem;font-weight:800;letter-spacing:-.03em;line-height:1.15;margin:0;
+  cursor:pointer}
 .wordmark::after{content:".";color:var(--accent)}
-.tagline{color:var(--muted);font-size:.95rem;margin-top:2px}
+.tagline{color:var(--muted);font-size:.85rem;margin-top:1px}
+.gsearch{flex:1;max-width:520px;margin-left:auto;font:inherit;font-size:.95rem;padding:9px 16px;
+  border:1px solid var(--line);border-radius:var(--r-pill);background:var(--card);color:var(--fg);
+  box-shadow:var(--shadow)}
+.gsearch:focus{outline:2px solid var(--accent);outline-offset:-1px}
+.gsearch[hidden]~.theme{margin-left:auto}
 .theme{font:inherit;font-size:1.05rem;line-height:1;padding:9px 11px;border:1px solid var(--line);
   border-radius:var(--r-pill);background:var(--card);color:var(--fg);cursor:pointer;box-shadow:var(--shadow)}
 .theme:hover{border-color:var(--accent);background:var(--accent-soft)}
@@ -75,13 +82,19 @@ h2{margin:34px 0 12px;color:var(--fg);font-weight:700;font-size:.98rem}
 .quick button{font:inherit;font-size:.9rem;padding:9px 14px;border:1px solid var(--line);
   border-radius:var(--r-pill);background:var(--card);color:var(--fg);cursor:pointer}
 .quick button:hover,.quick button:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
-.controls{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 8px;position:sticky;top:0;
-  background:var(--bg);padding:10px 0;z-index:5;border-bottom:1px solid var(--line)}
-select,.controls input{font:inherit;font-size:.9rem;padding:7px 10px;border:1px solid var(--line);
-  border-radius:var(--r-sm);background:var(--card);color:var(--fg)}
-.controls input{flex:1;min-width:170px}
-.controls .back{font:inherit;font-size:.9rem;padding:7px 12px;border:1px solid var(--line);
-  border-radius:var(--r-sm);background:var(--card);color:var(--accent);cursor:pointer;font-weight:600}
+.controls{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 10px}
+/* Filters are pill chips, job-board style: native selects restyled, so they
+   stay keyboard- and screen-reader-native. An active filter fills. */
+.controls select{font:inherit;font-size:.9rem;padding:8px 30px 8px 15px;border:1px solid var(--line);
+  border-radius:var(--r-pill);background-color:var(--card);color:var(--fg);cursor:pointer;
+  appearance:none;-webkit-appearance:none;box-shadow:var(--shadow);
+  background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M1 1l4 4 4-4' fill='none' stroke='%23888' stroke-width='1.6' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right 12px center}
+.controls select:hover{border-color:var(--accent)}
+.controls select.on{background-color:var(--accent-soft);border-color:var(--accent);font-weight:600}
+.controls .back{font:inherit;font-size:.9rem;padding:8px 15px;border:1px solid var(--line);
+  border-radius:var(--r-pill);background:var(--card);color:var(--accent);cursor:pointer;font-weight:600;
+  box-shadow:var(--shadow)}
 .controls .back:hover,.controls .back:focus-visible{background:var(--accent-soft);border-color:var(--accent)}
 .count{color:var(--muted);font-size:.85rem;margin:10px 0 14px}
 details.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);margin:0 0 10px;
@@ -143,9 +156,11 @@ application. Its data placeholder is unfilled, so nothing on this page works. Ru
 <code>python3 tools/build.py</code> and open <code>index.html</code>.</div><!--/TEMPLATE-ONLY-->
 <header class="top">
   <div>
-    <h1 class="wordmark">Fineprint</h1>
+    <h1 class="wordmark" id="brand" title="Home">Fineprint</h1>
     <div class="tagline">Internship eligibility, in the firms' own words</div>
   </div>
+  <input id="gq" class="gsearch" type="search" hidden
+    placeholder="Search firms, programs, quoted text…" aria-label="Search programs">
   <button id="themeToggle" class="theme" aria-label="Switch between light and dark theme">◐</button>
 </header>
 
@@ -210,7 +225,6 @@ application. Its data placeholder is unfilled, so nothing on this page works. Ru
       <option value="silent">Publishes nothing</option>
       <option value="unverified">Not yet verified</option>
     </select>
-    <input id="q" type="search" placeholder="Search firms, programs, quoted text…">
   </div>
   <div class="count" id="count"></div>
   <div id="list"></div>
@@ -378,6 +392,8 @@ function show(view){
   $('home').hidden = view !== 'home';
   $('browse').hidden = view !== 'browse';
   $('match').hidden = view !== 'match';
+  // The header search serves browse and match; home has its own hero search.
+  $('gq').hidden = view === 'home';
   window.scrollTo(0, 0);
 }
 function go(opts){
@@ -385,7 +401,7 @@ function go(opts){
   $('audience').value = opts.audience || '';
   $('cool').value = opts.cool || '';
   $('spon').value = opts.spon || '';
-  $('q').value = opts.q || '';
+  $('gq').value = opts.q || '';
   show('browse');
   render();
 }
@@ -414,7 +430,10 @@ DATA.forEach(r => {
 
 function render(){
   const s = $('sector').value, a = $('audience').value, c = $('cool').value,
-        sp = $('spon').value, q = $('q').value.trim().toLowerCase();
+        sp = $('spon').value, q = $('gq').value.trim().toLowerCase();
+  // an active filter chip fills; an idle one stays quiet
+  ['sector','audience','cool','spon'].forEach(i =>
+    $(i).classList.toggle('on', !!$(i).value));
   const rows = DATA.filter(r =>
     (!s || r.sector === s) && (!a || r.audience === a) && coolMatch(r, c) &&
     (!sp || (r.fields.sponsorship || {}).state === sp) &&
@@ -431,7 +450,11 @@ function render(){
     : '<p class="none">No programs match. Try clearing a filter.</p>';
 }
 ['sector','audience','cool','spon'].forEach(i => $(i).addEventListener('change', render));
-$('q').addEventListener('input', render);
+$('gq').addEventListener('input', () => { if ($('browse').hidden) show('browse'); render(); });
+$('brand').addEventListener('click', () => {
+  history.replaceState(null, '', location.pathname + location.search);
+  show('home');
+});
 $('homeBtn').addEventListener('click', () => show('home'));
 $('homego').addEventListener('click', () => go({q: $('homeq').value.trim()}));
 $('homeq').addEventListener('keydown', e => { if (e.key === 'Enter') go({q: $('homeq').value.trim()}); });
