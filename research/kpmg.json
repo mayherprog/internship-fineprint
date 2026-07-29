@@ -21,10 +21,11 @@
           "source_url": "https://www.kpmguscareers.com/early-career/"
         },
         "sponsorship": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "KPMG early career opportunities include jobs that will consider qualified applicants who require visa sponsorship.",
-          "source_url": "https://www.kpmguscareers.com/early-career/"
+          "quote": "",
+          "source_url": "https://www.kpmguscareers.com/early-career/",
+          "notes": "Browser re-check 2026-07-29: this sentence no longer appears anywhere on the rendered kpmguscareers.com/early-career/ page or its /program/ subpage (both read in full with accordions expanded; the words 'visa' and 'sponsorship' occur zero times). The page appears redesigned since the same-day capture. Demoted to unverified; quote preserved here: KPMG early career opportunities include jobs that will consider qualified applicants who require visa sponsorship."
         },
         "process": {
           "state": "stated",
@@ -73,10 +74,11 @@
           "source_url": "https://www.kpmguscareers.com/early-career/"
         },
         "sponsorship": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "Practices that historically consider candidates requiring visa sponsorship on a regular basis: Korean Audit Practice, Japanese Audit Practice, Korean Business Tax Services Practice, Japanese Business Tax Services Practice",
-          "source_url": "https://www.kpmguscareers.com/early-career/"
+          "quote": "",
+          "source_url": "https://www.kpmguscareers.com/early-career/",
+          "notes": "Browser re-check 2026-07-29: this sentence no longer appears anywhere on the rendered kpmguscareers.com/early-career/ page or its /program/ subpage (both read in full with accordions expanded; the words 'visa' and 'sponsorship' occur zero times). The page appears redesigned since the same-day capture. Demoted to unverified; quote preserved here: Practices that historically consider candidates requiring visa sponsorship on a regular basis: Korean Audit Practice, Japanese Audit Practice, Korean Business Tax Services Practice, Japanese Business Tax Services Practice"
         },
         "process": {
           "state": "silent",

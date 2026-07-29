@@ -10,13 +10,13 @@
         "url": "https://career.seo-usa.org/apply-faq/",
         "checked": "2026-07-29",
         "status": "ok",
-        "note": "Page fetched successfully but no explicit 2027-cycle deadline dates were present in the retrieved content; also fetched career.seo-usa.org/our-program/ and career.seo-usa.org/ (home) for cross-check."
+        "note": "Browser-rendered 2026-07-29, resolving the two conflicting fetch reads: the live page's eligibility checklist contains NO race/ethnicity self-identification item, and 'All are welcome to apply.' appears verbatim."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "First Year, Sophomore, or Junior",
+          "quote": "All who meet the following criteria are welcome to apply. 3.2 GPA required * First Year, Sophomore, or Junior All Majors Accredited 4-Year University Work Authorized in the U.S. **",
           "source_url": "https://career.seo-usa.org/apply-faq/"
         },
         "sponsorship": {

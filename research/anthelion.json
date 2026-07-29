@@ -5,45 +5,47 @@
     {
       "name": "Quant Developer / Quant Research Intern - 2026/2027",
       "cycle": "2026/2027",
-      "location": "",
+      "location": "New York City (Midtown, on-site)",
       "audience": "undergraduate",
       "source": {
         "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Ashby posting is JS-rendered; fetches returned only the page title, no body text. Reconstructed by hand from the researching agent's report after its serialization was malformed; no field values were altered — everything stays unverified because the page was never read."
+        "status": "ok",
+        "note": "Ashby posting browser-rendered 2026-07-29 (plain fetch got only the title). Full text read. Three cohorts: Fall 2026 (September–November), Winter 2026 (December–February), Summer 2027 (June–August)."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
-          "source_url": ""
+          "quote": "Open to students graduating December 2026 through Summer 2028; PhD candidates with later graduation dates are also considered.",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+          "notes": "Also on posting: 'Currently pursuing an undergrad, master's, or PhD in CS, math, statistics, physics, or a related quantitative field.'"
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
-          "source_url": ""
+          "quote": "Must have US work authorization or ability to use OPT during the time of your internship.",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+          "notes": "OPT (Optional Practical Training) explicitly accepted; CPT (Curricular Practical Training) is not mentioned either way."
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
-          "source_url": ""
+          "quote": "Logistics: 12-week onsite internship — Fall 2026 (September–November); Winter 2026 (December–February); or Summer 2027 (June–August).",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
         },
         "compensation": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
-          "source_url": ""
+          "quote": "Compensation: $1800 - $2000 per week depending on level of coursework. Strong interns are our primary source of full-time offers.",
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
         }
       },
       "cooling_off": {
-        "state": "unverified",
+        "state": "silent",
         "tier": 1,
         "quote": "",
-        "source_url": "",
+        "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
@@ -51,19 +53,10 @@
           "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "Posting body never rendered, so nothing here is a silence finding."
+        "notes": "Full rendered posting read; no reapplication or retake language."
       }
     }
   ],
-  "blocked_urls": [
-    {
-      "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
-      "reason": "JS-rendered Ashby posting; fetch returned only title/org, no job description body"
-    },
-    {
-      "url": "https://anthelioncapital.com",
-      "reason": "fetch errored with no output; also possibly a different firm (see notes)"
-    }
-  ],
-  "notes_for_human": "Entity ambiguity, unresolved: the Ashby org slug 'anthelioncap' does not cleanly match either anthelioncapital.com (per search snippets, a NYC firm founded 2015 providing capital and data-science solutions to environmentally sustainable companies) or anthelioncap.com (Anthelion Capital Holdings, a senior-lending RIA). Before publishing this row as a quant-trading firm, open the Ashby posting in a real browser and confirm which corporate entity is hiring. All fields unverified pending that browser pass."
+  "blocked_urls": [],
+  "notes_for_human": "Browser pass resolved the entity question: the posting's own 'About Anthelion' says 'Anthelion Capital is an investment and data science platform' that augments a fundamental investment core with data science — the NYC investment firm, not the senior-lending RIA. All fields now stated tier 1."
 }

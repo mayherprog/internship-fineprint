@@ -6,46 +6,45 @@
       "name": "Quantitative Researcher Intern, Summer 2027",
       "cycle": "Summer 2027",
       "location": "Boston, MA",
-      "audience": "undergraduate",
-      "opens": "",
-      "closes": "",
+      "audience": "all",
       "source": {
         "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Workday CXS-backed job posting page; WebFetch returned an empty/unrenderable page (JS-rendered SPA, no static content retrieved)."
+        "status": "ok",
+        "note": "Workday posting browser-rendered 2026-07-29 (plain fetches get an empty SPA shell). Declined the cookie banner; full posting text read."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "tier": 3,
-          "quote": "",
-          "source_url": ""
+          "state": "stated",
+          "tier": 1,
+          "quote": "Enrolled in an undergraduate or graduate program from an educational institution in finance, mathematics, economics, or a closely related discipline emphasizing quantitative or financial analysis. Expected degree completion within a year of the internship.",
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505"
         },
         "sponsorship": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": ""
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
+          "notes": "Full rendered posting contains no visa/sponsorship language (only EEO boilerplate)."
         },
         "process": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": ""
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505"
         },
         "compensation": {
-          "state": "unverified",
-          "tier": 3,
-          "quote": "",
-          "source_url": ""
+          "state": "stated",
+          "tier": 1,
+          "quote": "The weekly wage range for this position is $3,500 - $5,000 per week.",
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505"
         }
       },
       "cooling_off": {
-        "state": "unverified",
-        "tier": 3,
+        "state": "silent",
+        "tier": 1,
         "quote": "",
-        "source_url": "",
+        "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
@@ -53,53 +52,52 @@
           "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "Could not access the job-specific posting to check for a cooling-off clause."
+        "notes": "Full rendered posting read; no reapplication or cooling-off language."
       }
     },
     {
       "name": "Quantitative Developer Intern, Summer 2027",
       "cycle": "Summer 2027",
       "location": "Boston, MA",
-      "audience": "undergraduate",
-      "opens": "",
-      "closes": "",
+      "audience": "all",
       "source": {
-        "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers",
+        "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Workday Campus_Careers board is a JS-rendered SPA; WebFetch could not retrieve posting content. Direct CXS API call (wday/cxs/arrowstreetcapital/Campus_Careers/jobs) returned HTTP 400."
+        "status": "ok",
+        "note": "Workday posting browser-rendered 2026-07-29."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "tier": 3,
-          "quote": "",
-          "source_url": ""
+          "state": "stated",
+          "tier": 1,
+          "quote": "Enrolled in an undergraduate or graduate program from an educational institution in a technical field, such as computer science or engineering, with an additional focus in data science, applied mathematics, economics. Expected degree completion within a year of the internship",
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506"
         },
         "sponsorship": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": ""
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506",
+          "notes": "Full rendered posting contains no visa/sponsorship language (only EEO boilerplate)."
         },
         "process": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": ""
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506"
         },
         "compensation": {
-          "state": "unverified",
-          "tier": 3,
-          "quote": "",
-          "source_url": ""
+          "state": "stated",
+          "tier": 1,
+          "quote": "The weekly wage range for this position is $3,500 - $5,000 per week.",
+          "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506"
         }
       },
       "cooling_off": {
-        "state": "unverified",
-        "tier": 3,
+        "state": "silent",
+        "tier": 1,
         "quote": "",
-        "source_url": "",
+        "source_url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
@@ -107,27 +105,10 @@
           "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "Could not access the job-specific posting to check for a cooling-off clause."
+        "notes": "Full rendered posting read; no reapplication or cooling-off language."
       }
     }
   ],
-  "blocked_urls": [
-    {
-      "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/wday/cxs/arrowstreetcapital/Campus_Careers/jobs",
-      "reason": "HTTP 400 Bad Request — Workday CXS API requires a POST with session/tenant params that a simple GET fetch cannot satisfy."
-    },
-    {
-      "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
-      "reason": "Workday job posting is a client-side-rendered SPA; WebFetch retrieved no body content."
-    },
-    {
-      "url": "https://boards-api.greenhouse.io/v1/boards/arrowstreetcapital/jobs",
-      "reason": "HTTP 404 — Arrowstreet Capital does not use Greenhouse; not their ATS."
-    },
-    {
-      "url": "https://www.ziprecruiter.com/c/Arrowstreetcapital/Job/Quantitative-Developer-Intern,-Summer-2027/-in-Boston,MA?jid=cfb21da87d2ca740",
-      "reason": "HTTP 403 Forbidden (bot-blocked aggregator; would have been tier 3/no-quote source anyway)."
-    }
-  ],
-  "notes_for_human": "Confirmed via WebSearch that Arrowstreet Capital is actively posting Summer 2027 internships (Quantitative Researcher Intern and Quantitative Developer Intern, both Boston, both on Workday under R1505-series requisition IDs), but the actual Workday job-posting pages and the CXS JSON API are both inaccessible to this tool (SPA rendering / 400 response), so none of the priority fields (class year, sponsorship, pay, cooling-off, dates) could be verified against primary source text. The two general company pages that did load — https://www.arrowstreetcapital.com/student-careers/ and https://www.arrowstreetcapital.com/professional-careers/ — describe a '10-week' summer program with internships across 'six' teams but contain no eligibility, sponsorship, pay, or cooling-off language; treat as silent only for those general pages, not for the job-specific postings. A search-engine snippet suggested a $3,500-$5,000/week pay range for the Quantitative Developer Intern role, but this was not confirmed by reading the source page directly, so it is omitted from the structured fields per the verbatim-or-omit rule. Recommend the human open the Workday links in an actual browser (JS execution required) to pull the verbatim eligibility/sponsorship/pay/cooling-off language."
+  "blocked_urls": [],
+  "notes_for_human": "Browser pass replaced the earlier all-unverified rows: both Summer 2027 intern postings rendered and read in full. Eligibility is degree-completion-scoped ('within a year of the internship') rather than a dated window, so it is not machine-parsed; readers compare their own date. The Campus board lists 5 jobs: these two internships plus three full-time roles."
 }

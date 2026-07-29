@@ -2,7 +2,7 @@
 
 Generated from `data/` by `tools/build.py`. Do not edit by hand.
 
-**190 programs across 69 firms.** Cooling-off: 22 stated, 88 publish nothing, 80 not yet checked.
+**190 programs across 69 firms.** Cooling-off: 22 stated, 94 publish nothing, 74 not yet checked.
 
 Every quote is the firm's own wording. **A firm's current page is always the authority** — these rows are a dated snapshot and firms rewrite pages without notice.
 
@@ -13,6 +13,7 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
 |---|---|---|---|---|---|---|
 | Bridgewater Associates | Investment Associate Intern | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002) |
+| Bridgewater Associates | Investment Associate Intern - 2027 | Undergraduate | publishes nothing | publishes nothing | 2026-07-29 | [link](https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002) |
 | Bridgewater Associates | Rising Fellows | Sophomore/2nd year | publishes nothing | not checked yet | 2026-07-29 | [link](https://www.bridgewater.com/working-at-bridgewater/students) |
 | Girls Who Invest | Summer Intensive 2027 | Undergraduate | Open to all genders per FAQ | not checked yet | 2026-07-27 | [link](https://www.girlswhoinvest.org/) |
 | Girls Who Invest | Summer Intensive Program (SIP) | Sophomore/2nd year | "Girls Who Invest is an inclusive training program for first years and sophomores of all gender identities, including male-identifying students, who…" | publishes nothing | 2026-07-29 | [link](https://www.girlswhoinvest.org/sip) |
@@ -52,7 +53,7 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Morgan Stanley | Freshman Enhancement Program | First year | "You are pursuing an undergraduate degree with an expected graduation date between December 2025 and June 2026." | publishes nothing | 2026-07-29 | [link](https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/) |
 | Multiple banks (junior-cycle programs) | Bank junior SA 2027 programs (JPMC Markets, Citi Services, BNP, BlackR | Undergraduate | Target class of 2028 the sophomore programs are the bank channel for S27. | not checked yet | 2026-07-22 | _no URL yet_ |
 | Wells Fargo | Sophomore Discovery | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://www.wellsfargojobs.com/en/early-careers/undergraduate-programs/other-undergraduate-programs/) |
-| Wells Fargo | Sophomore Discovery Fellowship Program | Sophomore/2nd year | not checked yet | not checked yet | 2026-07-29 | [link](https://talent.wellsfargojobs.com/flows/sdfp2026) |
+| Wells Fargo | Sophomore Experience (formerly Sophomore Discovery Fellowship Program) | Sophomore/2nd year | publishes nothing | not checked yet | 2026-07-29 | [link](https://talent.wellsfargojobs.com/flows/sdfp2026) |
 | Wells Fargo | Undergraduate Programs (general — Audit, BRCRO, CAO, Commercial Bankin | Undergraduate | publishes nothing | rule stated, no duration given | 2026-07-29 | [link](https://www.wellsfargojobs.com/en/early-careers/application-process/) |
 
 ## Consulting
@@ -63,7 +64,7 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Bain & Company | Building Entrepreneurial Leaders (BEL) | Undergraduate | "We founded the BEL program in 2009 to help undergraduate students explore a career in management consulting." | publishes nothing | 2026-07-29 | [link](https://www.bain.com/careers/bel/) |
 | Bain & Company | Connecting and Resourcing Empowered Women (CREW) | Sophomore/2nd year | "Bain's Connecting and Resourcing Empowered Women (CREW) program is for second-year (sophomore) undergraduate students" | publishes nothing | 2026-07-29 | [link](https://www.bain.com/careers/work-with-us/internships-programs/crew/) |
 | Bain & Company | Consulting Kickstart | First year | "We welcome first-year (freshman) undergraduate students to join us for this interactive, virtual series." | publishes nothing | 2026-07-29 | [link](https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/) |
-| Bain & Company | First Forward | Sophomore/2nd year | not checked yet | publishes nothing | 2026-07-29 | [link](https://www.bain.com/careers/work-with-us/internships-programs/first-forward/) |
+| Bain & Company | First Forward | Sophomore/2nd year | "This program is for sophomore (second-year) students who will complete a four-year undergraduate degree in the US by winter 2027 or spring 2028." | publishes nothing | 2026-07-29 | [link](https://www.bain.com/careers/work-with-us/internships-programs/first-forward/) |
 | Bain & Company | Spark | All | "This program is for university students enrolled in a Bachelor's program (from the second semester onward), a Master's, or a PhD—no matter the disc…" | publishes nothing | 2026-07-29 | [link](https://www.bain.com/careers/work-with-us/internships-programs/spark/) |
 | KPMG | Embark Scholars Program | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://www.kpmguscareers.com/early-career/program/) |
 | KPMG | HBCU Talent+ | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://kpmgcampus.avature.net/hbcutalentplus) |
@@ -107,7 +108,7 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |
 |---|---|---|---|---|---|---|
 | SEO (Sponsors for Educational Opportunity) | SEO placement tier | Undergraduate | Permanent work authorization required. | not checked yet | 2026-07-21 | _no URL yet_ |
-| SEO Career | SEO Career (Edge / Success phases) | Not stated | "First Year, Sophomore, or Junior" | publishes nothing | 2026-07-29 | [link](https://career.seo-usa.org/apply-faq/) |
+| SEO Career | SEO Career (Edge / Success phases) | Not stated | "All who meet the following criteria are welcome to apply. 3.2 GPA required * First Year, Sophomore, or Junior All Majors Accredited 4-Year Universi…" | publishes nothing | 2026-07-29 | [link](https://career.seo-usa.org/apply-faq/) |
 
 ## Quantitative trading
 
@@ -117,12 +118,11 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Akuna Capital | Quantitative Research Intern, Summer 2027 (Akunacademy) | All | "Must graduate by August 2028" | rule stated, no duration given | 2026-07-29 | [link](https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614) |
 | Akuna Capital | Sneak Peek Week | Sophomore/2nd year | publishes nothing | publishes nothing | 2026-07-29 | [link](https://akunacapital.com/work-with-us/internships/) |
 | Akuna Capital | Software Engineer Intern - C++, Summer 2027 (Akunacademy) | All | "Graduating by August 2028" | rule stated, no duration given | 2026-07-29 | [link](https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027/?gh_jid=8018847) |
-| Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
+| Anthelion Capital | Quant Developer / Quant Research Intern - 2026/2027 | Undergraduate | "Open to students graduating December 2026 through Summer 2028; PhD candidates with later graduation dates are also considered." | publishes nothing | 2026-07-29 | [link](https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96) |
 | Aquatic Capital | Quantitative Researcher, Intern (Summer 2027) | Undergraduate | "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines w…" | publishes nothing | 2026-07-29 | [link](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002) |
 | Aquatic Capital | Software Engineer, Intern (Summer 2027) | Undergraduate | "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines w…" | publishes nothing | 2026-07-29 | [link](https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002) |
-| Arrowstreet Capital | Arrowstreet Capital QR + QD Intern Summer 2027 | Undergraduate | "Expected degree completion within a year of the internship" | not checked yet | 2026-07-24 | _no URL yet_ |
-| Arrowstreet Capital | Quantitative Developer Intern, Summer 2027 | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers) |
-| Arrowstreet Capital | Quantitative Researcher Intern, Summer 2027 | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505) |
+| Arrowstreet Capital | Quantitative Developer Intern, Summer 2027 | All | "Enrolled in an undergraduate or graduate program from an educational institution in a technical field, such as computer science or engineering, wit…" | publishes nothing | 2026-07-29 | [link](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506) |
+| Arrowstreet Capital | Quantitative Researcher Intern, Summer 2027 | All | "Enrolled in an undergraduate or graduate program from an educational institution in finance, mathematics, economics, or a closely related disciplin…" | publishes nothing | 2026-07-29 | [link](https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505) |
 | Chicago Trading Company | Quant Trading Internship | Undergraduate | "You will graduate between December 2027-June 2028" | publishes nothing | 2026-07-29 | [link](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005) |
 | Chicago Trading Company | Software Engineering Internship | Undergraduate | "You will graduate between December 2027-June 2028" | publishes nothing | 2026-07-29 | [link](https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005) |
 | Citadel / Citadel Securities | Citadel Launch Intern (US) (sophomore internship) | Sophomore/2nd year | not checked yet | not checked yet | 2026-07-29 | [link](https://www.citadel.com/careers/details/launch-intern-us/) |
@@ -132,7 +132,7 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Citadel / Citadel Securities | Software Engineer Intern — US (Miami/NY/Houston/Chicago) | Undergraduate | "Bachelor's, master's or PhD in computer science, computer engineering or related fields" | not checked yet | 2026-07-27 | [link](https://www.citadel.com/careers/details/software-engineer-intern-us/) |
 | Cubist Systematic Strategies (Point72) | Point72 Academy Investment Analyst Program for Upcoming Graduates (US) | Undergraduate | "A current student who will graduate from university between December 2026 and July 2027." | rule stated, no duration given | 2026-07-29 | [link](https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871) |
 | Cubist Systematic Strategies (Point72) | Summer 2027 Quantitative Developer Internship (Cubist Systematic Strat | Undergraduate | not checked yet | publishes nothing | 2026-07-29 | [link](https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208) |
-| Cubist Systematic Strategies (Point72) | Summer 2027 Quantitative Developer Internship (NY) | Undergraduate | "Undergraduate degree or higher in math, computer science, or other quantitative fields" | not checked yet | 2026-07-27 | [link](https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002) |
+| Cubist Systematic Strategies (Point72) | Summer 2027 Quantitative Developer Internship (NY) | Undergraduate | "Undergraduate degree or higher in math, computer science, or other quantitative fields" | not checked yet | 2026-07-29 | [link](https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002) |
 | D. E. Shaw | Fellowships (discovery programs: Nexus, Latitude, Momentum, Discovery) | Sophomore/2nd year | not checked yet | not checked yet | 2026-07-29 | [link](https://fellowships.deshaw.com/) |
 | D. E. Shaw | Quantitative Analyst Intern (New York) – Summer 2027 | Undergraduate | "Enrollment in a full-time degree program; students who apply to this internship are usually approaching their final year of full-time study." | publishes nothing | 2026-07-29 | [link](https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890) |
 | D. E. Shaw | Software Developer Intern (New York) – Summer 2027 | Undergraduate | "Enrollment in a full-time degree program; students who apply to this internship are usually approaching their final year of full-time study." | publishes nothing | 2026-07-29 | [link](https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894) |
@@ -210,7 +210,7 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 
 At the end…" | publishes nothing | 2026-07-29 | [link](https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-und) |
 | Apple | Software Undergrad Engineering Internships | Undergraduate | "Pursuing an undergraduate (BS/BA) degree in Computer Science, Electrical Engineering, Computer Engineering, Data Science, Design, Information Secur…" | publishes nothing | 2026-07-29 | [link](https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships) |
-| Deepgram | SWE Internship - Fall 2026/Summer 2027 (Remote-US) | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
+| Deepgram | SWE Internship - Fall 2026/Summer 2027 (Remote-US) | Undergraduate | "Currently pursuing a degree in computer science, engineering, or a related field, or building equivalent skills through self-study, open source, or…" | publishes nothing | 2026-07-29 | [link](https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1) |
 | Dropbox | Emerging Talent Program (Summer Internship) | Undergraduate | "undergraduate, master's, and PhD students" | publishes nothing | 2026-07-29 | [link](https://www.dropbox.jobs/teams/emerging-talent) |
 | Dropbox | Emerging Talent SWE Intern | Undergraduate | not checked yet | not checked yet | 2026-07-27 | [link](https://jobs.dropbox.com/teams/emerging-talent) |
 | Duolingo | Thrive Program | Sophomore/2nd year | "rising juniors" | publishes nothing | 2026-07-29 | [link](https://careers.duolingo.com/?type=Thrive+Program) |
@@ -221,7 +221,7 @@ At the end…" | publishes nothing | 2026-07-29 | [link](https://jobs.apple.com/
 | Google | STEP (Student Training in Engineering Program) — Second Year Student t | Sophomore/2nd year | "Our STEP- Second Year Student application is intended for candidates in their second year of a Bachelor's degree program in Computer Science locate…" | publishes nothing | 2026-07-29 | [link](https://docs.google.com/document/u/1/d/e/2PACX-1vTrLa9snnpRTWt2t4Hacy38Wa5gailkPYdh6QfS9agsHJQHhyCBQe_i1_R7LGYKfsBfShcPMYHkNCE5/pub) |
 | Google | SWE Intern, BS, Summer 2027 | Undergraduate | "intended for students in all academic years" | not checked yet | 2026-07-27 | [link](https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027) |
 | LinkedIn | First Play (Underclassman Engineering Internship) | First year | "Pursuing Bachelors degree in Computer Science (or related technical degrees) with an expected graduation date of December 2027 or later" | publishes nothing | 2026-07-29 | [link](https://careers.linkedin.com/pathways-programs/internships/Technical/first-play) |
-| Meta | Meta Undergraduate/Summer Internship (general) | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://www.metacareers.com/students-and-grads/) |
+| Meta | Meta Undergraduate/Summer Internship (general) | Undergraduate | publishes nothing | publishes nothing | 2026-07-29 | [link](https://www.metacareers.com/careerprograms/students/) |
 | Meta | Meta University | Undergraduate | not checked yet | not checked yet | 2026-07-29 | [link](https://www.metacareers.com/careerprograms/pathways/metauniversity) |
 | Meta | Meta University | Undergraduate | Discontinued. | not checked yet | 2026-07-21 | _no URL yet_ |
 | Microsoft | Explore Microsoft Program (Explore Internship) | Sophomore/2nd year | "Candidate must be a 1st or 2nd year full time enrolled bachelor student (Freshmen/Sophomore) during the academic term immediately before their inte…" | rule stated, no duration given | 2026-07-29 | [link](https://careers.microsoft.com/v2/global/en/exploremicrosoft) |

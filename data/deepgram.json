@@ -9,42 +9,46 @@
       "source": {
         "url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Ashby page is JS-rendered; HTTP fetch returned only job title, no posting text. Full job description requires browser rendering."
+        "status": "ok",
+        "note": "Ashby posting browser-rendered 2026-07-29 (plain fetch gets only the title). Full text read. Posting states: 'Note: Hiring for Fall 2026 and Summer 2027 cohorts'."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "Currently pursuing a degree in computer science, engineering, or a related field, or building equivalent skills through self-study, open source, or your own projects.",
+          "source_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
         },
         "sponsorship": {
-          "state": "unverified",
+          "state": "silent",
           "tier": 1,
-          "source_url": null
+          "source_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
         },
         "process": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "Note: Hiring for Fall 2026 and Summer 2027 cohorts",
+          "source_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
         },
         "compensation": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "source_url": null
+          "quote": "$55 – $65 per hour",
+          "source_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1"
         }
       },
       "cooling_off": {
-        "state": "unverified",
+        "state": "silent",
         "tier": 1,
-        "source_url": null,
+        "source_url": "https://jobs.ashbyhq.com/deepgram/dc8693b5-72ce-4ca3-ab15-9c8434d35da1",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
           "scope": "unknown",
           "resets_allowed": null
-        }
+        },
+        "notes": "Full rendered posting read; no reapplication or retake language."
       },
       "cycle": "Summer 2027",
       "location": "Remote (US)"

@@ -10,8 +10,8 @@
       "source": {
         "url": "https://job-boards.greenhouse.io/podium81/jobs/7939921",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "Primary URL returned job listings index, not detail page. API endpoint returned 404."
+        "status": "dead",
+        "note": "Browser check 2026-07-29: job id 7939921 redirects to Podium's Greenhouse board index, which lists no engineering internship — the posting has been removed."
       },
       "fields": {
         "class_year": {
@@ -65,5 +65,5 @@
       "reason": "HTTP 404 Not Found"
     }
   ],
-  "notes_for_human": "Both endpoints unreachable: primary URL returns listings page without detail text; API endpoint not found. Job posting content unverified. May require direct Greenhouse URL or different job ID."
+  "notes_for_human": "SWE Intern posting removed from Podium's board as of 2026-07-29; row retained as an honest dead record."
 }

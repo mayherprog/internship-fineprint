@@ -223,10 +223,11 @@
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
+          "state": "stated",
           "tier": 1,
-          "quote": "",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+          "quote": "This program is for sophomore (second-year) students who will complete a four-year undergraduate degree in the US by winter 2027 or spring 2028.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
+          "notes": "FAQ variant on same page, verbatim: 'Sophomore/second-year students attending a school in the U.S. or Canada with an anticipated graduation date between December 2027 and Summer 2028'. First-generation / lower socio-economic identification is the program's stated focus."
         },
         "sponsorship": {
           "state": "silent",
@@ -237,8 +238,9 @@
         "process": {
           "state": "stated",
           "tier": 1,
-          "quote": "All applicants will be asked to answer several questions in a video format through the HireVue platform following the application deadline.",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+          "quote": "Applications for our First Forward program are now closed. Please check back later for details about our next application cycle.",
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
+          "notes": "Earlier HireVue video-interview sentence no longer appears on the redesigned page (browser-verified 2026-07-29); replaced with the live status sentence."
         },
         "compensation": {
           "state": "silent",
@@ -248,18 +250,18 @@
         }
       },
       "cooling_off": {
-        "state": "silent",
+        "state": "stated",
         "tier": 1,
-        "quote": "",
+        "quote": "Absolutely, and we encourage it. If you aren’t selected for First Forward, please stay in touch and apply for an Associate Consultant Internship (ACI) opportunity in the summer prior to your third (junior) year.",
         "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
         "checked": "2026-07-29",
         "parsed": {
-          "trigger": "unknown",
+          "trigger": "rejection",
           "duration_months": null,
           "scope": "this_program",
           "resets_allowed": null
         },
-        "notes": "No reapplication language. A second clean verbatim sentence on process is also on the page: \"There will be no formal interviews for First Forward.\" class_year is marked unverified DELIBERATELY: the page does state sophomore standing, a first-generation / lower-socioeconomic identity criterion, and a graduation window in the winter 2027 - spring 2028 range, but extraction returned only fragments, not a copyable full sentence. Re-read this page by hand before publishing an eligibility row."
+        "notes": "FAQ answer to 'If I am not selected for First Forward, can I still apply to Bain in the future?' — a stated PERMISSIVE rule (reapplication encouraged), so no restrictive lockout. Browser-read 2026-07-29 from the expanded FAQ accordion."
       }
     },
     {

@@ -57,49 +57,51 @@
       }
     },
     {
-      "name": "Investment Associate Intern",
+      "name": "Investment Associate Intern - 2027",
       "cycle": "2027",
       "location": "New York City",
       "audience": "undergraduate",
       "opens": "",
       "closes": "",
       "source": {
-        "url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002",
+        "url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
         "checked": "2026-07-29",
         "status": "ok",
-        "note": "Listing titled '2027 Investment Associate Intern - Bridgewater Immersion | AI Innovation Hackathon' confirmed live on Bridgewater's own Greenhouse ATS. WebFetch's text extraction returned no body copy (likely JS-rendered posting detail below the fold/behind a script) so no eligibility, sponsorship, process, or comp language could be captured verbatim despite two direct fetch attempts."
+        "note": "Live posting located via browser on the Bridgewater campus Greenhouse board (the earlier id 8459860002 now redirects to the board index; current id 8457683002). Content read via the boards-api static JSON, tier 1."
       },
       "fields": {
         "class_year": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002"
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
+          "notes": "Full posting read; no class-year or graduation-window sentence."
         },
         "sponsorship": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002"
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
+          "notes": "Full posting read; no visa/work-authorization language."
         },
         "process": {
-          "state": "unverified",
-          "tier": 3,
+          "state": "silent",
+          "tier": 1,
           "quote": "",
-          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002"
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002"
         },
         "compensation": {
-          "state": "unverified",
-          "tier": 3,
-          "quote": "",
-          "source_url": ""
+          "state": "stated",
+          "tier": 1,
+          "quote": "Total compensation for this position is $71,000 for the 8-week internship (less applicable deductions and withholdings), including a sign on bonus. In addition, our compensation package includes housing.",
+          "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002"
         }
       },
       "cooling_off": {
-        "state": "unverified",
-        "tier": 3,
+        "state": "silent",
+        "tier": 1,
         "quote": "",
-        "source_url": "",
+        "source_url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
         "checked": "2026-07-29",
         "parsed": {
           "trigger": "unknown",
@@ -107,7 +109,7 @@
           "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": ""
+        "notes": "Full posting read; no reapplication language."
       }
     }
   ],

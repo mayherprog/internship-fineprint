@@ -116,10 +116,10 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002",
-        "checked": "2026-07-27",
+        "checked": "2026-07-29",
         "check_method": "static",
-        "status": "ok",
-        "note": ""
+        "status": "dead",
+        "note": "Browser check 2026-07-29: Greenhouse id 7297613002 redirects to the careers browse index and boards-api has no record — posting removed. Quote captured while the posting was live; treat as the removed posting's criteria, not a live opening."
       },
       "fields": {
         "class_year": {

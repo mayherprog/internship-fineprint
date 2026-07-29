@@ -166,8 +166,8 @@
       "source": {
         "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern/",
         "checked": "2026-07-29",
-        "status": "blocked",
-        "note": "The posting EXISTS and is live under this exact title as of 2026-07-29 (returned by search against google.com), which confirms Google is recruiting undergraduates for Summer 2027. The page body is JavaScript-rendered: two fetch attempts returned only site navigation plus a truncation marker, with zero qualification text. No eligibility language could be copied verbatim, so every field is left unverified rather than filled from a search snippet."
+        "status": "dead",
+        "note": "The posting EXISTS and is live under this exact title as of 2026-07-29 (returned by search against google.com), which confirms Google is recruiting undergraduates for Summer 2027. The page body is JavaScript-rendered: two fetch attempts returned only site navigation plus a truncation marker, with zero qualification text. No eligibility language could be copied verbatim, so every field is left unverified rather than filled from a search snippet. Browser check 2026-07-29: careers page returns 'Job not found. This job may have been taken down.' Quotes were tier-1 verified while the posting was live earlier the same cycle; the posting has since been removed, so treat the criteria as the removed posting's, not a live opening."
       },
       "fields": {
         "class_year": {
