@@ -36,7 +36,7 @@ TIERS = {1, 2, 3}
 SOURCE_STATUS = {"ok", "url_pending", "blocked", "dead"}
 AUDIENCE = {
     "undergraduate", "sophomore", "freshman", "law_student_jd",
-    "graduate", "phd", "paralegal", "all", "unknown",
+    "graduate", "phd", "paralegal", "high_school", "all", "unknown",
 }
 SECTORS = {
     "big_tech", "banking_finance", "quant_trading", "consulting",
