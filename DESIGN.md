@@ -71,10 +71,11 @@ the sibling project's warm-neutral rule without importing its palette.
 
 Section headers on home are the Label step at 0.8rem, muted.
 
-**Monospace is for digits that must line up in a column, never for words.** The
-`.num` helper (system mono stack, tabular numerals) applies to the home stat
-numbers. It does not apply to dates inside sentences, durations, headings, labels,
-or quotes — a date in a quote is part of a phrase, not a column.
+**Monospace is for digits that must line up in a column, never for words.** No
+current surface qualifies (the stat tiles that did were removed as unnecessary);
+if one appears, give it a system mono stack with tabular numerals. The rule does
+not apply to dates inside sentences, durations, headings, labels, or quotes — a
+date in a quote is part of a phrase, not a column.
 
 **Sentence case everywhere.** Uppercase tracked labels and pills were tried and
 reversed on owner feedback: combined with a dark ground and mono digits they read
@@ -98,7 +99,6 @@ max 80ch.
   still sees "a dated snapshot of what firms state, not advice". The home page
   opens with search, not with a warning. The screener keeps its own short
   inline disclaimer next to the results it qualifies.
-- **Stat** — clickable count tile: bold number over muted label. Navigates to a view.
 - **Sector tile** — bold name over muted "N firms · N programs". Navigates.
 - **Quick chip** — pill-shaped view shortcut. Plain descriptions, no slang.
 - **Controls bar** — sticky; back button, selects, search. First option of each
@@ -141,12 +141,10 @@ not an eligibility determination.
 
 ## Interaction rules
 
-- **Selected and hovered interactive surfaces fill, they do not hint.** Stat
-  tiles, sector tiles, quick chips and the back button take an `--accent-soft`
-  fill with an accent border on hover and keyboard focus — never a one-pixel
-  border change alone.
+- **Selected and hovered interactive surfaces fill, they do not hint.** Sector
+  tiles, quick chips and the back button take an `--accent-soft` fill with an
+  accent border on hover and keyboard focus — never a one-pixel border change
+  alone.
 - **A control is always rendered; a media query may only restyle it, never
   create it.** A media query must not be the only thing standing between a
   reader and a working control.
-- **Stat labels reserve two lines** so the numbers above them share a baseline
-  regardless of label length.
