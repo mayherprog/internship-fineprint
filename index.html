@@ -22,9 +22,6 @@
     --accent-soft:#2c3c50;
   }
 }
-/* Monospace is for digits that must line up in a column, never for words. */
-.num{font-family:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,monospace;
-  font-variant-numeric:tabular-nums}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--fg);
   font:16px/1.55 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -39,13 +36,6 @@ h2{margin:30px 0 10px;color:var(--muted);font-weight:600;font-size:.92rem}
   border-radius:var(--r-md);background:var(--card);color:var(--fg)}
 .bigsearch button{font:inherit;padding:13px 20px;border:1px solid var(--line);border-radius:var(--r-md);
   background:var(--accent);color:var(--bg);font-weight:600;cursor:pointer}
-.stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 6px;align-items:stretch}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:var(--r-sm);padding:9px 13px;
-  font-size:.85rem;cursor:pointer;text-align:left;color:var(--fg);font-family:inherit;max-width:170px}
-.stat:hover,.stat:focus-visible{border-color:var(--accent);background:var(--accent-soft)}
-.stat b{font-size:1.15rem;display:block;line-height:1.2}
-/* labels reserve two lines so the numbers above them share a baseline */
-.stat span{display:block;min-height:2.4em}
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:10px}
 .tile{background:var(--card);border:1px solid var(--line);border-radius:var(--r-md);padding:14px 16px;
   cursor:pointer;text-align:left;color:var(--fg);font-family:inherit;font-size:.95rem}
@@ -127,9 +117,6 @@ link and the date it was read. Firms that say nothing are recorded as saying not
     <input id="homeq" type="search" placeholder="Search firms, programs, quoted text — try a firm name or &ldquo;CPT&rdquo;">
     <button id="homego">Search</button>
   </div>
-
-  <h2>At a glance</h2>
-  <div class="stats" id="stats"></div>
 
   <h2>Browse by sector</h2>
   <div class="tiles" id="sectors"></div>
@@ -409,24 +396,6 @@ $('homego').addEventListener('click', () => go({q: $('homeq').value.trim()}));
 $('homeq').addEventListener('keydown', e => { if (e.key === 'Enter') go({q: $('homeq').value.trim()}); });
 
 /* ------------------------------ home ------------------------------- */
-const cs = {stated:0, silent:0, unverified:0};
-let restrictive = 0;
-DATA.forEach(r => { cs[r.cooling_off.state]++;
-  if ((r.cooling_off.parsed || {}).restrictive === true) restrictive++; });
-
-$('stats').innerHTML = [
-  [DATA.length, 'programs', {}],
-  [new Set(DATA.map(r => r.firm)).size, 'firms', {}],
-  [restrictive, 'state a waiting period or cap', {cool:'restrictive'}],
-  [cs.stated, 'state any reapplication rule', {cool:'stated'}],
-  [cs.silent, 'publish nothing on reapplying', {cool:'silent'}],
-  [cs.unverified, 'not yet verified', {cool:'unverified'}],
-].map(([v, k], i) => `<button class="stat" data-i="${i}" aria-label="${v} ${esc(k)} — open this view"><b class="num">${v}</b><span>${esc(k)}</span></button>`).join('');
-const STAT_GO = [{}, {}, {cool:'restrictive'}, {cool:'stated'}, {cool:'silent'}, {cool:'unverified'}];
-$('stats').addEventListener('click', e => {
-  const b = e.target.closest('.stat'); if (b) go(STAT_GO[+b.dataset.i]);
-});
-
 const bySector = {};
 DATA.forEach(r => {
   const o = bySector[r.sector] ||= {n:0, firms:new Set(), rules:0};
