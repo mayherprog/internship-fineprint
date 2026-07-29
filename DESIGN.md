@@ -107,8 +107,11 @@ max 80ch.
   search, not with a warning. The screener keeps its own short inline
   disclaimer next to the results it qualifies — that one carries the caveat at
   the point of use, which is why the About line can afford to be one word.
-- **Header** — the wordmark "Fineprint" (heavy, tight tracking, accent full
-  stop) over the tagline, with the theme toggle pill on the right. The product
+- **Header** — sticky on every view: the wordmark "Fineprint" (heavy, tight
+  tracking, accent full stop; clicking it goes home) over the tagline, a
+  global pill search on the right (hidden on home, where the hero search
+  serves), and the theme toggle. The header search drives the browse query
+  live and switches to browse if typed into from another view. The product
   has a name; the page title is not a sentence.
 - **Hero line** — one sentence above the search box carrying the live counts
   ("Search N programs at N firms."). This is the only place counts appear on
@@ -117,8 +120,13 @@ max 80ch.
   Tiles, cards and the search field carry `--shadow`; the reference register is
   a job board (raised white cards on a warm ground), not a terminal.
 - **Quick chip** — pill-shaped view shortcut. Plain descriptions, no slang.
-- **Controls bar** — sticky; back button, selects, search. First option of each
-  select doubles as its label; each select also carries an `aria-label`.
+- **Controls bar** — back button and filter chips; the search lives in the
+  sticky header, so this bar scrolls away with the content. Filters are native
+  `<select>` elements restyled as pill chips (custom caret, shadow), keeping
+  them keyboard- and screen-reader-native. First option of each select doubles
+  as its label; each select also carries an `aria-label`. **An active filter
+  fills** (`.on`: accent-soft ground, accent border, semibold) — the filled
+  selected-state rule applied to filtering.
 - **Card (`<details>`)** — collapsed summary row: firm (accent) — program, then
   **labelled** state pills for class year and sponsorship, warn pill if a
   reapplication rule is stated, muted audience/cycle. Cycle text over 28
