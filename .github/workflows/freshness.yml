@@ -1,0 +1,56 @@
+name: Freshness
+
+# Weekly staleness sweep. Two signals:
+#   1. verify_quotes: every stated quote is re-checked against its cited page.
+#      FAILs mean the page changed under a quote (or a quote was never
+#      verbatim) — a human must re-verify before the row keeps "stated".
+#   2. watchlist: application windows expected to open this month.
+# Failures never auto-demote data; they open or update an issue for review.
+
+on:
+  schedule:
+    - cron: "0 12 * * 1"
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Quote verification sweep
+        id: quotes
+        continue-on-error: true
+        run: |
+          python3 tools/verify_quotes.py data | tee sweep.txt
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+      - name: Watchlist check
+        run: python3 tools/check_watchlist.py | tee -a sweep.txt
+      - name: Open or update the freshness issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('sweep.txt', 'utf8');
+            const failed = /\d+ FAIL/.test(body) && !/ 0 FAIL/.test(body);
+            const due = /rows due for re-research/.test(body);
+            if (!failed && !due) { core.info('nothing stale; no issue'); return; }
+            const title = 'Freshness sweep: rows need re-verification or re-research';
+            const {data: open} = await github.rest.issues.listForRepo({
+              ...context.repo, state: 'open', labels: 'freshness'});
+            const text = 'Automated weekly sweep. FAIL rows need a human re-read of the cited page ' +
+              'before the quote keeps its stated status; due watchlist rows need re-research.\n\n' +
+              '```\n' + body.slice(0, 60000) + '\n```';
+            if (open.length) {
+              await github.rest.issues.update({...context.repo,
+                issue_number: open[0].number, body: text});
+            } else {
+              await github.rest.issues.create({...context.repo,
+                title, body: text, labels: ['freshness']});
+            }

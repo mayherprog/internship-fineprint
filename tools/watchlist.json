@@ -1,0 +1,33 @@
+{
+  "_comment": "Programs whose next application window has a publicly reported month. due_from/due_to are YYYY-MM; while the current month is inside the window, the freshness workflow flags the row for re-research. Sources of the expectations are recorded per row; hedged/aggregator-only expectations say so.",
+  "watch": [
+    {"firm": "Goldman Sachs", "program": "2027 Summer Analyst", "due_from": "2026-08", "due_to": "2026-09",
+     "why": "Applications reported to open around August 15, 2026."},
+    {"firm": "Federal Reserve Bank of New York", "program": "Sophomore Career Exploration / Junior Summer Analyst 2027", "due_from": "2026-09", "due_to": "2026-10",
+     "why": "Firm's own pages state: 'Please check back in September 2026 for information on our 2027 program.'"},
+    {"firm": "Duolingo", "program": "Thrive (software engineering track)", "due_from": "2026-09", "due_to": "2026-10",
+     "why": "Firm blog states the SWE track 'opens yearly at the end of September'."},
+    {"firm": "NVIDIA", "program": "Ignite 2027", "due_from": "2026-09", "due_to": "2026-11",
+     "why": "Prior cycles ran a ~2-week October window (aggregator-reported, unverified tier 1)."},
+    {"firm": "Salesforce", "program": "Futureforce Tech Launchpad 2027", "due_from": "2026-10", "due_to": "2026-12",
+     "why": "CodePath partner page expected to post the next cycle around October."},
+    {"firm": "LinkedIn", "program": "First Play (next cycle)", "due_from": "2026-10", "due_to": "2026-12",
+     "why": "Prior cycle posted around November; page currently shows summer 2026 closed."},
+    {"firm": "Bank of America", "program": "Sophomore programs (GBAM / Global Technology)", "due_from": "2026-09", "due_to": "2026-11",
+     "why": "No live sophomore reqs as of 2026-07-29; fall posting cycle reported ~September."},
+    {"firm": "Wells Fargo", "program": "CIB Summer 2028 internships", "due_from": "2027-01", "due_to": "2027-02",
+     "why": "Firm's application-process page states: 'applications open January 2027'."},
+    {"firm": "Bridgewater Associates", "program": "Rising Fellows", "due_from": "2026-11", "due_to": "2027-01",
+     "why": "No live posting as of 2026-07-29; prior cycles reportedly opened around December (unverified)."},
+    {"firm": "Citadel / Citadel Securities", "program": "Discover Citadel 2027", "due_from": "2027-01", "due_to": "2027-03",
+     "why": "Invitation event for first/second-years; prior cycles opened in spring."},
+    {"firm": "Jane Street", "program": "2028-cycle internships", "due_from": "2027-01", "due_to": "2027-03",
+     "why": "2028-cycle postings expected early 2027 based on the prior cycle's timing."},
+    {"firm": "Meta", "program": "Meta University (existence check)", "due_from": "2026-09", "due_to": "2026-11",
+     "why": "Program page 404s live and in archive; re-check whether it returns for 2027."},
+    {"firm": "Podium", "program": "SWE Intern (reposted?)", "due_from": "2026-09", "due_to": "2026-11",
+     "why": "Posting removed as of 2026-07-29; boards worth a re-check in fall."},
+    {"firm": "Schonfeld", "program": "2027 Summer Internships (real reqs)", "due_from": "2026-08", "due_to": "2026-10",
+     "why": "Placeholder req pulled 2026-06-15; aggregator mirror mentioned an August opening."}
+  ]
+}

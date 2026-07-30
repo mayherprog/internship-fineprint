@@ -1,0 +1,59 @@
+name: Deploy Pages
+
+# Publishes the site: the self-contained index.html at the root and the
+# TypeScript front end under /app/. Rebuilding on deploy keeps the footer's
+# build date honest.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Build static site
+        run: python3 tools/build.py
+      - name: Build TypeScript app
+        run: |
+          npm ci --prefix web
+          python3 tools/export_json.py web/public/data.json
+          npm run build --prefix web
+      - name: Assemble site
+        run: |
+          mkdir -p _site/app
+          cp index.html TABLE.md README.md NOTICE.md LICENSE LICENSE-DOCS _site/
+          cp -r data schema _site/
+          cp -r web/dist/. _site/app/
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

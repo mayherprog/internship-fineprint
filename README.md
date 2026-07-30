@@ -1,4 +1,10 @@
-# Internship eligibility, in the firms' own words
+# Fineprint — internship eligibility, in the firms' own words
+
+[![CI](https://github.com/mayherprog/internship-fineprint/actions/workflows/ci.yml/badge.svg)](https://github.com/mayherprog/internship-fineprint/actions/workflows/ci.yml)
+[![Freshness](https://github.com/mayherprog/internship-fineprint/actions/workflows/freshness.yml/badge.svg)](https://github.com/mayherprog/internship-fineprint/actions/workflows/freshness.yml)
+
+**Live: [mayherprog.github.io/internship-fineprint](https://mayherprog.github.io/internship-fineprint/)**
+· TypeScript app: [/app/](https://mayherprog.github.io/internship-fineprint/app/)
 
 A sourced, dated record of what firms **actually state** about who may apply to their
 internship and early-career programs: class year, sponsorship and work authorisation,
@@ -9,10 +15,31 @@ Every row is a sentence a firm published, quoted exactly, with a link and the da
 read. Firms that publish nothing are recorded as publishing nothing.
 
 ```bash
-python3 tools/validate.py     # 6,338 assertions over 190 programs, 0 failures
+python3 -m unittest discover -s tests   # parser/dedup/scrub/verifier unit tests
+python3 tools/validate.py               # 6,338 assertions over 190 programs, 0 failures
+python3 tools/verify_quotes.py data     # re-fetch every cited page; quotes must still be there
 ```
 
 **[Browse the data →](TABLE.md)** &nbsp;·&nbsp; **[Interactive view →](index.html)**
+
+## Architecture
+
+Two languages, one contract. **Python** owns the data: `tools/transcribe_tracker.py`
+(spreadsheet → records, with personal-clause redaction) → `tools/ingest_research.py`
+(merges researched firms, canonicalizes ATS URLs, dedupes same-posting rows) →
+`tools/parse_criteria.py` (annotates stated quotes with machine-readable windows,
+refusing hedged or stale sentences) → `tools/validate.py` (thousands of invariant
+assertions) → `tools/build.py` (a dependency-free single-file site). **TypeScript**
+owns the app in `web/` — React + Vite, consuming the exact JSON the validator passed,
+with the screener's rules ported one-to-one from the reference implementation.
+
+Staleness is treated as a first-class failure mode: `tools/verify_quotes.py`
+mechanically re-fetches every cited page and asserts each quote is still literally
+present (bot walls and PDFs report as blocked, never as refutations), and a weekly
+[freshness workflow](.github/workflows/freshness.yml) runs the sweep plus a dated
+[watchlist](tools/watchlist.json) of expected application-window openings, opening an
+issue when anything needs a human re-read. Failures never auto-demote data — deciding
+whether a miss is a page change, a paraphrase, or a fetch artifact takes judgment.
 
 ---
 
