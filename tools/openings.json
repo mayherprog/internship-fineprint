@@ -1,0 +1,224 @@
+{
+  "_comment": "Phase 2 target list (PHASE2.md). One row per watched sophomore program. detector: ats_api|ats_search (poll a board's JSON, alert on a new title match) / keyword_flip (watch a page's own state sentence) / page_diff (hash the page text, alert with a diff) / manual (bot-walled; the report prints a standing browser-pass reminder). active_from/active_to bound daily polling (YYYY-MM), seeded from watchlist.json minus one month of margin.",
+  "watch": [
+    {
+      "id": "microsoft-explore",
+      "firm": "Microsoft",
+      "program": "Explore Microsoft (first/second-year internship)",
+      "detector": "ats_search",
+      "watch": {
+        "endpoint": "https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&query=Explore%20Microsoft&location=&start=0",
+        "title_pattern": "(?i)explore"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Eightfold portal (migrated 2026-08); endpoint captured from the site's own network traffic 2026-08-08 and answers plain fetches."
+    },
+    {
+      "id": "nyfed-sophomore",
+      "firm": "Federal Reserve Bank of New York",
+      "program": "Sophomore Career Exploration Program",
+      "detector": "keyword_flip",
+      "watch": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+        "absent_phrase": "check back in September 2026"
+      },
+      "active_from": "2026-08",
+      "active_to": "2026-12",
+      "notes": "Their page states its own status; the alert fires when that sentence disappears."
+    },
+    {
+      "id": "duolingo-thrive",
+      "firm": "Duolingo",
+      "program": "Thrive Program (software engineering track)",
+      "detector": "ats_api",
+      "watch": {
+        "endpoint": "https://boards-api.greenhouse.io/v1/boards/duolingo/jobs",
+        "title_pattern": "(?i)thrive|intern"
+      },
+      "active_from": "2026-08",
+      "active_to": "2026-12",
+      "notes": "careers.duolingo.com is Greenhouse-backed (board token 'duolingo', verified 2026-08-08; 65 postings, zero matching yet)."
+    },
+    {
+      "id": "nvidia-ignite",
+      "firm": "NVIDIA",
+      "program": "Ignite (freshman/sophomore internship)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Workday ATS behind a marketing page; the university page is the tell."
+    },
+    {
+      "id": "linkedin-first-play",
+      "firm": "LinkedIn",
+      "program": "First Play (underclassman engineering)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play"
+      },
+      "active_from": "2026-09",
+      "active_to": "2027-01",
+      "notes": "PHASE2.md suggested keyword_flip; page_diff until a stable sentinel sentence is identified on the live page."
+    },
+    {
+      "id": "gs-emerging-leaders",
+      "firm": "Goldman Sachs",
+      "program": "Emerging Leaders Series (2nd-year program)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series"
+      },
+      "active_from": "2026-08",
+      "active_to": "2026-12",
+      "notes": "Page fetches clean (verified 2026-08-07)."
+    },
+    {
+      "id": "citi-early-id",
+      "firm": "Citi",
+      "program": "Early ID programs / pre-internships",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://jobs.citi.com/earlycareers-programs-preinternships"
+      },
+      "active_from": "2026-08",
+      "active_to": "2026-12",
+      "notes": "jobs.citi.com fetches clean."
+    },
+    {
+      "id": "bofa-sophomore",
+      "firm": "Bank of America",
+      "program": "Sophomore programs (GBAM, Global Technology)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://careers.bankofamerica.com/en-us/students"
+      },
+      "active_from": "2026-08",
+      "active_to": "2026-12",
+      "notes": "Students hub fetches clean (verified 2026-08-07)."
+    },
+    {
+      "id": "bridgewater-rising-fellows",
+      "firm": "Bridgewater Associates",
+      "program": "Rising Fellows (sophomore program)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://www.bridgewater.com/working-at-bridgewater/students"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "No board API found; page diff on the students page."
+    },
+    {
+      "id": "jane-street-jsip",
+      "firm": "Jane Street",
+      "program": "JSIP (Immersion Program, first/second-year)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-02",
+      "notes": "janestreet.com fetches clean."
+    },
+    {
+      "id": "salesforce-launchpad",
+      "firm": "Salesforce",
+      "program": "Futureforce Tech Launchpad (via CodePath)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://info.codepath.org/futureforce-tech-launchpad"
+      },
+      "active_from": "2026-09",
+      "active_to": "2027-01",
+      "notes": "CodePath partner page expected to post the next cycle around October."
+    },
+    {
+      "id": "seo-career",
+      "firm": "SEO (Sponsors for Educational Opportunity)",
+      "program": "SEO Career",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://career.seo-usa.org/apply-faq/"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Apply-FAQ page fetches clean."
+    },
+    {
+      "id": "amazon-propel",
+      "firm": "Amazon",
+      "program": "Propel Program",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://www.amazon.jobs/teams/internships-for-students"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Details unverified in the database; the students-internships team page is the watchable surface."
+    },
+    {
+      "id": "capital-one-early",
+      "firm": "Capital One",
+      "program": "Early-career programs hub (TEIP folded into TIP)",
+      "detector": "page_diff",
+      "watch": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Every Summer-2027 undergrad requisition found 2026-07-29 was dead; the hub is the only signal."
+    },
+    {
+      "id": "wells-fargo-sophomore",
+      "firm": "Wells Fargo",
+      "program": "Sophomore Experience",
+      "detector": "manual",
+      "watch": {
+        "url": "https://talent.wellsfargojobs.com/flows/sdfp2026"
+      },
+      "active_from": "2026-08",
+      "active_to": "2026-12",
+      "notes": "Bot-walled host. Caution: Wells Fargo states a permanent per-requisition reapply bar — apply once, deliberately."
+    },
+    {
+      "id": "sig-discovery-days",
+      "firm": "Susquehanna (SIG)",
+      "program": "Discovery Days (early-talent events)",
+      "detector": "manual",
+      "watch": {
+        "url": "https://sig.com/careers/early-talent/"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Bot-walled host."
+    },
+    {
+      "id": "citadel-discover",
+      "firm": "Citadel",
+      "program": "Discover Citadel 2027 (early-ID event)",
+      "detector": "manual",
+      "watch": {
+        "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Bot-walled to curl; alive in a browser 2026-07-29."
+    },
+    {
+      "id": "mckinsey-sophomore-sba",
+      "firm": "McKinsey & Company",
+      "program": "Sophomore Summer Business Analyst",
+      "detector": "manual",
+      "watch": {
+        "url": "https://www.mckinsey.com/careers/search-jobs"
+      },
+      "active_from": "2026-08",
+      "active_to": "2027-01",
+      "notes": "Fully bot-blocked; all database rows for McKinsey are unverified. Check by hand."
+    }
+  ]
+}
