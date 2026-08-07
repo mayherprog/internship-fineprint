@@ -1,6 +1,8 @@
 # Phase 2 — the sophomore opening monitor
 
-Status: specified 2026-08-07, not yet built.
+Status: specified 2026-08-07; built and live 2026-08-08 (`tools/openings.json`,
+`tools/check_openings.py`, `tools/openings_state.json`,
+`.github/workflows/openings.yml`, `tests/test_openings.py`).
 Owner intent: detect, within a day, the moment a watched sophomore program
 actually starts accepting applications, and surface the firm's own sentence
 saying so. This document is the build contract.
