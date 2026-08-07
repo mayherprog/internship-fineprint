@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Firm's own careers domain (lwcareers.com). Retrieved as raw HTML and text-extracted; quotes copied character-for-character from that extraction. Page states: \"Our 2026 1L and 2027 2L applications are closed.\""
       },
+      "apply": {
+        "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -62,6 +67,11 @@
         "status": "ok",
         "note": "Second verbatim sentence from the same page restating the law-student-only audience in general terms (not tied to a single class year)."
       },
+      "apply": {
+        "url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-states/summer-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -110,6 +120,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "This is the ONLY undergraduate-facing Latham program found on the firm's own domain. It is a full-time post-graduation rotational business-services role (non-lawyer), not a legal internship. The London Placement variant is open to current university students on a year in industry."
+      },
+      "apply": {
+        "url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -161,6 +176,11 @@
         "status": "ok",
         "note": "Recorded separately because it is the only Latham program on the firm's own domain open to CURRENTLY ENROLLED undergraduates. UK-only."
       },
+      "apply": {
+        "url": "https://www.lwcareers.com/en/professional-staff-paralegals/business-services-training-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -210,6 +230,11 @@
         "status": "ok",
         "note": "Verified 2026-08-07: PDF fetched and text-extracted; quote verbatim."
       },
+      "apply": {
+        "url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -258,6 +283,12 @@
         "checked": "2026-07-29",
         "status": "dead",
         "note": "The firm's own vanity URL lw.com/1LFellowship now resolves to a \"Belong As You Are\" inclusion page that contains NO fellowship eligibility criteria, deadlines, or stipend. The law-school page law.utexas.edu/careers/scholarships/latham-watkins-1l-fellowship-program/ returns HTTP 404. The only current firm-domain evidence that a 1L track exists at all is the summer program page line \"Our 2026 1L and 2027 2L applications are closed.\" No verbatim eligibility text is currently published on any tier-1 or reachable tier-2 source, so all fields are left unverified rather than filled from aggregator summaries."
+      },
+      "apply": {
+        "url": "https://www.lw.com/en",
+        "kind": "careers_hub",
+        "checked": "2026-08-08",
+        "note": "Latham's careers section is JS-navigated from the homepage; direct careers paths return 404 to non-browser fetches."
       },
       "fields": {
         "class_year": {

@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Fetched raw HTML directly (HTTP 200). Page states 'Applications will open on August 15' with no year given. Divisions listed: Asset Management, Controllers, Corporate Planning & Management, Corporate Treasury, Engineering, Executive Office, FICC and Equities (Sales and Trading), Global Investment Research, Global Compliance, Human Capital Management, Internal Audit, Investment Banking, Legal, Office of Regulatory Relations, Operations, Platform Solutions, Risk, Tax, Wealth Management."
       },
+      "apply": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/2027-summer-analyst-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -61,6 +66,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Fetched raw HTML directly (HTTP 200). EMEA wording differs materially from Americas: penultimate OR final year, and Masters students are explicitly in scope."
+      },
+      "apply": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -112,6 +122,11 @@
         "status": "dead",
         "note": "Re-read 2026-08-07: URL returns 404 and no replacement Virtual Insight Series page was found on goldmansachs.com (students index is JS-rendered; Emerging Leaders Series page remains live). Prior stated class-year quote (graduating May 2026-June 2027) belonged to the closed cycle; nothing quotable for the new cycle yet."
       },
+      "apply": {
+        "url": "https://www.goldmansachs.com/careers/students",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -159,6 +174,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Fetched raw HTML directly (HTTP 200). Labelled 'UNDERGRAD PROGRAM | AMERICAS'. Audience tagged 'sophomore' in this schema only as the closest early-year bucket; the firm's own words say FIRST-YEAR students (graduating Dec 2028 - May 2029), which for the 2027 summer cycle is a later cohort, not a 2027 Summer Analyst feeder."
+      },
+      "apply": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/possibilities-series",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -216,6 +236,11 @@
         "status": "ok",
         "note": "Fetched raw HTML directly (HTTP 200). Labelled 'UNDERGRAD AND MBA PROGRAM | AMERICAS'. This is the closest thing on the site to an explicit early-ID track for second-year undergraduates: the firm states it gives 'transparency into the recruitment process', but stops short of stating any accelerated or guaranteed pathway."
       },
+      "apply": {
+        "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -266,6 +291,11 @@
         "check_method": "static",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://www.goldmansachs.com/careers/students",
+        "kind": "program_page",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

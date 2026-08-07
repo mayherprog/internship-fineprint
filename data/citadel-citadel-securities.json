@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
+      "apply": {
+        "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -66,6 +71,11 @@
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
+      "apply": {
+        "url": "https://www.citadel.com/careers/programs-and-events/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -116,6 +126,11 @@
         "status": "dead",
         "note": "Browser session 2026-07-29: URL returns 404 Not Found, and Launch no longer appears on the programs-and-events page, whose undergraduate roster is now: Citadel Associate Program, Datathon, Discover Citadel, Fixed Income and Macro Central Bank Challenge, Terminal, Trading Invitational, Conference Travel Grant. Launch may be renamed or its cycle closed; nothing quotable."
       },
+      "apply": {
+        "url": "https://www.citadel.com/careers/programs-and-events/",
+        "kind": "program_page",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -165,6 +180,11 @@
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
+      "apply": {
+        "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -204,6 +224,11 @@
         "check_method": "static",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://www.citadel.com/careers/programs-and-events/discover-citadel/",
+        "kind": "program_page",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

@@ -37,6 +37,10 @@ FIELD_LABEL = {
     "class_year": "Class year", "sponsorship": "Sponsorship",
     "process": "Process", "compensation": "Compensation",
 }
+APPLY_KIND_LABEL = {
+    "posting": "posting", "program_page": "program page",
+    "careers_hub": "careers site",
+}
 
 
 def load(data_dir):
@@ -50,7 +54,8 @@ def load(data_dir):
                 "audience": prog.get("audience", "unknown"),
                 "cycle": prog.get("cycle", ""), "location": prog.get("location", ""),
                 "opens": prog.get("opens", ""), "closes": prog.get("closes", ""),
-                "source": prog["source"], "fields": prog["fields"],
+                "source": prog["source"], "apply": prog.get("apply"),
+                "fields": prog["fields"],
                 "cooling_off": prog["cooling_off"],
                 "unfiled": prog.get("unfiled_quotes", []),
             })
@@ -110,8 +115,8 @@ def build_markdown(rows):
 
     for sector in sorted(by_sector, key=lambda s: SECTOR_LABEL.get(s, s)):
         out += [f"## {SECTOR_LABEL.get(sector, sector)}", "",
-                "| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source |",
-                "|---|---|---|---|---|---|---|"]
+                "| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source | Apply |",
+                "|---|---|---|---|---|---|---|---|"]
         for r in by_sector[sector]:
             cy = r["fields"]["class_year"]
             words = field_summary(cy).replace("|", "\\|")
@@ -124,10 +129,13 @@ def build_markdown(rows):
             link = f"[link]({url})" if url else {
                 "url_pending": "_no URL yet_", "blocked": "_blocked_",
                 "dead": "_dead link_"}.get(status, "_none_")
+            ap = r.get("apply") or {}
+            apply_cell = (f"[{APPLY_KIND_LABEL.get(ap.get('kind'), 'apply')}]({ap['url']})"
+                          if ap.get("url") else "_none_")
             out.append(
                 f"| {r['firm']} | {r['name'][:70]} | {AUDIENCE_LABEL.get(r['audience'], r['audience'])} "
                 f"| {words} | {cooling_summary(r['cooling_off'])} "
-                f"| {r['source'].get('checked', '')} | {link} |")
+                f"| {r['source'].get('checked', '')} | {link} | {apply_cell} |")
         out.append("")
     return "\n".join(out)
 

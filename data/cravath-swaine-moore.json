@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Firm-owned recruiting landing page; details cross-checked against /recruiting/how-to-apply.html and /recruiting/summer-program.html, both also firm-owned and reachable."
       },
+      "apply": {
+        "url": "https://www.cravath.com/careers/legal-hiring/recruiting/index.html",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -63,6 +68,11 @@
         "status": "ok",
         "note": "Firm-owned Administrative Staff > Paralegals page; application page at /paralegals/apply.html also checked and reachable."
       },
+      "apply": {
+        "url": "https://www.cravath.com/careers/administrative-staff/paralegals/index.html",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -111,6 +121,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Page loads and describes student outreach and affinity-group recruiting events, but names no 1L fellowship, diversity fellowship, or scholars program and states no eligibility criteria for any such program. The recruiting, how-to-apply and FAQ pages likewise contain no 1L application information."
+      },
+      "apply": {
+        "url": "https://www.cravath.com/diversity-and-inclusion/recruiting-student-outreach.html",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

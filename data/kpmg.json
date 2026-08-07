@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Firm's own early-career hub. Individual 2027 job postings on kpmguscareers.com/jobdetail/ could not be read - see blocked_urls."
       },
+      "apply": {
+        "url": "https://www.kpmguscareers.com/early-career/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -61,6 +66,11 @@
         "status": "ok",
         "note": "Separate row because the sponsorship statement is scoped to named practices, not to one program."
       },
+      "apply": {
+        "url": "https://www.kpmguscareers.com/early-career/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -108,6 +118,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Program landing page. A dedicated brochure exists at https://view.ceros.com/kpmg-design/embark-scholars-program (not fetched)."
+      },
+      "apply": {
+        "url": "https://www.kpmguscareers.com/early-career/program/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -157,6 +172,11 @@
         "status": "ok",
         "note": "Listed on the KPMG programs page; no dedicated eligibility page located."
       },
+      "apply": {
+        "url": "https://www.kpmguscareers.com/early-career/program/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -205,6 +225,11 @@
         "status": "blocked",
         "note": "Avature-hosted campus microsite, not fetched/readable in this session. Linked from https://www.kpmguscareers.com/early-career/program/"
       },
+      "apply": {
+        "url": "https://kpmgcampus.avature.net/advisorytalentprogram",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -252,6 +277,11 @@
         "checked": "2026-07-29",
         "status": "blocked",
         "note": "Avature-hosted campus microsite, not fetched/readable in this session. Linked from https://www.kpmguscareers.com/early-career/program/"
+      },
+      "apply": {
+        "url": "https://kpmgcampus.avature.net/hbcutalentplus",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

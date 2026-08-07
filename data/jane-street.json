@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Page readable but is the closed/holding version of the summer SWE NYC internship posting. A live 'Summer 2027' posting could not be located: janestreet.com open-roles list is JS-rendered (blocked), and Jane Street's Greenhouse board (boards-api.greenhouse.io/v1/boards/janestreet/jobs, read 2026-07-29) showed no SWE/Trading/QR summer internship entries — only ML Researcher (HKG), Cybersecurity Analyst (NYC), Data Engineer (NYC) summer internships."
       },
+      "apply": {
+        "url": "https://www.janestreet.com/join-jane-street/closed-internship/software-engineer-may-august-nyc/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -62,6 +67,11 @@
         "checked": "2026-07-29",
         "status": "blocked",
         "note": "No live Summer 2027 Trading internship posting locatable: open-roles list requires JavaScript rendering; Greenhouse board API listed no trading internship as of 2026-07-29. Not substituting aggregators."
+      },
+      "apply": {
+        "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -114,6 +124,11 @@
         "status": "blocked",
         "note": "No live Summer 2027 Quantitative Research internship posting locatable: open-roles list is JS-rendered; Greenhouse board API listed no QR internship as of 2026-07-29."
       },
+      "apply": {
+        "url": "https://www.janestreet.com/join-jane-street/open-roles/?type=internship",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -163,6 +178,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Included for mission 3: this is Jane Street's stated early-years program, distinct from the main internships. Main internships page (janestreet.com/join-jane-street/internships/) is silent on class year: 'We look for curious people from any background with a passion for technology and creative problem solving.'"
+      },
+      "apply": {
+        "url": "https://www.janestreet.com/join-jane-street/programs-and-events/jsip/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -216,6 +236,11 @@
         "check_method": "manual",
         "status": "ok",
         "note": "~$120/hr per aggregator. Site rejects automated reads. Jane Street's summer internship historically has no class-year bar — would be a top-tier open-all target if confirmed."
+      },
+      "apply": {
+        "url": "https://www.janestreet.com/join-jane-street/position/8599644002",
+        "kind": "program_page",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Tier 2 (CodePath partner page). Program dates listed are 'June 1 - August 7, 2026' — a cohort already in progress as of the 2026-07-29 check date. Page does not yet show a 2027-cycle application window; next-cycle opening date (expected ~October per typical pattern) is not stated."
       },
+      "apply": {
+        "url": "https://info.codepath.org/futureforce-tech-launchpad",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

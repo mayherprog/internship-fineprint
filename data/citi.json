@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Fetched successfully; content reflects the Pre-Internships program grid, which lists Early Identification alongside D1 Athlete Development, Freshman Discovery, Spring Insight, and Citi Insight Program (SMN and BHN tracks)."
       },
+      "apply": {
+        "url": "https://jobs.citi.com/earlycareers-programs-preinternships",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -64,6 +69,11 @@
         "check_method": "manual",
         "status": "ok",
         "note": "Re-sourced 2026-08-07: posting located and quote confirmed against the fetched page."
+      },
+      "apply": {
+        "url": "https://jobs.citi.com/job/new-york/markets-quantitative-analysis-summer-analyst-new-york-city-us-2027/287/89809477472",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {

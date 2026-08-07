@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design). The 12-month re-apply sentence sits in a collapsed FAQ accordion (present in DOM text, hidden from the visible page until expanded)."
       },
+      "apply": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -66,6 +71,11 @@
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
+      "apply": {
+        "url": "https://www.bain.com/careers/bel/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -115,6 +125,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
+      },
+      "apply": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -166,6 +181,11 @@
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
+      "apply": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -215,6 +235,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
+      },
+      "apply": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -280,6 +305,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
+      },
+      "apply": {
+        "url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {

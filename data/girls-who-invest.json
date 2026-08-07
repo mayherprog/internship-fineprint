@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Re-read 2026-08-07: girlswhoinvest.org/sip now returns 404; the program is restructured as the GWI Scholars Program (unified curriculum, then Online Intensive Program or Summer Intensive Program; only Internship Track Scholars matched with internships reach SIP). Page states the application for the 2027 GWI Scholars Program is now open."
       },
+      "apply": {
+        "url": "https://www.girlswhoinvest.org/apply-faq",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -76,6 +81,11 @@
         "check_method": "static",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://www.girlswhoinvest.org/",
+        "kind": "program_page",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

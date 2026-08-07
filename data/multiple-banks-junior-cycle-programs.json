@@ -13,6 +13,12 @@
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
+      "apply": {
+        "url": "https://careers.bankofamerica.com/en-us/students",
+        "kind": "careers_hub",
+        "checked": "2026-08-08",
+        "note": "Aggregate row: JPMorganChase, Citi, BNP Paribas and BlackRock run their own portals; the BofA students hub is linked as the live-verified entry point."
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

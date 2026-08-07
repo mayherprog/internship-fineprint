@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Server-rendered HTML read directly; no JSON-LD on page. Page states 'Applications for summer 2026 are now closed.' — no summer 2027 dates posted. Program targets first- and second-year students. Restructured by hand from the researching agent's report (its JSON serialization was malformed); quotes copied unchanged from the agent's verbatim findings. Trailing periods removed from two quotes after mechanical verification showed the page's list items carry none."
       },
+      "apply": {
+        "url": "https://careers.linkedin.com/pathways-programs/internships/Technical/first-play",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

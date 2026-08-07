@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Browser-rendered 2026-07-29, resolving the two conflicting fetch reads: the live page's eligibility checklist contains NO race/ethnicity self-identification item, and 'All are welcome to apply.' appears verbatim."
       },
+      "apply": {
+        "url": "https://career.seo-usa.org/apply-faq/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

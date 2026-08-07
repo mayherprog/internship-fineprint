@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "VERIFICATION MISSION RESOLVED: prior unsourced sentence CONFIRMED verbatim at this URL. Note: the prior pass may have seen a different job ID; the live Austin/NY SWE posting is 8624410002 (not the QR job 8142539002)."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/virtu/jobs/8624410002",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -70,6 +75,11 @@
         "status": "ok",
         "note": "Posting live. Prior finding of NO class-year restriction re-verified: only degree-field requirement stated ('Degree in Science, Math, Engineering or other quantitative field'), no class year or graduation-date restriction."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/virtu/jobs/8142539002",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -121,6 +131,11 @@
         "status": "ok",
         "note": "New York edition. Separate Winternship postings exist for Singapore (job 6426915002) and Dublin (job 8551689002), not read this pass."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/virtu/jobs/8445018002",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -171,6 +186,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.virtu.com/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

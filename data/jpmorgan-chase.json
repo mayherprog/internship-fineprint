@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Tier 2. The firm's own applicant tracking system posting (jpmc.fa.oraclecloud.com) is JavaScript-rendered and returned no readable job text, and careers.jpmorgan.com now 301-redirects to jpmorganchase.com/careers. This university career-services page carries the firm's posting text."
       },
+      "apply": {
+        "url": "https://career.mercy.edu/jobs/jpmorganchase-2027-commercial-investment-bank-securities-services-leadership-program-summer-analyst-program/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -75,6 +80,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Tier 2 university career-services reposting of the firm's posting text; the firm's own ATS page was unreadable."
+      },
+      "apply": {
+        "url": "https://careers.kelley.iu.edu/jobs/jpmorganchase-2027-asset-management-product-summer-analyst-program/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -140,6 +150,11 @@
         "status": "ok",
         "note": "Tier 1 firm page. Page is thin: it does not publish work-authorization language, graduation-date range, or selection steps."
       },
+      "apply": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -192,6 +207,11 @@
         "status": "ok",
         "note": "Tier 1 firm page, but it publishes essentially no eligibility detail. It states only that open locations are displayed dynamically. Sophomore/junior class-year claims circulating on third-party sites were NOT verifiable on any firm page and are deliberately not recorded here."
       },
+      "apply": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/winning-women-ba",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -242,6 +262,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Tier 1. A dedicated /programs/code-for-good URL returns HTTP 404; Code for Good now appears under the Tech for Social Good Hackathons page, which routes applicants to the Software Engineer Summer program page."
+      },
+      "apply": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/tfsg-hackathons",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -295,6 +320,11 @@
         "status": "ok",
         "note": "Tier 1. Included so the process and cooling-off quotes have a firm-domain anchor independent of any single program page."
       },
+      "apply": {
+        "url": "https://www.jpmorganchase.com/careers/how-we-hire",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -346,6 +376,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.jpmorganchase.com/careers/explore-opportunities/programs/jpmcfellowship",
+        "kind": "program_page",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

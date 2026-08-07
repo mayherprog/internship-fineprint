@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Workday posting browser-rendered 2026-07-29 (plain fetches get an empty SPA shell). Declined the cookie banner; full posting text read."
       },
+      "apply": {
+        "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Researcher-Intern--Summer-2027_R1505",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -61,6 +66,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Workday posting browser-rendered 2026-07-29."
+      },
+      "apply": {
+        "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/en-US/Campus_Careers/job/Quantitative-Developer-Intern--Summer-2027_R1506",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

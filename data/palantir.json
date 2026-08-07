@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Raw HTML fetched via curl (tier 1); WebFetch returned HTTP 403 on all three lever.co URLs, curl with browser UA succeeded (200). JSON-LD datePosted field on this listing reads 2021-07-01, which may indicate a long-standing/evergreen requisition ID rather than a freshly opened posting — flagged, not verified further."
       },
+      "apply": {
+        "url": "https://jobs.lever.co/palantir/e27af7ab-41fc-40c9-b31d-02c6cb1c505c",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -66,6 +71,11 @@
         "status": "ok",
         "note": "datePosted in JSON-LD: 2025-12-11. Fetched via curl (browser UA); WebFetch got HTTP 403."
       },
+      "apply": {
+        "url": "https://jobs.lever.co/palantir/315f695d-04d1-4a9a-848e-cb2bec7a997e",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -118,6 +128,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "datePosted in JSON-LD: 2026-06-30. Fetched via curl (browser UA); WebFetch got HTTP 403."
+      },
+      "apply": {
+        "url": "https://jobs.lever.co/palantir/d5486403-c050-4920-b2e0-91b69b61ebb2",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -178,6 +193,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.palantir.com/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Live posting on Five Rings' Greenhouse board (job-boards.greenhouse.io/fiveringsllc). Posted title is 'Summer Intern 2027 - Quantitative Trader', not 'Quantitative Trader Intern 2027'."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5139668008",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -62,6 +67,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Live posting on Five Rings' Greenhouse board. Posted title is 'Summer Intern 2027 - Software Developer', not 'SWE Intern 2027'."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/fiveringsllc/jobs/5349707008",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

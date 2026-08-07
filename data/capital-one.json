@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "No program on the live careers site is currently branded 'Technology Early Internship Program.' The site's early-career page (checked 2026-07-29) lists a 'Tech Summit' (short workshop event, not a 10-week internship) feeding into the 'Technology Internship Program' or 'Technology Development Program,' and a separate 10-week 'Analyst Early Internship Program.' Individual TEIP job requisition URLs surfaced by search (e.g. themuse.com/builtin.com listings for 'Technology Early Internship Program - Summer 2025') were for a prior cycle and are not live Capital One pages."
       },
+      "apply": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -61,6 +66,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "This is the current live 10-week 'Early Internship Program' family description page, not an individual job requisition. Every specific job-requisition URL found via search (Product Development Internship Program - Summer 2027, Finance Internship Program - Summer 2027, Commercial Internship Program - Summer 2027, Analyst Early Internship Program - Summer 2026) returned a 'Custom Job Error' page when loaded directly in-browser on 2026-07-29 — i.e. dead/closed requisitions, not JS-rendering failures (page loaded fine, just showed a 404-style error)."
+      },
+      "apply": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -114,6 +124,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.capitalonecareers.com/get-ahead-with-early-career-programs-for-students",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

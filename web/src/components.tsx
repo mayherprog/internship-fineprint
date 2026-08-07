@@ -1,5 +1,5 @@
 import type { FieldRecord, Program } from "./types";
-import { AUDIENCE_LABEL, FIELD_LABEL, SECTOR_LABEL } from "./types";
+import { APPLY_KIND_LABEL, AUDIENCE_LABEL, FIELD_LABEL, SECTOR_LABEL } from "./types";
 import { calendarLink } from "./calendar";
 
 const STATE_LABEL: Record<string, string> = {
@@ -152,6 +152,14 @@ export function ProgramCard({ r, why, open }: { r: Program; why?: string[]; open
           {meta} · {SECTOR_LABEL[r.sector] ?? r.sector} ·{" "}
           <SrcLink url={r.source.url ?? undefined} status={r.source.status} />
           {r.source.checked ? ` · read ${r.source.checked}` : ""}
+          {r.apply?.url ? (
+            <>
+              {" · "}
+              <a href={r.apply.url} rel="noopener nofollow">
+                apply ({APPLY_KIND_LABEL[r.apply.kind] ?? "link"})
+              </a>
+            </>
+          ) : null}
         </p>
         {r.source.note ? <p className="meta">{r.source.note}</p> : null}
         <CalendarLine r={r} />

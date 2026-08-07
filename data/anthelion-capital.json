@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body."
       },
+      "apply": {
+        "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

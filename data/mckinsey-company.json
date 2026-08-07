@@ -12,6 +12,11 @@
         "status": "blocked",
         "note": "www.mckinsey.com accepted the TLS connection then never returned a response body. Six attempts across two tools: WebFetch timed out at 60s (x2); curl over HTTP/2 aborted with 'HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR'; curl over HTTP/1.1 with a desktop Chrome user-agent timed out at 20s, 30s and 60s. Consistent with bot mitigation on the origin. No page text was ever received, so no quote can be taken."
       },
+      "apply": {
+        "url": "https://www.mckinsey.com/careers/search-jobs/jobs/businessanalystintern-15275",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -59,6 +64,11 @@
         "checked": "2026-07-29",
         "status": "blocked",
         "note": "Program name and canonical URL confirmed only from a site:mckinsey.com search result listing; the page itself never returned content (same origin-level timeouts). No eligibility text read."
+      },
+      "apply": {
+        "url": "https://www.mckinsey.com/careers/students/sophomore-diversity-leaders-internship",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -108,6 +118,11 @@
         "status": "blocked",
         "note": "Main page timed out. A secondary host, next-generation-women.mckinsey.com/how-apply, returned HTTP 301 and then the redirect target hung with no body. No eligibility text read."
       },
+      "apply": {
+        "url": "https://www.mckinsey.com/next-generation-women-leaders",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -156,6 +171,11 @@
         "status": "blocked",
         "note": "No canonical program page located on mckinsey.com. Only careers-blog articles about past awardees surfaced in search (e.g. /careers/meet-our-people/careers-blog/...), which are narrative posts, not eligibility statements. The careers/students hub itself timed out, so the program's own criteria page could neither be located nor read."
       },
+      "apply": {
+        "url": "https://www.mckinsey.com/careers/students",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -203,6 +223,11 @@
         "checked": "2026-07-29",
         "status": "blocked",
         "note": "Timed out on every attempt. Per-school sub-pages exist under /careers/students/undergraduate-degree-candidates/ (Northeastern, University of Chicago, and an 'other-schools' page appeared in site: results) and would likely carry cycle-specific dates, but none could be read."
+      },
+      "apply": {
+        "url": "https://www.mckinsey.com/careers/students/undergraduate-degree",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

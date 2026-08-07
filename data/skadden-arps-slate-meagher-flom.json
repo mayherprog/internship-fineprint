@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Skadden's site is an AngularJS client-rendered app; raw HTTP GET returns only a JS shell (17,726 bytes, no body copy). The verbatim eligibility sentence below was retrieved from the rendered UK Law Students and Graduates page. The US page at /law-students-and-graduates/united-states rendered but only a summarized (non-verbatim) extraction was obtainable, so no US-page text is quoted here. The URL /law-students-and-graduates/united-states/summer-associates returned Skadden's 404 page on the check date."
       },
+      "apply": {
+        "url": "https://www.skadden.com/careers/attorneys/law-students-and-graduates/united-kingdom",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -63,6 +68,11 @@
         "status": "ok",
         "note": "Page rendered and full body text was retrievable. This is the only Skadden program found that is explicitly aimed at people whose highest completed credential is an undergraduate degree. Note it is a full-time entry-level job, not a summer internship."
       },
+      "apply": {
+        "url": "https://www.skadden.com/careers/staff/paralegals",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -112,6 +122,11 @@
         "checked": "2026-07-29",
         "status": "dead",
         "note": "URL indexed by search engines but returned Skadden's 404 page on the check date: \"The page you are looking for is no longer available. Please use the navigation or search to find another page.\" The alternate indexed URL /careers/attorneys/apply-and-connect/opportunities/london/1l-scholar returned the same 404. No eligibility criteria could be read from any live Skadden page."
+      },
+      "apply": {
+        "url": "https://www.skadden.com/careers",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

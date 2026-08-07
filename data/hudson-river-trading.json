@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body. Compensation sentence changed; updated to current wording."
       },
+      "apply": {
+        "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -67,6 +72,11 @@
         "status": "ok",
         "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body."
       },
+      "apply": {
+        "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -120,6 +130,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "No live WiTTI job posting exists in HRT's Greenhouse board as of 2026-07-29; the prior Greenhouse posting (job 6305711, Winter 2026) returns 404 'Job not found'. Program description below is from the firm's student-opportunities page."
+      },
+      "apply": {
+        "url": "https://www.hudsonrivertrading.com/student-opportunities/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

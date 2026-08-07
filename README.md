@@ -16,7 +16,7 @@ read. Firms that publish nothing are recorded as publishing nothing.
 
 ```bash
 python3 -m unittest discover -s tests   # parser/dedup/scrub/verifier unit tests
-python3 tools/validate.py               # 6,508 assertions over 194 programs, 0 failures
+python3 tools/validate.py               # 7,284 assertions over 194 programs, 0 failures
 python3 tools/verify_quotes.py data     # re-fetch every cited page; quotes must still be there
 ```
 
