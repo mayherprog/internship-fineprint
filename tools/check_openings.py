@@ -31,6 +31,23 @@ vq = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(vq)  # reuse UA, norm(), TAG, CHALLENGE — one fetch culture
 
 TEXT_CAP = 30_000  # stored page text per row; enough for a readable diff
+LOG_CAP = 200      # newest-first entries kept in openings_log.json
+
+
+def append_log(events, log_path, date):
+    """Prepend OPENED/CHANGED events to the site-facing update log.
+
+    The log is the application's own update channel: build.py embeds it in
+    index.html and export_json.py ships it to the app, so an alert reaches
+    readers without anyone opening the repo. Same register as everything
+    else: what the page now shows, dated, with a link — never a verdict.
+    """
+    if not events:
+        return False
+    log = json.loads(log_path.read_text()) if log_path.exists() else []
+    log = [{"date": date, **e} for e in events] + log
+    log_path.write_text(json.dumps(log[:LOG_CAP], indent=1, ensure_ascii=False) + "\n")
+    return True
 
 
 def fetch_text(url):
@@ -175,10 +192,12 @@ def main(argv):
 
     targets_path = opt("--targets", HERE / "openings.json")
     state_path = opt("--state", HERE / "openings_state.json")
+    log_path = opt("--log", HERE / "openings_log.json")
     rows = json.loads(targets_path.read_text())["watch"]
     state = json.loads(state_path.read_text()) if state_path.exists() else {}
 
     counts = {}
+    events = []
     for row in rows:
         rid = row["id"]
         label = f"{row['firm']} — {row['program']}"
@@ -199,9 +218,17 @@ def main(argv):
         if evidence and verdict != "QUIET":
             line += f"\n    {evidence}"
         print(line)
+        if verdict in ("OPENED", "CHANGED"):
+            events.append({
+                "firm": row["firm"], "program": row["program"],
+                "verdict": verdict.lower(), "evidence": evidence[:500],
+                "url": row["watch"].get("url") or row["watch"].get("endpoint", ""),
+            })
 
     if "--no-write" not in argv:
         state_path.write_text(json.dumps(state, indent=1, ensure_ascii=False) + "\n")
+        append_log(events, log_path, month + "-" +
+                   __import__("datetime").date.today().strftime("%d"))
     print("\nopenings:", ", ".join(f"{k.lower()} {v}" for k, v in sorted(counts.items()))
           or f"nothing in its active window in {month}")
     return 0
