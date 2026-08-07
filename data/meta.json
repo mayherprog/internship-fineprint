@@ -45,9 +45,9 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.metacareers.com/careerprograms/students/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Browser-rendered 2026-07-29 (the old /students-and-grads/ path serves a blank SPA route even in a real browser). Live students page read in full: no class-year, sponsorship, or visa language present, and NO mention of Meta University anywhere — the page centers research/PhD roles and the general intern program."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
@@ -64,13 +64,15 @@
           "state": "stated",
           "tier": 1,
           "quote": "Whether you’re graduating and hoping to come aboard full-time or want to return for another internship, we’ll help enhance your skills at Meta.",
-          "source_url": "https://www.metacareers.com/careerprograms/students/"
+          "source_url": "https://www.metacareers.com/careerprograms/students/",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "stated",
           "tier": 1,
           "quote": "You’ll receive generous benefits, including housing assistance for the duration of your internship.",
-          "source_url": "https://www.metacareers.com/careerprograms/students/"
+          "source_url": "https://www.metacareers.com/careerprograms/students/",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {

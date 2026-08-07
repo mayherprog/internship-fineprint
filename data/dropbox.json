@@ -8,28 +8,31 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.dropbox.jobs/teams/emerging-talent",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Original URL https://jobs.dropbox.com/teams/emerging-talent 301-redirects to https://www.dropbox.jobs/teams/emerging-talent. Page contains no specific 2027-cycle opening/closing dates — only general timing language."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "undergraduate, master's, and PhD students",
-          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Visas are assessed on a case-by-case basis. You can discuss your specific visa needs with your recruiter.",
-          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent",
+          "checked": "2026-08-07"
         },
         "process": {
           "state": "stated",
           "tier": 1,
           "quote": "We encourage students to apply as early as possible.",
-          "source_url": "https://www.dropbox.jobs/teams/emerging-talent"
+          "source_url": "https://www.dropbox.jobs/teams/emerging-talent",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "silent",

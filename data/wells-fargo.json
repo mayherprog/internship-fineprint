@@ -8,9 +8,9 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.wellsfargojobs.com/en/early-careers/application-process/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Fetched via WebFetch (HTML-to-markdown + model extraction); quotes reflect the fetch tool's extraction of page text, not a raw-HTML/JSON-LD diff against source."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
@@ -27,7 +27,8 @@
           "state": "stated",
           "tier": 1,
           "quote": "applications open mid-June to July and remain open through fall; applications close on a rolling basis",
-          "source_url": "https://www.wellsfargojobs.com/en/early-careers/application-process/"
+          "source_url": "https://www.wellsfargojobs.com/en/early-careers/application-process/",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "silent",
@@ -40,7 +41,7 @@
         "tier": 1,
         "quote": "No. You cannot reapply for a position if you have been declined for it.",
         "source_url": "https://www.wellsfargojobs.com/en/frequently-asked-questions/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "parsed": {
           "trigger": "rejection",
           "duration_months": null,
@@ -61,9 +62,9 @@
       "audience": "sophomore",
       "source": {
         "url": "https://talent.wellsfargojobs.com/flows/sdfp2026",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Browser-rendered 2026-07-29 (page 403s to plain fetch). The page is a talent-community interest form, not a job application — verbatim on page: 'Submitting this interest form is not a job application and does not guarantee participation in the 2026 Sophomore Experience.'"
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
@@ -80,7 +81,8 @@
           "state": "stated",
           "tier": 1,
           "quote": "The Sophomore Experience previously known as the Sophomore Discovery Fellowship Program is a competitive opportunity focused on delivering a series of virtual experiences, layered with business exposure and structured talent assessments, creating a scalable pathway to internships across Wells Fargo Early Careers lines of business.",
-          "source_url": "https://talent.wellsfargojobs.com/flows/sdfp2026"
+          "source_url": "https://talent.wellsfargojobs.com/flows/sdfp2026",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "unverified",

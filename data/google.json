@@ -159,19 +159,16 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027",
-        "checked": "2026-07-27",
+        "checked": "2026-08-07",
         "check_method": "static",
-        "status": "ok",
-        "note": ""
+        "status": "dead",
+        "note": "Browser session 2026-08-07: the posting URL redirects to the generic Google Careers job search. Searches for 'Software Engineering Intern' 2027 and 'intern summer 2027' return 0 results (site search verified working: 3,668 jobs unfiltered, 11 for 'intern', none of them this role). The Summer 2027 BS SWE intern posting is no longer listed; nothing quotable."
       },
       "fields": {
         "class_year": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "intended for students in all academic years",
-          "checked": "2026-07-27",
-          "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027",
-          "source_status": "ok"
+          "source_url": "https://www.google.com/about/careers/applications/jobs/results/85564713261245126-software-engineering-intern-bs-summer-2027"
         },
         "sponsorship": {
           "state": "unverified"

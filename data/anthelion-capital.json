@@ -8,9 +8,9 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Ashby posting browser-rendered 2026-07-29 (plain fetch got only the title). Full text read. Three cohorts: Fall 2026 (September–November), Winter 2026 (December–February), Summer 2027 (June–August)."
+        "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body."
       },
       "fields": {
         "class_year": {
@@ -23,25 +23,29 @@
               "2026-12",
               "2028-08"
             ]
-          }
+          },
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
           "quote": "Must have US work authorization or ability to use OPT during the time of your internship.",
-          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+          "checked": "2026-08-07"
         },
         "process": {
           "state": "stated",
           "tier": 1,
           "quote": "Logistics: 12-week onsite internship — Fall 2026 (September–November); Winter 2026 (December–February); or Summer 2027 (June–August).",
-          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "stated",
           "tier": 1,
           "quote": "Compensation: $1800 - $2000 per week depending on level of coursework. Strong interns are our primary source of full-time offers.",
-          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96"
+          "source_url": "https://jobs.ashbyhq.com/anthelioncap/5e2ea37b-2369-474e-b717-c24c60976e96",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {

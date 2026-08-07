@@ -8,16 +8,17 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Program page renders as static text and was readable. A companion page, https://www.bain.com/careers/hiring-process/associate-consultant-intern/, was also read and contains no reapplication or eligibility language."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design). The 12-month re-apply sentence sits in a collapsed FAQ accordion (present in DOM text, hidden from the visible page until expanded)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "This program is typically for current bachelor's and master's students with one full summer left before graduation.",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -33,7 +34,8 @@
           "state": "stated",
           "tier": 1,
           "quote": "Compensation for this role in the United States includes a monthly base salary of $9,000 and Bain's best-in-class benefits package",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/associate-consultant-internship/",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {
@@ -41,7 +43,7 @@
         "tier": 1,
         "quote": "Yes, you may re-apply but we will ask that you refrain from doing so until at least 12 months has passed, in line with our global approach to recruiting.",
         "source_url": "https://www.bain.com/careers-old/recruiting/bfls/sea-recruiting/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "parsed": {
           "trigger": "unknown",
           "duration_months": 12,
@@ -60,16 +62,17 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.bain.com/careers/bel/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Page states verbatim: \"Applications for our 2026 program are now closed. Check back later for more information on our 2027 BEL program.\" No 2027 eligibility criteria are published yet."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "We founded the BEL program in 2009 to help undergraduate students explore a career in management consulting.",
-          "source_url": "https://www.bain.com/careers/bel/"
+          "source_url": "https://www.bain.com/careers/bel/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -109,16 +112,17 @@
       "audience": "sophomore",
       "source": {
         "url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Page states verbatim: \"Applications for our 2026 program are now closed. Check back later for more information on our 2027 CREW program.\""
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "Bain's Connecting and Resourcing Empowered Women (CREW) program is for second-year (sophomore) undergraduate students",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -158,16 +162,17 @@
       "audience": "freshman",
       "source": {
         "url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Page states verbatim: \"Applications for our 2025 program are now closed. Check back later this year for more information on our 2026 Consulting Kickstart program.\" This page appears staler than BEL/CREW, which already reference 2027."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "We welcome first-year (freshman) undergraduate students to join us for this interactive, virtual series.",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/consulting-kickstart/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -207,9 +212,9 @@
       "audience": "sophomore",
       "source": {
         "url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Page states verbatim: \"Applications for our First Forward program are now closed.\" Page describes a 1.5-day in-person summit and includes an FAQ."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
@@ -222,7 +227,8 @@
               "2027-12",
               "2028-06"
             ]
-          }
+          },
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -233,7 +239,8 @@
           "state": "stated",
           "tier": 1,
           "quote": "Applications for our First Forward program are now closed. Please check back later for details about our next application cycle.",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/first-forward/",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "silent",
@@ -270,16 +277,17 @@
       "audience": "all",
       "source": {
         "url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Spark is a DACH-region (Germany/Austria/Switzerland) program, NOT a US sophomore program. It is open to bachelor's, master's and PhD students, so audience is 'all', not undergraduate-only."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "This program is for university students enrolled in a Bachelor's program (from the second semester onward), a Master's, or a PhD—no matter the discipline—with at least six months left before graduation.",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -290,7 +298,8 @@
           "state": "stated",
           "tier": 1,
           "quote": "We accept applications year-round from students interested in one of our German, Swiss, or Austrian offices.",
-          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/"
+          "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/spark/",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "silent",

@@ -206,16 +206,17 @@
       "audience": "paralegal",
       "source": {
         "url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Firm-published PDF job description dated \"Last Updated: June__, 2025\". This is a full-time hire, not a student program. Latham publishes no paralegal INTERNSHIP or undergraduate paralegal pipeline program that I could find on its own domain."
+        "note": "Verified 2026-08-07: PDF fetched and text-extracted; quote verbatim."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "Bachelor’s degree required",
-          "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf"
+          "source_url": "https://www.lw.com/admin/upload/SiteAttachments/Paralegal-I.pdf",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
