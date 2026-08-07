@@ -8,22 +8,23 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Greenhouse job posting; first published 2026-04-01, last updated 2026-04-30 per boards-api metadata."
+        "note": "Re-read 2026-08-07: stated graduation window moved to Fall 2027-Summer 2028 (was: \" expected graduation date between Fall 2027 and Spring 2028.\")."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines with an expected graduation date between Fall 2027 and Spring 2028.",
+          "quote": "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines with an expected graduation date between Fall 2027 and Summer 2028.",
           "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
           "parsed": {
             "graduates_between": [
               "2027-09",
-              "2028-06"
+              "2028-08"
             ]
-          }
+          },
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -65,22 +66,23 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Greenhouse job posting."
+        "note": "Re-read 2026-08-07: stated graduation window moved to Fall 2027-Summer 2028 (was: \" expected graduation date between Fall 2027 and Spring 2028.\")."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines with an expected graduation date between Fall 2027 and Spring 2028.",
+          "quote": "Active student pursuing a BS, MS, or PhD in mathematics, statistics, machine learning, physics, computer science, or other scientific disciplines with an expected graduation date between Fall 2027 and Summer 2028.",
           "source_url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
           "parsed": {
             "graduates_between": [
               "2027-09",
-              "2028-06"
+              "2028-08"
             ]
-          }
+          },
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",

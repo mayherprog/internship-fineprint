@@ -8,9 +8,9 @@
       "audience": "sophomore",
       "source": {
         "url": "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Program page readable. Formal eligibility criteria live on a separate page: https://careers.microsoft.com/v2/global/en/internship_eligibility . No Summer 2027 dates, no application-open date, and no F-1/CPT/OPT language appear on the Explore page itself."
+        "note": "Program page live. Browser session 2026-08-07: Microsoft moved applications to apply.careers.microsoft.com (Eightfold); searching that portal for \"Explore\" returns no Explore Microsoft posting yet, while six Redmond Software Engineer intern tracks for Summer 2027 were posted 2026-08-03."
       },
       "fields": {
         "class_year": {
@@ -56,7 +56,7 @@
         },
         "notes": "This is the closest thing Microsoft publishes to a reapplication rule, and it is NOT a cooling-off period — it is the answer to the FAQ question 'I interviewed last year, can I skip to the final round of interviews this year?' and it requires a fresh application each year rather than imposing a wait. The quote is reproduced exactly as it appears, including the missing terminal period. Microsoft's Early in Profession FAQ (https://careers.microsoft.com/v2/global/en/universityinternship) and the internship eligibility page (https://careers.microsoft.com/v2/global/en/internship_eligibility) were both read in full: NEITHER states any waiting period after rejection, any assessment-retake rule, or any cap on the number of applications per cycle. That is silence in the public record, not evidence that no such rule exists internally. The eligibility page does state a separate restriction on consecutive internships — see the University Internship row."
       },
-      "cycle": "Summer 2027 / 2026-2027 cycle — no cycle-specific opening date published as of 2026-07-29",
+      "cycle": "Summer 2027 / 2026-2027 cycle — no cycle-specific opening date published as of 2026-08-07",
       "location": "Redmond WA, Atlanta GA, and India campuses (per program page)"
     },
     {
@@ -115,6 +115,64 @@
       },
       "cycle": "Summer 2027 / 2026-2027 cycle — no cycle-specific opening date published as of 2026-07-29",
       "location": "United States / Canada / Latin America (eligibility page region block cited)"
+    },
+    {
+      "id": "software-engineer-intern-redmond-summer-2027",
+      "name": "Software Engineer: Intern Opportunities for University Students (Redmond, Summer 2027)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+        "checked": "2026-08-07",
+        "check_method": "manual",
+        "status": "ok",
+        "note": "Read in a live browser session 2026-08-07; posting dated Aug 03, 2026 (job number 200046156, CoreAI track). The page is JS-rendered on the new Eightfold portal, so mechanical quote verification will report BLOCKED. Five sibling Redmond tracks posted the same day: Fullstack Product (1970393556922922), Cloud & Distributed Backend (1970393556922923), AI/ML & LLM (1970393556922929), Security & Identity (1970393556922930), Data Platform/Analytics (1970393556922931)."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Currently pursuing Bachelor's Degree in Computer Science or related technical field with at least one semester/term remaining following the completion of the internship",
+          "source_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+          "checked": "2026-08-07"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+          "checked": "2026-08-07"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Microsoft accepts applications and processes offers for these roles on an ongoing basis throughout the academic calendar (September - April)",
+          "source_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+          "checked": "2026-08-07"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The base pay range for this internship is USD $5,690.00 - $11,210.00 per month.",
+          "source_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+          "checked": "2026-08-07"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+        "checked": "2026-08-07",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language in the posting text read 2026-08-07."
+      },
+      "cycle": "Summer 2027",
+      "location": "Redmond, Washington",
+      "opens": "posted Aug 03, 2026",
+      "closes": "This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis until the position is filled."
     }
   ],
   "provenance": {
