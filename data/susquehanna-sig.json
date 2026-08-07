@@ -64,9 +64,9 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Read from schema.org JobPosting JSON-LD in raw static HTML; rendered-page fetch showed only header/nav. Posting states: 'Susquehanna is looking for highly motivated full-time students for our 10-week quantitative strategy development summer internship program.'"
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design). Note: the posting now renders under the title 'Quantitative Strategy Developer Internship: Summer 2027'; all four stated quotes remain verbatim on the page."
       },
       "fields": {
         "class_year": {
@@ -76,7 +76,8 @@
           "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
           "parsed": {
             "graduates_by": "2028-08"
-          }
+          },
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "stated",
@@ -85,7 +86,8 @@
           "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
           "parsed": {
             "sponsors": true
-          }
+          },
+          "checked": "2026-08-07"
         },
         "process": {
           "state": "silent",
@@ -96,7 +98,8 @@
           "state": "stated",
           "tier": 1,
           "quote": "Housing provided for duration of internship",
-          "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us"
+          "source_url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {

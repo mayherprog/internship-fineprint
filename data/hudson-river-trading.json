@@ -8,16 +8,17 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Page renders Greenhouse job 8052083; full text verified via raw Greenhouse boards API (boards-api.greenhouse.io/v1/boards/wehrtyou/jobs/8052083), which is the content source for the careers page. Also mirrored at hudsonrivertrading.com/hrt-job/software-engineering-internship-c-or-python-summer-2027/ (description is JS-injected there)."
+        "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body. Compensation sentence changed; updated to current wording."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "You are a full-time undergraduate student studying computer science or a related field",
-          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083"
+          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -28,13 +29,16 @@
           "state": "stated",
           "tier": 1,
           "quote": "We do not allow multiple applications. Please apply to the ONE role you are most interested in and we will consider you for all open positions when reviewing your application.",
-          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083"
+          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "We offer a weekly base salary offer in addition to a competitive signing bonus, company-paid housing, meals, and other perks. US: Weekly base salary of 5,800 USD Singapore: Weekly base salary of 7,650 SGD",
-          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083"
+          "quote": "We offer a weekly base salary offer in addition to a competitive signing bonus, company-paid housing, meals, and other perks.",
+          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=8052083",
+          "checked": "2026-08-07",
+          "notes": "Posting separately lists 'New York: Weekly base salary of 5,800 USD'. Prior quote (\"We offer a weekly base salary offer in addition to a competitive signing bonus, ...\") no longer on the posting."
         }
       },
       "cooling_off": {
@@ -59,16 +63,17 @@
       "audience": "all",
       "source": {
         "url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Greenhouse job 7964062, verified via raw boards API. Audience is undergraduate or master's per quote; separate PhD posting exists (gh_jid 8059837)."
+        "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "You are a full-time undergraduate or master’s student in a quantitative discipline (math, physics, computer science, statistics, or a related program)",
-          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062"
+          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -79,13 +84,15 @@
           "state": "stated",
           "tier": 1,
           "quote": "We do not allow multiple applications. Please apply to the ONE role you are most interested in and we will consider you for all open positions when reviewing your application.",
-          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062"
+          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "stated",
           "tier": 1,
           "quote": "We offer a weekly base salary offer in addition to a competitive signing bonus, company-paid housing, meals, and other perks. New York: Weekly base salary of 5,800 USD Singapore: Weekly base salary of 7,650 SGD",
-          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062"
+          "source_url": "https://www.hudsonrivertrading.com/careers/job/?gh_jid=7964062",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {

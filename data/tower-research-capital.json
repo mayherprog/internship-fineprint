@@ -108,17 +108,17 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://tower-research.com/open-positions/?gh_jid=8024128",
-        "checked": "2026-07-27",
+        "checked": "2026-08-07",
         "check_method": "static",
         "status": "ok",
-        "note": ""
+        "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "Bachelor's, Master's, or PhD student",
-          "checked": "2026-07-27",
+          "checked": "2026-08-07",
           "source_url": "https://tower-research.com/open-positions/?gh_jid=8024128",
           "source_status": "ok"
         },

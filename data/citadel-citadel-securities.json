@@ -8,16 +8,17 @@
       "audience": "all",
       "source": {
         "url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Read via interactive browser session 2026-07-29; automated fetches return HTTP 403 on this domain. 11-week program per posting."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "Bachelor's, master's or PhD in computer science, computer engineering or related fields",
-          "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
+          "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -28,13 +29,15 @@
           "state": "stated",
           "tier": 1,
           "quote": "There are four steps in the process. Typically, it takes about eight weeks from start to finish.",
-          "source_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/"
+          "source_url": "https://www.citadel.com/careers/career-perspectives/our-engineering-interview-process/",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "stated",
           "tier": 1,
           "quote": "In accordance with applicable law, the base salary range for this role is $4,500 to $5,800 per week.",
-          "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/"
+          "source_url": "https://www.citadelsecurities.com/careers/details/software-engineer-intern-us/",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {
@@ -59,16 +62,17 @@
       "audience": "freshman",
       "source": {
         "url": "https://www.citadel.com/careers/programs-and-events/",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Read via interactive browser session 2026-07-29; automated fetches return HTTP 403 on this domain."
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "An invitation-only, two-day event in New York, London, Hong Kong or Singapore for a select group of first- and second-year undergraduates.",
-          "source_url": "https://www.citadel.com/careers/programs-and-events/"
+          "source_url": "https://www.citadel.com/careers/programs-and-events/",
+          "checked": "2026-08-07"
         },
         "sponsorship": {
           "state": "silent",
@@ -156,17 +160,17 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
-        "checked": "2026-07-27",
+        "checked": "2026-08-07",
         "check_method": "static",
         "status": "ok",
-        "note": ""
+        "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
           "quote": "Bachelor's, master's or PhD in computer science, computer engineering or related fields",
-          "checked": "2026-07-27",
+          "checked": "2026-08-07",
           "source_url": "https://www.citadel.com/careers/details/software-engineer-intern-us/",
           "source_status": "ok"
         },
