@@ -12,6 +12,11 @@
         "status": "dead",
         "note": "Re-read 2026-08-07: Greenhouse posting removed; the URL now serves the board index. The posting's stated deadline (Friday, July 31 at 11:59pm ET) has passed."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -63,6 +68,11 @@
         "checked": "2026-08-07",
         "status": "dead",
         "note": "Re-read 2026-08-07: Greenhouse posting removed; the URL now serves the board index. The posting's stated deadline (Friday, July 31 at 11:59pm ET) has passed."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {
@@ -116,6 +126,11 @@
         "status": "dead",
         "note": "Re-read 2026-08-07: Greenhouse posting removed; the URL now serves the board index. The posting's stated deadline (Friday, July 31 at 11:59pm ET) has passed."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -167,6 +182,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Fetched via the Greenhouse boards API 2026-08-07."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -230,6 +250,11 @@
         "status": "ok",
         "note": "Fetched via the Greenhouse boards API 2026-08-07."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -291,6 +316,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Fetched via the Greenhouse boards API 2026-08-07. Stated deadline has passed but the posting was still live on the board 2026-08-07."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {

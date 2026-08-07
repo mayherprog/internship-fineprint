@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Careers page itself is JS-rendered and returned no content on direct fetch; posting content retrieved via Greenhouse job board API (boards-api.greenhouse.io/v1/boards/oldmissioncapital/jobs/7796180003), which mirrors the same gh_jid posting."
       },
+      "apply": {
+        "url": "https://www.oldmissioncapital.com/careers/?gh_jid=7796180003",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

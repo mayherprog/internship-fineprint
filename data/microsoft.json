@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Program page live. Browser session 2026-08-07: Microsoft moved applications to apply.careers.microsoft.com (Eightfold); searching that portal for \"Explore\" returns no Explore Microsoft posting yet, while six Redmond Software Engineer intern tracks for Summer 2027 were posted 2026-08-03."
       },
+      "apply": {
+        "url": "https://careers.microsoft.com/v2/global/en/exploremicrosoft",
+        "kind": "program_page",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -68,6 +73,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Region-segmented eligibility table. Quotes below are from the United States / Canada / Latin America block."
+      },
+      "apply": {
+        "url": "https://careers.microsoft.com/v2/global/en/internship_eligibility",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -126,6 +136,11 @@
         "check_method": "manual",
         "status": "ok",
         "note": "Read in a live browser session 2026-08-07; posting dated Aug 03, 2026 (job number 200046156, CoreAI track). The page is JS-rendered on the new Eightfold portal, so mechanical quote verification will report BLOCKED. Five sibling Redmond tracks posted the same day: Fullstack Product (1970393556922922), Cloud & Distributed Backend (1970393556922923), AI/ML & LLM (1970393556922929), Security & Identity (1970393556922930), Data Platform/Analytics (1970393556922931)."
+      },
+      "apply": {
+        "url": "https://apply.careers.microsoft.com/careers/job/1970393556951950",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {

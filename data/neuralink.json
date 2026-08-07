@@ -12,6 +12,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/neuralink/jobs/6594422003",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

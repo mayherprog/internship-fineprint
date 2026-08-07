@@ -12,6 +12,11 @@
         "status": "dead",
         "note": "URL no longer resolves to a job posting; Greenhouse redirects/serves the generic Schonfeld job-board index (54 current openings, none titled '2027 Summer Internships'). The Greenhouse API mirror (boards-api.greenhouse.io/v1/boards/schonfeld/jobs/7635430) also returned HTTP 404. Confirmed via the full board listing (boards-api.greenhouse.io/v1/boards/schonfeld/jobs, checked 2026-07-29) that no 2027-titled internship req currently exists — only 2026-cycle internships (São Paulo QR/Strat, São Paulo LATAM Investment Analyst, São Paulo Operational Risk) and one open-dated Hong Kong QR/Developer intern req are live."
       },
+      "apply": {
+        "url": "https://www.schonfeld.com/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

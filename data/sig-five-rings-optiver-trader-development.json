@@ -13,6 +13,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://github.com/Julian048/CS-Everything-but-Internships",
+        "kind": "program_page",
+        "checked": "2026-07-27"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

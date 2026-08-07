@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Live posting re-read 2026-07-29; both prior sentences confirmed. Same requisition mirrored at https://job-boards.greenhouse.io/flowtraders/jobs/8047166. Reconstructed from the researching agent's output after its serialization was malformed; field values copied unchanged."
       },
+      "apply": {
+        "url": "https://www.flowtraders.com/careers/job-description/8047166",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

@@ -12,6 +12,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://careers.epic.com/jobs/intern/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

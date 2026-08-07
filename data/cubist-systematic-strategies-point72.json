@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Tier-3 mirror of the Point72 posting (page explicitly titled 'Summer 2027 Quantitative Developer Internship'). Tier-1 sources unreadable: careers.point72.com renders via JavaScript and returned empty to fetch; the Greenhouse posting job-boards.greenhouse.io/point72/jobs/7297613002 302-redirects to careers.point72.com with error=true, suggesting it is no longer live on Greenhouse."
       },
+      "apply": {
+        "url": "https://www.builtinnyc.com/job/summer-2025-quantitative-developer-internship/3105208",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -59,6 +64,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Read fully rendered via interactive browser session 2026-07-29. The separate Academy SUMMER INTERNSHIP posting (CPA-0014081) returns 404 as of this date - its row awaits the next cycle's posting."
+      },
+      "apply": {
+        "url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -120,6 +130,11 @@
         "check_method": "static",
         "status": "dead",
         "note": "Browser session 2026-08-07: Point72 migrated off Greenhouse; the posting URL now redirects to careers.point72.com (Salesforce). That hub lists no Cubist internship (only full-time Cubist roles and Point72 Academy programs for upcoming graduates). Nothing quotable for the Cubist intern row."
+      },
+      "apply": {
+        "url": "https://careers.point72.com/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

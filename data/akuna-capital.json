@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Prior-pass sentence VERIFIED: the requirements bullet is verbatim 'Graduating by August 2028' (confirmed via full verbatim dump of the requirements section, 3 independent reads). Degree bullet: 'Pursuing a bachelor's, master's, or Ph.D. in a technical field (computer science/engineering, math, physics, or equivalent)' — posting is open beyond undergraduates."
       },
+      "apply": {
+        "url": "https://akunacapital.com/careers/job/8018847/software-engineer-intern---c-summer-2027/?gh_jid=8018847",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -69,6 +74,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Quant postings phrase the class-year rule 'Must graduate by August 2028' — different wording from the SWE posting's 'Graduating by August 2028'."
+      },
+      "apply": {
+        "url": "https://akunacapital.com/careers/job/8021481/quantitative-development-strategy-intern-summer-2027/?gh_jid=8021481",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -131,6 +141,11 @@
         "status": "ok",
         "note": "Degree requirement verbatim: 'Pursuing a bachelor's, masters or PhD in Statistics, Computer Science, Engineering, Mathematics (or a related subject)'."
       },
+      "apply": {
+        "url": "https://akunacapital.com/careers/job/8036614/quantitative-research-intern-summer-2027/?gh_jid=8036614",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -191,6 +206,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Akuna's early-exposure program described on the internships page as multiple one-week programs at Chicago HQ giving an 'accelerated, hands-on introduction to the knowledge, skills, and tools' used by their teams. The page does NOT state a class-year for Sneak Peek; 'sophomore' here reflects only that it is positioned separately from the penultimate-year Akunacademy internship — the site itself does not say 'sophomore'. Main internship eligibility on same page: 'Each year, students in the penultimate year of their degree join Akuna for immersive, fast-paced learning experiences'."
+      },
+      "apply": {
+        "url": "https://akunacapital.com/work-with-us/internships/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

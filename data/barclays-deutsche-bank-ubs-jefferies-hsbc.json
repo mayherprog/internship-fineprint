@@ -13,6 +13,12 @@
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
+      "apply": {
+        "url": "https://search.jobs.barclays/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08",
+        "note": "Aggregate row: Deutsche Bank, UBS, Jefferies and HSBC run their own application portals."
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

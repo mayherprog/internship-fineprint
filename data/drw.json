@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "VERIFICATION MISSION RESULT: prior unsourced sentence CONFIRMED. Posting text reads 'expected graduation date between December 2027 and June 2028' (identical wording, lowercase 'e' in situ since it appears mid-sentence). Independently confirmed on the Greenhouse mirror https://job-boards.greenhouse.io/drweng/jobs/7992936. Note an OLDER posting cycle (drweng/jobs/7012891 era, surfaced in aggregator snippets) carried 'December 2026 and August 2027' -- that is the prior cycle, not the current 2027 posting."
       },
+      "apply": {
+        "url": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -63,6 +68,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "A separate Singapore QTA Intern posting (quantitative-trading-analyst-intern-3474906) states 'expected graduation date between December 2027 and October 2028' -- do not conflate with Chicago."
+      },
+      "apply": {
+        "url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -120,6 +130,11 @@
         "checked": "2026-07-29",
         "status": "blocked",
         "note": "HTTP 500 Internal Server Error on two fetch attempts. Listing URL surfaced via search of drw.com; content unread. All fields unverified -- sophomore audience is inferred from program-type naming only, not verified."
+      },
+      "apply": {
+        "url": "https://www.drw.com/work-at-drw/listings/discover-drw-chicago-2771468",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

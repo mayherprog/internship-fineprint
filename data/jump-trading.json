@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "jumptrading.com wrapper page is JS-rendered/403 to plain fetch; content read via Greenhouse ATS static endpoints (boards-api.greenhouse.io/v1/boards/jumptrading/jobs/8002989 and job-boards.greenhouse.io/embed/job_app?for=jumptrading&token=8002989), which serve the same posting. Audience marked 'all' because posting states no class-year restriction. Posting describes a 10-week internship that 'is the primary way we identify top young software engineers' and 'a proven path for earning full-time opportunities at Jump' (per content read)."
       },
+      "apply": {
+        "url": "https://www.jumptrading.com/hr/job?gh_jid=8002989",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -65,6 +70,11 @@
         "status": "ok",
         "note": "Read via Greenhouse ATS API (boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7848371). London/Amsterdam variant also exists (gh_jid=8050772), not read."
       },
+      "apply": {
+        "url": "https://www.jumptrading.com/hr/job?gh_jid=7848371",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -114,6 +124,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Read via Greenhouse ATS API (boards-api.greenhouse.io/v1/boards/jumptrading/jobs/7982648). Separate PhD-track intern posting exists (gh_jid=8049938), not read."
+      },
+      "apply": {
+        "url": "https://www.jumptrading.com/hr/job?gh_jid=7982648",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

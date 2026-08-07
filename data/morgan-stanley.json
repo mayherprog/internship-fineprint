@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Morgan Stanley's own tal.net applicant tracking system posting; loaded with full job content."
       },
+      "apply": {
+        "url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/candidate/so/pm/1/pl/1/opp/20793-2027-Investment-Banking-Summer-Analyst-Program-United-States/en-GB",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -76,6 +81,11 @@
         "status": "ok",
         "note": "Firm's own tal.net posting. Page loaded with full content but is flagged on-site as no longer active as of the check date; text below is what the firm published for this cycle."
       },
+      "apply": {
+        "url": "https://morganstanley.tal.net/vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/20928-2027-Wealth-Management-Summer-Analyst-Program-New-York/en-GB",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -137,6 +147,11 @@
         "status": "ok",
         "note": "Tier 2 university career services page relaying the firm's posting. The firm's own tal.net posting for this program was not retrieved; treat as tier 2 only."
       },
+      "apply": {
+        "url": "https://connections.villanova.edu/blog/2026/06/16/rising-juniors-apply-now-for-morgan-stanleys-2027-technology-summer-analyst-program/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -185,6 +200,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Tier 2 university page. STALE: its stated graduation window is December 2025 to June 2026 and its listed program dates are May 2023, so it documents a prior cycle, not the 2027 cycle. No current Morgan Stanley-domain page for this program was retrieved. Audience is first-year/freshman students; the schema enum has no 'freshman' value so 'sophomore' is used as the nearest early-ID bucket."
+      },
+      "apply": {
+        "url": "https://nuplace.northeastern.edu/pipeline-programs/morgan-stanley-freshman-enhancement-program/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -236,6 +256,11 @@
         "status": "blocked",
         "note": "Morgan Stanley's own Early Insight FAQ timed out on two separate fetch attempts (ETIMEDOUT, read timeout). No firm-domain or university-career-services page carrying 2027-cycle Early Insights eligibility text was successfully retrieved within budget. Search-engine snippets asserting a 'December 2027 to June 2028' second-year eligibility window were seen but could NOT be traced to a retrievable primary page, so they are deliberately NOT recorded as quotes."
       },
+      "apply": {
+        "url": "https://www.morganstanley.com/people-opportunities/emea-early-insight-faq",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -284,6 +309,11 @@
         "check_method": "static",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://www.morganstanley.com/people-opportunities/students-graduates",
+        "kind": "program_page",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

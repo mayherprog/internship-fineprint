@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Firm program-overview page loaded but contained no sophomore-specific program name, dates, or eligibility text; general job-search/job-detail pages returned no live sophomore-tagged 2027-cycle posting during this search."
       },
+      "apply": {
+        "url": "https://careers.bankofamerica.com/en-us/students/programs/global-corporate-investment-banking",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -60,6 +65,11 @@
         "status": "ok",
         "note": "Firm students landing page and programs listing loaded successfully but contained only three broad umbrella categories (Banking Markets & Finance; Corporate Functions; Technology & Operations) and a generic 4-step process; no sophomore-tagged Technology posting or dates surfaced. Aggregator sites (WayUp) reference a 'Global Technology Sophomore Summer Analyst Program' name but per instructions that text is not eligible to be quoted."
       },
+      "apply": {
+        "url": "https://careers.bankofamerica.com/en-us/students",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -106,6 +116,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Live tier-1 job posting; explicitly NOT described as a sophomore program."
+      },
+      "apply": {
+        "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14419/global-technology-summer-analyst-2027-business-analyst-multiple-locations",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -164,6 +179,11 @@
         "check_method": "manual",
         "status": "ok",
         "note": "Re-sourced 2026-08-07: posting located and quote confirmed against the fetched page."
+      },
+      "apply": {
+        "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14420/quantitative-data-analyst-summer-analyst-program-multiple-locations",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {

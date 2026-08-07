@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "WebFetch returned only nav/footer (JS-rendered); raw HTML curl succeeded (HTTP 200) and contained embedded Next.js JSON with full job data, used for all quotes below"
       },
+      "apply": {
+        "url": "https://jobs.apple.com/en-us/details/200664785-3810/software-undergrad-engineering-internships",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -62,6 +67,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Original URL returned HTTP 301 redirect to the canonical slug ...-undergrad-internships; followed redirect (curl -L), got HTTP 200 with embedded Next.js JSON job data, used for all quotes below"
+      },
+      "apply": {
+        "url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-und",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -114,6 +124,11 @@
         "check_method": "manual",
         "status": "ok",
         "note": "Same as above."
+      },
+      "apply": {
+        "url": "https://jobs.apple.com/en-us/details/200664780-3810/machine-learning-and-artificial-intelligence-undergrad-internships",
+        "kind": "posting",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

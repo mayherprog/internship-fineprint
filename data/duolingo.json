@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Browser-rendered 2026-07-29: careers.duolingo.com loads fully; ZERO Thrive postings listed (matches the empty Greenhouse board) — program is off-cycle, expected to repost late September per the firm's blog. Earlier 'blocked' status superseded by this render."
       },
+      "apply": {
+        "url": "https://careers.duolingo.com/?type=Thrive+Program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",

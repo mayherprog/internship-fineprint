@@ -13,6 +13,12 @@
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
+      "apply": {
+        "url": "https://www.hudsonrivertrading.com/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08",
+        "note": "Covers the HRT side; the Virtu Winternship applies via https://www.virtu.com/careers/."
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

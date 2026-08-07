@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Greenhouse job-boards posting under org slug ctccampusboard (not chicagotradingcompany)."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -70,6 +75,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Greenhouse job-boards posting under org slug ctccampusboard (not chicagotradingcompany)."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

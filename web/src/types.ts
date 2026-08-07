@@ -50,6 +50,19 @@ export interface Source {
   note?: string;
 }
 
+export interface Apply {
+  url: string;
+  kind: "posting" | "program_page" | "careers_hub";
+  checked?: string;
+  note?: string;
+}
+
+export const APPLY_KIND_LABEL: Record<Apply["kind"], string> = {
+  posting: "posting",
+  program_page: "program page",
+  careers_hub: "careers site",
+};
+
 export interface Program {
   firm: string;
   sector: string;
@@ -61,6 +74,7 @@ export interface Program {
   opens: string;
   closes: string;
   source: Source;
+  apply?: Apply;
   fields: Record<string, FieldRecord>;
   cooling_off: CoolingOff;
   unfiled: { label?: string; quote: string; source_url?: string }[];

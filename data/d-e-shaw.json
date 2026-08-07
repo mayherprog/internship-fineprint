@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Fetched successfully on 2026-07-29 (deshaw.com did not block this fetch). Extraction performed by an automated fetch-and-extract step; quotes are as returned by that extraction."
       },
+      "apply": {
+        "url": "https://www.deshaw.com/careers/software-developer-intern-new-york-summer-2027-5894",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -63,6 +68,11 @@
         "status": "ok",
         "note": "Fetched successfully on 2026-07-29. A separate Ph.D. variant exists at https://www.deshaw.com/careers/quantitative-analyst-ph-d-intern-new-york-summer-2027-5891 (not fetched)."
       },
+      "apply": {
+        "url": "https://www.deshaw.com/careers/quantitative-analyst-intern-new-york-summer-2027-5890",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -113,6 +123,11 @@
         "checked": "2026-07-29",
         "status": "dead",
         "note": "fellowships.deshaw.com returns 301 to campus.deshaw.com, which as of 2026-07-29 lists no named fellowship programs — only internship postings and a 'London Insight Programme' with 'Applications for this programme are currently closed.' https://campus.deshaw.com/fellowships also shows no named fellowships. https://www.deshaw.com/careers/fellowships was fetched and its readable content described only the Internship Program, Rotational Associates Program, and Entrepreneur in Residence program."
+      },
+      "apply": {
+        "url": "https://www.deshaw.com/careers",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

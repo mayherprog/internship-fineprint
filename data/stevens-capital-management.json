@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Fetched via job-boards.greenhouse.io and boards-api.greenhouse.io (board token 'scminternships'); content retrieved through an AI-summarizing fetch tool, not raw HTML/JSON inspection."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/scminternships/jobs/1146391",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -59,6 +64,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Fetched via job-boards.greenhouse.io and boards-api.greenhouse.io (board token 'scminternships'); content retrieved through an AI-summarizing fetch tool, not raw HTML/JSON inspection."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/scminternships/jobs/1146416",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -109,6 +119,11 @@
         "check_method": "static",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/scm/jobs/721888",
+        "kind": "posting",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

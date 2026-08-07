@@ -12,6 +12,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4226247009?content=true",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -64,6 +69,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224862009?content=true",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -118,6 +128,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4224950009?content=true",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -170,6 +185,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": ""
+      },
+      "apply": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/voloridgeinvestmentmanagement/jobs/4328356009?content=true",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Read via WebFetch extraction of live posting"
       },
+      "apply": {
+        "url": "https://www.imc.com/us/careers/jobs/4823923101",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -72,6 +77,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://www.imc.com/us/careers/jobs/4823924101",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -131,6 +141,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Program page live; the two Launchpad job requisitions (Trading/Quant Research 4875922101) return 404, consistent with a closed 2026 cycle"
+      },
+      "apply": {
+        "url": "https://www.imc.com/us/careers/students-graduates/programs/launchpad",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

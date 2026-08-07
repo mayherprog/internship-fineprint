@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Unattended WebFetch of the rendered page returned only header/nav (client-side rendered), but the full description is embedded verbatim in the static HTML as schema.org JobPosting JSON-LD and was read directly from raw HTML."
       },
+      "apply": {
+        "url": "https://careers.sig.com/quantitative-trading-internships-co-ops/jobs/10717?lang=en-us",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -67,6 +72,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design). Note: the posting now renders under the title 'Quantitative Strategy Developer Internship: Summer 2027'; all four stated quotes remain verbatim on the page."
+      },
+      "apply": {
+        "url": "https://careers.sig.com/intern-co-op-technology/jobs/10838?lang=en-us",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -127,6 +137,11 @@
         "status": "ok",
         "note": "Firm-domain page read; it is a brief landing page that links to careers.sig.com/discovery-programs/jobs for specific listings, which was not read within budget."
       },
+      "apply": {
+        "url": "https://sig.com/careers/early-talent/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -176,6 +191,11 @@
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
       },
+      "apply": {
+        "url": "https://www.sig.com/careers/early-talent/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -208,6 +228,11 @@
         "check_method": "manual",
         "status": "blocked",
         "note": "careers.sig.com blocked unattended."
+      },
+      "apply": {
+        "url": "https://careers.sig.com/jobs/10838",
+        "kind": "posting",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

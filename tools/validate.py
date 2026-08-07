@@ -34,6 +34,7 @@ import sys
 STATES = {"stated", "silent", "unverified"}
 TIERS = {1, 2, 3}
 SOURCE_STATUS = {"ok", "url_pending", "blocked", "dead"}
+APPLY_KINDS = {"posting", "program_page", "careers_hub"}
 AUDIENCE = {
     "undergraduate", "sophomore", "freshman", "law_student_jd",
     "graduate", "phd", "paralegal", "high_school", "all", "unknown",
@@ -160,6 +161,23 @@ def check_program(firm, prog):
         check(f"{where}: missing URL is explained",
               source.get("status") in ("url_pending", "blocked", "dead") and bool(source.get("note")),
               "no source URL and no note explaining why")
+
+    # Rule 7 — every program carries a navigable apply link: the live posting
+    # when one exists, otherwise the firm's own program page or careers hub.
+    # Navigation only — the link never implies anything about eligibility.
+    apply = prog.get("apply") or {}
+    check(f"{where}: has an apply link", bool(apply.get("url")),
+          "every program must link a page a candidate can apply from")
+    if apply:
+        check(f"{where}: apply url is https",
+              str(apply.get("url") or "").startswith("https://"),
+              f"got {apply.get('url')!r}")
+        check(f"{where}: apply kind is legal", apply.get("kind") in APPLY_KINDS,
+              f"got {apply.get('kind')!r}")
+        if apply.get("checked"):
+            check(f"{where}: apply checked is ISO date",
+                  bool(DATE_RE.match(apply["checked"])),
+                  f"got {apply.get('checked')!r}")
 
     fields = prog.get("fields") or {}
     for key in FIELD_KEYS:

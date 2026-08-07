@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Fetched via Greenhouse job board Browser render 2026-07-29 confirms the URL serves the application form only — no description body, class-year, pay, or reapplication language on the page."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/thetradedesk/jobs/5187605007",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

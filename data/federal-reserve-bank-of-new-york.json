@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Page states 2026 cycle closed; 2027 details not yet posted."
       },
+      "apply": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -61,6 +66,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Page states 2026 cycle closed; 2027 details not yet posted."
+      },
+      "apply": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -112,6 +122,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program",
+        "kind": "program_page",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

@@ -12,6 +12,11 @@
         "status": "dead",
         "note": "Direct fetch returns HTTP 404. Wayback Machine snapshot dated 2025-12-04 shows this URL's canonical/og:url rewritten to https://www.metacareers.com/404, indicating the page was already retired by Dec 2025. Cannot confirm whether Meta University still exists as a distinct program for the 2027 cycle from Meta's own site."
       },
+      "apply": {
+        "url": "https://www.metacareers.com/careerprograms/students/",
+        "kind": "program_page",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -48,6 +53,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Browser pass 2026-08-07: stated quotes verified verbatim on the rendered page (JS-walled host; mechanical curl check reports BLOCKED by design)."
+      },
+      "apply": {
+        "url": "https://www.metacareers.com/careerprograms/students/",
+        "kind": "program_page",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -103,6 +113,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.metacareers.com/careerprograms/students/",
+        "kind": "program_page",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

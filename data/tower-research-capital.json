@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Read via Greenhouse job-board API (Tower's ATS, static JSON; tier 1). The human-facing URLs job-boards.greenhouse.io/towerresearchcapital/jobs/8024128 and tower-research.com/open-positions/?gh_jid=8024128 302-redirect to a JS-rendered page and were not readable directly. gh_jid corrected: 8024128 is the QT intern; 8044334 (given in briefing as QT) is actually the QD intern."
       },
+      "apply": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/towerresearchcapital/jobs/8024128",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -61,6 +66,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Read via Greenhouse job-board API (tier 1). job-boards.greenhouse.io/towerresearchcapital/jobs/8044334 302-redirects to tower-research.com/open-positions/?gh_jid=8044334 (JS-rendered)."
+      },
+      "apply": {
+        "url": "https://boards-api.greenhouse.io/v1/boards/towerresearchcapital/jobs/8044334",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -113,6 +123,11 @@
         "status": "ok",
         "note": "Verified 2026-08-07 via the board's JSON API (Greenhouse boards-api / Ashby posting-api); quotes verbatim in posting body."
       },
+      "apply": {
+        "url": "https://tower-research.com/open-positions/?gh_jid=8024128",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -152,6 +167,11 @@
         "check_method": "manual",
         "status": "blocked",
         "note": "Both now behind a JS-rendered page. QT verified via mirrors only; QD not verified at all — do not assume."
+      },
+      "apply": {
+        "url": "https://tower-research.com/open-positions/?gh_jid=8044334",
+        "kind": "posting",
+        "checked": "2026-07-27"
       },
       "fields": {
         "class_year": {

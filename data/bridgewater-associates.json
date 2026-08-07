@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Page loaded successfully (static HTML, no JSON-LD) but contains no mention of 'Rising Fellows' at all. Only generic culture/mission content and a link to the Investment Associate Internship application."
       },
+      "apply": {
+        "url": "https://www.bridgewater.com/working-at-bridgewater/students",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "silent",
@@ -59,6 +64,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Live posting located via browser on the Bridgewater campus Greenhouse board (the earlier id 8459860002 now redirects to the board index; current id 8457683002). Content read via the boards-api static JSON, tier 1."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -108,6 +118,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Listing titled '2027 Investment Associate Intern - Bridgewater Immersion | AI Innovation Hackathon' confirmed live on Bridgewater's own Greenhouse ATS. WebFetch's text extraction returned no body copy (likely JS-rendered posting detail below the fold/behind a script) so no eligibility, sponsorship, process, or comp language could be captured verbatim despite two direct fetch attempts."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8459860002",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

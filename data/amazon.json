@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Program hub page rendered and returned body text. Contains a single eligibility sentence; no sponsorship, process, or pay language returned."
       },
+      "apply": {
+        "url": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -60,6 +65,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Amazon's own ATS posting. Basic qualifications, sponsorship line, and pay range all returned. No description of interview/assessment steps returned."
+      },
+      "apply": {
+        "url": "https://www.amazon.jobs/en/jobs/10435671/2027-amazon-finance-rotation-program-accounting-intern",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {
@@ -121,6 +131,11 @@
         "status": "ok",
         "note": "Amazon's own ATS posting. Basic qualifications returned; sponsorship line, process description, and pay range were NOT present in the retrieved text — this may be a rendering artifact rather than true silence, so those fields are marked unverified."
       },
+      "apply": {
+        "url": "https://www.amazon.jobs/en/jobs/10418355/2027-software-dev-engineer-intern",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -169,6 +184,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Re-read 2026-08-07: compensation wording changed; page now also states \"Applications for 2025-2026 are closed. Sign up for our newsletter to be the first to know when the next cycle opens.\""
+      },
+      "apply": {
+        "url": "https://www.amazonfutureengineer.com/scholarships",
+        "kind": "program_page",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {
@@ -225,6 +245,11 @@
         "status": "blocked",
         "note": "FAQ question TITLES render, but every answer body is inside a JavaScript-collapsed accordion and was not retrievable. Same failure on /faq/application and /faq/university-talent. Amazon's OA retake/reapplication rule, if published, lives behind these accordions and could NOT be read."
       },
+      "apply": {
+        "url": "https://amazon.jobs/content/en/faq/assessment",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -274,6 +299,11 @@
         "status": "ok",
         "note": ""
       },
+      "apply": {
+        "url": "https://www.amazon.jobs/teams/internships-for-students",
+        "kind": "program_page",
+        "checked": "2026-07-27"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -309,6 +339,11 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.amazonfutureengineer.com/scholarships",
+        "kind": "program_page",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

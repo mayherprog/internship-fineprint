@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "VERIFICATION MISSION RESOLVED: prior fragment 'Approximately one year remaining.' is a truncation of a longer bullet. Full sentence verbatim: 'Are pursuing a degree in a technical or quantitative disciplines, like statistics, mathematics, physics, electrical engineering, or computer science with approximately one year remaining in your programs (all levels welcome, from bachelor's to doctorate)'"
       },
+      "apply": {
+        "url": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2027-Summer/13945",
+        "kind": "program_page",
+        "checked": "2026-07-30"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -62,6 +67,11 @@
         "status": "dead",
         "note": "Prior-cycle SWE posting URL returns HTTP 404. No Software Engineering Internship for Summer 2027 appears on careers.twosigma.com OpenRoles or InternshipsAndEarlyCareers as of 2026-07-29 — only AI Research Scientist Intern (14096) and Quantitative Researcher Intern (13945) 2027 postings are listed. SWE 2027 posting appears not yet published; class_year/sponsorship/process/compensation cannot be quoted."
       },
+      "apply": {
+        "url": "https://careers.twosigma.com/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -109,6 +119,11 @@
         "checked": "2026-07-29",
         "status": "dead",
         "note": "Both known First Year SWE posting URLs (job IDs 13357 and 12605) return HTTP 404, and no First Year/Freshman program is listed on OpenRoles or InternshipsAndEarlyCareers as of 2026-07-29. Program existed in prior cycles; no current posting to quote eligibility from — not guessing."
+      },
+      "apply": {
+        "url": "https://careers.twosigma.com/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
       },
       "fields": {
         "class_year": {

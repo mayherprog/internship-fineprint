@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Re-read 2026-08-07: stated graduation window moved to Fall 2027-Summer 2028 (was: \" expected graduation date between Fall 2027 and Spring 2028.\")."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489186002",
+        "kind": "posting",
+        "checked": "2026-08-07"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -69,6 +74,11 @@
         "checked": "2026-08-07",
         "status": "ok",
         "note": "Re-read 2026-08-07: stated graduation window moved to Fall 2027-Summer 2028 (was: \" expected graduation date between Fall 2027 and Spring 2028.\")."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/aquaticcapitalmanagement/jobs/8489233002",
+        "kind": "posting",
+        "checked": "2026-08-07"
       },
       "fields": {
         "class_year": {

@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Live Greenhouse posting linked from pdtpartners.com/careers. Prior pass's blended sentence is NOT verbatim; the live posting carries two separate eligibility lines (both quoted below)."
       },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8077685",
+        "kind": "posting",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -62,6 +67,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "Live Greenhouse posting linked from pdtpartners.com/careers."
+      },
+      "apply": {
+        "url": "https://job-boards.greenhouse.io/pdtpartners/jobs/8083292",
+        "kind": "posting",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

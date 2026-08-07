@@ -12,6 +12,11 @@
         "status": "dead",
         "note": "Browser check 2026-07-29: job id 7939921 redirects to Podium's Greenhouse board index, which lists no engineering internship — the posting has been removed."
       },
+      "apply": {
+        "url": "https://www.podium.com/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08"
+      },
       "fields": {
         "class_year": {
           "state": "unverified",

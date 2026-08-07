@@ -12,6 +12,11 @@
         "status": "ok",
         "note": "Page confirms Ignite exists and its audience but states no dates. The live Workday job requisitions for the next Ignite cycle (e.g. paths like NVIDIA-2026-Ignite-Internships--Hardware-Engineering on nvidia.wd5.myworkdayjobs.com) could not be read: the standard job-detail URL returned an empty client-rendered shell, and the Workday CXS JSON API endpoint returned HTTP 403. Browser pass 2026-07-29: prior-cycle Workday requisition JR2005170 returns 'The page you are looking for doesn't exist', and a rendered search of the NVIDIA Workday board finds no live requisition titled Ignite — the program is between cycles. The ~October application window remains unverified (aggregator pattern only)."
       },
+      "apply": {
+        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
       "fields": {
         "class_year": {
           "state": "stated",
@@ -61,6 +66,11 @@
         "checked": "2026-07-29",
         "status": "ok",
         "note": "General program description page; no dated application windows for undergraduate track given."
+      },
+      "apply": {
+        "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+        "kind": "program_page",
+        "checked": "2026-07-29"
       },
       "fields": {
         "class_year": {

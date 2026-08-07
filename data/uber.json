@@ -12,6 +12,12 @@
         "status": "dead",
         "note": "HTTP 404 on two fetch attempts, both with and without tracking query parameter. Adjacent page jobs.uber.com/en/teams/emerging-talent/ loaded successfully (not JS-blocked) but contains no program-specific text beyond using 'UberSTAR' as an intern job title in employee bios."
       },
+      "apply": {
+        "url": "https://www.uber.com/us/en/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08",
+        "note": "Uber rejects non-browser fetches (HTTP 406); the page loads normally in a browser."
+      },
       "fields": {
         "class_year": {
           "state": "unverified",
@@ -60,6 +66,12 @@
         "check_method": "manual",
         "status": "url_pending",
         "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+      },
+      "apply": {
+        "url": "https://www.uber.com/us/en/careers/",
+        "kind": "careers_hub",
+        "checked": "2026-08-08",
+        "note": "Uber rejects non-browser fetches (HTTP 406); the page loads normally in a browser."
       },
       "fields": {
         "class_year": {
