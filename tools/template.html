@@ -118,6 +118,14 @@ details.card>summary:hover{background:var(--bg);border-radius:var(--r-md)}
 .q.quote{border-left:3px solid var(--stated);padding-left:9px}
 .pill{display:inline-block;font-size:.76rem;
   padding:2px 8px;border-radius:var(--r-pill);vertical-align:1px;font-weight:600}
+/* Recent changes — the openings monitor's site-facing channel. Entries are
+   dated statements of what a firm's page now shows, never verdicts. Accent
+   for the verdict word; state colors stay sovereign. */
+.upd{padding:10px 14px;border:1px solid var(--line);border-radius:var(--r-md);
+  background:var(--card);margin-bottom:8px;font-size:.92rem}
+.upd .v{color:var(--accent);font-weight:600;text-transform:capitalize}
+.upd .d{color:var(--muted)}
+.upd p{margin:4px 0 0;color:var(--muted);font-size:.88rem}
 /* The one primary action on a card. Solid accent fill (the bigsearch button,
    compact) so it reads as a control, not a citation link; text color is --bg
    so contrast holds in both themes. Accent-only: never a state color. */
@@ -185,6 +193,9 @@ application. Its data placeholder is unfilled, so nothing on this page works. Ru
 
   <h2>Quick views</h2>
   <div class="quick" id="quick"></div>
+
+  <h2 id="updhead" hidden>Recent changes</h2>
+  <div id="updates" hidden></div>
 
   <h2>Match against stated criteria</h2>
   <div class="screener">
@@ -264,6 +275,7 @@ reproduced for identification and reference, and is not relicensed.</p>
 </div>
 
 <script id="payload" type="application/json">__DATA__</script>
+<script id="updpayload" type="application/json">__UPDATES__</script>
 <script>
 const DATA = JSON.parse(document.getElementById('payload').textContent);
 const SECTORS = __SECTORS__, AUD = __AUD__, FIELDS = __FIELDS__;
@@ -525,6 +537,21 @@ $('quick').innerHTML = QUICK.map(([label], i) =>
 $('quick').addEventListener('click', e => {
   const b = e.target.closest('button'); if (b) go(QUICK[+b.dataset.i][1]);
 });
+
+/* ------------------------- recent changes -------------------------- */
+// The openings monitor's site-facing channel: dated statements of what a
+// firm's page now shows, with a link. Hidden entirely when the log is empty.
+const UPDATES = JSON.parse(document.getElementById('updpayload').textContent || '[]');
+if (UPDATES.length){
+  $('updhead').hidden = false;
+  const box = $('updates');
+  box.hidden = false;
+  box.innerHTML = UPDATES.slice(0, 8).map(u => `<div class="upd">
+    <span class="d">${esc(u.date)}</span> &middot; <span class="v">${esc(u.verdict)}</span>
+    &middot; <strong>${esc(u.firm)}</strong> — ${esc(u.program)}
+    &middot; <a href="${esc(u.url)}" rel="noopener nofollow">page</a>
+    <p>${esc(u.evidence)}</p></div>`).join('');
+}
 
 /* ----------------------------- screener ---------------------------- */
 const MNAMES = ['January','February','March','April','May','June','July',

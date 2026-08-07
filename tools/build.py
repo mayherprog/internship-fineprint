@@ -150,7 +150,13 @@ def build_markdown(rows):
 PAGE = (pathlib.Path(__file__).parent / "template.html").read_text()
 
 
-def build_html(rows, built):
+def load_updates():
+    """Openings-monitor events for the site's Recent changes section."""
+    path = pathlib.Path(__file__).parent / "openings_log.json"
+    return json.loads(path.read_text()) if path.exists() else []
+
+
+def build_html(rows, built, updates=None):
     # The template carries a self-identifying banner so that opening the raw
     # file never impersonates a broken app; the build strips it.
     page = re.sub(r"<!--TEMPLATE-ONLY-->.*?<!--/TEMPLATE-ONLY-->\n?", "", PAGE, flags=re.S)
@@ -158,8 +164,11 @@ def build_html(rows, built):
     # The payload sits inside a <script> block, so a literal </script> in any
     # quoted sentence would end the block early. Neutralise it.
     payload = payload.replace("</", "<\\/")
+    upd = json.dumps(updates or [], ensure_ascii=False,
+                     separators=(",", ":")).replace("</", "<\\/")
     return (page
             .replace("__DATA__", payload)
+            .replace("__UPDATES__", upd)
             .replace("__SECTORS__", json.dumps(SECTOR_LABEL))
             .replace("__AUD__", json.dumps(AUDIENCE_LABEL))
             .replace("__FIELDS__", json.dumps(FIELD_LABEL))
@@ -171,7 +180,8 @@ def main():
     data_dir = sys.argv[1] if len(sys.argv) > 1 else "data"
     rows = load(data_dir)
     pathlib.Path("TABLE.md").write_text(build_markdown(rows) + "\n")
-    pathlib.Path("index.html").write_text(build_html(rows, "2026-07-29"))
+    pathlib.Path("index.html").write_text(
+        build_html(rows, "2026-07-29", load_updates()))
     counts = Counter(r["cooling_off"]["state"] for r in rows)
     print(f"TABLE.md and index.html: {len(rows)} programs, "
           f"{len({r['firm'] for r in rows})} firms")
