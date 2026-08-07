@@ -108,15 +108,14 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series",
-        "checked": "2026-07-29",
-        "status": "ok",
-        "note": "Fetched raw HTML directly (HTTP 200). Page is labelled 'UNDERGRAD AND MBA PROGRAM | AMERICAS'. The graduation window quoted (May 2026 - June 2027) appears to be carried over from a prior cycle and was NOT updated for a 2027-cycle audience as of the check date; recorded verbatim, not corrected."
+        "checked": "2026-08-07",
+        "status": "dead",
+        "note": "Re-read 2026-08-07: URL returns 404 and no replacement Virtual Insight Series page was found on goldmansachs.com (students index is JS-rendered; Emerging Leaders Series page remains live). Prior stated class-year quote (graduating May 2026-June 2027) belonged to the closed cycle; nothing quotable for the new cycle yet."
       },
       "fields": {
         "class_year": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "Undergraduate students graduating between May 2026 -June 2027 attending a U.S College or University",
           "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
         },
         "sponsorship": {
@@ -125,9 +124,8 @@
           "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
         },
         "process": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "Goldman Sachs Virtual Insight Series is a multi-part educational experience for candidates interested in learning more about Goldman Sachs and exploring the opportunities available at the firm. This program will provide insight into the various businesses at Goldman Sachs and tips for navigating the recruiting process. Program details and schedule to be provided upon acceptance.",
           "source_url": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/undergrad-virtual-insight-series"
         },
         "compensation": {

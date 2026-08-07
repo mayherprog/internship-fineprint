@@ -8,22 +8,15 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
-        "checked": "2026-07-29",
-        "status": "ok",
-        "note": "Greenhouse job board posting fetched directly."
+        "checked": "2026-08-07",
+        "status": "dead",
+        "note": "Re-read 2026-08-07: Greenhouse posting removed; the URL now serves the board index. The posting's stated deadline (Friday, July 31 at 11:59pm ET) has passed."
       },
       "fields": {
         "class_year": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "pursuing an undergraduate or non-MBA master's degree in a STEM-related field, with an expected graduation date between December 2027 and June 2028",
-          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006",
-          "parsed": {
-            "graduates_between": [
-              "2027-12",
-              "2028-06"
-            ]
-          }
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006"
         },
         "sponsorship": {
           "state": "stated",
@@ -38,9 +31,8 @@
           "source_url": "https://walleyecapital.com/campus-faq"
         },
         "compensation": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "The expected monthly pay for this position is $14,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from New York City (domestic travel only).",
           "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676587006"
         }
       },
@@ -68,22 +60,15 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006",
-        "checked": "2026-07-29",
-        "status": "ok",
-        "note": "Greenhouse job board posting fetched directly."
+        "checked": "2026-08-07",
+        "status": "dead",
+        "note": "Re-read 2026-08-07: Greenhouse posting removed; the URL now serves the board index. The posting's stated deadline (Friday, July 31 at 11:59pm ET) has passed."
       },
       "fields": {
         "class_year": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "pursuing an undergraduate or non-MBA master's degree in computer science, engineering, or a related field, with an expected graduation date between December 2027 and June 2028.",
-          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006",
-          "parsed": {
-            "graduates_between": [
-              "2027-12",
-              "2028-06"
-            ]
-          }
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006"
         },
         "sponsorship": {
           "state": "stated",
@@ -98,9 +83,8 @@
           "source_url": "https://walleyecapital.com/campus-faq"
         },
         "compensation": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "The expected monthly pay for this position is $14,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from New York City (domestic travel only).",
           "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4681002006"
         }
       },
@@ -128,16 +112,69 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006",
+        "checked": "2026-08-07",
+        "status": "dead",
+        "note": "Re-read 2026-08-07: Greenhouse posting removed; the URL now serves the board index. The posting's stated deadline (Friday, July 31 at 11:59pm ET) has passed."
+      },
+      "fields": {
+        "class_year": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we support work authorization for international intern candidates.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will be reviewed on a rolling basis.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "compensation": {
+          "state": "unverified",
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://walleyecapital.com/campus-faq",
         "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting."
+      },
+      "cycle": "Summer 2027",
+      "location": "New York, New York",
+      "opens": "unverified",
+      "closes": "Friday, July 31 at 11:59pm ET"
+    },
+    {
+      "id": "equity-volatility-quant-researcher-intern",
+      "name": "Equity Volatility Quant Researcher Intern (Summer 2027)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Greenhouse job board posting fetched directly."
+        "note": "Fetched via the Greenhouse boards API 2026-08-07."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Currently pursuing an undergraduate or non-MBA master's degree in any discipline, with an expected graduation date between December 2027 and June 2028.",
-          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006",
+          "quote": "Are pursuing an undergraduate or non-MBA advanced degree in a quantitative field, with an expected graduation date between December 2027 and June 2028.",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006",
+          "checked": "2026-08-07",
           "parsed": {
             "graduates_between": [
               "2027-12",
@@ -160,25 +197,150 @@
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "The expected monthly pay for this position is $14,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from New York City (domestic travel only).",
-          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4677152006"
+          "quote": "The expected pay for this position is $50,000 for 10 weeks. Interns will also receive a $10,000 housing stipend and transportation to and from Miami (domestic travel only).",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://walleyecapital.com/campus-faq",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
           "scope": "unknown",
           "resets_allowed": null
         },
-        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting."
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting (https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4676334006)."
       },
       "cycle": "Summer 2027",
-      "location": "New York, New York",
+      "location": "Miami, Florida",
+      "opens": "unverified",
+      "closes": "Friday, August 14 at 11:59pm ET"
+    },
+    {
+      "id": "quantic-phd-quantitative-researcher-intern",
+      "name": "Quantic - PhD Quantitative Researcher Intern (Summer 2027)",
+      "audience": "phd",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006",
+        "checked": "2026-08-07",
+        "status": "ok",
+        "note": "Fetched via the Greenhouse boards API 2026-08-07."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Are pursuing a PhD degree in computer science, engineering, statistics, operations research, mathematics, or a related field, with an expected graduation date between December 2027 and June 2028.",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006",
+          "checked": "2026-08-07",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we support work authorization for international intern candidates.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will be reviewed on a rolling basis.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The expected monthly pay for this position is $20,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from Boston (domestic travel only).",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006",
+          "checked": "2026-08-07"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://walleyecapital.com/campus-faq",
+        "checked": "2026-08-07",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting (https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679184006)."
+      },
+      "cycle": "Summer 2027",
+      "location": "Boston, Massachusetts",
+      "opens": "unverified",
+      "closes": "Friday, October 30 at 11:59pm ET"
+    },
+    {
+      "id": "quantic-quantitative-developer-intern",
+      "name": "Quantic - Quantitative Developer Intern (Summer 2027)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+        "checked": "2026-08-07",
+        "status": "ok",
+        "note": "Fetched via the Greenhouse boards API 2026-08-07. Stated deadline has passed but the posting was still live on the board 2026-08-07."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Are pursuing an undergraduate or advanced degree in computer science, engineering, statistics, mathematics, or a related field, with an expected graduation date between December 2027 and June 2028.",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+          "checked": "2026-08-07",
+          "parsed": {
+            "graduates_between": [
+              "2027-12",
+              "2028-06"
+            ]
+          }
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we support work authorization for international intern candidates.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications will be reviewed on a rolling basis.",
+          "source_url": "https://walleyecapital.com/campus-faq"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The expected monthly pay for this position is $20,000/month. Interns will also receive a $10,000 housing stipend and transportation to and from Boston (domestic travel only).",
+          "source_url": "https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006",
+          "checked": "2026-08-07"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://walleyecapital.com/campus-faq",
+        "checked": "2026-08-07",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication or cooling-off language found on the campus FAQ page or the job posting (https://job-boards.greenhouse.io/walleyecapital-external-students/jobs/4679168006)."
+      },
+      "cycle": "Summer 2027",
+      "location": "Boston, Massachusetts",
       "opens": "unverified",
       "closes": "Friday, July 31 at 11:59pm ET"
     }

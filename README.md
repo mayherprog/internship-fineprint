@@ -16,7 +16,7 @@ read. Firms that publish nothing are recorded as publishing nothing.
 
 ```bash
 python3 -m unittest discover -s tests   # parser/dedup/scrub/verifier unit tests
-python3 tools/validate.py               # 6,338 assertions over 190 programs, 0 failures
+python3 tools/validate.py               # 6,482 assertions over 194 programs, 0 failures
 python3 tools/verify_quotes.py data     # re-fetch every cited page; quotes must still be there
 ```
 
@@ -124,7 +124,7 @@ in its own founding fact. The full quote and all three formulations are in
 
 ## Coverage, stated honestly
 
-190 programs across 69 firms, spanning quantitative trading, technology, banking and
+194 programs across 69 firms, spanning quantitative trading, technology, banking and
 finance, asset management, consulting, law and government. On cooling-off specifically:
 **22 state a rule, 94 publish nothing on it, and 74 have not been checked yet.** The
 unchecked share is the honest state of this dataset today, not a rounding error, and it is

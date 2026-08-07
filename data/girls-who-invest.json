@@ -4,44 +4,56 @@
   "programs": [
     {
       "id": "summer-intensive-program-sip",
-      "name": "Summer Intensive Program (SIP)",
+      "name": "GWI Scholars Program (formerly Summer Intensive Program)",
       "audience": "sophomore",
       "source": {
-        "url": "https://www.girlswhoinvest.org/sip",
-        "checked": "2026-07-29",
+        "url": "https://www.girlswhoinvest.org/apply-faq",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "Live page mixes closed-2026-cycle content (deadline Oct 1, 2025) with forward-looking 2027 eligibility language; no 2027 deadline posted yet."
+        "note": "Re-read 2026-08-07: girlswhoinvest.org/sip now returns 404; the program is restructured as the GWI Scholars Program (unified curriculum, then Online Intensive Program or Summer Intensive Program; only Internship Track Scholars matched with internships reach SIP). Page states the application for the 2027 GWI Scholars Program is now open."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Girls Who Invest is an inclusive training program for first years and sophomores of all gender identities, including male-identifying students, who have demonstrated a commitment to GWI's mission.",
-          "source_url": "https://www.girlswhoinvest.org/apply-faq"
+          "quote": "All applicants must hold first-year or sophomore status, with an expected graduation date between fall 2028 and spring 2030.",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq",
+          "checked": "2026-08-07",
+          "parsed": {
+            "graduates_between": [
+              "2028-09",
+              "2030-06"
+            ]
+          }
         },
         "sponsorship": {
           "state": "stated",
           "tier": 1,
-          "quote": "The majority of internship matches facilitated by Girls Who Invest require unrestricted authorization to work in the U.S. and will not be filled by students on Curricular Practical Training (CPT), or by those who would otherwise need visa sponsorship in the future (i.e., STEM OPT, H-1B, TN, E-3, etc.).",
-          "source_url": "https://www.girlswhoinvest.org/apply-faq"
+          "quote": "If opting into consideration for the Internship Track, please be advised that the majority of internship matches facilitated by GWI require unrestricted authorization to work in the U.S. and will not be filled by students on Curricular Practical Training (CPT), or by those who would otherwise need visa sponsorship in the future (i.e., STEM OPT, H-1B, TN, E-3, etc.).",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq",
+          "checked": "2026-08-07",
+          "notes": "Same page separately states, of the Scholars Program itself: \"GWI does not limit or exclude applications according to citizenship status. The GWI Scholars Program is largely a remote, educational experience, and has no participation restrictions related to work authorization.\""
         },
         "process": {
-          "state": "unverified",
-          "tier": 2,
-          "source_url": "https://www.girlswhoinvest.org/apply-faq"
+          "state": "stated",
+          "tier": 1,
+          "quote": "The priority deadline to apply to the 2027 GWI Scholars program is September 15, 2026. The final deadline to apply is October 15, 2026.",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq",
+          "checked": "2026-08-07"
         },
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "Please note that all internships are paid positions, with rates of compensation determined by participating Partner firms.",
-          "source_url": "https://www.girlswhoinvest.org/sip"
+          "quote": "Sophomore applicants can opt into consideration for our Internship Track to become eligible candidates for paid internships at GWI Partner firms.",
+          "source_url": "https://www.girlswhoinvest.org/apply-faq",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 2,
         "source_url": "https://www.girlswhoinvest.org/apply-faq",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -51,8 +63,8 @@
         "notes": "No sentence addressing reapplication after prior rejection or repeat participation was found on either the SIP or apply-FAQ pages during this check."
       },
       "cycle": "2027",
-      "opens": "late summer 2026",
-      "closes": "unknown"
+      "opens": "open as of 2026-08-07 (2027 GWI Scholars Program)",
+      "closes": "priority deadline September 15, 2026; final deadline October 15, 2026"
     },
     {
       "id": "summer-intensive-2027-summer-2027",

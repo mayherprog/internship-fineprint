@@ -8,7 +8,7 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
         "note": "VERIFICATION MISSION RESULT: prior unsourced sentence CONFIRMED. Posting text reads 'expected graduation date between December 2027 and June 2028' (identical wording, lowercase 'e' in situ since it appears mid-sentence). Independently confirmed on the Greenhouse mirror https://job-boards.greenhouse.io/drweng/jobs/7992936. Note an OLDER posting cycle (drweng/jobs/7012891 era, surfaced in aggregator snippets) carried 'December 2026 and August 2027' -- that is the prior cycle, not the current 2027 posting."
       },
@@ -33,8 +33,9 @@
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "The annual base salary range for this position is $225,000 depending on the candidate's experience, qualifications, and relevant skill set.",
-          "source_url": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328"
+          "quote": "The annual base salary for this position is $225,000.",
+          "source_url": "https://www.drw.com/work-at-drw/listings/software-developer-intern-3467328",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {
@@ -59,7 +60,7 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
         "note": "A separate Singapore QTA Intern posting (quantitative-trading-analyst-intern-3474906) states 'expected graduation date between December 2027 and October 2028' -- do not conflate with Chicago."
       },
@@ -89,8 +90,9 @@
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "The annual base salary for this position is $250,000 depending on the candidate's experience, qualifications, and relevant skill set.",
-          "source_url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090"
+          "quote": "The annual base salary for this position is $250,000.",
+          "source_url": "https://www.drw.com/work-at-drw/listings/quantitative-trading-analyst-intern-3375090",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {

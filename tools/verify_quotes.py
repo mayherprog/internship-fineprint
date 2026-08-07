@@ -38,6 +38,9 @@ KNOWN_JS_HOSTS = re.compile(
     r"myworkdayjobs\.com|jobs\.ashbyhq\.com|careers\.duolingo\.com"
     r"|metacareers\.com|talent\.wellsfargojobs\.com|careers\.sig\.com"
     r"|kpmguscareers\.com|imc\.com/us/careers/jobs"
+    # Microsoft moved applications to an Eightfold portal (2026-08): job pages
+    # render entirely client-side, curl gets a navigation shell
+    r"|apply\.careers\.microsoft\.com"
     # career sites embedding Greenhouse via ?gh_jid= load the posting body
     # with JavaScript: the marketing shell fetches fine, the job text never
     # arrives, so "quote absent" proves nothing

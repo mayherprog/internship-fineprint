@@ -166,9 +166,9 @@
       "audience": "high_school",
       "source": {
         "url": "https://www.amazonfutureengineer.com/scholarships",
-        "checked": "2026-07-29",
+        "checked": "2026-08-07",
         "status": "ok",
-        "note": "This is the only Amazon-run track surfaced that reaches students below rising-senior standing, but entry is at HIGH SCHOOL SENIOR stage, not open to current college sophomores. The page did not state, in text, which college year the internship falls in — only winner testimonials referenced interning as a freshman, and testimonials were not captured verbatim."
+        "note": "Re-read 2026-08-07: compensation wording changed; page now also states \"Applications for 2025-2026 are closed. Sign up for our newsletter to be the first to know when the next cycle opens.\""
       },
       "fields": {
         "class_year": {
@@ -194,8 +194,9 @@
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "$40,000 (up to $10,000/year)",
-          "source_url": "https://www.amazonfutureengineer.com/scholarships"
+          "quote": "The Amazon Future Engineer Scholarship supports students from underserved communities pursuing computer science degrees with up to $10,000 per year for four years and a paid summer internship at Amazon.",
+          "source_url": "https://www.amazonfutureengineer.com/scholarships",
+          "checked": "2026-08-07"
         }
       },
       "cooling_off": {

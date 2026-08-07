@@ -159,20 +159,19 @@
       "name": "BofA Quantitative Data Analyst SA 2027",
       "audience": "undergraduate",
       "source": {
-        "url": null,
-        "checked": "2026-07-24",
+        "url": "https://careers.bankofamerica.com/en-us/students/job-detail/14420/quantitative-data-analyst-summer-analyst-program-multiple-locations",
+        "checked": "2026-08-07",
         "check_method": "manual",
-        "status": "url_pending",
-        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+        "status": "ok",
+        "note": "Re-sourced 2026-08-07: posting located and quote confirmed against the fetched page."
       },
       "fields": {
         "class_year": {
           "state": "stated",
           "tier": 1,
-          "quote": "Graduation Dates: between November 2027 and August 2028.",
-          "checked": "2026-07-24",
-          "source_url": null,
-          "source_status": "url_pending",
+          "quote": "Graduation Dates: between November 2027 and August 2028",
+          "checked": "2026-08-07",
+          "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14420/quantitative-data-analyst-summer-analyst-program-multiple-locations",
           "parsed": {
             "graduates_between": [
               "2027-11",
