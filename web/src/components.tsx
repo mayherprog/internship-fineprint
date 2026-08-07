@@ -152,15 +152,14 @@ export function ProgramCard({ r, why, open }: { r: Program; why?: string[]; open
           {meta} · {SECTOR_LABEL[r.sector] ?? r.sector} ·{" "}
           <SrcLink url={r.source.url ?? undefined} status={r.source.status} />
           {r.source.checked ? ` · read ${r.source.checked}` : ""}
-          {r.apply?.url ? (
-            <>
-              {" · "}
-              <a href={r.apply.url} rel="noopener nofollow">
-                apply ({APPLY_KIND_LABEL[r.apply.kind] ?? "link"})
-              </a>
-            </>
-          ) : null}
         </p>
+        {r.apply?.url ? (
+          <p className="applyrow">
+            <a className="applybtn" href={r.apply.url} rel="noopener nofollow">
+              Apply — {APPLY_KIND_LABEL[r.apply.kind] ?? "link"}
+            </a>
+          </p>
+        ) : null}
         {r.source.note ? <p className="meta">{r.source.note}</p> : null}
         <CalendarLine r={r} />
         <div className="grid">

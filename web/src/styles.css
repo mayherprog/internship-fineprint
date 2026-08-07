@@ -103,6 +103,14 @@ details.card>summary:hover{background:var(--bg);border-radius:var(--r-md)}
 .f .lbl,.cool .lbl{font-size:.8rem;font-weight:600;color:var(--muted);margin-bottom:5px}
 .q{font-size:.88rem}
 .q.quote{border-left:3px solid var(--stated);padding-left:9px}
+/* The one primary action on a card. Solid accent fill (the bigsearch button,
+   compact) so it reads as a control, not a citation link; text color is --bg
+   so contrast holds in both themes. Accent-only: never a state color. */
+.applyrow{margin:10px 0 2px}
+.applybtn{display:inline-block;font:inherit;font-size:.88rem;font-weight:600;
+  padding:7px 16px;border:1px solid var(--accent);border-radius:var(--r-pill);
+  background:var(--accent);color:var(--bg);text-decoration:none;cursor:pointer}
+.applybtn:hover,.applybtn:focus-visible{filter:brightness(1.08)}
 .pill{display:inline-block;font-size:.76rem;padding:2px 8px;border-radius:var(--r-pill);
   vertical-align:1px;font-weight:600}
 .pill .k{font-weight:400;opacity:.8}
