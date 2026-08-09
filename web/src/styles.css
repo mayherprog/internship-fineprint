@@ -103,14 +103,6 @@ details.card>summary:hover{background:var(--bg);border-radius:var(--r-md)}
 .f .lbl,.cool .lbl{font-size:.8rem;font-weight:600;color:var(--muted);margin-bottom:5px}
 .q{font-size:.88rem}
 .q.quote{border-left:3px solid var(--stated);padding-left:9px}
-/* Recent changes — the openings monitor's site-facing channel. Entries are
-   dated statements of what a firm's page now shows, never verdicts. Accent
-   for the verdict word; state colors stay sovereign. */
-.upd{padding:10px 14px;border:1px solid var(--line);border-radius:var(--r-md);
-  background:var(--card);margin-bottom:8px;font-size:.92rem}
-.upd .v{color:var(--accent);font-weight:600;text-transform:capitalize}
-.upd .d{color:var(--muted)}
-.upd p{margin:4px 0 0;color:var(--muted);font-size:.88rem}
 /* The one primary action on a card. Solid accent fill (the bigsearch button,
    compact) so it reads as a control, not a citation link; text color is --bg
    so contrast holds in both themes. Accent-only: never a state color. */

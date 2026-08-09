@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import type { Program, UpdateEntry } from "./types";
+import type { Program } from "./types";
 import { AUDIENCE_LABEL, SECTOR_LABEL } from "./types";
 import { judge, type Profile, type Verdict } from "./judge";
 import { ProgramCard, Pill } from "./components";
@@ -54,7 +54,6 @@ function useTheme() {
 
 export default function App() {
   const [data, setData] = useState<Program[] | null>(null);
-  const [updates, setUpdates] = useState<UpdateEntry[]>([]);
   const [view, setView] = useState<View>("home");
   const [filters, setFilters] = useState<Filters>(NO_FILTERS);
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -68,10 +67,6 @@ export default function App() {
       .then((r) => r.json())
       .then(setData)
       .catch(() => setData([]));
-    fetch(`${import.meta.env.BASE_URL}updates.json`)
-      .then((r) => r.json())
-      .then(setUpdates)
-      .catch(() => setUpdates([]));
   }, []);
 
   // Deep links restore browse filters; screener answers are deliberately
@@ -172,19 +167,6 @@ export default function App() {
             <button onClick={() => go({ audience: "freshman" })}>Programs for first-year students</button>
             <button onClick={() => go({ spon: "stated" })}>Stated sponsorship terms</button>
           </div>
-          {updates.length ? (
-            <>
-              <h2>Recent changes</h2>
-              {updates.slice(0, 8).map((u, i) => (
-                <div className="upd" key={i}>
-                  <span className="d">{u.date}</span> · <span className="v">{u.verdict}</span> ·{" "}
-                  <strong>{u.firm}</strong> — {u.program} ·{" "}
-                  <a href={u.url} rel="noopener nofollow">page</a>
-                  <p>{u.evidence}</p>
-                </div>
-              ))}
-            </>
-          ) : null}
           <h2>Match against stated criteria</h2>
           <div className="screener">
             <select value={meMonth} onChange={(e) => setMeMonth(e.target.value)}

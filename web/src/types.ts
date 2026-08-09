@@ -50,15 +50,6 @@ export interface Source {
   note?: string;
 }
 
-export interface UpdateEntry {
-  date: string;
-  firm: string;
-  program: string;
-  verdict: "opened" | "changed";
-  evidence: string;
-  url: string;
-}
-
 export interface Apply {
   url: string;
   kind: "posting" | "program_page" | "careers_hub";
