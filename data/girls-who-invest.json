@@ -74,47 +74,6 @@
       "cycle": "2027",
       "opens": "open as of 2026-08-07 (2027 GWI Scholars Program)",
       "closes": "priority deadline September 15, 2026; final deadline October 15, 2026"
-    },
-    {
-      "id": "summer-intensive-2027-summer-2027",
-      "name": "Summer Intensive 2027",
-      "audience": "undergraduate",
-      "source": {
-        "url": "https://www.girlswhoinvest.org/",
-        "checked": "2026-07-27",
-        "check_method": "static",
-        "status": "ok",
-        "note": ""
-      },
-      "apply": {
-        "url": "https://www.girlswhoinvest.org/",
-        "kind": "program_page",
-        "checked": "2026-07-27"
-      },
-      "fields": {
-        "class_year": {
-          "state": "unverified",
-          "checked": "2026-07-27",
-          "summary_note": "Open to all genders per FAQ"
-        },
-        "sponsorship": {
-          "state": "unverified"
-        },
-        "process": {
-          "state": "unverified"
-        },
-        "compensation": {
-          "state": "unverified",
-          "checked": "2026-07-27"
-        }
-      },
-      "cooling_off": {
-        "state": "unverified"
-      },
-      "cycle": "Summer 2027",
-      "status": "future",
-      "opens": "~Aug 2026",
-      "closes": "~Oct 1, 2026"
     }
   ],
   "provenance": {
