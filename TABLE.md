@@ -107,6 +107,12 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 |---|---|---|---|---|---|---|---|
 | SEO Career | SEO Career (Edge / Success phases) | Not stated | "All who meet the following criteria are welcome to apply. 3.2 GPA required * First Year, Sophomore, or Junior All Majors Accredited 4-Year Universi…" | publishes nothing | 2026-07-29 | [link](https://career.seo-usa.org/apply-faq/) | [program page](https://career.seo-usa.org/apply-faq/) |
 
+## Private equity
+
+| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source | Apply |
+|---|---|---|---|---|---|---|---|
+| Blackstone | Summer Internship Program (Summer Analyst / Summer Associate) | Undergraduate | "Our summer program typically lasts 10 weeks. Students in their junior year of college, third year of university, or first year of business school m…" | rule stated, no duration given | 2026-08-10 | [link](https://www.blackstone.com/careers/students/) | [program page](https://www.blackstone.com/careers/students/) |
+
 ## Quantitative trading
 
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source | Apply |
@@ -236,10 +242,4 @@ At the end…" | publishes nothing | 2026-07-29 | [link](https://jobs.apple.com/
 | Uber | Uber 2027 SWE Internship / Career Prep | Undergraduate | "3rd/4th year" UberSTAR is the channel. | not checked yet | 2026-07-22 | _no URL yet_ | [careers site](https://www.uber.com/us/en/careers/) |
 | Uber | UberSTAR | First year | not checked yet | not checked yet | 2026-07-29 | [link](https://www.uber.com/us/en/careers/uberstar/) | [careers site](https://www.uber.com/us/en/careers/) |
 | Western Digital | Summer 2027 SWE Internship (Bachelors) - NAND Product Engineering | Undergraduate | "Currently pursuing a Bachelor's or Master's degree in Computer Science, Software Engineering, Computer Engineering, Systems Engineering, Data Scien…" | not checked yet | 2026-07-29 | [link](https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-) | [posting](https://jobs.smartrecruiters.com/WesternDigital/744000138727213-summer-2027-software-engineering-internship-bachelors-nand-product-engineering-) |
-
-## private_equity
-
-| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source | Apply |
-|---|---|---|---|---|---|---|---|
-| Blackstone | Summer Internship Program (Summer Analyst / Summer Associate) | Undergraduate | "Our summer program typically lasts 10 weeks. Students in their junior year of college, third year of university, or first year of business school m…" | rule stated, no duration given | 2026-08-10 | [link](https://www.blackstone.com/careers/students/) | [program page](https://www.blackstone.com/careers/students/) |
 

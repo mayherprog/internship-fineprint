@@ -24,7 +24,9 @@ from collections import Counter
 SECTOR_LABEL = {
     "technology": "Technology", "banking_finance": "Banking & finance",
     "quant_trading": "Quantitative trading", "consulting": "Consulting",
-    "law": "Law", "asset_management": "Asset management",
+    "law": "Law", "private_equity": "Private equity",
+    "venture_capital": "Venture capital",
+    "asset_management": "Asset management",
     "government": "Government", "other": "Other",
 }
 AUDIENCE_LABEL = {
