@@ -82,7 +82,19 @@ def load(data_dir):
                 "audience": prog.get("audience", "unknown"),
                 "cycle": prog.get("cycle", ""), "location": prog.get("location", ""),
                 "opens": prog.get("opens", ""), "closes": prog.get("closes", ""),
-                "source": prog["source"], "apply": prog.get("apply"),
+                # source.note is maintainer provenance — how the page was
+                # fetched, which user-agent got through, whether the answers
+                # sat in a collapsed accordion. It stays in data/ for auditing
+                # and is deliberately NOT shipped: this payload is served to
+                # readers, so anything left in it lands on the page and in the
+                # search index. The quote is the interface; scraping mechanics
+                # are not.
+                "source": {k: v for k, v in prog["source"].items() if k != "note"},
+                # apply.note is the same case: the drawer renders only the
+                # apply URL and its kind, so the note was pure payload weight
+                # a reader could still read in view-source.
+                "apply": ({k: v for k, v in prog["apply"].items() if k != "note"}
+                          if prog.get("apply") else None),
                 "fields": prog["fields"],
                 "cooling_off": prog["cooling_off"],
                 "unfiled": prog.get("unfiled_quotes", []),
