@@ -44,22 +44,28 @@
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "Monthly salary of $14,500 plus a signing bonus",
-          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708188005"
+          "quote": "Monthly salary of $16,500 plus a signing bonus",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/ctccampusboard/jobs/4708188005",
+          "source_status": "ok",
+          "checked": "2026-08-10"
         }
       },
       "cooling_off": {
-        "state": "silent",
+        "state": "stated",
         "tier": 1,
-        "source_url": "https://www.chicagotrading.com/campus",
-        "checked": "2026-07-29",
+        "quote": "You are allowed to submit one application per position (i.e. SE Intern and QT Intern) during the recruiting cycle.",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/ctccampusboard/jobs/4708188005",
+        "source_status": "ok",
+        "checked": "2026-08-10",
         "parsed": {
-          "trigger": "unknown",
+          "trigger": "application",
           "duration_months": null,
-          "scope": "unknown",
-          "resets_allowed": null
+          "scope": "this_role",
+          "resets_allowed": null,
+          "application_cap": 1,
+          "restrictive": true
         },
-        "notes": "Campus page describes interview process (application, assessment, interview, office visit) but contains no reapplication, cooling-off, or assessment-retake language."
+        "notes": "Firm states a per-position application cap for the cycle. It also states 'While you can apply for more than one role, please keep in mind that each application will be assessed according to the specific requirements set for that role.' — so the cap is per position, not one application firm-wide."
       },
       "cycle": "Summer 2027",
       "location": "Chicago, IL",
@@ -108,22 +114,28 @@
         "compensation": {
           "state": "stated",
           "tier": 1,
-          "quote": "Monthly Salary of $14,500 plus a signing bonus",
-          "source_url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708230005"
+          "quote": "Monthly Salary of $16,500 plus a signing bonus",
+          "source_url": "https://boards-api.greenhouse.io/v1/boards/ctccampusboard/jobs/4708230005",
+          "source_status": "ok",
+          "checked": "2026-08-10"
         }
       },
       "cooling_off": {
-        "state": "silent",
+        "state": "stated",
         "tier": 1,
-        "source_url": "https://www.chicagotrading.com/campus",
-        "checked": "2026-07-29",
+        "quote": "You are allowed to submit one application per position (i.e. SE Intern and QT Intern) during the recruiting cycle.",
+        "source_url": "https://boards-api.greenhouse.io/v1/boards/ctccampusboard/jobs/4708230005",
+        "source_status": "ok",
+        "checked": "2026-08-10",
         "parsed": {
-          "trigger": "unknown",
+          "trigger": "application",
           "duration_months": null,
-          "scope": "unknown",
-          "resets_allowed": null
+          "scope": "this_role",
+          "resets_allowed": null,
+          "application_cap": 1,
+          "restrictive": true
         },
-        "notes": "Same campus page checked for QT posting applies here; no reapplication/cooling-off/retake language found."
+        "notes": "Firm states a per-position application cap for the cycle. It also states 'While you can apply for more than one role, please keep in mind that each application will be assessed according to the specific requirements set for that role.' — so the cap is per position, not one application firm-wide."
       },
       "cycle": "Summer 2027",
       "location": "Chicago, IL",

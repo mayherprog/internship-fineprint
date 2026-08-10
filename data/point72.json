@@ -3,15 +3,80 @@
   "sector": "quant_trading",
   "programs": [
     {
-      "id": "point72-2027-qr-internship-summer-2027",
-      "name": "Point72 2027 QR Internship",
+      "id": "point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027",
+      "name": "Point72 Academy Investment Analyst Program for Upcoming Graduates (US) 2027",
       "audience": "undergraduate",
       "source": {
-        "url": null,
-        "checked": "2026-07-22",
-        "check_method": "manual",
-        "status": "url_pending",
-        "note": "Verbatim quote recorded from the source posting, but the URL was not captured at the time. Not independently citable until re-sourced."
+        "url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
+        "checked": "2026-07-29",
+        "status": "ok",
+        "note": "Read fully rendered via interactive browser session 2026-07-29. The separate Academy SUMMER INTERNSHIP posting (CPA-0014081) returns 404 as of this date - its row awaits the next cycle's posting."
+      },
+      "apply": {
+        "url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
+        "kind": "program_page",
+        "checked": "2026-07-29"
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "A current student who will graduate from university between December 2026 and July 2027.",
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
+          "parsed": {
+            "graduates_between": [
+              "2026-12",
+              "2027-07"
+            ]
+          }
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "There is no set application deadline for this position. Candidates are considered as they apply, until the program is at capacity.",
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The US annual base salary for this role is $125,000 (USD) which does not include discretionary bonus compensation or our comprehensive benefits package.",
+          "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Please note, you may only submit one application to the Academy program globally, so please be sure to apply to the region you are most interested in.",
+        "source_url": "https://careers.point72.com/CSJobDetail?jobName=point72-academy-investment-analyst-program-for-upcoming-graduates-us-2027&jobCode=CPA-0014871",
+        "checked": "2026-07-29",
+        "parsed": {
+          "trigger": "application",
+          "duration_months": null,
+          "scope": "this_program",
+          "resets_allowed": null,
+          "application_cap": 1,
+          "restrictive": true
+        },
+        "notes": "A global one-application cap for the Academy program, stated on the posting itself: one application across all regions (US, UK, HK, SG, JP). Verified on the rendered page; previously only search-indexed."
+      },
+      "cycle": "2027 (ten-month program)",
+      "location": "New York | San Francisco | Chicago | West Palm Beach / Miami"
+    },
+    {
+      "id": "summer-2027-quantitative-developer-internship-ny-summer-2027",
+      "name": "Summer 2027 Quantitative Developer Internship (NY)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002",
+        "checked": "2026-08-07",
+        "check_method": "static",
+        "status": "dead",
+        "note": "Browser session 2026-08-07: Point72 migrated off Greenhouse; the posting URL now redirects to careers.point72.com (Salesforce). That hub lists no Cubist internship (only full-time Cubist roles and Point72 Academy programs for upcoming graduates). Nothing quotable for the Cubist intern row."
       },
       "apply": {
         "url": "https://careers.point72.com/",
@@ -21,8 +86,8 @@
       "fields": {
         "class_year": {
           "state": "unverified",
-          "checked": "2026-07-22",
-          "summary_note": "PhD-only. (Cubist QD is separate and IS logged.)"
+          "tier": 1,
+          "source_url": "https://job-boards.greenhouse.io/point72/jobs/7297613002?gh_jid=7297613002"
         },
         "sponsorship": {
           "state": "unverified"
@@ -31,14 +96,18 @@
           "state": "unverified"
         },
         "compensation": {
-          "state": "unverified"
+          "state": "unverified",
+          "checked": "2026-07-27",
+          "summary_note": "$240k–$300k annualized base, prorated"
         }
       },
       "cooling_off": {
         "state": "unverified"
       },
       "cycle": "Summer 2027",
-      "status": "unknown"
+      "status": "open",
+      "opens": "Open now",
+      "closes": "Rolling"
     }
   ],
   "provenance": {
