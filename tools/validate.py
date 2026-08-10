@@ -23,6 +23,12 @@ The rules being enforced, in plain English:
      candidate reports establish "widely reported", never "true", and a wrong
      cooling-off row is the most expensive error this project can make.
 
+The enum-shaped constants below restate the schema on purpose: this file is a
+second opinion, not a schema runner. `SECTORS` is the exception. It is read
+from schema/program.schema.json at runtime because it is the one enum that
+changes as firms are added, and a copy here drifted out of sync with the
+schema in exactly the way that costs an afternoon. See tools/sectors.py.
+
 Usage:  python3 tools/validate.py [data_dir]
 """
 
@@ -31,6 +37,9 @@ import pathlib
 import re
 import sys
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sectors import SECTORS  # noqa: E402  -- the schema is the source of truth
+
 STATES = {"stated", "silent", "unverified"}
 TIERS = {1, 2, 3}
 SOURCE_STATUS = {"ok", "url_pending", "blocked", "dead"}
@@ -38,11 +47,6 @@ APPLY_KINDS = {"posting", "program_page", "careers_hub"}
 AUDIENCE = {
     "undergraduate", "sophomore", "freshman", "law_student_jd",
     "graduate", "phd", "paralegal", "high_school", "all", "unknown",
-}
-SECTORS = {
-    "technology", "banking_finance", "quant_trading", "consulting",
-    "law", "private_equity", "venture_capital", "asset_management",
-    "government", "other",
 }
 TRIGGERS = {"assessment_attempt", "rejection", "application", "offer_declined", "unknown"}
 SCOPES = {"this_role", "this_program", "all_roles", "all_offices_all_roles", "unknown"}

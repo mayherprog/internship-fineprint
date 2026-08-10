@@ -80,12 +80,21 @@ export interface Program {
   unfiled: { label?: string; quote: string; source_url?: string }[];
 }
 
+// The legal sector values live in schema/program.schema.json and nowhere else.
+// This map only supplies display names, which the schema cannot: the browser
+// has no way to read the schema, so the keys are hand-written here and then
+// checked. `python3 tools/export_json.py` — which CI runs immediately before
+// `npm run build` — fails if these keys are not exactly the schema enum, or if
+// a label disagrees with the one tools/build.py renders into TABLE.md.
+// Adding a sector means: schema first, then this map and tools/build.py.
 export const SECTOR_LABEL: Record<string, string> = {
   quant_trading: "Quantitative trading",
   technology: "Technology",
   banking_finance: "Banking & finance",
   consulting: "Consulting",
   law: "Law",
+  private_equity: "Private equity",
+  venture_capital: "Venture capital",
   asset_management: "Asset management",
   government: "Government",
   other: "Other",

@@ -28,6 +28,9 @@ import re
 import sys
 import unicodedata
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sectors import SECTORS  # noqa: E402  -- the schema is the source of truth
+
 AUDIENCE = ("undergraduate", "sophomore", "freshman", "law_student_jd",
             "graduate", "phd", "paralegal", "high_school", "all", "unknown")
 
@@ -267,9 +270,7 @@ def normalise(rec):
         rec.get("sector"), rec.get("sector"))
     return {
         "firm": (rec.get("firm") or "").replace("&amp;", "&").strip(),
-        "sector": sector if sector in {
-            "technology", "banking_finance", "quant_trading", "consulting",
-            "law", "asset_management", "government", "other"} else "other",
+        "sector": sector if sector in SECTORS else "other",
         "programs": programs,
         "provenance": {
             "origin": "per-firm web research, one agent per firm",
