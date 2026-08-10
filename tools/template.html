@@ -389,7 +389,6 @@ function cardHTML(r){
         esc(r.apply.url) + '" rel="noopener nofollow">Apply &mdash; ' +
         ({posting:'posting', program_page:'program page', careers_hub:'careers site'})[r.apply.kind] +
         '</a></p>' : ''}
-      ${r.source.note ? `<p class="meta">${esc(r.source.note)}</p>` : ''}
       ${calHTML(r)}
       <div class="grid">${Object.keys(FIELDS).map(k => fieldHTML(k, r.fields[k] || {state:'unverified'})).join('')}</div>
       ${coolHTML(r.cooling_off)}
@@ -436,7 +435,7 @@ DATA.forEach(r => {
   for (const k in r.fields){ const f = r.fields[k];
     bits.push(f.quote || '', f.summary_note || ''); }
   bits.push(r.cooling_off.quote || '', r.cooling_off.notes || '',
-            (r.unfiled || []).map(u => u.quote).join(' '), r.source.note || '');
+            (r.unfiled || []).map(u => u.quote).join(' '));
   r._search = bits.join(' ').toLowerCase();
 });
 

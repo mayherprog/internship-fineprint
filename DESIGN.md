@@ -135,8 +135,18 @@ max 80ch.
   and a collapsed card that hides its states forces a reader to open every
   drawer. (Adopted from the sibling project's disclosure rule: the summary
   carries the current value.)
-- **Drawer** — meta line, source note if any, calendar line if a date parses,
-  2×2 field grid, cooling-off block, unfiled quotes.
+- **Drawer** — meta line, calendar line if a date parses, 2×2 field grid,
+  cooling-off block, unfiled quotes. **`source.note` is never rendered and
+  never shipped in the payload.** It is maintainer provenance — which
+  user-agent got past a 403, whether answers sat in a collapsed accordion,
+  which fetch attempt succeeded — and it was reaching readers as a paragraph in
+  the drawer *and* as searchable text. That is scraping mechanics on the face
+  of a reference work, against principle 1 (the quote is the interface) and
+  principle 6 (formal register, no insider shorthand). The note stays in
+  `data/` where auditors read it; `tools/build.py` strips it when building the
+  payload, so a note can never reach the page again merely by being written
+  into a record. Source quality still reaches the reader, through the tier pill
+  and the source-status link.
 - **Field box** — label + state pill, then exactly one of: a quote (green left
   rule), "The firm publishes nothing on this.", or a summary note explicitly
   marked as not the firm's wording.
