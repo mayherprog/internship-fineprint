@@ -1,0 +1,87 @@
+{
+  "firm": "General Atlantic",
+  "sector": "private_equity",
+  "programs": [
+    {
+      "id": "summer-growth-experience",
+      "name": "Summer Growth Experience",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.generalatlantic.com/careers/early-careers/",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own early-careers page. The page heads this section 'Summer Growth Experience 2025'; the year on the firm's own page is stale as of the date checked."
+      },
+      "apply": {
+        "url": "https://www.generalatlantic.com/careers/early-careers/",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own early-careers page; it directs applicants to the Open Roles page and the 12Twenty platform."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "General Atlantic hires undergraduate students across all business functions – Investment Areas, Value Creation, Capital Solutions, and Business Operations in both the US and the UK.",
+          "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Full-time hiring can happen throughout the year, while applications for internship experiences generally open in the fall and spring.",
+          "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl', 'apply again' and 'waiting period': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Analyst programs are generally two years, with the ability to be considered for future roles at GA.",
+          "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "We recruit MBA talent globally, with on-campus engagement typically taking place in the fall, aligned with each university’s recruitment calendar.",
+          "source_url": "https://www.generalatlantic.com/careers/early-careers/",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own early-careers page",
+    "transcribed": "2026-08-10",
+    "note": "The class-year sentence states that the firm hires undergraduates and in which functions, but not a year of study, so nothing is parsed from it."
+  }
+}
