@@ -1,0 +1,157 @@
+{
+  "firm": "PJT Partners",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "id": "summer-analyst-program",
+      "name": "Summer Analyst Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://pjtpartners.com/careers/students",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own students page, read with a browser user-agent. Quotes confirmed as literal normalised substrings using tools/verify_quotes.py norm() before recording."
+      },
+      "apply": {
+        "url": "https://pjtpartners.com/careers/students",
+        "kind": "program_page",
+        "checked": "2026-08-10"
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Eligible candidates for our global Summer Analyst and Summer Associate Programs are penultimate year students who have one academic year left following the intern program.",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We encourage all candidates to apply and handle visa sponsorships on a case-by-case basis.",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our summer intern class is sized to ensure we have a talent pipeline that can meet the needs of our anticipated full-time headcount, and therefore, everyone is eligible for a full-time offer depending on their performance during the internship.",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://pjtpartners.com/careers/students",
+        "source_status": "ok",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication waiting period, application cap, or assessment-retake rule stated anywhere on the students page as read on 2026-08-10."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Does PJT Partners sponsor visas for international students?",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok"
+        }
+      ],
+      "cycle": "Summer 2027",
+      "status": "unknown"
+    },
+    {
+      "id": "summer-associate-program",
+      "name": "Summer Associate Program (MBA)",
+      "audience": "graduate",
+      "source": {
+        "url": "https://pjtpartners.com/careers/students",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own students page, read with a browser user-agent. Quotes confirmed as literal normalised substrings using tools/verify_quotes.py norm() before recording."
+      },
+      "apply": {
+        "url": "https://pjtpartners.com/careers/students",
+        "kind": "program_page",
+        "checked": "2026-08-10"
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Eligible candidates for our global Summer Analyst and Summer Associate Programs are penultimate year students who have one academic year left following the intern program.",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We encourage all candidates to apply and handle visa sponsorships on a case-by-case basis.",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our summer intern class is sized to ensure we have a talent pipeline that can meet the needs of our anticipated full-time headcount, and therefore, everyone is eligible for a full-time offer depending on their performance during the internship.",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://pjtpartners.com/careers/students",
+        "source_status": "ok",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null
+        },
+        "notes": "No reapplication waiting period, application cap, or assessment-retake rule stated anywhere on the students page as read on 2026-08-10."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Does PJT Partners sponsor visas for international students?",
+          "source_url": "https://pjtpartners.com/careers/students",
+          "source_status": "ok"
+        }
+      ],
+      "cycle": "Summer 2027",
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own students page",
+    "transcribed": "2026-08-10",
+    "note": "Every quote verified as a literal normalised substring of the live page on 2026-08-10. Hedged. The firm states it handles sponsorship case-by-case; it does NOT state that it sponsors, nor that it accepts CPT or OPT. No parsing recorded — read the quote."
+  }
+}
