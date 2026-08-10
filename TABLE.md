@@ -2,7 +2,7 @@
 
 Generated from `data/` by `tools/build.py`. Do not edit by hand.
 
-**192 programs across 66 firms.** Cooling-off: 26 stated, 99 publish nothing, 67 not yet checked.
+**191 programs across 66 firms.** Cooling-off: 26 stated, 99 publish nothing, 66 not yet checked.
 
 Every quote is the firm's own wording. **A firm's current page is always the authority** — these rows are a dated snapshot and firms rewrite pages without notice.
 
@@ -16,7 +16,6 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 | Bridgewater Associates | Investment Associate Intern - 2027 | Undergraduate | publishes nothing | publishes nothing | 2026-07-29 | [link](https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002) | [posting](https://job-boards.greenhouse.io/bridgewatercampusrecruiting/jobs/8457683002) |
 | Bridgewater Associates | Rising Fellows | Sophomore/2nd year | publishes nothing | not checked yet | 2026-07-29 | [link](https://www.bridgewater.com/working-at-bridgewater/students) | [program page](https://www.bridgewater.com/working-at-bridgewater/students) |
 | Girls Who Invest | GWI Scholars Program (formerly Summer Intensive Program) | Sophomore/2nd year | "All applicants must hold first-year or sophomore status, with an expected graduation date between fall 2028 and spring 2030." | rule stated, no duration given | 2026-08-07 | [link](https://www.girlswhoinvest.org/apply-faq) | [program page](https://www.girlswhoinvest.org/apply-faq) |
-| Girls Who Invest | Summer Intensive 2027 | Undergraduate | Open to all genders per FAQ | not checked yet | 2026-07-27 | [link](https://www.girlswhoinvest.org/) | [program page](https://www.girlswhoinvest.org/) |
 
 ## Banking & finance
 
