@@ -1,0 +1,153 @@
+{
+  "firm": "Evercore",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "id": "analyst-and-associate-programs-us",
+      "name": "Analyst and Associate Programs (United States)",
+      "audience": "all",
+      "source": {
+        "url": "https://www.evercore.com/careers/students/",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own United States students page."
+      },
+      "apply": {
+        "url": "https://www.evercore.com/careers/students/",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own students page for the United States."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We select the brightest students from top universities and offer an unparalleled career opportunity for current MBA students (Associates) and undergraduates (Analysts) interested in working within the financial industry.",
+          "source_url": "https://www.evercore.com/careers/students/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.evercore.com/careers/students/",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.evercore.com/careers/students/",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.evercore.com/careers/students/",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.evercore.com/careers/students/",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl', 'apply again' and 'waiting period': no match."
+      },
+      "unfiled_quotes": [],
+      "status": "unknown"
+    },
+    {
+      "id": "internship-programme-london",
+      "name": "Internship Programme (London)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own Europe and Asia students-and-graduates page."
+      },
+      "apply": {
+        "url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own Europe and Asia students page, which links to each 2027 programme application."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our internship programme is designed for people in their penultimate year of study who have a strong interest in an investment banking career.",
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl', 'apply again' and 'waiting period': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Our offices in EMEA offer off-cycle internship opportunities throughout the year.",
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "You must be able to demonstrate a genuine interest in investment banking coupled with a strong academic record.",
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Depending on business needs, your performance and the firm’s performance, off-cycle internships may lead to a full-time offer in our Graduate Programme.",
+          "source_url": "https://www.evercore.com/careers/students-graduates/students-graduates-europe-asia/",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own students pages, United States and Europe/Asia",
+    "transcribed": "2026-08-10",
+    "note": "Sponsorship is silent although the string 'sponsor' occurs three times on the Europe/Asia page: every occurrence means a financial sponsor (private-equity clients of the Private Funds Group and Real Estate Strategic Advisory) or an event sponsor of the Women's Forum. None concerns immigration. A grep-based audit will flag this page; it is not a false silent."
+  }
+}
