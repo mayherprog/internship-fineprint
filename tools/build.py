@@ -21,6 +21,14 @@ import re
 import sys
 from collections import Counter
 
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from sectors import SECTORS, assert_labels_cover_schema  # noqa: E402
+
+# Display names are the one thing the schema cannot supply: "banking_finance"
+# only becomes "Banking & finance" because a human decided so. So this map is
+# hand-written, and check_sector_labels() below makes an incomplete one a build
+# failure -- a sector with no label would otherwise render as a heading reading
+# `private_equity`, which looks like a bug in the data rather than a gap here.
 SECTOR_LABEL = {
     "technology": "Technology", "banking_finance": "Banking & finance",
     "quant_trading": "Quantitative trading", "consulting": "Consulting",
@@ -29,6 +37,15 @@ SECTOR_LABEL = {
     "asset_management": "Asset management",
     "government": "Government", "other": "Other",
 }
+
+
+def check_sector_labels():
+    """Run before any rendering. Deliberately a function rather than an
+    import-time statement: importing this module for its helpers must not be
+    able to abort an unrelated test session before it collects."""
+    assert_labels_cover_schema(SECTOR_LABEL, "tools/build.py SECTOR_LABEL")
+
+
 AUDIENCE_LABEL = {
     "undergraduate": "Undergraduate", "sophomore": "Sophomore/2nd year",
     "freshman": "First year", "law_student_jd": "Law student (JD)",
@@ -46,9 +63,18 @@ APPLY_KIND_LABEL = {
 
 
 def load(data_dir):
+    check_sector_labels()
     rows = []
     for path in sorted(pathlib.Path(data_dir).glob("*.json")):
         rec = json.loads(path.read_text())
+        # The label map covering the schema is only half of it: a record could
+        # still carry a sector the schema never allowed. That would render as a
+        # raw slug heading, and .github/workflows/pages.yml deploys this build
+        # without running validate.py first, so nothing else would catch it.
+        if rec.get("sector") not in SECTORS:
+            raise SystemExit(
+                f"{path.name}: sector {rec.get('sector')!r} is not in "
+                f"schema/program.schema.json; run tools/validate.py")
         for prog in rec["programs"]:
             rows.append({
                 "firm": rec["firm"], "sector": rec["sector"],
@@ -115,8 +141,10 @@ def build_markdown(rows):
     for r in rows:
         by_sector.setdefault(r["sector"], []).append(r)
 
-    for sector in sorted(by_sector, key=lambda s: SECTOR_LABEL.get(s, s)):
-        out += [f"## {SECTOR_LABEL.get(sector, sector)}", "",
+    # Indexed, not .get(s, s): load() has already refused any sector the schema
+    # does not allow, so a KeyError here means that guarantee was removed.
+    for sector in sorted(by_sector, key=lambda s: SECTOR_LABEL[s]):
+        out += [f"## {SECTOR_LABEL[sector]}", "",
                 "| Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source | Apply |",
                 "|---|---|---|---|---|---|---|---|"]
         for r in by_sector[sector]:
