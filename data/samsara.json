@@ -1,0 +1,92 @@
+{
+  "firm": "Samsara",
+  "sector": "technology",
+  "programs": [
+    {
+      "id": "internship-and-co-op-program",
+      "name": "Internship and Co-op Program",
+      "audience": "all",
+      "source": {
+        "url": "https://www.samsara.com/company/careers/early-careers",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own early-careers page, fetched with a browser user-agent; complete static markup. The same content is published on regional variants (/ca/, /uk/) with identical wording."
+      },
+      "apply": {
+        "url": "https://www.samsara.com/company/careers/early-careers",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own early-careers hub. Individual postings are linked from it."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "If you're a student in an undergraduate or graduate program planning to graduate next year, we want you!",
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We hire on a rolling basis until all positions are filled, so we recommend you apply early.",
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.samsara.com/company/careers/early-careers",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl' and 'apply again': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "If you are in an undergraduate, graduate program and planning to graduate in the current academic year and want to kickstart your career in tech, consider joining us!",
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "source_status": "ok"
+        },
+        {
+          "quote": "For new graduates interested in Product Management or Operations, we offer an 18-month rotation program.",
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Show off your skills through a technical or non-technical assessment.",
+          "source_url": "https://www.samsara.com/company/careers/early-careers",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own early-careers page, fetched with a browser user-agent",
+    "transcribed": "2026-08-10",
+    "note": "The second class-year sentence in unfiled_quotes belongs to the new-graduate rotation programme, not the internship, and is kept separate for that reason. No sponsorship, CPT, OPT, visa or work-authorisation sentence appears anywhere on the page."
+  }
+}
