@@ -142,11 +142,22 @@ def quotes_in(rec):
 
 
 def main():
-    args = [a for a in sys.argv[1:] if not a.startswith("--")]
+    argv = sys.argv[1:]
     only = None
-    if "--only" in sys.argv:
-        only = sys.argv[sys.argv.index("--only") + 1]
+    if "--only" in argv:
+        i = argv.index("--only")
+        if i + 1 >= len(argv):
+            sys.exit("--only needs a firm slug")
+        only = argv[i + 1]
+        # Drop the flag AND its value. Leaving the value in the positional list
+        # made `verify_quotes.py --only acme` read "acme" as the data directory,
+        # glob an empty tree, and exit 0 having verified nothing. A checker that
+        # passes loudly while checking nothing is worse than no checker at all.
+        argv = argv[:i] + argv[i + 2:]
+    args = [a for a in argv if not a.startswith("--")]
     data_dir = pathlib.Path(args[0] if args else "data")
+    if not data_dir.is_dir():
+        sys.exit(f"{data_dir}: not a directory")
 
     ok, fail, blocked, nourl, parts = [], [], [], [], []
     for path in sorted(data_dir.glob("*.json")):

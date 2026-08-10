@@ -55,17 +55,21 @@
         }
       },
       "cooling_off": {
-        "state": "silent",
-        "tier": 2,
+        "state": "stated",
+        "tier": 1,
+        "quote": "Yes. If you're not admitted to the GWI Scholars Program during your first-year, you're welcome and encouraged to reapply as a sophomore. Each application is evaluated on its own merits, so a prior application doesn't affect your eligibility or candidacy in a future cycle.",
         "source_url": "https://www.girlswhoinvest.org/apply-faq",
-        "checked": "2026-08-07",
+        "source_status": "ok",
+        "checked": "2026-08-10",
         "parsed": {
-          "trigger": "unknown",
+          "trigger": "rejection",
           "duration_months": null,
-          "scope": "unknown",
-          "resets_allowed": null
+          "scope": "this_program",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": false
         },
-        "notes": "No sentence addressing reapplication after prior rejection or repeat participation was found on either the SIP or apply-FAQ pages during this check."
+        "notes": "The quoted sentences answer the FAQ question \"If I wasn't admitted as a first-year applicant, can I reapply as a sophomore the following academic year?\" The answer is explicitly permissive: no waiting period stated, and the firm states a prior application carries no penalty. Recorded as stated rather than silent for the same reason as Blackstone -- the firm addresses the question in its own words. This row previously read silent, with the note \"No sentence addressing reapplication ... was found on either the SIP or apply-FAQ pages during this check.\" The sentence was on the cited page and was missed. Note the firm frames reapplication as a first-year applicant returning as a sophomore, which is the only repeat its own class-year rule leaves room for."
       },
       "cycle": "2027",
       "opens": "open as of 2026-08-07 (2027 GWI Scholars Program)",
