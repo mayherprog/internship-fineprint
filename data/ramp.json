@@ -1,0 +1,100 @@
+{
+  "firm": "Ramp",
+  "sector": "technology",
+  "programs": [
+    {
+      "id": "internship-program",
+      "name": "Internship Program (Emerging Talent)",
+      "audience": "undergraduate",
+      "location": "New York, NY, USA",
+      "source": {
+        "url": "https://ramp.com/emerging-talent",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own emerging-talent page. The eligibility answers sit in a FAQ accordion: present in the markup, absent from rendered innerText. Read from the markup on 2026-08-10."
+      },
+      "apply": {
+        "url": "https://ramp.com/emerging-talent",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own emerging-talent page. It states that live openings are listed on ramp.com/careers rather than on this page."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "For interns: anyone who will be registered in an accredited 4 year university post-internship.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://ramp.com/emerging-talent",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our recruiting process typically spans 3–4 weeks, involving various stages such as technical assessments, phone screens, and evaluations.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes, we offer a stipend to assist with housing to support summer interns during their time with us.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://ramp.com/emerging-talent",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl' and 'apply again': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "For new grads: anyone who will graduate from an accredited 4 year university and can start in the next 6-12 months.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok"
+        },
+        {
+          "quote": "The intended duration for our internship program is 10 weeks. For co-op positions, the duration extends to 16 weeks. Specific start and end dates can be provided by your recruiter.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Internships are primarily based at our headquarters in New York.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok"
+        },
+        {
+          "quote": "We strongly emphasize an in-person experience.",
+          "source_url": "https://ramp.com/emerging-talent",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own emerging-talent FAQ, fetched with a browser user-agent",
+    "transcribed": "2026-08-10",
+    "note": "Sponsorship is recorded as silent even though the string 'visa' occurs 22 times on this page: every occurrence is card-product boilerplate about the Ramp Visa Corporate, Commercial and Business Cards, not a statement about immigration sponsorship. A later audit that greps for 'visa' will flag this page; it is not a false silent. No CPT, OPT, work-authorisation or sponsorship sentence appears."
+  }
+}
