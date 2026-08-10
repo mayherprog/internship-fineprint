@@ -1,0 +1,163 @@
+{
+  "firm": "Stifel",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "id": "home-office-internship-program",
+      "name": "Home Office Internship Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.stifel.com/careers/internships",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own internships page, which states a 'Who is Eligible?' list per programme."
+      },
+      "apply": {
+        "url": "https://www.stifel.com/careers/internships",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own internships page, which links to open roles and the talent network."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Undergraduate students who are rising juniors at the time of application",
+          "source_url": "https://www.stifel.com/careers/internships",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.stifel.com/careers/internships",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Applications open during the Fall for the following Summer program",
+          "source_url": "https://www.stifel.com/careers/internships",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "We are pleased to offer a paid internship opportunity, providing valuable experience and compensation for your contributions.",
+          "source_url": "https://www.stifel.com/careers/internships",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.stifel.com/careers/internships",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl', 'apply again' and 'waiting period': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Minimum GPA of 3.5 or higher",
+          "source_url": "https://www.stifel.com/careers/internships",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Our Home Office program runs 10 weeks between May and August.",
+          "source_url": "https://www.stifel.com/careers/internships",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Our internship programs are hosted on site at their specified location.",
+          "source_url": "https://www.stifel.com/careers/internships",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    },
+    {
+      "id": "institutional-summer-analyst-program",
+      "name": "Summer Analyst Program (Institutional Group)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own institutional investment-banking campus-recruiting page."
+      },
+      "apply": {
+        "url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own campus-recruiting page for the Institutional Group."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "In order to be considered for the Summer Analyst Program, you need to be a college student currently enrolled in an Undergraduate program, who will have completed their junior year by the start of the internship.",
+          "source_url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl', 'apply again' and 'waiting period': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Stifel’s Summer Internship Program provides young professionals with a hands-on introduction to the financial industry.",
+          "source_url": "https://www.stifel.com/institutional/investment-banking/careers/campus-recruiting",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own internships and campus-recruiting pages",
+    "transcribed": "2026-08-10",
+    "note": "Two programmes with two separately stated class-year rules: the Home Office programme asks for rising juniors at the time of application, the Institutional Summer Analyst Program for junior year completed by the start of the internship. They are not the same rule, so they are two programs. The stated minimum GPA of 3.5 is kept as an unfiled quote because it is an eligibility bar the schema has no field for."
+  }
+}

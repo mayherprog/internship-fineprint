@@ -1,0 +1,99 @@
+{
+  "firm": "Nomura",
+  "sector": "banking_finance",
+  "programs": [
+    {
+      "id": "summer-internship-and-industrial-placement",
+      "name": "Summer Internship & Industrial Placement Program",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Firm's own early-careers internship-programs page. The cooling-off quote is cited to a different page of the same section (graduate-programs); see that field's source_url and the notes."
+      },
+      "apply": {
+        "url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own internship-programs page; applications are submitted through the Nomura Careers website."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our Risk Management Programs include a 9-10 weeks summer internship for penultimate year students or a 12 month Industrial Placement (EMEA only)*.",
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our intern programs are an integral component of our full-time recruiting efforts and are a two-way assessment process.",
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Please note that we can only accept one application globally per recruitment cycle from each candidate, so think about what program and which location carefully before applying.",
+        "source_url": "https://www.nomura.com/careers/early-careers/graduate-programs/",
+        "source_status": "ok",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "application",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": 1,
+          "restrictive": true
+        },
+        "notes": "Nomura states a cap of one application globally per recruitment cycle. This is the second such rule verified in the database, after the Point72 Academy one-application-globally lockout. IMPORTANT BOUNDARY: the sentence appears on the firm's graduate-programs page, in the paragraph about submitting an application, and it does NOT appear on the internship-programs page (searched: no match). The firm's wording is general ('each candidate', 'what program and which location'), but the firm has not stated whether it binds internship applicants, so scope is recorded as 'unknown' rather than all_offices_all_roles. restrictive is true because the firm itself states a number. Read the quote and its source page before relying on it."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Our Technology programmes include a 9-10 week summer internship for penultimate year students or a 12 month Industrial Placement (EMEA only)*.",
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Our 9 weeks internship provides students in their final year of study the opportunity to get hands-on experience in sales, trading, structuring or research.",
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "At the end of the program, offers are extended to strong performers to return to Nomura after graduation.",
+          "source_url": "https://www.nomura.com/careers/early-careers/internship-programs/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "You should be pursuing or have recently completed an undergraduate or master’s degree with limited or no work experience.",
+          "source_url": "https://www.nomura.com/careers/early-careers/graduate-programs/",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own early-careers pages (internship programs and graduate programs)",
+    "transcribed": "2026-08-10",
+    "note": "The application-cap sentence is the reason this record exists. It is cited to the page that actually carries it rather than to the internship page, so verify_quotes.py checks it against the right source and a reader can see for themselves where the firm says it. Sponsorship is silent although 'sponsor' occurs five times on the internship page: every occurrence is the coverage-sector name 'Financial Sponsors' (private-equity, sovereign-wealth and pension-fund clients), never immigration."
+  }
+}
