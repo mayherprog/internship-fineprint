@@ -41,7 +41,8 @@ AUDIENCE = {
 }
 SECTORS = {
     "technology", "banking_finance", "quant_trading", "consulting",
-    "law", "asset_management", "government", "other",
+    "law", "private_equity", "venture_capital", "asset_management",
+    "government", "other",
 }
 TRIGGERS = {"assessment_attempt", "rejection", "application", "offer_declined", "unknown"}
 SCOPES = {"this_role", "this_program", "all_roles", "all_offices_all_roles", "unknown"}
