@@ -1,0 +1,109 @@
+{
+  "firm": "Blackstone",
+  "sector": "private_equity",
+  "programs": [
+    {
+      "id": "summer-analyst-associate-program",
+      "name": "Summer Internship Program (Summer Analyst / Summer Associate)",
+      "audience": "undergraduate",
+      "source": {
+        "url": "https://www.blackstone.com/careers/students/",
+        "checked": "2026-08-10",
+        "check_method": "manual",
+        "status": "ok",
+        "note": "blackstone.com returns HTTP 403 to plain curl (user-agent filter) but renders normally in a browser. FAQ answers are present in the DOM inside collapsed accordions, so they are absent from visible innerText and must be read from innerHTML. All quotes below were read from the live page on 2026-08-10."
+      },
+      "apply": {
+        "url": "https://www.blackstone.com/careers/students/",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Firm's own students hub. No live individual posting was open at the time of checking; the page carries the programme description and eligibility FAQ."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Our summer program typically lasts 10 weeks. Students in their junior year of college, third year of university, or first year of business school may apply for our Summer Analyst and Associate positions. Interested candidates may apply to multiple groups within Blackstone.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Yes. If you are not a citizen, Blackstone may petition on your behalf for an employment-based visa. Please be advised that the country’s citizen and immigration service office makes the ultimate determination as to whether such a visa will be granted.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Cover letters are not necessary for campus applications.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "No. Blackstone is unable to offer unpaid internships.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "stated",
+        "tier": 1,
+        "quote": "Interested candidates may apply to multiple groups within Blackstone.",
+        "source_url": "https://www.blackstone.com/careers/students/",
+        "source_status": "ok",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": false
+        },
+        "notes": "Blackstone states no reapplication waiting period and no cap on the number of groups a candidate may apply to. The quoted sentence is explicitly permissive, which is the opposite of the Point72 Academy one-application-globally rule and the Chicago Trading Company one-application-per-position cap. Recorded as stated rather than silent because the firm does address the question in its own words. The firm separately states it will not accept late submissions (see unfiled_quotes), but that concerns deadlines, not reapplication."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Blackstone considers candidates from schools across the globe. Candidates eligible for full-time opportunities are completing their final year of college or graduate school. Candidates eligible for summer opportunities are completing their third year of university or their junior year in college.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "No. Unfortunately, due to the high volume of applications we are unable to accommodate late submissions.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "For recent graduates, please visit our careers website for entry level positions. Our university programs are specifically for students still in undergraduate and/or graduate programs.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Unfortunately, we are unable to coordinate informational interviews or calls. Please check our website for additional information on our business groups.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok"
+        },
+        {
+          "quote": "Our internship program gives Summer Analysts and Associates an unprecedented opportunity to play an integral role in all aspects of deals, transactions and other projects.",
+          "source_url": "https://www.blackstone.com/careers/students/",
+          "source_status": "ok"
+        }
+      ],
+      "cycle": "Summer 2027",
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "firm's own students page, read in-browser",
+    "transcribed": "2026-08-10",
+    "note": "Every quote is a verbatim substring of the live page as rendered on 2026-08-10. No paraphrase. The sponsorship quote addresses employment-based visas for hiring; it does NOT state a position on CPT or OPT for internships, so no CPT/OPT parsing is recorded."
+  }
+}
