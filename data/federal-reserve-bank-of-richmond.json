@@ -1,0 +1,82 @@
+{
+  "firm": "Federal Reserve Bank of Richmond",
+  "sector": "government",
+  "programs": [
+    {
+      "id": "summer-internship-program",
+      "name": "Summer Internship Program",
+      "audience": "all",
+      "source": {
+        "url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Bank's own students-and-recent-graduates internships page."
+      },
+      "apply": {
+        "url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Bank's own internships page; it states applications open in the autumn."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "College sophomores, juniors, seniors or graduate students are invited to apply during our open application periods in early fall and winter.",
+          "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "Kickstart your career with our paid Internship Program as a student or recent college graduate.",
+          "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl' and 'apply again': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Applications for our 2027 Summer Internship Program will open in the Fall.",
+          "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "Bank's own internships page",
+    "transcribed": "2026-08-10",
+    "note": "Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
+  }
+}

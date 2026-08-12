@@ -1,0 +1,87 @@
+{
+  "firm": "Federal Reserve Bank of Boston",
+  "sector": "government",
+  "programs": [
+    {
+      "id": "college-summer-internships",
+      "name": "College Summer Internships",
+      "audience": "all",
+      "source": {
+        "url": "https://www.bostonfed.org/careers/early-career-internships",
+        "checked": "2026-08-10",
+        "check_method": "static",
+        "status": "ok",
+        "note": "Bank's own early-career and internships page. The class-year sentence is cited to the research-associate-program page, which is where the Bank states it."
+      },
+      "apply": {
+        "url": "https://www.bostonfed.org/careers/early-career-internships",
+        "kind": "program_page",
+        "checked": "2026-08-10",
+        "note": "Bank's own early-career page; positions are posted in the Bank's career portal."
+      },
+      "fields": {
+        "class_year": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Bank’s summer internship program is open to students who have completed their sophomore year of college by the start of the internship.",
+          "source_url": "https://www.bostonfed.org/careers/early-career-internships/research-associate-program",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        },
+        "sponsorship": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bostonfed.org/careers/early-career-internships",
+          "checked": "2026-08-10"
+        },
+        "process": {
+          "state": "silent",
+          "tier": 1,
+          "source_url": "https://www.bostonfed.org/careers/early-career-internships",
+          "checked": "2026-08-10"
+        },
+        "compensation": {
+          "state": "stated",
+          "tier": 1,
+          "quote": "The Federal Reserve Bank of Boston provides paid internships, research associate roles, and entry-level jobs for students, early professionals, and those re-entering the workforce.",
+          "source_url": "https://www.bostonfed.org/careers/early-career-internships",
+          "source_status": "ok",
+          "checked": "2026-08-10"
+        }
+      },
+      "cooling_off": {
+        "state": "silent",
+        "tier": 1,
+        "source_url": "https://www.bostonfed.org/careers/early-career-internships",
+        "checked": "2026-08-10",
+        "parsed": {
+          "trigger": "unknown",
+          "duration_months": null,
+          "scope": "unknown",
+          "resets_allowed": null,
+          "application_cap": null,
+          "restrictive": null
+        },
+        "notes": "The page carries no sentence addressing reapplication, waiting periods, or a cap on applications. Searched the fetched markup for 'reappl', 're-appl' and 'apply again': no match."
+      },
+      "unfiled_quotes": [
+        {
+          "quote": "Each summer (May-August), the Bank welcomes undergraduate and graduate students to work across a range of departments and business areas.",
+          "source_url": "https://www.bostonfed.org/careers/early-career-internships",
+          "source_status": "ok"
+        },
+        {
+          "quote": "The Research Department summer internship program is open to undergraduate and graduate students majoring in economics, finance, statistics or mathematics.",
+          "source_url": "https://www.bostonfed.org/careers/early-career-internships/research-associate-program",
+          "source_status": "ok"
+        }
+      ],
+      "status": "unknown"
+    }
+  ],
+  "provenance": {
+    "origin": "Bank's own early-career and research-associate pages",
+    "transcribed": "2026-08-10",
+    "note": "The sophomore-year rule is the sharpest class-year statement of the six Reserve Banks recorded in this pass, and it sits on the research-associate-program page rather than the internships landing page, so it is cited there. Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
+  }
+}
