@@ -2,7 +2,7 @@
 
 Generated from `data/` by `tools/build.py`. Do not edit by hand.
 
-**217 programs across 85 firms.** Cooling-off: 27 stated, 124 publish nothing, 66 not yet checked.
+**221 programs across 89 firms.** Cooling-off: 29 stated, 126 publish nothing, 66 not yet checked.
 
 Every quote is the firm's own wording. **A firm's current page is always the authority** — these rows are a dated snapshot and firms rewrite pages without notice.
 
@@ -99,9 +99,13 @@ Every quote is the firm's own wording. **A firm's current page is always the aut
 
 | Firm | Program | For | Class year (firm's words) | Cooling-off | Checked | Source | Apply |
 |---|---|---|---|---|---|---|---|
+| Federal Deposit Insurance Corporation | Financial Institution Intern Program | Undergraduate | "Enrolled at least half-time in a bachelor’s degree program at an accredited college or university. Completion of the sophomore year with a major in…" | publishes nothing | 2026-08-10 | [link](https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html) | [program page](https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html) |
+| Federal Reserve Bank of Atlanta | Summer Internship Program | All | "Applicants must be currently enrolled in an undergraduate or graduate degree program at an accredited university and returning to continue studies …" | rule stated, no duration given | 2026-08-10 | [link](https://www.atlantafed.org/who-we-are/careers/internships) | [program page](https://www.atlantafed.org/who-we-are/careers/internships) |
+| Federal Reserve Bank of Cleveland | Summer Internship | All | "Current undergraduate or graduate student; should have at least one semester left to complete in school." | rule stated, no duration given | 2026-08-10 | [link](https://www.clevelandfed.org/careers/internships) | [program page](https://www.clevelandfed.org/careers/internships) |
 | Federal Reserve Bank of New York | Junior Summer Analyst Program (Undergraduate Summer Analyst Program) | Undergraduate | "The Undergraduate Summer Analyst Program gives undergraduate juniors the opportunity to gain valuable work experience at a unique institution." | publishes nothing | 2026-07-29 | [link](https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program) | [program page](https://www.newyorkfed.org/careers/student-programs-and-internships/junior-summer-analyst-program) |
 | Federal Reserve Bank of New York | NY Fed Sophomore Program | Undergraduate | Citizenship requirement. | not checked yet | 2026-07-21 | _no URL yet_ | [program page](https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program) |
 | Federal Reserve Bank of New York | Sophomore Career Exploration Program | Undergraduate | "The Sophomore Career Exploration Internship gives undergraduate sophomores the opportunity to gain valuable work experience at a unique institution." | publishes nothing | 2026-07-29 | [link](https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program) | [program page](https://www.newyorkfed.org/careers/student-programs-and-internships/sophomore-career-exploration-program) |
+| Federal Reserve Board of Governors | Internship Program | All | "Applicants must be currently enrolled in an undergraduate or graduate degree program at an accredited university and returning to continue studies …" | publishes nothing | 2026-08-10 | [link](https://www.federalreserve.gov/careers-internships.htm) | [program page](https://www.federalreserve.gov/careers-internships.htm) |
 
 ## Law
 
