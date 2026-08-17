@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.federalreserve.gov/careers-internships.htm",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Board's own careers-internships page. Page states 'Last Update: March 4, 2026'."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.federalreserve.gov/careers-internships.htm",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Board's own internships page, which links to individual postings."
       },
       "fields": {
@@ -26,7 +26,7 @@
           "quote": "Applicants must be currently enrolled in an undergraduate or graduate degree program at an accredited university and returning to continue studies after the internship.",
           "source_url": "https://www.federalreserve.gov/careers-internships.htm",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "stated",
@@ -34,7 +34,7 @@
           "quote": "Employment in the Board’s summer internship program is granted to U.S. citizens.",
           "source_url": "https://www.federalreserve.gov/careers-internships.htm",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "stated",
@@ -42,20 +42,20 @@
           "quote": "Virtual interviews will take place through the fall semester, with offers finalized by December.",
           "source_url": "https://www.federalreserve.gov/careers-internships.htm",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.federalreserve.gov/careers-internships.htm",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.federalreserve.gov/careers-internships.htm",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -83,7 +83,7 @@
   ],
   "provenance": {
     "origin": "Board's own careers-internships page",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "The sponsorship sentence is a flat citizenship bar stated by the employer, which is why it is recorded as stated rather than left silent. Nothing is parsed from it: the record reports what the Board says and renders no verdict about any individual."
   }
 }

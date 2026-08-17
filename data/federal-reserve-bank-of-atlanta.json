@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.atlantafed.org/who-we-are/careers/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Firm's own internships page, including its FAQ. The page footer reads 'Updated August 2023', so the firm's own staleness marker predates the date checked."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.atlantafed.org/who-we-are/careers/internships",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own internships page; applications are made through its career portal."
       },
       "fields": {
@@ -26,7 +26,7 @@
           "quote": "Applicants must be currently enrolled in an undergraduate or graduate degree program at an accredited university and returning to continue studies after the internship.",
           "source_url": "https://www.atlantafed.org/who-we-are/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "stated",
@@ -34,7 +34,7 @@
           "quote": "For most roles, interns must be US citizens or green card holders. There are select roles that international students with curricular practical training (CPT) eligibility can apply for. The Atlanta Fed cannot sponsor any visas.",
           "source_url": "https://www.atlantafed.org/who-we-are/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "stated",
@@ -42,7 +42,7 @@
           "quote": "The candidate interview and selection process begin in late fall and offers to candidates are made beginning in January.",
           "source_url": "https://www.atlantafed.org/who-we-are/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "stated",
@@ -50,7 +50,7 @@
           "quote": "Yes, all interns are compensated for their work. Undergraduate level interns are paid at an hourly rate of $18.75 while graduate level interns are paid at an hourly rate of $22.50.",
           "source_url": "https://www.atlantafed.org/who-we-are/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
@@ -59,7 +59,7 @@
         "quote": "Yes, we encourage applicants to apply to as many positions as interest them.",
         "source_url": "https://www.atlantafed.org/who-we-are/careers/internships",
         "source_status": "ok",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -92,7 +92,7 @@
   ],
   "provenance": {
     "origin": "Bank's own internships page and FAQ",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "This is the most useful sponsorship sentence found so far for an international student, and it is deliberately left unparsed. The Bank states that most roles require US citizenship or a green card, that SELECT roles are open to students with CPT eligibility, and that it cannot sponsor visas. Because the CPT opening is limited to unspecified 'select roles', parsed.cpt_ok is NOT set: setting it true would convert a partial, role-dependent statement into a general permission the Bank never gave. The reader must read the quote."
   }
 }

@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.clevelandfed.org/careers/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Bank's own internships page for the qualifications, and its main careers page for the hiring-process statement; each field cites the page it came from."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.clevelandfed.org/careers/internships",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own internships page."
       },
       "fields": {
@@ -26,13 +26,13 @@
           "quote": "Current undergraduate or graduate student; should have at least one semester left to complete in school.",
           "source_url": "https://www.clevelandfed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.clevelandfed.org/careers/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "stated",
@@ -40,13 +40,13 @@
           "quote": "The selection process may include one or more interviews with human resources and the department hiring team.",
           "source_url": "https://www.clevelandfed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.clevelandfed.org/careers/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
@@ -55,7 +55,7 @@
         "quote": "You may apply for more than one position, submitting a separate application for each one",
         "source_url": "https://www.clevelandfed.org/careers",
         "source_status": "ok",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -88,7 +88,7 @@
   ],
   "provenance": {
     "origin": "Bank's own internships and careers pages",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "Sponsorship is silent: neither page contains 'citizen', 'visa', 'CPT', 'OPT', 'sponsor' or 'work authorization'. That is a notable silence rather than a routine one, because the Federal Reserve Board and the Atlanta Fed both state a citizenship position plainly, and this Bank does not. Recording it as silent says only that the Bank publishes nothing on the point."
   }
 }
