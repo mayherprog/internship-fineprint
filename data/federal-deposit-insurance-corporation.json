@@ -8,7 +8,7 @@
       "audience": "undergraduate",
       "source": {
         "url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "FDIC's own student-opportunities page for this programme, which carries an explicit 'Key Requirements' list."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "FDIC's own programme page. Federal postings are made through USAJOBS."
       },
       "fields": {
@@ -26,7 +26,7 @@
           "quote": "Enrolled at least half-time in a bachelor’s degree program at an accredited college or university. Completion of the sophomore year with a major in economics, finance and accounting.",
           "source_url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "stated",
@@ -34,13 +34,13 @@
           "quote": "U. S. citizenship.",
           "source_url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "stated",
@@ -48,14 +48,14 @@
           "quote": "Financial Institution Interns will be responsible for providing their own housing; however, a $2500 stipend (in addition to bi-weekly compensation) will be allotted at the beginning of the program.",
           "source_url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.fdic.gov/about/careers/student-opportunities/financial-institution-intern-program.html",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -83,7 +83,7 @@
   ],
   "provenance": {
     "origin": "FDIC's own student-opportunities programme page",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "The sponsorship quote is three words, 'U. S. citizenship.', including the space the agency itself puts inside 'U. S.'. It is short because that is exactly how the agency states it, as the first line of the programme's Key Requirements list; it is quoted verbatim rather than expanded into a sentence the FDIC did not write. The FDIC publishes several other student programmes on the same site (Financial Management Scholars, IT Intern, Legal Division Honors, Summer Legal Intern); only this one was transcribed in this pass."
   }
 }

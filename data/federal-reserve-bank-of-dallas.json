@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.dallasfed.org/careers/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Bank's own internships page, which carries a 'Requirements' list and an FAQ."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.dallasfed.org/careers/internships",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own internships page."
       },
       "fields": {
@@ -26,13 +26,13 @@
           "quote": "Currently enrolled in an undergraduate or graduate program at an accredited college or university",
           "source_url": "https://www.dallasfed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.dallasfed.org/careers/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "stated",
@@ -40,7 +40,7 @@
           "quote": "The interview process will consist of a phone interview and one or more interviews with the department hiring team.",
           "source_url": "https://www.dallasfed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "stated",
@@ -48,14 +48,14 @@
           "quote": "Yes. We offer competitive intern salaries.",
           "source_url": "https://www.dallasfed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.dallasfed.org/careers/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -88,7 +88,7 @@
   ],
   "provenance": {
     "origin": "Bank's own internships page",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "The stated minimum 3.0 GPA is kept as an unfiled quote because the schema has no field for a grade bar. Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
   }
 }

@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Bank's own student-programs-and-internships page."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own student-programs page, which links to the application."
       },
       "fields": {
@@ -26,32 +26,32 @@
           "quote": "Our internship and fellowship opportunities at the SF Fed give college and graduate students a chance to experience work life in a vibrant, dynamic, and collaborative environment.",
           "source_url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.frbsf.org/work-with-us/student-programs-and-internships/",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -79,7 +79,7 @@
   ],
   "provenance": {
     "origin": "Bank's own student-programs page",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "This is the thinnest of the Reserve Bank records in this pass. The Bank names who its programmes are for but states no year of study, no application window and no pay, so three of four fields are silent. It is recorded because the class-year sentence is the Bank's own and tier 1, not to raise a count. Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
   }
 }

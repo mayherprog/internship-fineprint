@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.bostonfed.org/careers/early-career-internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Bank's own early-career and internships page. The class-year sentence is cited to the research-associate-program page, which is where the Bank states it."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.bostonfed.org/careers/early-career-internships",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own early-career page; positions are posted in the Bank's career portal."
       },
       "fields": {
@@ -26,19 +26,19 @@
           "quote": "The Bank’s summer internship program is open to students who have completed their sophomore year of college by the start of the internship.",
           "source_url": "https://www.bostonfed.org/careers/early-career-internships/research-associate-program",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.bostonfed.org/careers/early-career-internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.bostonfed.org/careers/early-career-internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "stated",
@@ -46,14 +46,14 @@
           "quote": "The Federal Reserve Bank of Boston provides paid internships, research associate roles, and entry-level jobs for students, early professionals, and those re-entering the workforce.",
           "source_url": "https://www.bostonfed.org/careers/early-career-internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.bostonfed.org/careers/early-career-internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -81,7 +81,7 @@
   ],
   "provenance": {
     "origin": "Bank's own early-career and research-associate pages",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "The sophomore-year rule is the sharpest class-year statement of the six Reserve Banks recorded in this pass, and it sits on the research-associate-program page rather than the internships landing page, so it is cited there. Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
   }
 }

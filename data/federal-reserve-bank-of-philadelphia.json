@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.philadelphiafed.org/careers/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Bank's own internships page, which carries an explicit 'Eligibility' paragraph."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.philadelphiafed.org/careers/internships",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own internships page."
       },
       "fields": {
@@ -26,19 +26,19 @@
           "quote": "To apply for an internship, you must be a full-time undergraduate, graduate, or Ph.D. student enrolled in an accredited four-year college or university.",
           "source_url": "https://www.philadelphiafed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.philadelphiafed.org/careers/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.philadelphiafed.org/careers/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "stated",
@@ -46,14 +46,14 @@
           "quote": "We offer a variety of paid internships across different business areas, including economic research, bank supervision, community development, and technology, to name a few.",
           "source_url": "https://www.philadelphiafed.org/careers/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.philadelphiafed.org/careers/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -76,7 +76,7 @@
   ],
   "provenance": {
     "origin": "Bank's own internships page",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
   }
 }

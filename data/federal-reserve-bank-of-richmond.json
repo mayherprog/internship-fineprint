@@ -8,7 +8,7 @@
       "audience": "all",
       "source": {
         "url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "check_method": "static",
         "status": "ok",
         "note": "Bank's own students-and-recent-graduates internships page."
@@ -16,7 +16,7 @@
       "apply": {
         "url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
         "kind": "program_page",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "note": "Bank's own internships page; it states applications open in the autumn."
       },
       "fields": {
@@ -26,19 +26,19 @@
           "quote": "College sophomores, juniors, seniors or graduate students are invited to apply during our open application periods in early fall and winter.",
           "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "sponsorship": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "process": {
           "state": "silent",
           "tier": 1,
           "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         },
         "compensation": {
           "state": "stated",
@@ -46,14 +46,14 @@
           "quote": "Kickstart your career with our paid Internship Program as a student or recent college graduate.",
           "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
           "source_status": "ok",
-          "checked": "2026-08-10"
+          "checked": "2026-08-12"
         }
       },
       "cooling_off": {
         "state": "silent",
         "tier": 1,
         "source_url": "https://www.richmondfed.org/about_us/careers/students_and_recent_graduates/internships",
-        "checked": "2026-08-10",
+        "checked": "2026-08-12",
         "parsed": {
           "trigger": "unknown",
           "duration_months": null,
@@ -76,7 +76,7 @@
   ],
   "provenance": {
     "origin": "Bank's own internships page",
-    "transcribed": "2026-08-10",
+    "transcribed": "2026-08-12",
     "note": "Sponsorship is silent: the page contains no occurrence of citizen, visa, CPT, OPT, sponsor or work authorisation. That silence is worth noting rather than assuming, because the Federal Reserve Board states a flat citizenship bar and the Atlanta Fed states a CPT position, while this body publishes neither. Silent here means only that nothing is published on the point."
   }
 }
