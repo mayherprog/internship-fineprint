@@ -9,7 +9,11 @@
   "hash": "b13864cf3c4ce29c17ea559a0f6fc70155c9d115cfb4ad5584faa3dcfbfaf194"
  },
  "duolingo-thrive": {
-  "postings": []
+  "postings": [
+   "8805925002|Software Engineer, Intern",
+   "8806114002|Software Engineer, Thrive Intern",
+   "8806187002|Associate Product Manager, Intern"
+  ]
  },
  "nvidia-ignite": {
   "hash": "9a39f49ecd3c82f2d44d3e70216440c7d7ea3ca19a6f39a8f43f7bacae2dc45c",
@@ -286,7 +290,7 @@
   ]
  },
  "jane-street-jsip": {
-  "hash": "7d40dd0c66fd857f1524a6ba1476f15f5b7febcecd7d64e7e7de34cb676d348a",
+  "hash": "619875dfd5b048b810cef9622e9c2d2812b66d5f96caabe46b34fee4b8697499",
   "chunks": [
    "programs and events:: jane street jane street group, llc uses cookies and similar technologies, including third-party cookies, on this site to provide basic functionalities and perform analytics.",
    "you may accept or decline cookies by selecting \"accept\" or \"reject\".",
@@ -305,6 +309,8 @@
    "it is a financial award - one year of tuition and fees plus a $50,000 stipend - to recognize excellence in mathematics, computer science, physics, and statistics.",
    "this program supports students while they continue their studies at their home institution.",
    "learn more program in focus accepting applications over the course of a few days, undergraduates and graduate students, who have experienced barriers to access and opportunity with advanced stem educational experiences, explore our trading, software development, and strategy and product teams in this interactive program.",
+   "please note: in focus program dates are moving to may 2027.",
+   "applications will re-open at a later date.",
    "learn more program insight accepting applications self-identifying women, transgender, and/or gender-expansive individuals learn how we use math and computer science to solve real-world problems in this interactive multi-day program.",
    "learn more program preview accepting applications current university students including undergraduate, graduate, and phd students are invited to learn about jane street in this fun and engaging day-long program.",
    "learn more program see accepting applications university students explore how we use math and computer science to solve real-world problems in this educational multi-day program.",
