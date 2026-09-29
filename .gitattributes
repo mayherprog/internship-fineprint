@@ -1,0 +1,11 @@
+# Generated output: produced by tools/build.py from data/. Do not edit by
+# hand, and do not let it dominate the repository's language statistics —
+# the source languages here are Python and TypeScript.
+index.html linguist-generated=true
+TABLE.md linguist-generated=true
+
+# Built app assets. web/dist/ is gitignored today; these patterns keep any
+# future committed copy of the bundle (e.g. app/assets/*) out of the stats.
+app/assets/** linguist-generated=true
+app/index.html linguist-generated=true
+web/dist/** linguist-generated=true
