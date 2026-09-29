@@ -14,6 +14,7 @@ file is longer than a table generator needs to be:
 Usage:  python3 tools/build.py [data_dir]
 """
 
+import datetime
 import html
 import json
 import pathlib
@@ -216,7 +217,13 @@ def build_markdown(rows):
 PAGE = (pathlib.Path(__file__).parent / "template.html").read_text()
 
 
-def build_html(rows, built):
+def last_checked(rows):
+    """The newest source.checked date across every record: the honest
+    freshness of the data, as distinct from the date the site was built."""
+    return max((r["source"].get("checked") or "" for r in rows), default="")
+
+
+def build_html(rows, built, checked):
     # The template carries a self-identifying banner so that opening the raw
     # file never impersonates a broken app; the build strips it.
     page = re.sub(r"<!--TEMPLATE-ONLY-->.*?<!--/TEMPLATE-ONLY-->\n?", "", PAGE, flags=re.S)
@@ -229,15 +236,19 @@ def build_html(rows, built):
             .replace("__SECTORS__", json.dumps(SECTOR_LABEL))
             .replace("__AUD__", json.dumps(AUDIENCE_LABEL))
             .replace("__FIELDS__", json.dumps(FIELD_LABEL))
-            .replace("__BUILT__", built)
-            .replace("__N__", str(len(rows))))
+            .replace("__CHECKED__", checked)
+            .replace("__BUILT__", built))
 
 
 def main():
     data_dir = sys.argv[1] if len(sys.argv) > 1 else "data"
     rows = load(data_dir)
     pathlib.Path("TABLE.md").write_text(build_markdown(rows) + "\n")
-    pathlib.Path("index.html").write_text(build_html(rows, "2026-07-29"))
+    # Two dates, both honest: when the data was last checked (from the
+    # records) and when this page was generated (today — the Pages workflow
+    # rebuilds on every deploy, so a hardcoded date here would lie).
+    pathlib.Path("index.html").write_text(
+        build_html(rows, datetime.date.today().isoformat(), last_checked(rows)))
     counts = Counter(r["cooling_off"]["state"] for r in rows)
     print(f"TABLE.md and index.html: {len(rows)} programs, "
           f"{len({r['firm'] for r in rows})} firms")

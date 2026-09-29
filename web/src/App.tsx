@@ -126,6 +126,11 @@ export default function App() {
   const groups: Record<1 | 2 | 3, [Program, Verdict][]> = { 1: [], 2: [], 3: [] };
   if (profile) data.forEach((r) => { const v = judge(r, profile); groups[v.group].push([r, v]); });
 
+  // The newest source.checked date across the records: the honest freshness
+  // of the data, as distinct from the date this bundle was built.
+  const lastChecked = data.reduce(
+    (m, r) => (r.source.checked && r.source.checked > m ? r.source.checked : m), "");
+
   return (
     <div className="wrap">
       <header className="top">
@@ -263,6 +268,14 @@ export default function App() {
         <summary>About</summary>
         <div className="body">
           <p>
+            This view is the React/TypeScript implementation of Fineprint; it consumes the same
+            JSON payload the Python pipeline validates and renders it under the same design
+            contract as the single-file page at the site root. Two implementations exist so that
+            the dataset, not any one rendering of it, is the product: each surface exercises the
+            published contract independently, and a discrepancy between them indicates a
+            rendering fault rather than a data fault.
+          </p>
+          <p>
             Every row is a sentence a firm published about who may apply, quoted exactly, with a
             link and the date it was read. Firms that say nothing are recorded as saying nothing.
           </p>
@@ -281,13 +294,15 @@ export default function App() {
             Every quote rests only on a firm&apos;s own pages or a university career service,
             never on aggregators or test-prep sites.
           </p>
+          <p>Data last checked {lastChecked} · site built {__BUILD_DATE__}.</p>
         </div>
       </details>
       <footer>
         <p>
-          Generated from <code>data/</code>, one JSON file per firm, validated by{" "}
-          <code>tools/validate.py</code>. Quoted material belongs to the firms that wrote it, is
-          reproduced for identification and reference, and is not relicensed.
+          Rendered from the payload <code>tools/export_json.py</code> emits — the same rows,
+          one JSON file per firm in <code>data/</code>, that <code>tools/validate.py</code>{" "}
+          passed. Quoted material belongs to the firms that wrote it, is reproduced for
+          identification and reference, and is not relicensed.
         </p>
       </footer>
     </div>
