@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- default-src 'none' as in the sibling project's hardening: this page makes
+     no network request at all. The only allowances are what one self-contained
+     file inherently needs — its own inline style and script blocks, and the
+     data: URI for the select caret. Links out (sources, calendar templates)
+     are user navigation, not resource loading, and are unaffected. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Fineprint — internship eligibility, in the firms' own words</title>
 <meta name="description" content="A sourced, dated record of what firms actually state about internship eligibility, sponsorship, class year and cooling-off periods.">
