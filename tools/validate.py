@@ -22,6 +22,12 @@ The rules being enforced, in plain English:
   6. Tier 3 may never be the sole basis for a cooling-off claim. Aggregated
      candidate reports establish "widely reported", never "true", and a wrong
      cooling-off row is the most expensive error this project can make.
+  7. Every program carries a navigable apply link — the live posting when one
+     exists, otherwise the firm's own program page or careers hub.
+  8. No rendered field may carry a maintainer imperative ("verify", "recheck",
+     "TODO", "before publishing"). Those phrases are working notes to a future
+     maintainer; on a reader-facing field they are a leak of scraping mechanics
+     into a reference work.
 
 The enum-shaped constants below restate the schema on purpose: this file is a
 second opinion, not a schema runner. `SECTORS` is the exception. It is read
@@ -54,6 +60,13 @@ FIELD_KEYS = ("class_year", "sponsorship", "process", "compensation")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 SLUG_RE = re.compile(r"^[a-z0-9-]+$")
 
+# Rule 8 — phrases that mark text as an instruction to a maintainer, not a
+# fact for a reader. Word-boundary anchored and tuned against the live
+# dataset: no legitimate firm quote or summary carries any of these
+# (checked 2026-09-29), so a hit is always a leak, never a false positive.
+MAINTAINER_IMPERATIVE = re.compile(
+    r"\b(?:verify|recheck\w*|todo)\b|before publishing", re.I)
+
 failures = []
 passes = 0
 
@@ -66,6 +79,19 @@ def check(name, cond, detail=""):
         failures.append(f"{name}" + (f"  --  {detail}" if detail else ""))
 
 
+def check_rendered(where, text):
+    """Rule 8 — a field that ships to readers must not carry maintainer
+    imperatives. Maintainer-only fields (source.note, apply.note,
+    cooling_off.notes) are deliberately NOT passed through here: that is
+    where such phrases belong."""
+    if not text:
+        return
+    m = MAINTAINER_IMPERATIVE.search(text)
+    check(f"{where}: rendered text carries no maintainer imperative",
+          m is None,
+          f"maintainer phrase {m.group(0)!r} in {text[:60]!r}" if m else "")
+
+
 def check_field(where, field, is_cooling_off=False):
     state = field.get("state")
     quote = field.get("quote")
@@ -73,6 +99,10 @@ def check_field(where, field, is_cooling_off=False):
     status = field.get("source_status")
 
     check(f"{where}: state is legal", state in STATES, f"got {state!r}")
+
+    # Rule 8 — the two field texts that render: the quote and the summary.
+    check_rendered(f"{where}.quote", quote)
+    check_rendered(f"{where}.summary_note", field.get("summary_note"))
 
     # Rule 1 — a claim needs the firm's own sentence.
     if state == "stated":
@@ -153,6 +183,10 @@ def check_program(firm, prog):
 
     check(f"{where}: id is a slug", bool(SLUG_RE.match(pid or "")), f"got {pid!r}")
     check(f"{where}: has a name", bool((prog.get('name') or '').strip()))
+
+    # Rule 8 — every program-level text that reaches the page.
+    for key in ("name", "cycle", "location", "opens", "closes"):
+        check_rendered(f"{where}.{key}", prog.get(key))
     check(f"{where}: audience is legal", prog.get("audience") in AUDIENCE,
           f"got {prog.get('audience')!r}")
 
@@ -196,11 +230,17 @@ def check_program(firm, prog):
 
     for i, uq in enumerate(prog.get("unfiled_quotes") or []):
         check(f"{where}.unfiled[{i}]: has a quote", bool((uq.get('quote') or '').strip()))
+        check_rendered(f"{where}.unfiled[{i}].quote", uq.get("quote"))
 
 
-def main():
-    data_dir = pathlib.Path(sys.argv[1] if len(sys.argv) > 1 else "data")
-    files = sorted(data_dir.glob("*.json"))
+def run(data_dir):
+    """Validate every record under data_dir. Returns (firm_files, programs,
+    passes, failures) so other tools — tools/build.py injects the totals into
+    README.md — can reuse the same counts instead of restating them."""
+    global failures, passes
+    failures = []
+    passes = 0
+    files = sorted(pathlib.Path(data_dir).glob("*.json"))
     if not files:
         sys.exit(f"no records found in {data_dir}/")
 
@@ -220,6 +260,7 @@ def main():
               not re.search(r"\b(Intern(ship)?s?|Summer|20\d\d|Analyst|Placement)\b",
                             rec.get("firm") or "", re.I),
               f"firm reads as a posting: {rec.get('firm')!r}")
+        check_rendered(f"{path.name}.firm", rec.get("firm"))
         check(f"{path.name}: sector is legal", rec.get("sector") in SECTORS,
               f"got {rec.get('sector')!r}")
         check(f"{path.name}: has at least one program", bool(rec.get("programs")))
@@ -233,11 +274,17 @@ def main():
             seen_ids[key] = True
             check_program(firm, prog)
 
-    print(f"\n{len(files)} firm files, {programs} programs\n")
-    for f in failures:
+    return len(files), programs, passes, list(failures)
+
+
+def main():
+    data_dir = sys.argv[1] if len(sys.argv) > 1 else "data"
+    n_files, programs, n_passes, fails = run(data_dir)
+    print(f"\n{n_files} firm files, {programs} programs\n")
+    for f in fails:
         print(f"FAIL  {f}")
-    print(f"\n{passes} passed, {len(failures)} failed")
-    sys.exit(1 if failures else 0)
+    print(f"\n{n_passes} passed, {len(fails)} failed")
+    sys.exit(1 if fails else 0)
 
 
 if __name__ == "__main__":
