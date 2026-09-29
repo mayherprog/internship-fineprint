@@ -94,7 +94,6 @@ function CoolingOffBlock({ r }: { r: Program }) {
         <div className="none">Not yet verified.</div>
       )}
       {bits.length ? <div className="notes">{bits.join(" · ")}</div> : null}
-      {co.notes ? <div className="notes">{co.notes}</div> : null}
       <div className="notes">
         {co.checked ? <>checked {co.checked} · </> : null}
         {has ? <SrcLink url={co.source_url} status={co.source_status} /> : null}
@@ -160,7 +159,6 @@ export function ProgramCard({ r, why, open }: { r: Program; why?: string[]; open
             </a>
           </p>
         ) : null}
-        {r.source.note ? <p className="meta">{r.source.note}</p> : null}
         <CalendarLine r={r} />
         <div className="grid">
           {Object.entries(r.fields).map(([name, f]) => (

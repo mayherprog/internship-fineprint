@@ -1,5 +1,9 @@
-/** The record model. Mirrors schema/program.schema.json; the Python
- * validator is the authority, these types are the front end's contract. */
+/** The record model. Mirrors the SHIPPED payload that tools/build.py and
+ * tools/export_json.py emit — not the raw schema: maintainer-only fields
+ * (source.note, apply.note, cooling_off.notes) are stripped by the pipeline
+ * and deliberately have no type here, so rendering one is a compile error.
+ * The Python validator is the authority; these types are the front end's
+ * contract. */
 
 export type RecordState = "stated" | "silent" | "unverified";
 
@@ -11,7 +15,6 @@ interface BaseField {
   source_status?: string;
   checked?: string;
   summary_note?: string;
-  notes?: string;
 }
 
 export interface FieldRecord extends BaseField {
@@ -47,14 +50,12 @@ export interface Source {
   url?: string | null;
   checked?: string;
   status?: string;
-  note?: string;
 }
 
 export interface Apply {
   url: string;
   kind: "posting" | "program_page" | "careers_hub";
   checked?: string;
-  note?: string;
 }
 
 export const APPLY_KIND_LABEL: Record<Apply["kind"], string> = {

@@ -21,8 +21,8 @@ const MNAMES = ["January","February","March","April","May","June",
 function searchable(r: Program): string {
   const bits = [r.firm, r.name, r.cycle, r.location];
   for (const f of Object.values(r.fields)) bits.push(f.quote ?? "", f.summary_note ?? "");
-  bits.push(r.cooling_off.quote ?? "", r.cooling_off.notes ?? "",
-    (r.unfiled ?? []).map((u) => u.quote).join(" "), r.source.note ?? "");
+  bits.push(r.cooling_off.quote ?? "",
+    (r.unfiled ?? []).map((u) => u.quote).join(" "));
   return bits.join(" ").toLowerCase();
 }
 

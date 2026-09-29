@@ -96,7 +96,14 @@ def load(data_dir):
                 "apply": ({k: v for k, v in prog["apply"].items() if k != "note"}
                           if prog.get("apply") else None),
                 "fields": prog["fields"],
-                "cooling_off": prog["cooling_off"],
+                # cooling_off.notes is maintainer provenance too — re-read
+                # reminders, capture caveats, follow-up instructions. The
+                # schema's note-like fields are source.note, apply.note,
+                # cooling_off.notes and provenance.note (never loaded here);
+                # summary_note is the one deliberate exception, rendered as
+                # an explicitly-not-the-firm's-wording summary.
+                "cooling_off": {k: v for k, v in prog["cooling_off"].items()
+                                if k != "notes"},
                 "unfiled": prog.get("unfiled_quotes", []),
             })
     rows.sort(key=lambda r: (r["firm"].lower(), r["name"].lower()))

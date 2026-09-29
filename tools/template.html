@@ -318,7 +318,6 @@ function coolHTML(co){
   return `<div class="cool${has ? ' has' : ''}"><div class="lbl">Cooling-off / reapplying${pill(co.state)}</div>
     ${body}
     ${bits.length ? `<div class="notes">${esc(bits.join(' · '))}</div>` : ''}
-    ${co.notes ? `<div class="notes">${esc(co.notes)}</div>` : ''}
     <div class="notes">${co.checked ? 'checked ' + esc(co.checked) + ' &middot; ' : ''}
       ${has ? srcLink(co.source_url, co.source_status) : ''}</div></div>`;
 }
@@ -434,7 +433,7 @@ DATA.forEach(r => {
   const bits = [r.firm, r.name, r.cycle, r.location];
   for (const k in r.fields){ const f = r.fields[k];
     bits.push(f.quote || '', f.summary_note || ''); }
-  bits.push(r.cooling_off.quote || '', r.cooling_off.notes || '',
+  bits.push(r.cooling_off.quote || '',
             (r.unfiled || []).map(u => u.quote).join(' '));
   r._search = bits.join(' ').toLowerCase();
 });
