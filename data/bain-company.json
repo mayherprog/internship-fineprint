@@ -133,9 +133,9 @@
       },
       "fields": {
         "class_year": {
-          "state": "stated",
+          "state": "unverified",
           "tier": 1,
-          "quote": "Bain's Connecting and Resourcing Empowered Women (CREW) program is for second-year (sophomore) undergraduate students",
+          "summary_note": "The CREW page describes the program as being for second-year (sophomore) undergraduate students; the captured sentence may be an incomplete fragment, so it is not reproduced as a quote until the full sentence has been re-read",
           "source_url": "https://www.bain.com/careers/work-with-us/internships-programs/crew/",
           "checked": "2026-08-07"
         },
@@ -166,7 +166,7 @@
           "scope": "this_program",
           "resets_allowed": null
         },
-        "notes": "No reapplication language on the CREW page. The class_year quote is captured as it appears and may be a sentence fragment continuing past the captured text; verify the full sentence before publishing. Note that the page does NOT state a gender eligibility requirement despite the program name."
+        "notes": "No reapplication language on the CREW page. class_year was downgraded from stated to unverified on 2026-09-29: the captured sentence — \"Bain's Connecting and Resourcing Empowered Women (CREW) program is for second-year (sophomore) undergraduate students\" — may be a fragment continuing past the captured text; verify the full sentence on the rendered page before restoring the quote. Note that the page does NOT state a gender eligibility requirement despite the program name."
       },
       "cycle": "2027 (2026 cycle closed; 2027 details not yet published)",
       "location": "US and Canada — Atlanta, Austin, Boston, Chicago, Dallas, Denver, Houston, Los Angeles, Montreal, New York, San Francisco, Seattle, Silicon Valley, Toronto, Washington, DC"
