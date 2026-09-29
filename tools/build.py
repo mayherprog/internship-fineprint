@@ -23,6 +23,7 @@ import sys
 from collections import Counter
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import validate  # noqa: E402  -- README counts come from the validator itself
 from sectors import SECTORS, assert_labels_cover_schema  # noqa: E402
 
 # Display names are the one thing the schema cannot supply: "banking_finance"
@@ -208,6 +209,82 @@ def build_markdown(rows):
 
 
 # --------------------------------------------------------------------------
+# README.md — every count in it is injected between <!-- GEN:name --> markers,
+# the same way TABLE.md is regenerated, so the README can never again claim
+# totals the data has outgrown. Prose is hand-written (here, as templates);
+# numbers are always computed.
+# --------------------------------------------------------------------------
+
+def sector_phrase(rows):
+    c = Counter(r["sector"] for r in rows)
+    labels = [SECTOR_LABEL[s].lower().replace(" & ", " and ")
+              for s, _ in c.most_common() if s != "other"]
+    if "other" in c:
+        labels.append("others")
+    return ", ".join(labels[:-1]) + " and " + labels[-1]
+
+
+def readme_sections(rows, data_dir):
+    """The generated regions of README.md, keyed by marker name."""
+    _, programs, passes, fails = validate.run(data_dir)
+    assertions = passes + len(fails)
+    counts = Counter(r["cooling_off"]["state"] for r in rows)
+    status = Counter(r["source"].get("status") for r in rows)
+    firms = len({r["firm"] for r in rows})
+    dead_rows = [r for r in rows if r["source"].get("status") == "dead"]
+    dead_fields = [list(r["fields"].values()) + [r["cooling_off"]] for r in dead_rows]
+    dead_no_quote = sum(1 for fs in dead_fields
+                        if not any(f.get("quote") for f in fs))
+    dead_all_unver = sum(1 for fs in dead_fields
+                         if all(f["state"] == "unverified" for f in fs))
+    quickstart = (
+        "```bash\n"
+        "python3 -m unittest discover -s tests   # parser/dedup/scrub/verifier unit tests\n"
+        f"python3 tools/validate.py               # {assertions:,} assertions over "
+        f"{len(rows)} programs, {len(fails)} failures\n"
+        "python3 tools/verify_quotes.py data     # re-fetch every cited page; "
+        "quotes must still be there\n"
+        "```")
+    coverage = (
+        f"{len(rows)} programs across {firms} firms, spanning\n"
+        f"{sector_phrase(rows)}.\n"
+        "On cooling-off specifically:\n"
+        f"**{counts.get('stated', 0)} state a rule, {counts.get('silent', 0)} publish "
+        f"nothing on it, and {counts.get('unverified', 0)} have not been checked yet.** "
+        "The\nunchecked share is the honest state of this dataset today, not a rounding "
+        "error, and it is\nvisible in the interface rather than hidden.\n"
+        "\n"
+        "Known gaps, all recorded in the data rather than papered over:\n"
+        "\n"
+        f"- **{status.get('url_pending', 0)} programs are `url_pending`** — transcribed "
+        "from a private posting tracker whose\n  links were not captured. They render as "
+        "*no URL yet* and are not independently citable\n  until re-sourced.\n"
+        f"- **{status.get('blocked', 0)} programs are `blocked`** — the page is "
+        "JavaScript-rendered or refuses automated\n  reads. These need a browser, "
+        "not a fetch.\n"
+        f"- **{status.get('dead', 0)} programs are `dead`** — the URL returns a non-200 "
+        "or refuses the connection, in\n  nearly every case because the posting or "
+        f"program page was taken down between cycles.\n  {dead_no_quote} of the "
+        f"{status.get('dead', 0)} carry no quote at all, and {dead_all_unver} are "
+        "`unverified` on every field, because a\n  page that cannot be read cannot "
+        "be said to publish nothing.")
+    return {"quickstart": quickstart, "coverage": coverage}
+
+
+def inject_readme(rows, data_dir, path=None):
+    path = path or pathlib.Path("README.md")
+    text = path.read_text()
+    for name, content in readme_sections(rows, data_dir).items():
+        begin, end = f"<!-- GEN:{name} -->", f"<!-- /GEN:{name} -->"
+        if begin not in text or end not in text:
+            raise SystemExit(f"README.md is missing the {begin} … {end} markers")
+        before, rest = text.split(begin, 1)
+        _, after = rest.split(end, 1)
+        text = before + begin + "\n" + content + "\n" + end + after
+    path.write_text(text)
+
+
+# --------------------------------------------------------------------------
 # index.html — one self-contained file. No build step, no framework, no backend.
 # --------------------------------------------------------------------------
 
@@ -249,6 +326,7 @@ def main():
     # rebuilds on every deploy, so a hardcoded date here would lie).
     pathlib.Path("index.html").write_text(
         build_html(rows, datetime.date.today().isoformat(), last_checked(rows)))
+    inject_readme(rows, data_dir)
     counts = Counter(r["cooling_off"]["state"] for r in rows)
     print(f"TABLE.md and index.html: {len(rows)} programs, "
           f"{len({r['firm'] for r in rows})} firms")

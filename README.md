@@ -14,11 +14,13 @@ retaking assessments that quietly cost candidates an entire recruiting cycle.
 Every row is a sentence a firm published, quoted exactly, with a link and the date it was
 read. Firms that publish nothing are recorded as publishing nothing.
 
+<!-- GEN:quickstart -->
 ```bash
 python3 -m unittest discover -s tests   # parser/dedup/scrub/verifier unit tests
-python3 tools/validate.py               # 7,284 assertions over 194 programs, 0 failures
+python3 tools/validate.py               # 10,355 assertions over 227 programs, 0 failures
 python3 tools/verify_quotes.py data     # re-fetch every cited page; quotes must still be there
 ```
+<!-- /GEN:quickstart -->
 
 **[Browse the data →](TABLE.md)** &nbsp;·&nbsp; **[Interactive view →](index.html)**
 
@@ -124,34 +126,32 @@ in its own founding fact. The full quote and all three formulations are in
 
 ## Coverage, stated honestly
 
-194 programs across 69 firms, spanning quantitative trading, technology, banking and
-finance, asset management, consulting, law and government. On cooling-off specifically:
-**22 state a rule, 94 publish nothing on it, and 74 have not been checked yet.** The
+<!-- GEN:coverage -->
+227 programs across 95 firms, spanning
+quantitative trading, banking and finance, technology, consulting, government, law, private equity, asset management and others.
+On cooling-off specifically:
+**29 state a rule, 132 publish nothing on it, and 66 have not been checked yet.** The
 unchecked share is the honest state of this dataset today, not a rounding error, and it is
 visible in the interface rather than hidden.
 
-These counts move as the data grows. `tools/build.py` regenerates
-[`TABLE.md`](TABLE.md) with a current breakdown at the top, and `tools/validate.py` prints
-the same totals; where this section and the generated output disagree, the generated output
-is right.
-
 Known gaps, all recorded in the data rather than papered over:
 
-- **19 programs carry a verbatim quote but no source URL.** They were transcribed from a
-  private posting tracker whose links were not captured. They are flagged `url_pending`
-  and render as *no URL yet*. They are not independently citable until re-sourced.
+- **10 programs are `url_pending`** — transcribed from a private posting tracker whose
+  links were not captured. They render as *no URL yet* and are not independently citable
+  until re-sourced.
 - **14 programs are `blocked`** — the page is JavaScript-rendered or refuses automated
-  reads. Amazon's FAQ accordions, Jane Street, Morgan Stanley, Tower Research and all of
-  mckinsey.com fall here. These need a browser, not a fetch.
-- **11 programs are `dead`** — the URL returns a non-200 or refuses the connection, in
+  reads. These need a browser, not a fetch.
+- **16 programs are `dead`** — the URL returns a non-200 or refuses the connection, in
   nearly every case because the posting or program page was taken down between cycles.
-  Citadel Launch, Meta University, Two Sigma's first-year software engineering internship
-  and several law-firm 1L programs sit here. Ten of the eleven carry no quote at all, and
-  seven are `unverified` on every field, because a page that cannot be read cannot be said
-  to publish nothing. The three marked `silent` are silent against a *different* page that
-  was read successfully — the firm's general early-careers page — never against the dead
-  URL itself.
+  13 of the 16 carry no quote at all, and 9 are `unverified` on every field, because a
+  page that cannot be read cannot be said to publish nothing.
+<!-- /GEN:coverage -->
 - **Sponsorship is silent on most rows.** Do not read that as either sponsoring or not.
+
+Every number in this section — and in the quick-start block above — is injected by
+`tools/build.py` between marker comments, the same way it regenerates
+[`TABLE.md`](TABLE.md). Hand-edits to the counts do not survive a build, so this section
+can no longer drift from the data.
 
 ## Reproducing the data
 

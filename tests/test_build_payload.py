@@ -76,5 +76,36 @@ class DeadlineDisplay(unittest.TestCase):
                                  f"{r['id']}.{key}: pipeline marker shipped: {r[key]!r}")
 
 
+class ReadmeInjection(unittest.TestCase):
+    """README counts are generated, never hand-written: the injected regions
+    must carry the same totals load() and the validator report."""
+
+    def test_sections_carry_current_counts(self):
+        sections = build.readme_sections(ROWS, ROOT / "data")
+        self.assertIn(f"over {len(ROWS)} programs", sections["quickstart"])
+        firms = len({r["firm"] for r in ROWS})
+        self.assertIn(f"{len(ROWS)} programs across {firms} firms",
+                      sections["coverage"])
+
+    def test_injection_is_idempotent(self):
+        import tempfile
+        readme = ROOT / "README.md"
+        with tempfile.TemporaryDirectory() as td:
+            copy = pathlib.Path(td) / "README.md"
+            copy.write_text(readme.read_text())
+            build.inject_readme(ROWS, ROOT / "data", copy)
+            once = copy.read_text()
+            build.inject_readme(ROWS, ROOT / "data", copy)
+            self.assertEqual(once, copy.read_text())
+
+    def test_missing_markers_abort(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as td:
+            copy = pathlib.Path(td) / "README.md"
+            copy.write_text("# no markers here\n")
+            with self.assertRaises(SystemExit):
+                build.inject_readme(ROWS, ROOT / "data", copy)
+
+
 if __name__ == "__main__":
     unittest.main()
