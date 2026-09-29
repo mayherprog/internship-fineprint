@@ -49,5 +49,32 @@ class PayloadStripsMaintainerNotes(unittest.TestCase):
         self.assertTrue(any("summary_note" in f for f in fields))
 
 
+class DeadlineDisplay(unittest.TestCase):
+    """Pipeline status markers never reach the deadline slot; firm-stated
+    phrases and dates always pass through verbatim."""
+
+    def test_status_markers_render_as_not_stated(self):
+        for raw in ("unverified",
+                    "unverified - no close date found in extracted page data",
+                    "unverified — apply-faq page states a rolling basis",
+                    "unstated", "—", "-"):
+            self.assertEqual(build.deadline_display(raw), "not stated", raw)
+
+    def test_real_values_pass_through(self):
+        for raw in ("Rolling", "2026-10-30", "Friday, July 31 at 11:59pm ET",
+                    "~Mar 2027 (2026 deadline was Mar 6)",
+                    "priority deadline September 15, 2026; final deadline October 15, 2026"):
+            self.assertEqual(build.deadline_display(raw), raw)
+
+    def test_empty_stays_empty(self):
+        self.assertEqual(build.deadline_display(""), "")
+
+    def test_payload_carries_no_marker_deadlines(self):
+        for r in ROWS:
+            for key in ("opens", "closes"):
+                self.assertFalse(r[key].lower().startswith(("unverified", "unstated")),
+                                 f"{r['id']}.{key}: pipeline marker shipped: {r[key]!r}")
+
+
 if __name__ == "__main__":
     unittest.main()

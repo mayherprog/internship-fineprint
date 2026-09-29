@@ -62,6 +62,22 @@ APPLY_KIND_LABEL = {
 }
 
 
+# `opens`/`closes` in data/ sometimes carry a pipeline status marker
+# ("unverified - no close date found in extracted page data") instead of
+# anything a firm said. Those are maintainer-side facts about the extraction,
+# not dates, and rendering one puts pipeline-ese in the deadline slot.
+STATUS_MARKER_RE = re.compile(r"^\s*(?:unverified|unstated)\b|^\s*[—–-]\s*$")
+
+
+def deadline_display(raw):
+    """A status marker renders as the words "not stated"; a date or any
+    firm-stated phrase (including "Rolling") passes through verbatim. The
+    raw string stays untouched in data/, where the maintainer reads it."""
+    if not raw:
+        return ""
+    return "not stated" if STATUS_MARKER_RE.match(raw) else raw
+
+
 def load(data_dir):
     check_sector_labels()
     rows = []
@@ -81,7 +97,8 @@ def load(data_dir):
                 "id": prog["id"], "name": prog["name"],
                 "audience": prog.get("audience", "unknown"),
                 "cycle": prog.get("cycle", ""), "location": prog.get("location", ""),
-                "opens": prog.get("opens", ""), "closes": prog.get("closes", ""),
+                "opens": deadline_display(prog.get("opens", "")),
+                "closes": deadline_display(prog.get("closes", "")),
                 # source.note is maintainer provenance — how the page was
                 # fetched, which user-agent got through, whether the answers
                 # sat in a collapsed accordion. It stays in data/ for auditing
